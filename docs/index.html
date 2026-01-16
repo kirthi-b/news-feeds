@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Project Feeds</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
+      header { display:flex; gap:16px; align-items:baseline; flex-wrap:wrap; }
+      .muted { color:#666; font-size: 14px; }
+      .controls { display:flex; gap:12px; flex-wrap:wrap; margin: 16px 0 20px; }
+      input, select { padding: 8px 10px; font-size: 14px; }
+      .grid { display:grid; grid-template-columns: 1fr; gap: 12px; }
+      .card { border: 1px solid #ddd; border-radius: 10px; padding: 14px 14px; }
+      .topline { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }
+      .bundle { font-weight: 600; }
+      .source { color:#444; }
+      .date { color:#666; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .qtag { display:inline-block; padding:2px 8px; border:1px solid #ddd; border-radius:999px; font-size:12px; color:#555; margin-top:8px; }
+      .empty { color:#666; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="margin:0;">Project Feeds</h1>
+      <div class="muted" id="lastUpdated">Last updated: —</div>
+    </header>
+
+    <div class="controls">
+      <input id="search" placeholder="Search title/source…" size="32" />
+      <select id="bundle">
+        <option value="">All bundles</option>
+      </select>
+      <select id="sort">
+        <option value="new">Sort: newest</option>
+        <option value="old">Sort: oldest</option>
+        <option value="az">Sort: title A–Z</option>
+      </select>
+    </div>
+
+    <div class="grid" id="list"></div>
+
+    <script>
+      async function load() {
+        const res = await fetch("./data.json", { cache: "no-store" });
+        if (!res.ok) {
+          document.getElementById("list").innerHTML =
+            `<div class="empty">No data yet. The builder hasn’t run.</div>`;
+          return;
+        }
+        const data = await res.json();
+
+        const last = data.meta?.generated_at ? new Date(data.meta.generated_at) : null;
+        document.getElementById("lastUpdated").textContent =
+          "Last updated: " + (last ? last.toLocaleString() : "—");
+
+        const items = Array.isArray(data.items) ? data.items : [];
+        const bundles = [...new Set(items.map(x => x.bundle).filter(Boolean))].sort();
+
+        const bundleSel = document.getElementById("bundle");
+        for (const b of bundles) {
+          const opt = document.createElement("option");
+          opt.value = b;
+          opt.textContent = b;
+          bundleSel.appendChild(opt);
+        }
+
+        const search = document.getElementById("search");
+        const sort = document.getElementById("sort");
+        function render() {
+          const q = (search.value || "").toLowerCase().trim();
+          const b = bundleSel.value;
+
+          let filtered = items.filter(it => {
+            if (b && it.bundle !== b) return false;
+            if (!q) return true;
+            const hay = `${it.title || ""} ${it.source || ""}`.toLowerCase();
+            return hay.includes(q);
+          });
+
+          const sortMode = sort.value;
+          if (sortMode === "new") filtered.sort((a,b)=> (b.published_ts||0)-(a.published_ts||0));
+          if (sortMode === "old") filtered.sort((a,b)=> (a.published_ts||0)-(b.published_ts||0));
+          if (sortMode === "az") filtered.sort((a,b)=> (a.title||"").localeCompare(b.title||""));
+
+          const list = document.getElementById("list");
+          if (!filtered.length) {
+            list.innerHTML = `<div class="empty">No matches.</div>`;
+            return;
+          }
+
+          list.innerHTML = filtered.map(it => {
+            const d = it.published_ts ? new Date(it.published_ts*1000).toLocaleString() : "—";
+            const safeTitle = (it.title || "Untitled").replace(/</g,"&lt;");
+            const safeSource = (it.source || "").replace(/</g,"&lt;");
+            const safeBundle = (it.bundle || "").replace(/</g,"&lt;");
+            const safeQuery = (it.query || "").replace(/</g,"&lt;");
+            const url = it.url || "#";
+            return `
+              <div class="card">
+                <div class="topline">
+                  <span class="bundle">${safeBundle}</span>
+                  <span class="source">${safeSource}</span>
+                  <span class="date">${d}</span>
+                </div>
+                <div style="margin-top:6px;">
+                  <a href="${url}" target="_blank" rel="noopener noreferrer">${safeTitle}</a>
+                </div>
+                ${safeQuery ? `<div class="qtag">${safeQuery}</div>` : ""}
+              </div>
+            `;
+          }).join("");
+        }
+
+        search.addEventListener("input", render);
+        bundleSel.addEventListener("change", render);
+        sort.addEventListener("change", render);
+        render();
+      }
+      load();
+    </script>
+  </body>
+</html>
