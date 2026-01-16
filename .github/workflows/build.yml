@@ -1,9 +1,8 @@
 name: Build feeds
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 9 */5 * *" # every 5 days (UTC)
+    - cron: "0 */4 * * *"   # every 4 hours (UTC)
 
 permissions:
   contents: write
