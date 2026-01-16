@@ -74,15 +74,31 @@
     </div>
 
     <script>
-      function hashHue(str) {
-        let h = 0;
-        for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
-        return h % 360;
-      }
-      function pastelPillStyle(label) {
-        const hue = hashHue(label);
-        return `background: hsl(${hue} 70% 90%); color: hsl(${hue} 35% 25%);`;
-      }
+      const PASTEL_PILLS = [
+  { bg: "#E8F1FF", fg: "#1F3A8A" }, // blue
+  { bg: "#E9FBF2", fg: "#166534" }, // green
+  { bg: "#FFF0F6", fg: "#9D174D" }, // pink
+  { bg: "#F3E8FF", fg: "#6B21A8" }, // purple
+  { bg: "#FFF7ED", fg: "#9A3412" }, // orange
+  { bg: "#ECFEFF", fg: "#155E75" }, // cyan
+  { bg: "#F1F5F9", fg: "#0F172A" }, // slate
+  { bg: "#FEF9C3", fg: "#854D0E" }, // yellow
+];
+
+function hashIndex(str, mod) {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return Math.abs(h) % mod;
+}
+
+function pastelPillStyle(label) {
+  const c = PASTEL_PILLS[hashIndex(label || "", PASTEL_PILLS.length)];
+  return `background:${c.bg}; color:${c.fg}; border:1px solid rgba(0,0,0,0.08);`;
+}
+
       function esc(s){
         return (s||"")
           .replace(/&/g,"&amp;")
