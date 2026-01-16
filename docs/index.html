@@ -4,28 +4,32 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Project Feeds</title>
+
+    <!-- Client-side PDF generation -->
+    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
       header { display:flex; gap:16px; align-items:baseline; flex-wrap:wrap; }
       .muted { color:#666; font-size: 14px; }
 
-      .layout { display:grid; grid-template-columns: 280px 1fr; gap: 18px; }
+      .layout { display:grid; grid-template-columns: 320px 1fr; gap: 18px; }
       @media (max-width: 980px) { .layout { grid-template-columns: 1fr; } }
 
       .panel { border: 1px solid #e2e2e2; border-radius: 12px; padding: 14px; }
       .panel h3 { margin: 0 0 10px; font-size: 14px; color: #111; }
-      .panel .group { margin: 10px 0 14px; }
       .panel label { display:flex; gap:8px; align-items:flex-start; font-size: 13px; color:#111; margin: 6px 0; }
       .panel .child { margin-left: 18px; }
 
-      .controls { display:flex; gap:12px; flex-wrap:wrap; margin: 16px 0 14px; }
+      .controls { display:flex; gap:12px; flex-wrap:wrap; margin: 16px 0 14px; align-items:center; }
       input, select { padding: 8px 10px; font-size: 14px; }
+      .small { font-size: 12px; color:#666; }
 
       .grid { display:grid; grid-template-columns: 1fr; gap: 12px; }
-      .card { border: 1px solid #e2e2e2; border-radius: 14px; padding: 14px; display:grid; grid-template-columns: 120px 1fr; gap: 14px; }
+      .card { border: 1px solid #e2e2e2; border-radius: 14px; padding: 14px; display:grid; grid-template-columns: 132px 1fr; gap: 14px; }
       @media (max-width: 640px) { .card { grid-template-columns: 1fr; } }
 
-      .thumb { width: 120px; height: 90px; border-radius: 10px; border: 1px solid #eee; object-fit: cover; background: #fafafa; }
+      .thumb { width: 132px; height: 96px; border-radius: 10px; border: 1px solid #eee; object-fit: cover; background: #fafafa; display:block; }
       .title { font-size: 16px; font-weight: 650; margin: 0; }
       .meta { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin: 6px 0 8px; color:#444; font-size: 13px; }
       .date { color:#666; }
@@ -42,9 +46,9 @@
       a { text-decoration: none; color: inherit; }
       a:hover { text-decoration: underline; }
       .empty { color:#666; }
-      .small { font-size: 12px; color:#666; }
     </style>
   </head>
+
   <body>
     <header>
       <h1 style="margin:0;">Project Feeds</h1>
@@ -64,9 +68,8 @@
     <div class="layout">
       <div class="panel">
         <h3>Filters</h3>
-        <div class="group" id="filters"></div>
+        <div id="filters"></div>
       </div>
-
       <div class="grid" id="list"></div>
     </div>
 
@@ -80,7 +83,62 @@
         const hue = hashHue(label);
         return `background: hsl(${hue} 70% 90%); color: hsl(${hue} 35% 25%);`;
       }
-      function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+      function esc(s){
+        return (s||"")
+          .replace(/&/g,"&amp;")
+          .replace(/</g,"&lt;")
+          .replace(/>/g,"&gt;");
+      }
+      function safeFilename(s) {
+        return (s || "")
+          .replace(/[\u0000-\u001f\/\\:*?"<>|]/g, "")
+          .replace(/\s+/g, " ")
+          .trim()
+          .slice(0, 80);
+      }
+      function faviconFromUrl(u){
+        try { return "https://www.google.com/s2/favicons?sz=128&domain=" + new URL(u).hostname; }
+        catch { return ""; }
+      }
+
+      function downloadClipping(it) {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({ unit: "pt", format: "letter" });
+
+        const title = it.title || "Untitled";
+        const source = it.source || "";
+        const url = it.canonical_url || it.url || "";
+        const ts = it.published_ts ? new Date(it.published_ts * 1000) : null;
+        const dateStr = ts ? ts.toISOString().slice(0,10) : "unknown-date";
+        const blurb = (it.blurb || "").slice(0, 900);
+
+        let y = 72;
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(14);
+        doc.text(title, 72, y, { maxWidth: 468 });
+        y += 22;
+
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(10);
+        doc.text(`${source}${source && ts ? " • " : ""}${ts ? ts.toLocaleString() : ""}`, 72, y);
+        y += 18;
+
+        if (blurb) {
+          doc.setFontSize(10);
+          const lines = doc.splitTextToSize(blurb, 468);
+          doc.text(lines, 72, y);
+        }
+
+        doc.setFont("helvetica", "italic");
+        doc.setFontSize(9);
+        const urlLines = doc.splitTextToSize(url, 468);
+        doc.text(urlLines, 72, 720);
+
+        const pub = safeFilename(source || "news");
+        const t = safeFilename(title);
+        const filename = `${dateStr}_${pub}_${t}.pdf`;
+        doc.save(filename);
+      }
 
       async function load() {
         const res = await fetch("./data.json", { cache: "no-store" });
@@ -94,7 +152,7 @@
 
         const items = Array.isArray(data.items) ? data.items : [];
 
-        // Build bundle -> queries mapping
+        // bundle -> set(queries)
         const bundleMap = new Map();
         for (const it of items) {
           const b = it.bundle || "";
@@ -104,10 +162,10 @@
           if (q) bundleMap.get(b).add(q);
         }
 
-        // Render checkbox filter list with bundle + query (tag) children
+        // render filters: bundle checkbox + per-query checkbox
         const filters = document.getElementById("filters");
-        const bundleState = new Map(); // bundle -> checked bool
-        const queryState = new Map();  // "bundle||query" -> checked bool
+        const bundleState = new Map(); // bundle -> bool
+        const queryState = new Map();  // "bundle||query" -> bool
 
         function mkId(prefix, text) {
           return prefix + "_" + btoa(unescape(encodeURIComponent(text))).replace(/=+$/,"").replace(/[+/]/g,"_");
@@ -130,23 +188,20 @@
             <div style="margin-bottom:12px;">
               <label>
                 <input type="checkbox" id="${bid}" data-bundle="${esc(b)}" checked />
-                <span style="display:flex; gap:8px; align-items:center;">
-                  <span class="pill" style="${pastelPillStyle(b)}">${esc(b)}</span>
-                </span>
+                <span class="pill" style="${pastelPillStyle(b)}">${esc(b)}</span>
               </label>
               ${children}
             </div>
           `;
         }).join("");
 
-        // Initialize all checked
         for (const b of bundles) bundleState.set(b, true);
         for (const b of bundles) for (const q of bundleMap.get(b)) queryState.set(b + "||" + q, true);
 
-        // Wire interactions: bundle checkbox toggles all its queries
         for (const b of bundles) {
           const bid = mkId("b", b);
           const bEl = document.getElementById(bid);
+
           bEl.addEventListener("change", () => {
             const checked = bEl.checked;
             bundleState.set(b, checked);
@@ -164,7 +219,6 @@
             const qEl = document.getElementById(qid);
             qEl.addEventListener("change", () => {
               queryState.set(b + "||" + q, qEl.checked);
-              // bundle checkbox becomes checked if any query is checked
               const any = [...bundleMap.get(b)].some(x => queryState.get(b + "||" + x));
               bEl.checked = any;
               bundleState.set(b, any);
@@ -181,10 +235,8 @@
           const b = it.bundle || "";
           const q = it.query || "";
           if (!b) return false;
-          const k = b + "||" + q;
-          // if query missing, treat as bundle-only
           if (!q) return !!bundleState.get(b);
-          return !!queryState.get(k);
+          return !!queryState.get(b + "||" + q);
         }
 
         function render() {
@@ -209,26 +261,21 @@
             return;
           }
 
-          list.innerHTML = filtered.map(it => {
+          list.innerHTML = filtered.map((it, idx) => {
             const d = it.published_ts ? new Date(it.published_ts*1000).toLocaleString() : "—";
-            const b = esc(it.bundle || "");
+            const bundle = esc(it.bundle || "");
             const src = esc(it.source || "");
             const title = esc(it.title || "Untitled");
-            const blurb = esc((it.blurb || "").slice(0, 280));
-            const url = it.url || "#";
-            const img = it.image_url ? ` <img class="thumb" src="${it.image_url}" alt="" loading="lazy" /> ` : ` <div class="thumb"></div> `;
+            const blurb = esc((it.blurb || "").slice(0, 320));
+            const url = it.canonical_url || it.url || "#";
+
             const pillStyle = pastelPillStyle(it.bundle || "");
             const qtag = it.query ? `<div class="qtag">${esc(it.query)}</div>` : "";
-            const pdf = it.pdf_path ? `./${it.pdf_path}` : null;
 
-            const downloadBtn = pdf ? `
-              <a class="iconbtn" href="${pdf}" title="Download PDF clipping" aria-label="Download PDF clipping">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 3v10m0 0l4-4m-4 4l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M5 15v4h14v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </a>
-            ` : "";
+            const imgUrl = it.image_url || faviconFromUrl(url);
+            const img = imgUrl
+              ? `<img class="thumb" src="${imgUrl}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
+              : `<div class="thumb"></div>`;
 
             return `
               <div class="card">
@@ -236,25 +283,38 @@
                 <div>
                   <div class="row">
                     <div class="meta">
-                      <span class="pill" style="${pillStyle}">${b}</span>
+                      <span class="pill" style="${pillStyle}">${bundle}</span>
                       <span>${src}</span>
                       <span class="date">${d}</span>
                     </div>
                     <div class="actions">
-                      ${downloadBtn}
+                      <button class="iconbtn" type="button" data-download="${idx}" title="Download PDF clipping" aria-label="Download PDF clipping">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                          <path d="M12 3v10m0 0l4-4m-4 4l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M5 15v4h14v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
                     </div>
                   </div>
+
                   <div style="margin-top:4px;">
                     <a href="${url}" target="_blank" rel="noopener noreferrer">
                       <div class="title">${title}</div>
                     </a>
                   </div>
+
                   ${blurb ? `<p class="blurb">${blurb}</p>` : ""}
                   ${qtag}
                 </div>
               </div>
             `;
           }).join("");
+
+          // attach PDF download handlers
+          for (const btn of document.querySelectorAll("[data-download]")) {
+            const i = parseInt(btn.getAttribute("data-download"), 10);
+            btn.addEventListener("click", () => downloadClipping(filtered[i]));
+          }
         }
 
         search.addEventListener("input", render);
