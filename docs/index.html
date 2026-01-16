@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Project Feeds</title>
 
-    <!-- Client-side PDF generation -->
-    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
       header { display:flex; gap:16px; align-items:baseline; flex-wrap:wrap; }
@@ -26,10 +23,8 @@
       .small { font-size: 12px; color:#666; }
 
       .grid { display:grid; grid-template-columns: 1fr; gap: 12px; }
-      .card { border: 1px solid #e2e2e2; border-radius: 14px; padding: 14px; display:grid; grid-template-columns: 132px 1fr; gap: 14px; }
-      @media (max-width: 640px) { .card { grid-template-columns: 1fr; } }
+      .card { border: 1px solid #e2e2e2; border-radius: 14px; padding: 14px; }
 
-      .thumb { width: 132px; height: 96px; border-radius: 10px; border: 1px solid #eee; object-fit: cover; background: #fafafa; display:block; }
       .title { font-size: 16px; font-weight: 650; margin: 0; }
       .meta { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin: 6px 0 8px; color:#444; font-size: 13px; }
       .date { color:#666; }
@@ -75,29 +70,29 @@
 
     <script>
       const PASTEL_PILLS = [
-  { bg: "#E8F1FF", fg: "#1F3A8A" }, // blue
-  { bg: "#E9FBF2", fg: "#166534" }, // green
-  { bg: "#FFF0F6", fg: "#9D174D" }, // pink
-  { bg: "#F3E8FF", fg: "#6B21A8" }, // purple
-  { bg: "#FFF7ED", fg: "#9A3412" }, // orange
-  { bg: "#ECFEFF", fg: "#155E75" }, // cyan
-  { bg: "#F1F5F9", fg: "#0F172A" }, // slate
-  { bg: "#FEF9C3", fg: "#854D0E" }, // yellow
-];
+        { bg: "#E8F1FF", fg: "#1F3A8A" },
+        { bg: "#E9FBF2", fg: "#166534" },
+        { bg: "#FFF0F6", fg: "#9D174D" },
+        { bg: "#F3E8FF", fg: "#6B21A8" },
+        { bg: "#FFF7ED", fg: "#9A3412" },
+        { bg: "#ECFEFF", fg: "#155E75" },
+        { bg: "#F1F5F9", fg: "#0F172A" },
+        { bg: "#FEF9C3", fg: "#854D0E" },
+      ];
 
-function hashIndex(str, mod) {
-  let h = 2166136261;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return Math.abs(h) % mod;
-}
+      function hashIndex(str, mod) {
+        let h = 2166136261;
+        for (let i = 0; i < str.length; i++) {
+          h ^= str.charCodeAt(i);
+          h = Math.imul(h, 16777619);
+        }
+        return Math.abs(h) % mod;
+      }
 
-function pastelPillStyle(label) {
-  const c = PASTEL_PILLS[hashIndex(label || "", PASTEL_PILLS.length)];
-  return `background:${c.bg}; color:${c.fg}; border:1px solid rgba(0,0,0,0.08);`;
-}
+      function pastelPillStyle(label) {
+        const c = PASTEL_PILLS[hashIndex(label || "", PASTEL_PILLS.length)];
+        return `background:${c.bg}; color:${c.fg}; border:1px solid rgba(0,0,0,0.08);`;
+      }
 
       function esc(s){
         return (s||"")
@@ -105,55 +100,10 @@ function pastelPillStyle(label) {
           .replace(/</g,"&lt;")
           .replace(/>/g,"&gt;");
       }
-      function safeFilename(s) {
-        return (s || "")
-          .replace(/[\u0000-\u001f\/\\:*?"<>|]/g, "")
-          .replace(/\s+/g, " ")
-          .trim()
-          .slice(0, 80);
-      }
-      function faviconFromUrl(u){
-        try { return "https://www.google.com/s2/favicons?sz=128&domain=" + new URL(u).hostname; }
-        catch { return ""; }
-      }
 
-      function downloadClipping(it) {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF({ unit: "pt", format: "letter" });
-
-        const title = it.title || "Untitled";
-        const source = it.source || "";
-        const url = it.canonical_url || it.url || "";
-        const ts = it.published_ts ? new Date(it.published_ts * 1000) : null;
-        const dateStr = ts ? ts.toISOString().slice(0,10) : "unknown-date";
-        const blurb = (it.blurb || "").slice(0, 900);
-
-        let y = 72;
-        doc.setFont("helvetica", "bold");
-        doc.setFontSize(14);
-        doc.text(title, 72, y, { maxWidth: 468 });
-        y += 22;
-
-        doc.setFont("helvetica", "normal");
-        doc.setFontSize(10);
-        doc.text(`${source}${source && ts ? " • " : ""}${ts ? ts.toLocaleString() : ""}`, 72, y);
-        y += 18;
-
-        if (blurb) {
-          doc.setFontSize(10);
-          const lines = doc.splitTextToSize(blurb, 468);
-          doc.text(lines, 72, y);
-        }
-
-        doc.setFont("helvetica", "italic");
-        doc.setFontSize(9);
-        const urlLines = doc.splitTextToSize(url, 468);
-        doc.text(urlLines, 72, 720);
-
-        const pub = safeFilename(source || "news");
-        const t = safeFilename(title);
-        const filename = `${dateStr}_${pub}_${t}.pdf`;
-        doc.save(filename);
+      function openForPrint(url) {
+        if (!url || url === "#") return;
+        window.open(url, "_blank", "noopener,noreferrer");
       }
 
       async function load() {
@@ -162,13 +112,13 @@ function pastelPillStyle(label) {
           document.getElementById("list").innerHTML = `<div class="empty">No data yet.</div>`;
           return;
         }
+
         const data = await res.json();
         const last = data.meta?.generated_at ? new Date(data.meta.generated_at) : null;
         document.getElementById("lastUpdated").textContent = "Last updated: " + (last ? last.toLocaleString() : "—");
 
         const items = Array.isArray(data.items) ? data.items : [];
 
-        // bundle -> set(queries)
         const bundleMap = new Map();
         for (const it of items) {
           const b = it.bundle || "";
@@ -178,10 +128,9 @@ function pastelPillStyle(label) {
           if (q) bundleMap.get(b).add(q);
         }
 
-        // render filters: bundle checkbox + per-query checkbox
         const filters = document.getElementById("filters");
-        const bundleState = new Map(); // bundle -> bool
-        const queryState = new Map();  // "bundle||query" -> bool
+        const bundleState = new Map();
+        const queryState = new Map();
 
         function mkId(prefix, text) {
           return prefix + "_" + btoa(unescape(encodeURIComponent(text))).replace(/=+$/,"").replace(/[+/]/g,"_");
@@ -195,7 +144,7 @@ function pastelPillStyle(label) {
             const qid = mkId("q", b + "||" + q);
             return `
               <label class="child">
-                <input type="checkbox" id="${qid}" data-bundle="${esc(b)}" data-query="${esc(q)}" checked />
+                <input type="checkbox" id="${qid}" checked />
                 <span>${esc(q)}</span>
               </label>
             `;
@@ -203,7 +152,7 @@ function pastelPillStyle(label) {
           return `
             <div style="margin-bottom:12px;">
               <label>
-                <input type="checkbox" id="${bid}" data-bundle="${esc(b)}" checked />
+                <input type="checkbox" id="${bid}" checked />
                 <span class="pill" style="${pastelPillStyle(b)}">${esc(b)}</span>
               </label>
               ${children}
@@ -282,54 +231,45 @@ function pastelPillStyle(label) {
             const bundle = esc(it.bundle || "");
             const src = esc(it.source || "");
             const title = esc(it.title || "Untitled");
-            const blurb = esc((it.blurb || "").slice(0, 320));
+            const blurb = esc((it.blurb || "").slice(0, 360));
             const url = it.canonical_url || it.url || "#";
-
-            const pillStyle = pastelPillStyle(it.bundle || "");
             const qtag = it.query ? `<div class="qtag">${esc(it.query)}</div>` : "";
-
-            const imgUrl = it.image_url || faviconFromUrl(url);
-            const img = imgUrl
-              ? `<img class="thumb" src="${imgUrl}" alt="" loading="lazy" referrerpolicy="no-referrer" />`
-              : `<div class="thumb"></div>`;
 
             return `
               <div class="card">
-                ${img}
-                <div>
-                  <div class="row">
-                    <div class="meta">
-                      <span class="pill" style="${pillStyle}">${bundle}</span>
-                      <span>${src}</span>
-                      <span class="date">${d}</span>
-                    </div>
-                    <div class="actions">
-                      <button class="iconbtn" type="button" data-download="${idx}" title="Download PDF clipping" aria-label="Download PDF clipping">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                          <path d="M12 3v10m0 0l4-4m-4 4l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          <path d="M5 15v4h14v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                      </button>
-                    </div>
+                <div class="row">
+                  <div class="meta">
+                    <span class="pill" style="${pastelPillStyle(it.bundle || "")}">${bundle}</span>
+                    <span>${src}</span>
+                    <span class="date">${d}</span>
                   </div>
-
-                  <div style="margin-top:4px;">
-                    <a href="${url}" target="_blank" rel="noopener noreferrer">
-                      <div class="title">${title}</div>
-                    </a>
+                  <div class="actions">
+                    <button class="iconbtn" type="button" data-print="${idx}" title="Open publisher page for printing" aria-label="Open publisher page for printing">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                        <path d="M6 9V4h12v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M6 18h12v2H6z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M6 14h12v4H6z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 10h16v4H4z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </button>
                   </div>
-
-                  ${blurb ? `<p class="blurb">${blurb}</p>` : ""}
-                  ${qtag}
                 </div>
+
+                <div style="margin-top:4px;">
+                  <a href="${url}" target="_blank" rel="noopener noreferrer">
+                    <div class="title">${title}</div>
+                  </a>
+                </div>
+
+                ${blurb ? `<p class="blurb">${blurb}</p>` : ""}
+                ${qtag}
               </div>
             `;
           }).join("");
 
-          // attach PDF download handlers
-          for (const btn of document.querySelectorAll("[data-download]")) {
-            const i = parseInt(btn.getAttribute("data-download"), 10);
-            btn.addEventListener("click", () => downloadClipping(filtered[i]));
+          for (const btn of document.querySelectorAll("[data-print]")) {
+            const i = parseInt(btn.getAttribute("data-print"), 10);
+            btn.addEventListener("click", () => openForPrint(filtered[i].canonical_url || filtered[i].url || "#"));
           }
         }
 

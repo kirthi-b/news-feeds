@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse, parse_qs, unquote
 
 import feedparser  # type: ignore
 import requests
@@ -19,16 +19,16 @@ ROOT = Path(__file__).resolve().parents[1]
 BUNDLES_MD = ROOT / "config" / "bundles.md"
 OUT_JSON = ROOT / "docs" / "data.json"
 
-# Google News RSS search locale
 HL = "en-US"
 GL = "US"
 CEID = "US:en"
 
-# Controls
-MAX_ITEMS_PER_QUERY = 30        # how many items to read from each keyword feed
-RETENTION_DAYS = 90             # ~3 months rolling window
-MAX_TOTAL_ITEMS = 6000          # cap after merge+retention
-OG_ENRICH_LIMIT = 120           # only try OG scrape on top N items to keep runtime sane
+MAX_ITEMS_PER_QUERY = 30
+RETENTION_DAYS = 90
+MAX_TOTAL_ITEMS = 6000
+
+# How many publisher pages to fetch per run for blurbs (keeps Actions runtime sane)
+BLURB_FETCH_LIMIT = 120
 
 UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.0)"
 
@@ -41,12 +41,11 @@ class Query:
 
 def parse_bundles_md(text: str) -> List[Query]:
     """
-    Accepts either '-' or '*' bullets.
+    Accepts '-' or '*' bullets.
 
-    Format:
-      ## Bundle Name
-      - keyword query
-      * keyword query
+    ## Bundle Name
+    - query
+    * query
     """
     lines = [ln.rstrip() for ln in text.splitlines()]
     bundle: Optional[str] = None
@@ -55,17 +54,13 @@ def parse_bundles_md(text: str) -> List[Query]:
     for ln in lines:
         if not ln.strip():
             continue
-
         m = re.match(r"^\s*##\s+(.*\S)\s*$", ln)
         if m:
             bundle = m.group(1).strip()
             continue
-
         m = re.match(r"^\s*[-*]\s+(.*\S)\s*$", ln)
         if m and bundle:
             out.append(Query(bundle=bundle, q=m.group(1).strip()))
-            continue
-
     return out
 
 
@@ -96,17 +91,10 @@ def load_existing_items() -> List[Dict]:
 
 
 def normalize_url(url: str) -> str:
-    url = (url or "").strip()
-    if not url:
-        return ""
-    return url
+    return (url or "").strip()
 
 
 def canonical_key(it: Dict) -> str:
-    """
-    Dedup key across runs:
-    Prefer canonical_url; else fallback to url; else hashed title+source.
-    """
     cu = normalize_url(it.get("canonical_url") or "")
     if cu:
         return "canon::" + cu
@@ -119,71 +107,121 @@ def canonical_key(it: Dict) -> str:
     return "ts::" + h
 
 
-def extract_from_rss(entry) -> tuple[Optional[str], Optional[str]]:
-    blurb = None
-    if getattr(entry, "summary", None):
-        blurb = BeautifulSoup(entry.summary, "html.parser").get_text(" ", strip=True)
-
-    image = None
-    if getattr(entry, "media_thumbnail", None):
-        try:
-            image = entry.media_thumbnail[0].get("url")
-        except Exception:
-            pass
-    if not image and getattr(entry, "media_content", None):
-        try:
-            image = entry.media_content[0].get("url")
-        except Exception:
-            pass
-
-    return image, blurb
+def extract_rss_blurb(entry) -> Optional[str]:
+    # Google News RSS "summary" is often just title; keep only if it adds info.
+    raw = getattr(entry, "summary", None)
+    if not raw:
+        return None
+    txt = BeautifulSoup(raw, "html.parser").get_text(" ", strip=True)
+    txt = " ".join(txt.split())
+    title = (getattr(entry, "title", None) or "").strip()
+    if not txt or (title and txt.lower() == title.lower()):
+        return None
+    return txt
 
 
-def resolve_final_url(url: str) -> str:
+def extract_publisher_url_from_param(url: str) -> str:
     """
-    Follow redirects to get the publisher URL, so OG image isn't Google News branding.
+    Some Google News links include a real URL as a query param (url=, u=).
+    If present, use it.
+    """
+    try:
+        p = urlparse(url)
+        qs = parse_qs(p.query)
+        for k in ("url", "u"):
+            if k in qs and qs[k]:
+                return unquote(qs[k][0]).strip()
+    except Exception:
+        pass
+    return ""
+
+
+def resolve_to_publisher(url: str) -> str:
+    """
+    Best-effort: turn Google News link into direct publisher URL.
+    Strategy:
+    1) If query param contains publisher URL, use it.
+    2) Otherwise follow redirects with requests and use final URL if it’s not news.google.com.
     """
     url = normalize_url(url)
     if not url:
         return ""
+
+    direct = extract_publisher_url_from_param(url)
+    if direct and direct.startswith("http"):
+        return direct
+
     try:
         r = requests.get(url, headers={"User-Agent": UA}, timeout=12, allow_redirects=True)
         final = (r.url or url).strip()
+        # If it still lands on Google News, treat as unresolved.
+        if "news.google.com" in urlparse(final).netloc.lower():
+            return ""
         return final
     except Exception:
-        return url
+        return ""
 
 
-def fetch_og(url: str) -> tuple[Optional[str], Optional[str]]:
+def first_sentence(text: str) -> str:
+    text = " ".join((text or "").split()).strip()
+    if not text:
+        return ""
+    # naive first-sentence split (good enough for a blurb)
+    m = re.split(r"(?<=[.!?])\s+", text)
+    return m[0].strip() if m else text[:240].strip()
+
+
+def fetch_first_paragraph(url: str) -> Optional[str]:
     """
-    Best-effort Open Graph scrape for og:image and og:description.
+    Best-effort extraction of first substantive paragraph from publisher HTML.
+    Falls back to meta description if needed.
     """
     url = normalize_url(url)
     if not url:
-        return None, None
+        return None
+
     try:
         r = requests.get(url, headers={"User-Agent": UA}, timeout=12, allow_redirects=True)
         if not r.ok:
-            return None, None
+            return None
         ctype = (r.headers.get("Content-Type") or "").lower()
         if "text/html" not in ctype:
-            return None, None
+            return None
 
         soup = BeautifulSoup(r.text, "html.parser")
 
-        def meta(prop: str) -> Optional[str]:
-            tag = soup.find("meta", attrs={"property": prop}) or soup.find("meta", attrs={"name": prop})
-            if tag and tag.get("content"):
-                return str(tag["content"]).strip()
-            return None
+        # meta description fallback
+        meta_desc = None
+        md = soup.find("meta", attrs={"name": "description"})
+        if md and md.get("content"):
+            meta_desc = " ".join(str(md["content"]).split()).strip()
 
-        img = meta("og:image")
-        desc = meta("og:description") or meta("description")
-        if desc:
-            desc = " ".join(desc.split())
-        return img, desc
+        # try article tag first
+        article = soup.find("article")
+        candidates = []
+        if article:
+            candidates = article.find_all("p")
+        else:
+            # fallback: any paragraphs
+            candidates = soup.find_all("p")
+
+        # pick first paragraph with decent length and not boilerplate
+        for p in candidates:
+            t = p.get_text(" ", strip=True)
+            t = " ".join(t.split()).strip()
+            if len(t) < 80:
+                continue
+            lowered = t.lower()
+            if "subscribe" in lowered or "sign up" in lowered or "cookies" in lowered:
+                continue
+            return first_sentence(t)
+
+        if meta_desc and len(meta_desc) >= 60:
+            return first_sentence(meta_desc)
+
+        return None
     except Exception:
-        return None, None
+        return None
 
 
 def main() -> None:
@@ -194,7 +232,6 @@ def main() -> None:
     if not queries:
         raise SystemExit("No bundles/queries found in bundles.md")
 
-    # Pull fresh items
     fresh: List[Dict] = []
     for qu in queries:
         feed = feedparser.parse(google_news_rss_url(qu.q))
@@ -211,10 +248,9 @@ def main() -> None:
                 source = (e.source.title or "").strip()
 
             ts = to_ts(e)
-            img, blurb = extract_from_rss(e)
+            blurb = extract_rss_blurb(e)
 
-            # Resolve publisher URL (fixes Google News logo thumbnails)
-            canonical = resolve_final_url(raw_url) if raw_url else ""
+            publisher = resolve_to_publisher(raw_url) if raw_url else ""
 
             fresh.append(
                 {
@@ -223,25 +259,19 @@ def main() -> None:
                     "title": title,
                     "source": source,
                     "url": raw_url,
-                    "canonical_url": canonical or raw_url,
+                    "canonical_url": publisher or "",
                     "published_ts": ts,
-                    "image_url": img,
                     "blurb": blurb,
                 }
             )
 
-    # Merge with existing items (rolling window) with dedupe across runs
     existing = load_existing_items()
     merged: Dict[str, Dict] = {}
 
-    # Load existing first
     for it in existing:
-        if not isinstance(it, dict):
-            continue
-        k = canonical_key(it)
-        merged[k] = it
+        if isinstance(it, dict):
+            merged[canonical_key(it)] = it
 
-    # Overlay fresh items (prefer newer ts, and fill missing fields)
     for it in fresh:
         k = canonical_key(it)
         if k not in merged:
@@ -252,47 +282,41 @@ def main() -> None:
         old_ts = int(old.get("published_ts") or 0)
         new_ts = int(it.get("published_ts") or 0)
 
-        # Always prefer the record with the newer timestamp
         chosen = it if new_ts >= old_ts else old
         other = old if chosen is it else it
 
-        # Preserve enrichments if chosen is missing them
-        for field in ["image_url", "blurb", "canonical_url", "url", "source", "title"]:
+        for field in ["canonical_url", "url", "source", "title", "blurb", "bundle", "query"]:
             if not chosen.get(field) and other.get(field):
                 chosen[field] = other[field]
 
         merged[k] = chosen
 
-    # Apply retention window
     now_ts = int(datetime.now(timezone.utc).timestamp())
     cutoff = now_ts - (RETENTION_DAYS * 24 * 60 * 60)
 
     items: List[Dict] = []
     for it in merged.values():
         ts = int(it.get("published_ts") or 0)
-        if ts <= 0:
-            continue
-        if ts >= cutoff:
+        if ts > 0 and ts >= cutoff:
             items.append(it)
 
-    # Sort newest first and cap
     items.sort(key=lambda x: int(x.get("published_ts") or 0), reverse=True)
     items = items[:MAX_TOTAL_ITEMS]
 
-    # OG enrich for top items that lack image/blurb using publisher canonical_url
-    for it in items[:OG_ENRICH_LIMIT]:
-        target = it.get("canonical_url") or it.get("url") or ""
+    # Fetch publisher first-paragraph blurbs (best-effort) for items missing blurbs.
+    fetched = 0
+    for it in items:
+        if fetched >= BLURB_FETCH_LIMIT:
+            break
+        if it.get("blurb"):
+            continue
+        target = it.get("canonical_url") or ""
         if not target:
             continue
-        need_img = not it.get("image_url")
-        need_desc = not it.get("blurb")
-        if not (need_img or need_desc):
-            continue
-        og_img, og_desc = fetch_og(target)
-        if need_img and og_img:
-            it["image_url"] = og_img
-        if need_desc and og_desc:
-            it["blurb"] = og_desc
+        b = fetch_first_paragraph(target)
+        if b:
+            it["blurb"] = b
+        fetched += 1
 
     payload = {
         "meta": {
