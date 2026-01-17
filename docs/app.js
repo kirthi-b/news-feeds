@@ -15,7 +15,6 @@ function syncFixedLayoutVars() {
   if (hw) document.documentElement.style.setProperty('--header-h', hw.offsetHeight + 'px');
   if (panel) document.documentElement.style.setProperty('--panel-h', panel.offsetHeight + 'px');
 }
-
 window.addEventListener('resize', syncFixedLayoutVars);
 
 function hashIndex(str, mod) {
@@ -36,11 +35,63 @@ function esc(s){
   return (s||"")
     .replace(/&/g,"&amp;")
     .replace(/</g,"&lt;")
-    .replace(/>/g,"&gt;");
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;");
+}
+
+function mkId(prefix, text) {
+  return prefix + "_" + btoa(unescape(encodeURIComponent(text)))
+    .replace(/=+$/,"")
+    .replace(/[+/]/g,"_");
+}
+
+function renderTooltipHtml(bundle, bundleSpecs) {
+  const specs = (bundleSpecs && bundleSpecs[bundle]) ? bundleSpecs[bundle] : [];
+  if (!specs.length) {
+    return `
+      <div class="tooltip" role="dialog" aria-label="Exclusions">
+        <div class="tt-title">Exclusions</div>
+        <div class="tt-row tt-none">None configured.</div>
+      </div>
+    `;
+  }
+
+  // Show per-include query, with its exclusions (deduped + cleaned)
+  const rows = specs.map(s => {
+    const inc = (s.include || "").trim();
+    const exArr = Array.isArray(s.exclude) ? s.exclude : [];
+    const cleaned = [...new Set(exArr.map(x => (x || "").trim()).filter(Boolean))]
+      .map(x => x.startsWith("-") ? x.slice(1).trim() : x);
+
+    const ex = cleaned.length
+      ? cleaned.map(x => `<span class="tt-ex">-${esc(x)}</span>`).join(" ")
+      : `<span class="tt-none">None</span>`;
+
+    return `
+      <div class="tt-row">
+        <span class="tt-inc">${esc(inc)}</span><br/>
+        ${ex}
+      </div>
+    `;
+  }).join("");
+
+  return `
+    <div class="tooltip" role="dialog" aria-label="Exclusions">
+      <div class="tt-title">Exclusions</div>
+      ${rows}
+    </div>
+  `;
+}
+
+function closeAllTooltips(exceptEl = null) {
+  document.querySelectorAll('.tooltip.open').forEach(tt => {
+    if (exceptEl && tt === exceptEl) return;
+    tt.classList.remove('open');
+  });
 }
 
 async function load() {
-  const res = await fetch("./data.json", { cache: "no-store" });
+  const res = await fetch("data.json", { cache: "no-store" });
   if (!res.ok) {
     document.getElementById("list").innerHTML = `<div class="empty">No data yet.</div>`;
     syncFixedLayoutVars();
@@ -51,8 +102,10 @@ async function load() {
   const last = data.meta?.generated_at ? new Date(data.meta.generated_at) : null;
   document.getElementById("lastUpdated").textContent = "Last updated: " + (last ? last.toLocaleString() : "—");
 
+  const bundleSpecs = data.meta?.bundle_specs || {};
   const items = Array.isArray(data.items) ? data.items : [];
 
+  // bundle -> set(queries) derived from items for filtering
   const bundleMap = new Map();
   for (const it of items) {
     const b = it.bundle || "";
@@ -66,10 +119,6 @@ async function load() {
   const bundleState = new Map();
   const queryState = new Map();
   const expandState = new Map();
-
-  function mkId(prefix, text) {
-    return prefix + "_" + btoa(unescape(encodeURIComponent(text))).replace(/=+$/,"").replace(/[+/]/g,"_");
-  }
 
   const bundles = [...bundleMap.keys()].sort((a,b)=>a.localeCompare(b));
   for (const b of bundles) expandState.set(b, false);
@@ -86,15 +135,24 @@ async function load() {
         </label>
       `;
     }).join("");
+
+    const tooltip = renderTooltipHtml(b, bundleSpecs);
+
     return `
       <div class="filter-group">
         <div class="filter-header" data-bundle="${esc(b)}">
           <span class="expand-icon">▶</span>
+
           <label onclick="event.stopPropagation()">
             <input type="checkbox" id="${bid}" checked />
-            <span class="pill" style="${gradientPillStyle(b)}">${esc(b)}</span>
+            <span class="bundle-label">
+              <span class="pill" style="${gradientPillStyle(b)}">${esc(b)}</span>
+              <button type="button" class="info-btn" aria-label="Show exclusions" data-info-btn="${esc(b)}">?</button>
+              ${tooltip}
+            </span>
           </label>
         </div>
+
         <div class="filter-children" data-bundle-children="${esc(b)}">
           ${children}
         </div>
@@ -105,7 +163,7 @@ async function load() {
   for (const b of bundles) bundleState.set(b, true);
   for (const b of bundles) for (const q of bundleMap.get(b)) queryState.set(b + "||" + q, true);
 
-  // expand/collapse per bundle
+  // Expand/collapse per bundle
   for (const b of bundles) {
     const header = document.querySelector(`.filter-header[data-bundle="${CSS.escape(b)}"]`);
     const children = document.querySelector(`.filter-children[data-bundle-children="${CSS.escape(b)}"]`);
@@ -113,6 +171,9 @@ async function load() {
 
     header.addEventListener('click', (e) => {
       if (e.target.tagName === 'INPUT') return;
+      // ignore clicks on info button / tooltip
+      if (e.target.closest('.info-btn') || e.target.closest('.tooltip')) return;
+
       const isExpanded = expandState.get(b);
       expandState.set(b, !isExpanded);
 
@@ -123,12 +184,39 @@ async function load() {
         icon.classList.remove('expanded');
         children.classList.remove('expanded');
       }
-
       syncFixedLayoutVars();
     });
   }
 
-  // bundle + query checkbox behavior
+  // Tooltips: tap-to-toggle (mobile), hover handled by CSS on desktop
+  document.querySelectorAll('.info-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const bundle = btn.getAttribute('data-info-btn');
+      const wrapper = btn.closest('.bundle-label');
+      const tt = wrapper ? wrapper.querySelector('.tooltip') : null;
+      if (!tt) return;
+
+      const willOpen = !tt.classList.contains('open');
+      closeAllTooltips(tt);
+      if (willOpen) tt.classList.add('open');
+      else tt.classList.remove('open');
+
+      syncFixedLayoutVars();
+    });
+  });
+
+  // close on outside click (mobile)
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('.bundle-label')) return;
+    closeAllTooltips();
+  });
+
+  // Bundle + query checkbox behavior
+  let currentPage = 1;
+  const itemsPerPage = 25;
+
   for (const b of bundles) {
     const bid = mkId("b", b);
     const bEl = document.getElementById(bid);
@@ -164,9 +252,6 @@ async function load() {
   const sort = document.getElementById("sort");
   const count = document.getElementById("count");
 
-  let currentPage = 1;
-  const itemsPerPage = 25;
-
   function passesFilters(it) {
     const b = it.bundle || "";
     const q = it.query || "";
@@ -175,70 +260,8 @@ async function load() {
     return !!queryState.get(b + "||" + q);
   }
 
-  function render() {
-    const qtxt = (search.value || "").toLowerCase().trim();
-    let filtered = items.filter(it => {
-      if (!passesFilters(it)) return false;
-      if (!qtxt) return true;
-      // CHANGED: no blurb; search only title/source
-      const hay = `${it.title||""} ${it.source||""}`.toLowerCase();
-      return hay.includes(qtxt);
-    });
-
-    const sortMode = sort.value;
-    if (sortMode === "new") filtered.sort((a,b)=> (b.published_ts||0)-(a.published_ts||0));
-    if (sortMode === "old") filtered.sort((a,b)=> (a.published_ts||0)-(b.published_ts||0));
-    if (sortMode === "az") filtered.sort((a,b)=> (a.title||"").localeCompare(b.title||""));
-
-    const totalPages = Math.ceil(filtered.length / itemsPerPage);
-    const startIdx = (currentPage - 1) * itemsPerPage;
-    const endIdx = startIdx + itemsPerPage;
-    const pageItems = filtered.slice(startIdx, endIdx);
-
-    count.textContent = `${filtered.length} items`;
-
-    const list = document.getElementById("list");
-    if (!filtered.length) {
-      list.innerHTML = `<div class="empty">No matches.</div>`;
-      updatePagination(0, 0);
-      syncFixedLayoutVars();
-      return;
-    }
-
-    list.innerHTML = pageItems.map((it, idx) => {
-      const d = it.published_ts ? new Date(it.published_ts*1000).toLocaleString() : "—";
-      const bundle = esc(it.bundle || "");
-      const src = esc(it.source || "");
-      const title = esc(it.title || "Untitled");
-      const url = it.canonical_url || it.url || "#";
-      const qtag = it.query ? `<div class="qtag">${esc(it.query)}</div>` : "";
-
-      return `
-        <div class="card" style="animation-delay: ${Math.min(idx * 0.05, 0.3)}s">
-          <div class="meta">
-            <span class="pill" style="${gradientPillStyle(it.bundle || "")}">${bundle}</span>
-            <span>${src}</span>
-            <span class="date">${d}</span>
-          </div>
-
-          <div style="margin-top:4px;">
-            <a href="${url}" target="_blank" rel="noopener noreferrer">
-              <div class="title">${title}</div>
-            </a>
-          </div>
-
-          ${qtag}
-        </div>
-      `;
-    }).join("");
-
-    updatePagination(filtered.length, totalPages);
-    syncFixedLayoutVars();
-  }
-
-  function updatePagination(totalItems, totalPages) {
+  function updatePagination(totalPages) {
     const paginationEl = document.getElementById('pagination');
-
     if (totalPages <= 1) {
       paginationEl.innerHTML = '';
       return;
@@ -269,15 +292,68 @@ async function load() {
     });
   }
 
-  search.addEventListener("input", () => {
-    currentPage = 1;
-    render();
-  });
+  function render() {
+    const qtxt = (search.value || "").toLowerCase().trim();
 
-  sort.addEventListener("change", () => {
-    currentPage = 1;
-    render();
-  });
+    let filtered = items.filter(it => {
+      if (!passesFilters(it)) return false;
+      if (!qtxt) return true;
+      const hay = `${it.title||""} ${it.source||""}`.toLowerCase();
+      return hay.includes(qtxt);
+    });
+
+    const sortMode = sort.value;
+    if (sortMode === "new") filtered.sort((a,b)=> (b.published_ts||0)-(a.published_ts||0));
+    if (sortMode === "old") filtered.sort((a,b)=> (a.published_ts||0)-(b.published_ts||0));
+    if (sortMode === "az") filtered.sort((a,b)=> (a.title||"").localeCompare(b.title||""));
+
+    count.textContent = `${filtered.length} items`;
+
+    const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerPage));
+    if (currentPage > totalPages) currentPage = totalPages;
+
+    const startIdx = (currentPage - 1) * itemsPerPage;
+    const pageItems = filtered.slice(startIdx, startIdx + itemsPerPage);
+
+    const list = document.getElementById("list");
+    if (!filtered.length) {
+      list.innerHTML = `<div class="empty">No matches.</div>`;
+      updatePagination(0);
+      syncFixedLayoutVars();
+      return;
+    }
+
+    list.innerHTML = pageItems.map((it, idx) => {
+      const d = it.published_ts ? new Date(it.published_ts*1000).toLocaleString() : "—";
+      const bundle = esc(it.bundle || "");
+      const src = esc(it.source || "");
+      const title = esc(it.title || "Untitled");
+      const url = it.canonical_url || it.url || "#";
+      const qtag = it.query ? `<div class="qtag">${esc(it.query)}</div>` : "";
+
+      return `
+        <div class="card" style="animation-delay: ${Math.min(idx * 0.05, 0.3)}s">
+          <div class="meta">
+            <span class="pill" style="${gradientPillStyle(it.bundle || "")}">${bundle}</span>
+            <span>${src}</span>
+            <span class="date">${d}</span>
+          </div>
+          <div style="margin-top:4px;">
+            <a href="${url}" target="_blank" rel="noopener noreferrer">
+              <div class="title">${title}</div>
+            </a>
+          </div>
+          ${qtag}
+        </div>
+      `;
+    }).join("");
+
+    updatePagination(totalPages);
+    syncFixedLayoutVars();
+  }
+
+  search.addEventListener("input", () => { currentPage = 1; render(); });
+  sort.addEventListener("change", () => { currentPage = 1; render(); });
 
   render();
   syncFixedLayoutVars();

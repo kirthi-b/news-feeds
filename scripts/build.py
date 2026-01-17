@@ -23,7 +23,7 @@ CEID = "US:en"
 
 RETENTION_DAYS = 180
 MAX_ITEMS_PER_QUERY = 50
-UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.1)"
+UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.2)"
 
 
 @dataclass
@@ -38,11 +38,7 @@ class QuerySpec:
             ex = ex.strip()
             if not ex:
                 continue
-            # If exclusion already starts with -, keep it; else add -
-            if ex.startswith("-"):
-                parts.append(ex)
-            else:
-                parts.append(f"-{ex}")
+            parts.append(ex if ex.startswith("-") else f"-{ex}")
         return " ".join(parts).strip()
 
 
@@ -54,7 +50,9 @@ def parse_bundles_md(text: str) -> List[QuerySpec]:
     - exclude term
     - "exclude phrase"
 
-    Multiple + blocks allowed per bundle.
+    Back-compat:
+    * include query
+    - include query  (only if not within a + block)
     """
     lines = [ln.rstrip() for ln in text.splitlines()]
     bundle: Optional[str] = None
@@ -76,7 +74,6 @@ def parse_bundles_md(text: str) -> List[QuerySpec]:
 
         m = re.match(r"^\s*\+\s+(.*\S)\s*$", ln)
         if m:
-            # start a new query block
             if current:
                 out.append(current)
             current = QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[])
@@ -87,7 +84,7 @@ def parse_bundles_md(text: str) -> List[QuerySpec]:
             current.exclude.append(m.group(1).strip())
             continue
 
-        # Back-compat: if user still uses * or - bullets, treat as include-only query
+        # back-compat * include
         m = re.match(r"^\s*[*]\s+(.*\S)\s*$", ln)
         if m:
             if current:
@@ -96,7 +93,7 @@ def parse_bundles_md(text: str) -> List[QuerySpec]:
             out.append(QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[]))
             continue
 
-        # Plain dash bullets historically meant includes; if no current + block, treat as include query
+        # back-compat - include (only when not in a + block)
         m = re.match(r"^\s*-\s+(.*\S)\s*$", ln)
         if m and not current:
             out.append(QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[]))
@@ -228,7 +225,7 @@ def main() -> None:
             it["id"] = it_id
         by_id[it_id] = it
 
-    # Fetch new RSS items
+    # fetch + merge
     for spec in specs:
         google_q = spec.to_google_query()
         feed = feedparser.parse(google_news_rss_url(google_q))
@@ -238,7 +235,6 @@ def main() -> None:
             title = safe_str(getattr(e, "title", None))
             url = safe_str(getattr(e, "link", None))
             guid = safe_str(getattr(e, "guid", None)) or safe_str(getattr(e, "id", None))
-
             if not (title or url or guid):
                 continue
 
@@ -251,7 +247,7 @@ def main() -> None:
 
             incoming = {
                 "bundle": spec.bundle,
-                # store the human-readable query you wrote, not the expanded operator string
+                # store include term only as the UI-visible tag
                 "query": spec.include,
                 "title": title,
                 "source": source,
@@ -268,6 +264,7 @@ def main() -> None:
             else:
                 by_id[iid] = incoming
 
+    # retention
     now_ts = int(datetime.now(timezone.utc).timestamp())
     cutoff = now_ts - (RETENTION_DAYS * 86400)
 
@@ -281,6 +278,13 @@ def main() -> None:
 
     items.sort(key=lambda x: int(x.get("published_ts") or 0), reverse=True)
 
+    # NEW: bundle_specs for UI tooltips
+    bundle_specs: Dict[str, List[Dict]] = {}
+    for s in specs:
+        bundle_specs.setdefault(s.bundle, []).append(
+            {"include": s.include, "exclude": s.exclude}
+        )
+
     payload = {
         "meta": {
             "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -288,6 +292,7 @@ def main() -> None:
             "bundles_count": len({s.bundle for s in specs}),
             "queries_count": len(specs),
             "items_count": len(items),
+            "bundle_specs": bundle_specs,
         },
         "items": items,
     }

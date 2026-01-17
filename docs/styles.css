@@ -262,12 +262,12 @@ input[type="text"]::placeholder { color: #52525b; }
   transition: all 0.2s ease;
 }
 
-/* CHANGED: query tags to GREY (low-attention) */
+/* query tags to GREY (low-attention) */
 .qtag {
   display:inline-block;
   margin-top: 12px;
   padding: 4px 10px;
-  border: 1px solid rgba(148, 163, 184, 0.25); /* slate-ish */
+  border: 1px solid rgba(148, 163, 184, 0.25);
   border-radius: 999px;
   font-size: 12px;
   color: #a1a1aa;
@@ -275,7 +275,6 @@ input[type="text"]::placeholder { color: #52525b; }
 }
 
 a { text-decoration: none; color: inherit; }
-
 a:hover .title { color: #a78bfa; }
 
 .empty {
@@ -285,7 +284,7 @@ a:hover .title { color: #a78bfa; }
   font-size: 15px;
 }
 
-/* Pagination styles target #pagination (works regardless of wrapper) */
+/* Pagination */
 #pagination{
   display: flex;
   flex-direction: column;
@@ -414,3 +413,85 @@ footer a:hover { color: #06b6d4; }
 }
 
 .mobile-toggle-icon.expanded { transform: rotate(180deg); }
+
+/* ===== NEW: bundle exclusions tooltip/popover ===== */
+
+.bundle-label{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative; /* tooltip anchors here */
+}
+
+.info-btn{
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: rgba(148, 163, 184, 0.10);
+  color: #cbd5e1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+
+.info-btn:hover{
+  border-color: rgba(148, 163, 184, 0.55);
+  background: rgba(148, 163, 184, 0.14);
+}
+
+.tooltip{
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  min-width: 260px;
+  max-width: 320px;
+  background: rgba(10, 10, 15, 0.98);
+  border: 1px solid rgba(148, 163, 184, 0.20);
+  border-radius: 12px;
+  padding: 12px 12px;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.45);
+  z-index: 200;
+  display: none;
+}
+
+.tooltip.open{ display: block; }
+
+.tooltip .tt-title{
+  font-size: 12px;
+  color: #e5e7eb;
+  font-weight: 650;
+  margin-bottom: 8px;
+}
+
+.tooltip .tt-row{
+  font-size: 12px;
+  color: #a1a1aa;
+  line-height: 1.35;
+  margin: 6px 0;
+}
+
+.tooltip .tt-inc{
+  color: #e4e4e7;
+  font-weight: 600;
+}
+
+.tooltip .tt-ex{
+  color: #94a3b8;
+  word-break: break-word;
+}
+
+.tooltip .tt-none{
+  color: #71717a;
+}
+
+/* Desktop hover behavior (still works even if JS also toggles on click) */
+@media (hover: hover) and (pointer: fine) {
+  .bundle-label:hover .tooltip{
+    display: block;
+  }
+}
