@@ -8,7 +8,7 @@ It runs entirely on **GitHub Pages + GitHub Actions**. Anyone with the link can 
 
 ## What it does
 
-- Pulls Google News RSS results based on **keywords defined in docs/bundles.md**
+- Pulls Google News RSS results based on **keywords defined in config/bundles.md**
 - Groups those keywords into **project bundles**
 - Deduplicates articles across runs
 - Keeps a **rolling 3-month window**
