@@ -17,3 +17,13 @@
 - Detroit transit
 - Detroit economic development
 - Detroit workforce
+
+## Detroit Mayor
+- Detroit Mayor
+- Sheffield Administration
+- Rise Higher Detroit
+- Mary Sheffield
+- Mayor Sheffield
+- Detroit transition
+- Detroit Government
+- Detroit Governance
