@@ -12,23 +12,21 @@ from urllib.parse import quote_plus, urlparse, parse_qs, unquote
 
 import feedparser  # type: ignore
 import requests
-from bs4 import BeautifulSoup
-
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLES_MD = ROOT / "config" / "bundles.md"
 OUT_JSON = ROOT / "docs" / "data.json"
 
+# Google News RSS params
 HL = "en-US"
 GL = "US"
 CEID = "US:en"
 
-MAX_ITEMS_PER_QUERY = 30
-RETENTION_DAYS = 90
-MAX_TOTAL_ITEMS = 6000
+# Retention policy (6 months)
+RETENTION_DAYS = 180
 
-# How many publisher pages to fetch per run for blurbs (keeps Actions runtime sane)
-BLURB_FETCH_LIMIT = 120
+# Fetch sizes
+MAX_ITEMS_PER_QUERY = 50  # per query, per run (RSS itself often limits anyway)
 
 UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.0)"
 
@@ -41,8 +39,7 @@ class Query:
 
 def parse_bundles_md(text: str) -> List[Query]:
     """
-    Accepts '-' or '*' bullets.
-
+    Format:
     ## Bundle Name
     - query
     * query
@@ -65,10 +62,7 @@ def parse_bundles_md(text: str) -> List[Query]:
 
 
 def google_news_rss_url(q: str) -> str:
-    return (
-        "https://news.google.com/rss/search?"
-        f"q={quote_plus(q)}&hl={HL}&gl={GL}&ceid={CEID}"
-    )
+    return f"https://news.google.com/rss/search?q={quote_plus(q)}&hl={HL}&gl={GL}&ceid={CEID}"
 
 
 def to_ts(entry) -> int:
@@ -77,6 +71,10 @@ def to_ts(entry) -> int:
     if getattr(entry, "updated_parsed", None):
         return int(time.mktime(entry.updated_parsed))
     return 0
+
+
+def safe_str(x) -> str:
+    return (x or "").strip()
 
 
 def load_existing_items() -> List[Dict]:
@@ -90,47 +88,18 @@ def load_existing_items() -> List[Dict]:
         return []
 
 
-def normalize_url(url: str) -> str:
-    return (url or "").strip()
-
-
-def canonical_key(it: Dict) -> str:
-    cu = normalize_url(it.get("canonical_url") or "")
-    if cu:
-        return "canon::" + cu
-    u = normalize_url(it.get("url") or "")
-    if u:
-        return "url::" + u
-    title = (it.get("title") or "").strip().lower()
-    source = (it.get("source") or "").strip().lower()
-    h = hashlib.sha256(f"{title}::{source}".encode("utf-8")).hexdigest()[:20]
-    return "ts::" + h
-
-
-def extract_rss_blurb(entry) -> Optional[str]:
-    # Google News RSS "summary" is often just title; keep only if it adds info.
-    raw = getattr(entry, "summary", None)
-    if not raw:
-        return None
-    txt = BeautifulSoup(raw, "html.parser").get_text(" ", strip=True)
-    txt = " ".join(txt.split())
-    title = (getattr(entry, "title", None) or "").strip()
-    if not txt or (title and txt.lower() == title.lower()):
-        return None
-    return txt
-
-
 def extract_publisher_url_from_param(url: str) -> str:
     """
-    Some Google News links include a real URL as a query param (url=, u=).
-    If present, use it.
+    Sometimes Google News link includes a real URL as a query param.
     """
     try:
         p = urlparse(url)
         qs = parse_qs(p.query)
         for k in ("url", "u"):
             if k in qs and qs[k]:
-                return unquote(qs[k][0]).strip()
+                v = unquote(qs[k][0]).strip()
+                if v.startswith("http"):
+                    return v
     except Exception:
         pass
     return ""
@@ -138,90 +107,79 @@ def extract_publisher_url_from_param(url: str) -> str:
 
 def resolve_to_publisher(url: str) -> str:
     """
-    Best-effort: turn Google News link into direct publisher URL.
-    Strategy:
-    1) If query param contains publisher URL, use it.
-    2) Otherwise follow redirects with requests and use final URL if it’s not news.google.com.
+    Best-effort canonical publisher URL:
+    - if url= param exists, use it
+    - else follow redirects; if final host != news.google.com, use it
     """
-    url = normalize_url(url)
+    url = safe_str(url)
     if not url:
         return ""
 
     direct = extract_publisher_url_from_param(url)
-    if direct and direct.startswith("http"):
+    if direct:
         return direct
 
     try:
         r = requests.get(url, headers={"User-Agent": UA}, timeout=12, allow_redirects=True)
-        final = (r.url or url).strip()
-        # If it still lands on Google News, treat as unresolved.
-        if "news.google.com" in urlparse(final).netloc.lower():
-            return ""
-        return final
+        final = safe_str(r.url or "")
+        if final and "news.google.com" not in urlparse(final).netloc.lower():
+            return final
     except Exception:
-        return ""
+        pass
+
+    return ""
 
 
-def first_sentence(text: str) -> str:
-    text = " ".join((text or "").split()).strip()
-    if not text:
-        return ""
-    # naive first-sentence split (good enough for a blurb)
-    m = re.split(r"(?<=[.!?])\s+", text)
-    return m[0].strip() if m else text[:240].strip()
-
-
-def fetch_first_paragraph(url: str) -> Optional[str]:
+def stable_id_for_item(it: Dict) -> str:
     """
-    Best-effort extraction of first substantive paragraph from publisher HTML.
-    Falls back to meta description if needed.
+    Stable across runs. Prefer canonical_url; else url; else guid; else title/source/ts.
     """
-    url = normalize_url(url)
-    if not url:
-        return None
-
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=12, allow_redirects=True)
-        if not r.ok:
-            return None
-        ctype = (r.headers.get("Content-Type") or "").lower()
-        if "text/html" not in ctype:
-            return None
-
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        # meta description fallback
-        meta_desc = None
-        md = soup.find("meta", attrs={"name": "description"})
-        if md and md.get("content"):
-            meta_desc = " ".join(str(md["content"]).split()).strip()
-
-        # try article tag first
-        article = soup.find("article")
-        candidates = []
-        if article:
-            candidates = article.find_all("p")
+    canon = safe_str(it.get("canonical_url"))
+    if canon:
+        base = f"canon::{canon}"
+    else:
+        url = safe_str(it.get("url"))
+        guid = safe_str(it.get("guid"))
+        if url:
+            base = f"url::{url}"
+        elif guid:
+            base = f"guid::{guid}"
         else:
-            # fallback: any paragraphs
-            candidates = soup.find_all("p")
+            title = safe_str(it.get("title")).lower()
+            source = safe_str(it.get("source")).lower()
+            ts = str(int(it.get("published_ts") or 0))
+            base = f"ts::{title}::{source}::{ts}"
 
-        # pick first paragraph with decent length and not boilerplate
-        for p in candidates:
-            t = p.get_text(" ", strip=True)
-            t = " ".join(t.split()).strip()
-            if len(t) < 80:
-                continue
-            lowered = t.lower()
-            if "subscribe" in lowered or "sign up" in lowered or "cookies" in lowered:
-                continue
-            return first_sentence(t)
+    return hashlib.sha256(base.encode("utf-8")).hexdigest()[:24]
 
-        if meta_desc and len(meta_desc) >= 60:
-            return first_sentence(meta_desc)
 
-        return None
-    except Exception:
-        return None
+def merge_item(existing: Dict, incoming: Dict) -> Dict:
+    """
+    Keep existing, fill gaps with incoming; update fields that can improve over time
+    (canonical_url is allowed to appear later; source/title may improve).
+    """
+    out = dict(existing)
+
+    # Always keep id stable
+    out["id"] = existing.get("id") or incoming.get("id")
+
+    # Prefer earlier published_ts if existing has it; otherwise take incoming
+    ex_ts = int(out.get("published_ts") or 0)
+    in_ts = int(incoming.get("published_ts") or 0)
+    if ex_ts == 0 and in_ts:
+        out["published_ts"] = in_ts
+
+    # Upgradable fields: fill blanks
+    for k in ("title", "source", "bundle", "query", "url", "canonical_url", "guid"):
+        if not safe_str(out.get(k)):
+            out[k] = incoming.get(k) or out.get(k)
+
+    # If canonical_url becomes available later, upgrade it
+    if safe_str(incoming.get("canonical_url")) and not safe_str(existing.get("canonical_url")):
+        out["canonical_url"] = incoming["canonical_url"]
+
+    # Keep bundle/query as first-seen by default; but if missing, fill
+    return out
 
 
 def main() -> None:
@@ -232,91 +190,73 @@ def main() -> None:
     if not queries:
         raise SystemExit("No bundles/queries found in bundles.md")
 
-    fresh: List[Dict] = []
+    existing_items = load_existing_items()
+    by_id: Dict[str, Dict] = {}
+
+    # Load existing into map keyed by stable id (recomputed to be robust)
+    for it in existing_items:
+        if not isinstance(it, dict):
+            continue
+        it_id = safe_str(it.get("id"))
+        if not it_id:
+            it_id = stable_id_for_item(it)
+            it["id"] = it_id
+        by_id[it_id] = it
+
+    # Fetch new RSS items
     for qu in queries:
         feed = feedparser.parse(google_news_rss_url(qu.q))
         entries = getattr(feed, "entries", [])[:MAX_ITEMS_PER_QUERY]
 
         for e in entries:
-            raw_url = (getattr(e, "link", None) or "").strip()
-            title = (getattr(e, "title", None) or "").strip()
-            if not raw_url and not title:
+            title = safe_str(getattr(e, "title", None))
+            url = safe_str(getattr(e, "link", None))
+            guid = safe_str(getattr(e, "guid", None)) or safe_str(getattr(e, "id", None))
+
+            if not (title or url or guid):
                 continue
 
             source = ""
             if getattr(e, "source", None) and getattr(e.source, "title", None):
-                source = (e.source.title or "").strip()
+                source = safe_str(e.source.title)
 
             ts = to_ts(e)
-            blurb = extract_rss_blurb(e)
 
-            publisher = resolve_to_publisher(raw_url) if raw_url else ""
+            canonical_url = resolve_to_publisher(url) if url else ""
 
-            fresh.append(
-                {
-                    "bundle": qu.bundle,
-                    "query": qu.q,
-                    "title": title,
-                    "source": source,
-                    "url": raw_url,
-                    "canonical_url": publisher or "",
-                    "published_ts": ts,
-                    "blurb": blurb,
-                }
-            )
+            incoming = {
+                "bundle": qu.bundle,
+                "query": qu.q,
+                "title": title,
+                "source": source,
+                "url": url,
+                "canonical_url": canonical_url,
+                "guid": guid,
+                "published_ts": ts,
+            }
+            incoming["id"] = stable_id_for_item(incoming)
 
-    existing = load_existing_items()
-    merged: Dict[str, Dict] = {}
+            iid = incoming["id"]
+            if iid in by_id:
+                by_id[iid] = merge_item(by_id[iid], incoming)
+            else:
+                by_id[iid] = incoming
 
-    for it in existing:
-        if isinstance(it, dict):
-            merged[canonical_key(it)] = it
-
-    for it in fresh:
-        k = canonical_key(it)
-        if k not in merged:
-            merged[k] = it
-            continue
-
-        old = merged[k]
-        old_ts = int(old.get("published_ts") or 0)
-        new_ts = int(it.get("published_ts") or 0)
-
-        chosen = it if new_ts >= old_ts else old
-        other = old if chosen is it else it
-
-        for field in ["canonical_url", "url", "source", "title", "blurb", "bundle", "query"]:
-            if not chosen.get(field) and other.get(field):
-                chosen[field] = other[field]
-
-        merged[k] = chosen
-
+    # Retain only last 6 months
     now_ts = int(datetime.now(timezone.utc).timestamp())
-    cutoff = now_ts - (RETENTION_DAYS * 24 * 60 * 60)
+    cutoff = now_ts - (RETENTION_DAYS * 86400)
 
-    items: List[Dict] = []
-    for it in merged.values():
+    items = []
+    for it in by_id.values():
         ts = int(it.get("published_ts") or 0)
-        if ts > 0 and ts >= cutoff:
+        # keep undated items (ts==0) only if they are newly added; safest is to drop them
+        if ts == 0:
+            continue
+        if ts >= cutoff:
             items.append(it)
 
+    # Sort newest-first for UI
     items.sort(key=lambda x: int(x.get("published_ts") or 0), reverse=True)
-    items = items[:MAX_TOTAL_ITEMS]
-
-    # Fetch publisher first-paragraph blurbs (best-effort) for items missing blurbs.
-    fetched = 0
-    for it in items:
-        if fetched >= BLURB_FETCH_LIMIT:
-            break
-        if it.get("blurb"):
-            continue
-        target = it.get("canonical_url") or ""
-        if not target:
-            continue
-        b = fetch_first_paragraph(target)
-        if b:
-            it["blurb"] = b
-        fetched += 1
 
     payload = {
         "meta": {
