@@ -4,7 +4,7 @@ import hashlib
 import json
 import re
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -17,47 +17,94 @@ ROOT = Path(__file__).resolve().parents[1]
 BUNDLES_MD = ROOT / "config" / "bundles.md"
 OUT_JSON = ROOT / "docs" / "data.json"
 
-# Google News RSS params
 HL = "en-US"
 GL = "US"
 CEID = "US:en"
 
-# Retention policy (6 months)
 RETENTION_DAYS = 180
-
-# Fetch sizes
-MAX_ITEMS_PER_QUERY = 50  # per query, per run (RSS itself often limits anyway)
-
-UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.0)"
+MAX_ITEMS_PER_QUERY = 50
+UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.1)"
 
 
 @dataclass
-class Query:
+class QuerySpec:
     bundle: str
-    q: str
+    include: str
+    exclude: List[str] = field(default_factory=list)
+
+    def to_google_query(self) -> str:
+        parts = [self.include.strip()]
+        for ex in self.exclude:
+            ex = ex.strip()
+            if not ex:
+                continue
+            # If exclusion already starts with -, keep it; else add -
+            if ex.startswith("-"):
+                parts.append(ex)
+            else:
+                parts.append(f"-{ex}")
+        return " ".join(parts).strip()
 
 
-def parse_bundles_md(text: str) -> List[Query]:
+def parse_bundles_md(text: str) -> List[QuerySpec]:
     """
     Format:
-    ## Bundle Name
-    - query
-    * query
+    ## Bundle
+    + include query
+    - exclude term
+    - "exclude phrase"
+
+    Multiple + blocks allowed per bundle.
     """
     lines = [ln.rstrip() for ln in text.splitlines()]
     bundle: Optional[str] = None
-    out: List[Query] = []
+    current: Optional[QuerySpec] = None
+    out: List[QuerySpec] = []
 
     for ln in lines:
         if not ln.strip():
             continue
+
         m = re.match(r"^\s*##\s+(.*\S)\s*$", ln)
         if m:
             bundle = m.group(1).strip()
+            current = None
             continue
-        m = re.match(r"^\s*[-*]\s+(.*\S)\s*$", ln)
-        if m and bundle:
-            out.append(Query(bundle=bundle, q=m.group(1).strip()))
+
+        if not bundle:
+            continue
+
+        m = re.match(r"^\s*\+\s+(.*\S)\s*$", ln)
+        if m:
+            # start a new query block
+            if current:
+                out.append(current)
+            current = QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[])
+            continue
+
+        m = re.match(r"^\s*-\s+(.*\S)\s*$", ln)
+        if m and current:
+            current.exclude.append(m.group(1).strip())
+            continue
+
+        # Back-compat: if user still uses * or - bullets, treat as include-only query
+        m = re.match(r"^\s*[*]\s+(.*\S)\s*$", ln)
+        if m:
+            if current:
+                out.append(current)
+                current = None
+            out.append(QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[]))
+            continue
+
+        # Plain dash bullets historically meant includes; if no current + block, treat as include query
+        m = re.match(r"^\s*-\s+(.*\S)\s*$", ln)
+        if m and not current:
+            out.append(QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[]))
+            continue
+
+    if current:
+        out.append(current)
+
     return out
 
 
@@ -89,9 +136,6 @@ def load_existing_items() -> List[Dict]:
 
 
 def extract_publisher_url_from_param(url: str) -> str:
-    """
-    Sometimes Google News link includes a real URL as a query param.
-    """
     try:
         p = urlparse(url)
         qs = parse_qs(p.query)
@@ -106,11 +150,6 @@ def extract_publisher_url_from_param(url: str) -> str:
 
 
 def resolve_to_publisher(url: str) -> str:
-    """
-    Best-effort canonical publisher URL:
-    - if url= param exists, use it
-    - else follow redirects; if final host != news.google.com, use it
-    """
     url = safe_str(url)
     if not url:
         return ""
@@ -131,9 +170,6 @@ def resolve_to_publisher(url: str) -> str:
 
 
 def stable_id_for_item(it: Dict) -> str:
-    """
-    Stable across runs. Prefer canonical_url; else url; else guid; else title/source/ts.
-    """
     canon = safe_str(it.get("canonical_url"))
     if canon:
         base = f"canon::{canon}"
@@ -154,31 +190,21 @@ def stable_id_for_item(it: Dict) -> str:
 
 
 def merge_item(existing: Dict, incoming: Dict) -> Dict:
-    """
-    Keep existing, fill gaps with incoming; update fields that can improve over time
-    (canonical_url is allowed to appear later; source/title may improve).
-    """
     out = dict(existing)
-
-    # Always keep id stable
     out["id"] = existing.get("id") or incoming.get("id")
 
-    # Prefer earlier published_ts if existing has it; otherwise take incoming
     ex_ts = int(out.get("published_ts") or 0)
     in_ts = int(incoming.get("published_ts") or 0)
     if ex_ts == 0 and in_ts:
         out["published_ts"] = in_ts
 
-    # Upgradable fields: fill blanks
     for k in ("title", "source", "bundle", "query", "url", "canonical_url", "guid"):
         if not safe_str(out.get(k)):
             out[k] = incoming.get(k) or out.get(k)
 
-    # If canonical_url becomes available later, upgrade it
     if safe_str(incoming.get("canonical_url")) and not safe_str(existing.get("canonical_url")):
         out["canonical_url"] = incoming["canonical_url"]
 
-    # Keep bundle/query as first-seen by default; but if missing, fill
     return out
 
 
@@ -186,14 +212,13 @@ def main() -> None:
     if not BUNDLES_MD.exists():
         raise SystemExit(f"Missing {BUNDLES_MD}")
 
-    queries = parse_bundles_md(BUNDLES_MD.read_text(encoding="utf-8"))
-    if not queries:
+    specs = parse_bundles_md(BUNDLES_MD.read_text(encoding="utf-8"))
+    if not specs:
         raise SystemExit("No bundles/queries found in bundles.md")
 
     existing_items = load_existing_items()
     by_id: Dict[str, Dict] = {}
 
-    # Load existing into map keyed by stable id (recomputed to be robust)
     for it in existing_items:
         if not isinstance(it, dict):
             continue
@@ -204,8 +229,9 @@ def main() -> None:
         by_id[it_id] = it
 
     # Fetch new RSS items
-    for qu in queries:
-        feed = feedparser.parse(google_news_rss_url(qu.q))
+    for spec in specs:
+        google_q = spec.to_google_query()
+        feed = feedparser.parse(google_news_rss_url(google_q))
         entries = getattr(feed, "entries", [])[:MAX_ITEMS_PER_QUERY]
 
         for e in entries:
@@ -221,12 +247,12 @@ def main() -> None:
                 source = safe_str(e.source.title)
 
             ts = to_ts(e)
-
             canonical_url = resolve_to_publisher(url) if url else ""
 
             incoming = {
-                "bundle": qu.bundle,
-                "query": qu.q,
+                "bundle": spec.bundle,
+                # store the human-readable query you wrote, not the expanded operator string
+                "query": spec.include,
                 "title": title,
                 "source": source,
                 "url": url,
@@ -242,28 +268,25 @@ def main() -> None:
             else:
                 by_id[iid] = incoming
 
-    # Retain only last 6 months
     now_ts = int(datetime.now(timezone.utc).timestamp())
     cutoff = now_ts - (RETENTION_DAYS * 86400)
 
     items = []
     for it in by_id.values():
         ts = int(it.get("published_ts") or 0)
-        # keep undated items (ts==0) only if they are newly added; safest is to drop them
         if ts == 0:
             continue
         if ts >= cutoff:
             items.append(it)
 
-    # Sort newest-first for UI
     items.sort(key=lambda x: int(x.get("published_ts") or 0), reverse=True)
 
     payload = {
         "meta": {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "retention_days": RETENTION_DAYS,
-            "bundles_count": len({q.bundle for q in queries}),
-            "queries_count": len(queries),
+            "bundles_count": len({s.bundle for s in specs}),
+            "queries_count": len(specs),
             "items_count": len(items),
         },
         "items": items,
