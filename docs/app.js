@@ -45,49 +45,40 @@ function mkId(prefix, text) {
     .replace(/[+/]/g,"_");
 }
 
-function renderTooltipHtml(bundle, bundleSpecs) {
-  const specs = (bundleSpecs && bundleSpecs[bundle]) ? bundleSpecs[bundle] : [];
-  if (!specs.length) {
-    return `
-      <div class="tooltip" role="dialog" aria-label="Exclusions">
-        <div class="tt-title">Exclusions</div>
-        <div class="tt-row tt-none">None configured.</div>
-      </div>
-    `;
-  }
-
-  // Show per-include query, with its exclusions (deduped + cleaned)
-  const rows = specs.map(s => {
-    const inc = (s.include || "").trim();
-    const exArr = Array.isArray(s.exclude) ? s.exclude : [];
-    const cleaned = [...new Set(exArr.map(x => (x || "").trim()).filter(Boolean))]
-      .map(x => x.startsWith("-") ? x.slice(1).trim() : x);
-
-    const ex = cleaned.length
-      ? cleaned.map(x => `<span class="tt-ex">-${esc(x)}</span>`).join(" ")
-      : `<span class="tt-none">None</span>`;
-
-    return `
-      <div class="tt-row">
-        <span class="tt-inc">${esc(inc)}</span><br/>
-        ${ex}
-      </div>
-    `;
-  }).join("");
-
-  return `
-    <div class="tooltip" role="dialog" aria-label="Exclusions">
-      <div class="tt-title">Exclusions</div>
-      ${rows}
-    </div>
-  `;
-}
-
-function closeAllTooltips(exceptEl = null) {
-  document.querySelectorAll('.tooltip.open').forEach(tt => {
+function closeAllQTooltips(exceptEl = null) {
+  document.querySelectorAll('.qtooltip.open').forEach(tt => {
     if (exceptEl && tt === exceptEl) return;
     tt.classList.remove('open');
   });
+}
+
+function formatInlineBundleExclusions(exList) {
+  if (!Array.isArray(exList) || exList.length === 0) return "";
+  const uniq = [...new Set(exList.map(x => (x || "").trim()).filter(Boolean))];
+  if (!uniq.length) return "";
+
+  // Display compact; still full list via tooltip is not requested.
+  const shown = uniq.slice(0, 4);
+  const more = uniq.length > shown.length ? ` +${uniq.length - shown.length}` : "";
+
+  const bits = shown.map(x => `<span class="ex-item">-${esc(x)}</span>`).join(" ");
+  return `
+    <span class="bundle-inline-exclusions" title="${esc(uniq.map(x => "-" + x).join(" "))}">
+      <span class="ex-label">Exclusions:</span> ${bits}${more ? ` <span class="ex-item">${more}</span>` : ""}
+    </span>
+  `;
+}
+
+function queryTooltipHtml(exList) {
+  const uniq = [...new Set((exList || []).map(x => (x || "").trim()).filter(Boolean))];
+  if (!uniq.length) return "";
+  const lines = uniq.map(x => `<div class="qt-line">-${esc(x)}</div>`).join("");
+  return `
+    <div class="qtooltip" role="dialog" aria-label="Query exclusions">
+      <div class="qt-title">Exclusions</div>
+      ${lines}
+    </div>
+  `;
 }
 
 async function load() {
@@ -100,12 +91,15 @@ async function load() {
 
   const data = await res.json();
   const last = data.meta?.generated_at ? new Date(data.meta.generated_at) : null;
-  document.getElementById("lastUpdated").textContent = "Last updated: " + (last ? last.toLocaleString() : "—");
+  document.getElementById("lastUpdated").textContent =
+    "Last updated: " + (last ? last.toLocaleString() : "—");
 
-  const bundleSpecs = data.meta?.bundle_specs || {};
   const items = Array.isArray(data.items) ? data.items : [];
 
-  // bundle -> set(queries) derived from items for filtering
+  const bundleExclusions = data.meta?.bundle_exclusions || {};
+  const queryExclusions = data.meta?.query_exclusions || {};
+
+  // bundle -> set(queries) derived from items (for filtering list)
   const bundleMap = new Map();
   for (const it of items) {
     const b = it.bundle || "";
@@ -126,17 +120,36 @@ async function load() {
   filters.innerHTML = bundles.map(b => {
     const bid = mkId("b", b);
     const qs = [...bundleMap.get(b)].sort((a,c)=>a.localeCompare(c));
+
+    const bEx = Array.isArray(bundleExclusions[b]) ? bundleExclusions[b] : [];
+    const inlineEx = formatInlineBundleExclusions(bEx);
+
     const children = qs.map(q => {
       const qid = mkId("q", b + "||" + q);
+
+      const qEx = (queryExclusions[b] && Array.isArray(queryExclusions[b][q]))
+        ? queryExclusions[b][q]
+        : [];
+
+      const hasQEx = Array.isArray(qEx) && qEx.length > 0;
+
       return `
         <label class="child">
           <input type="checkbox" id="${qid}" checked />
-          <span>${esc(q)}</span>
+          <span class="qrow">
+            <span>${esc(q)}</span>
+            ${
+              hasQEx
+                ? `
+                  <button type="button" class="qinfo-btn" data-qinfo="${esc(b)}||${esc(q)}" aria-label="Show exclusions">?</button>
+                  ${queryTooltipHtml(qEx)}
+                `
+                : ""
+            }
+          </span>
         </label>
       `;
     }).join("");
-
-    const tooltip = renderTooltipHtml(b, bundleSpecs);
 
     return `
       <div class="filter-group">
@@ -145,10 +158,9 @@ async function load() {
 
           <label onclick="event.stopPropagation()">
             <input type="checkbox" id="${bid}" checked />
-            <span class="bundle-label">
+            <span style="display:inline-flex; align-items:center; gap:8px; min-width:0;">
               <span class="pill" style="${gradientPillStyle(b)}">${esc(b)}</span>
-              <button type="button" class="info-btn" aria-label="Show exclusions" data-info-btn="${esc(b)}">?</button>
-              ${tooltip}
+              ${inlineEx}
             </span>
           </label>
         </div>
@@ -171,8 +183,7 @@ async function load() {
 
     header.addEventListener('click', (e) => {
       if (e.target.tagName === 'INPUT') return;
-      // ignore clicks on info button / tooltip
-      if (e.target.closest('.info-btn') || e.target.closest('.tooltip')) return;
+      if (e.target.closest('.qinfo-btn') || e.target.closest('.qtooltip')) return;
 
       const isExpanded = expandState.get(b);
       expandState.set(b, !isExpanded);
@@ -188,18 +199,18 @@ async function load() {
     });
   }
 
-  // Tooltips: tap-to-toggle (mobile), hover handled by CSS on desktop
-  document.querySelectorAll('.info-btn').forEach(btn => {
+  // Query tooltips: tap-to-toggle (mobile); hover handled by CSS on desktop
+  document.querySelectorAll('.qinfo-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const bundle = btn.getAttribute('data-info-btn');
-      const wrapper = btn.closest('.bundle-label');
-      const tt = wrapper ? wrapper.querySelector('.tooltip') : null;
+
+      const qrow = btn.closest('.qrow');
+      const tt = qrow ? qrow.querySelector('.qtooltip') : null;
       if (!tt) return;
 
       const willOpen = !tt.classList.contains('open');
-      closeAllTooltips(tt);
+      closeAllQTooltips(tt);
       if (willOpen) tt.classList.add('open');
       else tt.classList.remove('open');
 
@@ -209,8 +220,8 @@ async function load() {
 
   // close on outside click (mobile)
   document.addEventListener('click', (e) => {
-    if (e.target.closest('.bundle-label')) return;
-    closeAllTooltips();
+    if (e.target.closest('.qrow')) return;
+    closeAllQTooltips();
   });
 
   // Bundle + query checkbox behavior

@@ -23,19 +23,27 @@ CEID = "US:en"
 
 RETENTION_DAYS = 180
 MAX_ITEMS_PER_QUERY = 50
-UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.2)"
+UA = "Mozilla/5.0 (compatible; ProjectFeedsBot/1.3)"
+
+
+def _clean_exclusion(x: str) -> str:
+    x = (x or "").strip()
+    if not x:
+        return ""
+    return x[1:].strip() if x.startswith("-") else x
 
 
 @dataclass
 class QuerySpec:
     bundle: str
     include: str
-    exclude: List[str] = field(default_factory=list)
+    bundle_exclude: List[str] = field(default_factory=list)  # applies to all queries in bundle
+    query_exclude: List[str] = field(default_factory=list)   # applies only to this include line
 
     def to_google_query(self) -> str:
-        parts = [self.include.strip()]
-        for ex in self.exclude:
-            ex = ex.strip()
+        parts: List[str] = [self.include.strip()]
+        for raw in (self.bundle_exclude or []) + (self.query_exclude or []):
+            ex = (raw or "").strip()
             if not ex:
                 continue
             parts.append(ex if ex.startswith("-") else f"-{ex}")
@@ -44,20 +52,36 @@ class QuerySpec:
 
 def parse_bundles_md(text: str) -> List[QuerySpec]:
     """
-    Format:
-    ## Bundle
-    + include query
-    - exclude term
-    - "exclude phrase"
+    Supported format:
 
-    Back-compat:
-    * include query
-    - include query  (only if not within a + block)
+    ## Bundle Name
+    - bundle-wide exclusion
+    - "bundle-wide phrase"
+
+    + include query
+    - query-specific exclusion
+    - "query-specific phrase"
+
+    * include query   (no query-specific excludes)
+
+    Rules:
+    - Any '-' lines immediately under '## Bundle' (before a +/*) are bundle-wide excludes.
+    - '-' lines after a '+ include' are query-specific excludes until the next +, *, or ##.
+    - We intentionally do NOT treat '-' as an include bullet anymore (to avoid ambiguity).
     """
     lines = [ln.rstrip() for ln in text.splitlines()]
-    bundle: Optional[str] = None
-    current: Optional[QuerySpec] = None
     out: List[QuerySpec] = []
+
+    bundle: Optional[str] = None
+    bundle_excludes: List[str] = []
+    current: Optional[QuerySpec] = None
+    seen_any_query_in_bundle = False
+
+    def flush_current():
+        nonlocal current
+        if current:
+            out.append(current)
+            current = None
 
     for ln in lines:
         if not ln.strip():
@@ -65,8 +89,10 @@ def parse_bundles_md(text: str) -> List[QuerySpec]:
 
         m = re.match(r"^\s*##\s+(.*\S)\s*$", ln)
         if m:
+            flush_current()
             bundle = m.group(1).strip()
-            current = None
+            bundle_excludes = []
+            seen_any_query_in_bundle = False
             continue
 
         if not bundle:
@@ -74,35 +100,52 @@ def parse_bundles_md(text: str) -> List[QuerySpec]:
 
         m = re.match(r"^\s*\+\s+(.*\S)\s*$", ln)
         if m:
-            if current:
-                out.append(current)
-            current = QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[])
+            flush_current()
+            seen_any_query_in_bundle = True
+            current = QuerySpec(
+                bundle=bundle,
+                include=m.group(1).strip(),
+                bundle_exclude=[_clean_exclusion(x) for x in bundle_excludes if _clean_exclusion(x)],
+                query_exclude=[],
+            )
             continue
 
-        m = re.match(r"^\s*-\s+(.*\S)\s*$", ln)
-        if m and current:
-            current.exclude.append(m.group(1).strip())
-            continue
-
-        # back-compat * include
         m = re.match(r"^\s*[*]\s+(.*\S)\s*$", ln)
         if m:
-            if current:
-                out.append(current)
-                current = None
-            out.append(QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[]))
+            flush_current()
+            seen_any_query_in_bundle = True
+            out.append(QuerySpec(
+                bundle=bundle,
+                include=m.group(1).strip(),
+                bundle_exclude=[_clean_exclusion(x) for x in bundle_excludes if _clean_exclusion(x)],
+                query_exclude=[],
+            ))
             continue
 
-        # back-compat - include (only when not in a + block)
         m = re.match(r"^\s*-\s+(.*\S)\s*$", ln)
-        if m and not current:
-            out.append(QuerySpec(bundle=bundle, include=m.group(1).strip(), exclude=[]))
+        if m:
+            val = m.group(1).strip()
+            if current:
+                # query-specific exclusion
+                current.query_exclude.append(_clean_exclusion(val))
+            else:
+                # bundle-wide exclusion (only valid before any queries, but allow mid-bundle too)
+                bundle_excludes.append(_clean_exclusion(val))
             continue
 
-    if current:
-        out.append(current)
+    flush_current()
 
-    return out
+    # remove empty includes / normalize
+    cleaned: List[QuerySpec] = []
+    for s in out:
+        inc = (s.include or "").strip()
+        if not inc:
+            continue
+        s.bundle_exclude = [x for x in (s.bundle_exclude or []) if (x or "").strip()]
+        s.query_exclude = [x for x in (s.query_exclude or []) if (x or "").strip()]
+        cleaned.append(s)
+
+    return cleaned
 
 
 def google_news_rss_url(q: str) -> str:
@@ -225,7 +268,7 @@ def main() -> None:
             it["id"] = it_id
         by_id[it_id] = it
 
-    # fetch + merge
+    # Fetch + merge
     for spec in specs:
         google_q = spec.to_google_query()
         feed = feedparser.parse(google_news_rss_url(google_q))
@@ -247,7 +290,7 @@ def main() -> None:
 
             incoming = {
                 "bundle": spec.bundle,
-                # store include term only as the UI-visible tag
+                # IMPORTANT: store include only (filters/UI labels stay clean)
                 "query": spec.include,
                 "title": title,
                 "source": source,
@@ -264,7 +307,7 @@ def main() -> None:
             else:
                 by_id[iid] = incoming
 
-    # retention
+    # Retention
     now_ts = int(datetime.now(timezone.utc).timestamp())
     cutoff = now_ts - (RETENTION_DAYS * 86400)
 
@@ -278,12 +321,22 @@ def main() -> None:
 
     items.sort(key=lambda x: int(x.get("published_ts") or 0), reverse=True)
 
-    # NEW: bundle_specs for UI tooltips
-    bundle_specs: Dict[str, List[Dict]] = {}
+    # Meta: bundle-wide exclusions + per-query exclusions
+    bundle_exclusions: Dict[str, List[str]] = {}
+    query_exclusions: Dict[str, Dict[str, List[str]]] = {}
+
     for s in specs:
-        bundle_specs.setdefault(s.bundle, []).append(
-            {"include": s.include, "exclude": s.exclude}
-        )
+        b = s.bundle
+        bundle_exclusions.setdefault(b, [])
+        for ex in s.bundle_exclude:
+            ex = _clean_exclusion(ex)
+            if ex and ex not in bundle_exclusions[b]:
+                bundle_exclusions[b].append(ex)
+
+        query_exclusions.setdefault(b, {})
+        qex = [_clean_exclusion(x) for x in (s.query_exclude or []) if _clean_exclusion(x)]
+        if qex:
+            query_exclusions[b][s.include] = qex
 
     payload = {
         "meta": {
@@ -292,7 +345,9 @@ def main() -> None:
             "bundles_count": len({s.bundle for s in specs}),
             "queries_count": len(specs),
             "items_count": len(items),
-            "bundle_specs": bundle_specs,
+            # NEW fields for UI
+            "bundle_exclusions": bundle_exclusions,
+            "query_exclusions": query_exclusions,
         },
         "items": items,
     }
