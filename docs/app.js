@@ -45,32 +45,26 @@ function mkId(prefix, text) {
     .replace(/[+/]/g,"_");
 }
 
-function closeAllQTooltips(exceptEl = null) {
-  document.querySelectorAll('.qtooltip.open').forEach(tt => {
-    if (exceptEl && tt === exceptEl) return;
-    tt.classList.remove('open');
-  });
+function uniqClean(list) {
+  return [...new Set((list || []).map(x => (x || "").trim()).filter(Boolean))];
 }
 
 function formatInlineBundleExclusions(exList) {
-  if (!Array.isArray(exList) || exList.length === 0) return "";
-  const uniq = [...new Set(exList.map(x => (x || "").trim()).filter(Boolean))];
+  const uniq = uniqClean(exList);
   if (!uniq.length) return "";
-
-  // Display compact; still full list via tooltip is not requested.
-  const shown = uniq.slice(0, 4);
+  const shown = uniq.slice(0, 6);
   const more = uniq.length > shown.length ? ` +${uniq.length - shown.length}` : "";
-
+  const title = uniq.map(x => "-" + x).join(" ");
   const bits = shown.map(x => `<span class="ex-item">-${esc(x)}</span>`).join(" ");
   return `
-    <span class="bundle-inline-exclusions" title="${esc(uniq.map(x => "-" + x).join(" "))}">
+    <span class="bundle-inline-exclusions" title="${esc(title)}">
       <span class="ex-label">Exclusions:</span> ${bits}${more ? ` <span class="ex-item">${more}</span>` : ""}
     </span>
   `;
 }
 
 function queryTooltipHtml(exList) {
-  const uniq = [...new Set((exList || []).map(x => (x || "").trim()).filter(Boolean))];
+  const uniq = uniqClean(exList);
   if (!uniq.length) return "";
   const lines = uniq.map(x => `<div class="qt-line">-${esc(x)}</div>`).join("");
   return `
@@ -79,6 +73,13 @@ function queryTooltipHtml(exList) {
       ${lines}
     </div>
   `;
+}
+
+function closeAllQTooltips(exceptEl = null) {
+  document.querySelectorAll('.qtooltip.open').forEach(tt => {
+    if (exceptEl && tt === exceptEl) return;
+    tt.classList.remove('open');
+  });
 }
 
 async function load() {
@@ -96,11 +97,30 @@ async function load() {
 
   const items = Array.isArray(data.items) ? data.items : [];
 
+  // Prefer new meta. Fallback to older meta.bundle_specs where excludes are query-level only.
   const bundleExclusions = data.meta?.bundle_exclusions || {};
   const queryExclusions = data.meta?.query_exclusions || {};
+  const bundleSpecs = data.meta?.bundle_specs || {};
 
-  // bundle -> set(queries) derived from items (for filtering list)
+  // Build bundles from meta first so bundles never disappear.
   const bundleMap = new Map();
+
+  const metaBundleNames = new Set([
+    ...Object.keys(bundleSpecs || {}),
+    ...Object.keys(bundleExclusions || {}),
+  ]);
+
+  for (const b of metaBundleNames) bundleMap.set(b, new Set());
+
+  // Add queries from meta.bundle_specs (preferred for full query list)
+  for (const [b, arr] of Object.entries(bundleSpecs || {})) {
+    if (!bundleMap.has(b)) bundleMap.set(b, new Set());
+    (arr || []).forEach(s => {
+      if (s && s.include) bundleMap.get(b).add(s.include);
+    });
+  }
+
+  // Add queries seen in items too
   for (const it of items) {
     const b = it.bundle || "";
     const q = it.query || "";
@@ -109,18 +129,19 @@ async function load() {
     if (q) bundleMap.get(b).add(q);
   }
 
+  const bundles = [...bundleMap.keys()].sort((a,b)=>a.localeCompare(b));
+
   const filters = document.getElementById("filters");
   const bundleState = new Map();
   const queryState = new Map();
   const expandState = new Map();
-
-  const bundles = [...bundleMap.keys()].sort((a,b)=>a.localeCompare(b));
   for (const b of bundles) expandState.set(b, false);
 
   filters.innerHTML = bundles.map(b => {
     const bid = mkId("b", b);
     const qs = [...bundleMap.get(b)].sort((a,c)=>a.localeCompare(c));
 
+    // Bundle-level exclusions (new meta). If absent but old meta exists, show nothing bundle-level.
     const bEx = Array.isArray(bundleExclusions[b]) ? bundleExclusions[b] : [];
     const inlineEx = formatInlineBundleExclusions(bEx);
 
@@ -141,7 +162,7 @@ async function load() {
             ${
               hasQEx
                 ? `
-                  <button type="button" class="qinfo-btn" data-qinfo="${esc(b)}||${esc(q)}" aria-label="Show exclusions">?</button>
+                  <button type="button" class="qinfo-btn" aria-label="Show exclusions">?</button>
                   ${queryTooltipHtml(qEx)}
                 `
                 : ""
@@ -158,7 +179,7 @@ async function load() {
 
           <label onclick="event.stopPropagation()">
             <input type="checkbox" id="${bid}" checked />
-            <span style="display:inline-flex; align-items:center; gap:8px; min-width:0;">
+            <span class="bundle-row">
               <span class="pill" style="${gradientPillStyle(b)}">${esc(b)}</span>
               ${inlineEx}
             </span>
@@ -172,10 +193,11 @@ async function load() {
     `;
   }).join("");
 
+  // Init states
   for (const b of bundles) bundleState.set(b, true);
   for (const b of bundles) for (const q of bundleMap.get(b)) queryState.set(b + "||" + q, true);
 
-  // Expand/collapse per bundle
+  // Expand/collapse
   for (const b of bundles) {
     const header = document.querySelector(`.filter-header[data-bundle="${CSS.escape(b)}"]`);
     const children = document.querySelector(`.filter-children[data-bundle-children="${CSS.escape(b)}"]`);
@@ -199,7 +221,7 @@ async function load() {
     });
   }
 
-  // Query tooltips: tap-to-toggle (mobile); hover handled by CSS on desktop
+  // Query tooltip toggle (tap)
   document.querySelectorAll('.qinfo-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
@@ -218,16 +240,12 @@ async function load() {
     });
   });
 
-  // close on outside click (mobile)
   document.addEventListener('click', (e) => {
     if (e.target.closest('.qrow')) return;
     closeAllQTooltips();
   });
 
-  // Bundle + query checkbox behavior
-  let currentPage = 1;
-  const itemsPerPage = 25;
-
+  // Bundle checkbox affects all queries
   for (const b of bundles) {
     const bid = mkId("b", b);
     const bEl = document.getElementById(bid);
@@ -238,7 +256,7 @@ async function load() {
       for (const q of bundleMap.get(b)) {
         const qid = mkId("q", b + "||" + q);
         const qEl = document.getElementById(qid);
-        qEl.checked = checked;
+        if (qEl) qEl.checked = checked;
         queryState.set(b + "||" + q, checked);
       }
       currentPage = 1;
@@ -248,6 +266,8 @@ async function load() {
     for (const q of bundleMap.get(b)) {
       const qid = mkId("q", b + "||" + q);
       const qEl = document.getElementById(qid);
+      if (!qEl) continue;
+
       qEl.addEventListener("change", () => {
         queryState.set(b + "||" + q, qEl.checked);
         const any = [...bundleMap.get(b)].some(x => queryState.get(b + "||" + x));
@@ -262,6 +282,9 @@ async function load() {
   const search = document.getElementById("search");
   const sort = document.getElementById("sort");
   const count = document.getElementById("count");
+
+  let currentPage = 1;
+  const itemsPerPage = 25;
 
   function passesFilters(it) {
     const b = it.bundle || "";
@@ -323,8 +346,7 @@ async function load() {
     const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerPage));
     if (currentPage > totalPages) currentPage = totalPages;
 
-    const startIdx = (currentPage - 1) * itemsPerPage;
-    const pageItems = filtered.slice(startIdx, startIdx + itemsPerPage);
+    const pageItems = filtered.slice((currentPage - 1) * itemsPerPage, (currentPage - 1) * itemsPerPage + itemsPerPage);
 
     const list = document.getElementById("list");
     if (!filtered.length) {
@@ -375,7 +397,6 @@ function toggleMobileFilters() {
   const icon = document.querySelector('.mobile-toggle-icon');
   container.classList.toggle('expanded');
   icon.classList.toggle('expanded');
-
   syncFixedLayoutVars();
   setTimeout(syncFixedLayoutVars, 350);
 }

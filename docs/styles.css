@@ -61,10 +61,7 @@ h1 {
 
 .main-content { padding: 0 24px; }
 
-.layout {
-  display:block;
-  margin-top: 24px;
-}
+.layout { display:block; margin-top: 24px; }
 
 .panel {
   background: rgba(24, 24, 27, 0.9);
@@ -280,7 +277,6 @@ a:hover .title { color: #a78bfa; }
   font-size: 15px;
 }
 
-/* Pagination */
 #pagination{
   display: flex;
   flex-direction: column;
@@ -347,7 +343,102 @@ footer {
 footer a { color: #a78bfa; transition: color 0.2s ease; }
 footer a:hover { color: #06b6d4; }
 
-/* Mobile panel */
+/* ===== New UI: bundle exclusions + query exclusions tooltip ===== */
+
+.bundle-row{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.bundle-inline-exclusions{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  color: #a1a1aa;
+  font-size: 12px;
+  line-height: 1.2;
+  opacity: 0.95;
+}
+
+.bundle-inline-exclusions .ex-label{
+  color: #71717a;
+  font-weight: 600;
+}
+
+.bundle-inline-exclusions .ex-item{
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: rgba(148, 163, 184, 0.06);
+  color: #a1a1aa;
+}
+
+.qrow{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  min-width: 0;
+}
+
+.qinfo-btn{
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(148, 163, 184, 0.08);
+  color: #cbd5e1;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.qinfo-btn:hover{
+  border-color: rgba(148, 163, 184, 0.45);
+}
+
+.qtooltip{
+  position: absolute;
+  left: 0;
+  top: 24px;
+  min-width: 220px;
+  max-width: 280px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(24, 24, 27, 0.98);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.45);
+  color: #e4e4e7;
+  z-index: 200;
+  display: none;
+}
+
+.qtooltip .qt-title{
+  font-size: 12px;
+  color: #a1a1aa;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.qtooltip .qt-line{
+  font-size: 12px;
+  color: #e4e4e7;
+  margin: 4px 0;
+  word-break: break-word;
+}
+
+.qtooltip.open{ display: block; }
+
+/* Hover support on desktop */
+@media (hover: hover) and (pointer: fine) {
+  .qrow:hover .qtooltip { display: block; }
+}
+
+/* Mobile layout */
 @media (max-width: 980px) {
   .panel{
     left: 0;
@@ -361,6 +452,7 @@ footer a:hover { color: #06b6d4; }
   }
 
   .main-content{ padding-top: var(--panel-h); }
+
   .grid{ margin-left: 0; }
 
   .filters-container{
@@ -376,6 +468,13 @@ footer a:hover { color: #06b6d4; }
   }
 
   #pagination{ display:none; }
+
+  .qtooltip{
+    left: 0;
+    right: 0;
+    max-width: none;
+    min-width: 0;
+  }
 }
 
 @media (min-width: 981px) {
@@ -400,96 +499,3 @@ footer a:hover { color: #06b6d4; }
 }
 
 .mobile-toggle-icon.expanded { transform: rotate(180deg); }
-
-/* ===== NEW: Bundle inline exclusions ===== */
-
-.bundle-inline-exclusions{
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-left: 8px;
-  font-size: 11px;
-  color: #71717a;
-  line-height: 1.2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 210px;
-}
-
-.bundle-inline-exclusions .ex-label{
-  color: #52525b;
-  font-weight: 600;
-}
-
-.bundle-inline-exclusions .ex-item{
-  color: #94a3b8;
-}
-
-/* ===== NEW: Query-level exclusions tooltip (? next to keyword) ===== */
-
-.qrow{
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  position: relative; /* anchor tooltip */
-}
-
-.qinfo-btn{
-  width: 16px;
-  height: 16px;
-  border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.35);
-  background: rgba(148, 163, 184, 0.10);
-  color: #cbd5e1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  line-height: 1;
-  cursor: pointer;
-  padding: 0;
-}
-
-.qinfo-btn:hover{
-  border-color: rgba(148, 163, 184, 0.55);
-  background: rgba(148, 163, 184, 0.14);
-}
-
-.qtooltip{
-  position: absolute;
-  left: 0;
-  top: calc(100% + 10px);
-  min-width: 220px;
-  max-width: 300px;
-  background: rgba(10, 10, 15, 0.98);
-  border: 1px solid rgba(148, 163, 184, 0.20);
-  border-radius: 12px;
-  padding: 10px 10px;
-  box-shadow: 0 16px 48px rgba(0,0,0,0.45);
-  z-index: 210;
-  display: none;
-}
-
-.qtooltip.open{ display:block; }
-
-.qtooltip .qt-title{
-  font-size: 12px;
-  color: #e5e7eb;
-  font-weight: 650;
-  margin-bottom: 8px;
-}
-
-.qtooltip .qt-line{
-  font-size: 12px;
-  color: #94a3b8;
-  line-height: 1.35;
-  margin: 4px 0;
-  word-break: break-word;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .qrow:hover .qtooltip{
-    display:block;
-  }
-}

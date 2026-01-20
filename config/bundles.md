@@ -22,6 +22,7 @@
 ## Detroit Mayor
 - football
 - "Sheffield United"
+- "Premier League"
 - "Sheffield FC"
 - Premier League
 - UK
