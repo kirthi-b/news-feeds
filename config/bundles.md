@@ -31,7 +31,6 @@
 - NBA
 - "Detroit Pistons"
 - "Detroit Mercy"
-- 
 
 * Detroit Mayor
 * Sheffield Administration
