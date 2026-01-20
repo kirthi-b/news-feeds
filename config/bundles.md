@@ -27,12 +27,17 @@
 - Premier League
 - UK
 - England
+- Hockey
+- NBA
+- "Detroit Pistons"
+- "Detroit Mercy"
+- 
 
 * Detroit Mayor
 * Sheffield Administration
-* Rise Higher Detroit
+* "Rise Higher Detroit"
 * Mary Sheffield
-* Mayor Sheffield
+* "Mayor Sheffield"
 * Detroit transition
 * Detroit Government
 * Detroit Governance
