@@ -7,6 +7,7 @@
 * IndyGo
 * Indianapolis economic development
 * Indianapolis workforce
+* Amtrak Cardinal
 
 ## Wayne County TOD
 * Wayne County housing
@@ -17,7 +18,6 @@
 * Detroit transit
 * Detroit economic development
 * Detroit workforce
-* Amtrak Cardinal
 
 ## Detroit Mayor
 - football
