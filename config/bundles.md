@@ -28,6 +28,7 @@
 - UK
 - England
 - Hockey
+- Basketball
 - NBA
 - "Detroit Pistons"
 - "Detroit Mercy"
@@ -37,7 +38,6 @@
 * "Rise Higher Detroit"
 * Mary Sheffield
 * "Mayor Sheffield"
-* Detroit transition
 * Detroit Government
 * Detroit Governance
 
