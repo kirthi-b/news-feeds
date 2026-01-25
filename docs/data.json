@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T09:27:43.704099+00:00",
+    "generated_at": "2026-01-25T09:29:34.178319+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 619,
+    "items_count": 639,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,17 @@
     }
   },
   "items": [
+    {
+      "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "Amtrak storm cancellations expand to include eastern trains - trains.com",
+      "source": "trains.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVdMMXNFeHltVHg3T3NaREd6cTd5V19qcy1jd0ZZbjdzZ3BLUnlvNXI4bFBPMWR3bWRuWDZocElfV2liWTlWY0hjSERXMENPaTFsZGh0ZVpXYVUzZUs1NVE1V0xSQUhrQ2p6MzZXTkQ5aXVQUVM0YmZ3NGYxbE1FTFNEcWZiX00yWE0zLUpwSWU5NzNGWnJuaklKWGNJZDNoc21Sdno3ejlINUE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqwFBVV95cUxQUVdMMXNFeHltVHg3T3NaREd6cTd5V19qcy1jd0ZZbjdzZ3BLUnlvNXI4bFBPMWR3bWRuWDZocElfV2liWTlWY0hjSERXMENPaTFsZGh0ZVpXYVUzZUs1NVE1V0xSQUhrQ2p6MzZXTkQ5aXVQUVM0YmZ3NGYxbE1FTFNEcWZiX00yWE0zLUpwSWU5NzNGWnJuaklKWGNJZDNoc21Sdno3ejlINUE",
+      "published_ts": 1769210607,
+      "id": "6e3f19e3b7ca486e3774775e"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
@@ -302,6 +313,17 @@
       "guid": "CBMinAFBVV95cUxQZFdVbHFobmtYYnU0VWVHZ3cxQzZGUmdBT2xHQnVzbW1qWlhGZl9yZWxFaEY4N2xkX0R3VnpUUC1oNnEyYjVYbFo2OXduUU5peEVyelBCdWQ4YUMwTFk0YVNaNkJqTVdhYl8ydW82SW5DQ3M0aWViTXo4Z0Iyd0wxSm5rU0owUER6QmlZR2NyUGtVUkUxdERERUlFX0k",
       "published_ts": 1769094244,
       "id": "c117ccd02eacc33ff174ad94"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Luxury Cut: The Winter 2026 Wall Street Journal/Realtor.com Housing Market Ranking - Realtor.com",
+      "source": "Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWd1S2RWZ3lLUnpEU1ZoLVBJVUNjaFpGb1l6WDBJb3dlM2VudmRaMVNqeHlOQ3BPSy1wZ1o2TklDMk5uaURVUE5jd2dNVEFMd1hZODNDVEkwMU9EZ1ZvSVY0SzlYcXByRjl0Uy1sUFY2d1lYUjBsaXFBdXQ4MXZOUms3SEROMDVzV2x3Vg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijAFBVV95cUxQaWd1S2RWZ3lLUnpEU1ZoLVBJVUNjaFpGb1l6WDBJb3dlM2VudmRaMVNqeHlOQ3BPSy1wZ1o2TklDMk5uaURVUE5jd2dNVEFMd1hZODNDVEkwMU9EZ1ZvSVY0SzlYcXByRjl0Uy1sUFY2d1lYUjBsaXFBdXQ4MXZOUms3SEROMDVzV2x3Vg",
+      "published_ts": 1769083353,
+      "id": "c3a0945865b92522be6de46f"
     },
     {
       "bundle": "Wayne County TOD",
@@ -865,6 +887,17 @@
       "id": "78b972f1303e3062050b3927"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "Why US cities are reverting 1-way streets back to their original 2-way design - wjtv.com",
+      "source": "wjtv.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREM2YlFpRmdTWU9RdHlNWHBCcDBaLVk5WS1LUnZTNGprVFhaT01uakh3UUE4REtHc0tFLXdweE1FTXZjZ0E0aEdIN0dnSWE5MXJUemhIbmwxTU15bkIxem5zOUJsSUhNUzFqQmd5VzNDaEZ0MDMtZVdVMUZyeFp0ZW1NdGxtc1NJSTRKXzNwLUNGYWQyWWlHdEZ2dFRoNnlkT2ZpUmVucm5nQWVWZ2NHTGtIWHY4VzhZRlVpRmZZYXVYb0c4SEN0VWxZZkvSAdIBQVVfeXFMUEhpeC13aFhiVzM5SGlXd1R3WnlwSDRoN2ZiRGNFdVFOMEdqc0VDR1A2T1FlejdHc3MwZDl0RnBNOHhCTTVzcTU5c0JFMG5CVlZoQ0hETzh3WHRnRDkycU5sU1JEclU5bUZzM3NieUNVUXluLXVHZXFoUW9fTURjaVlvODVvSVNOWHN4TTF4TGFHTUlPa0ZicmwyQ3ZyWkhoaUdHblpwYklaV0dUOHNuODNzX19OTDJna2w4MmdlakF0ZkZrczkxQWFGU2lFV3hrMDl3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizAFBVV95cUxPREM2YlFpRmdTWU9RdHlNWHBCcDBaLVk5WS1LUnZTNGprVFhaT01uakh3UUE4REtHc0tFLXdweE1FTXZjZ0E0aEdIN0dnSWE5MXJUemhIbmwxTU15bkIxem5zOUJsSUhNUzFqQmd5VzNDaEZ0MDMtZVdVMUZyeFp0ZW1NdGxtc1NJSTRKXzNwLUNGYWQyWWlHdEZ2dFRoNnlkT2ZpUmVucm5nQWVWZ2NHTGtIWHY4VzhZRlVpRmZZYXVYb0c4SEN0VWxZZkvSAdIBQVVfeXFMUEhpeC13aFhiVzM5SGlXd1R3WnlwSDRoN2ZiRGNFdVFOMEdqc0VDR1A2T1FlejdHc3MwZDl0RnBNOHhCTTVzcTU5c0JFMG5CVlZoQ0hETzh3WHRnRDkycU5sU1JEclU5bUZzM3NieUNVUXluLXVHZXFoUW9fTURjaVlvODVvSVNOWHN4TTF4TGFHTUlPa0ZicmwyQ3ZyWkhoaUdHblpwYklaV0dUOHNuODNzX19OTDJna2w4MmdlakF0ZkZrczkxQWFGU2lFV3hrMDl3",
+      "published_ts": 1768669531,
+      "id": "b1ed20c50b7d7478aadd2faf"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
       "title": "Nearly half of Detroit seniors spend at least 30% of income on housing costs - Michigan Advance",
@@ -1339,6 +1372,28 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Once an inmate, now an owner: Ex-con buys prison, plans workforce training facility - WRAL",
+      "source": "WRAL",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVUlrZlhhbDEtci1zR3Q5ODNVRHV3SmdZM2t4c1JNRFdnRHoyRzBRNkd0bC00Q2FyQkNlX2UwQTlDeG9CYmZKVzJnSThfclVlZE5ZYkVLdDR6dUp4WGpaMDR2UHBzdHJzS21CWTBiREVKNzBWWUNTMGNTVnFsMlZ6eVJacGxMRFhfZnlNRmNyNUhPVWRCdWRobFJqSEhnSDRmQVVlOHdWM21xQ0UxMHVJbWhkUU1BLWZH?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiuAFBVV95cUxOVUlrZlhhbDEtci1zR3Q5ODNVRHV3SmdZM2t4c1JNRFdnRHoyRzBRNkd0bC00Q2FyQkNlX2UwQTlDeG9CYmZKVzJnSThfclVlZE5ZYkVLdDR6dUp4WGpaMDR2UHBzdHJzS21CWTBiREVKNzBWWUNTMGNTVnFsMlZ6eVJacGxMRFhfZnlNRmNyNUhPVWRCdWRobFJqSEhnSDRmQVVlOHdWM21xQ0UxMHVJbWhkUU1BLWZH",
+      "published_ts": 1767945600,
+      "id": "9ab754fff259d3a96d51da2d"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "People should be more excited about Waymo coming to Detroit - michigandaily.com",
+      "source": "michigandaily.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZTBwRzFTWXdOYnpiX2llQXBIV2lhT3RlRmZVdzhPRGtVMHdtdE01SnhZN1RKSUNuN003Wms3TlNFNTdtWmRWUmdBVDVYLXF1amJES29OZWZsT1NDUUVjWWs0MUhCa2JVRFdueVRsTjNVVVJLd0cyU3NVQlR6ZklNVnI5Nm1PU180dmo4MFJqZS1QcWR6SE1rTlpIYXo1aFJGM2tsRUhSR2ttZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqgFBVV95cUxQZTBwRzFTWXdOYnpiX2llQXBIV2lhT3RlRmZVdzhPRGtVMHdtdE01SnhZN1RKSUNuN003Wms3TlNFNTdtWmRWUmdBVDVYLXF1amJES29OZWZsT1NDUUVjWWs0MUhCa2JVRFdueVRsTjNVVVJLd0cyU3NVQlR6ZklNVnI5Nm1PU180dmo4MFJqZS1QcWR6SE1rTlpIYXo1aFJGM2tsRUhSR2ttZw",
+      "published_ts": 1767925309,
+      "id": "68685248238c2f82a1353ae9"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit transit",
       "title": "Multimodal Transit Hub Planned for Detroit - nar.realtor",
       "source": "nar.realtor",
@@ -1358,6 +1413,17 @@
       "guid": "CBMikgFBVV95cUxQN05Pc1lPTVg0bjFCUzdtVEF2dklSSDlqa2QzSVpRMlJsR1paOVktMFJEQmxVS0l4ZmVGRE0xQzdFNW1VSmc1ZkVnc0tIamxkdXQtcEFyVmUwNVE4QW4ySmRMWXhNQUVVSXo3T1ZCdXpOUklCRDhJd29vSkI2ZkN6MXVDQmpINzBqdGNDeWltZHhoZw",
       "published_ts": 1767863160,
       "id": "98189944ba0356dfe9633d18"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "Oxford's Amtrak station is chugging along, on track to open in 2027 - WYSO",
+      "source": "WYSO",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGlEdzhHZTVrSVl2S2VYd0l1eGIzdHk1VVBzXzNYSnFOYjBmb3FWSFdXOW1idE9RSVBiaGFlaExUTEp5VExCUW41bUZ6ZE5NUkJmZnFjd3E2NDB0SWRRcjZqOTlEODEwUVRtVmN6eGtURFpyUlBTVkdYWFZDUWlzQXVPdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxNeGlEdzhHZTVrSVl2S2VYd0l1eGIzdHk1VVBzXzNYSnFOYjBmb3FWSFdXOW1idE9RSVBiaGFlaExUTEp5VExCUW41bUZ6ZE5NUkJmZnFjd3E2NDB0SWRRcjZqOTlEODEwUVRtVmN6eGtURFpyUlBTVkdYWFZDUWlzQXVPdw",
+      "published_ts": 1767863160,
+      "id": "76277c8261b884748ffe1f93"
     },
     {
       "bundle": "Indiana TOD",
@@ -1413,6 +1479,17 @@
       "guid": "CBMi7wJBVV95cUxPdTc1dVFmZGVZSkhDMkl2NFNSb19ZV3RKNUlCb0hzMXQzVVIwOHcwZ01UeVZkVHNQT2NwUUN2MlRKRDliaklNbV8teV8zTjVFbzEyYmZ2UWFST21ENXFCVV8zRUYybEZuVlhZSzVJU09fLU9TcUlaeWpGa0V3bkY3aVQxQWR6N2pFNGYzX0M5dldHS2VVWmEwS0JaOC1SNVZndHY0dVkwMS12eUU1eG5WYXVrRjFkYXNVLVhpM2E4dzNCNkdyZk1maWFYUVBBREJEYnRsZXB5NzVMX3NFZnpRMGgwS1pXUktMZ2ZmVEpsVUtoc2x5WXhUWl9XaDVMTTlGRlVjRG9GUENKTHhMNi1VVk1TODViQkpDMHFhMTNwNXdjaFBGSDAxWHFYMTRjNTJsTkdqOG9ieEhVTlplMTdQdlFOMjczZ09mMktaMjd5Tzh0QThCRl9FYjhXdUJnUGxTV0o2M24xMm5SdGpVbmxR",
       "published_ts": 1767859200,
       "id": "be838b8802e5e38958bc22c8"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "‘American drone dominance’: Indiana wins new national drone test site designation - fox59.com",
+      "source": "fox59.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdVR3S0xRUHZjV0tUV3pPYUNzamJMZEIxV3ZaSFlieUxIWFZEVXFZMHM4R0Yzb2ZWb3ZxMjhHaHNGUGFFSFdBSEVEbXVNRUhkcWhlSmt2YlZ5VDl2emYtRGJEdHVwejQ2Z0w4WERLSzhjR2dsR0FvNDN5OW9fci1vdnEzZnJ5SjhFQkM3NXlMZk13RVd3bWpnSUtyWUd1N3Y2M2Z1R9IBqgFBVV95cUxOWGhVUlEzWnJZbFF0V2t3M3h2VUc2SVQyTmFfRFlmb3NHblAyY3J4U3ljZG5XOS1BRXlpNDNyaVlpSnQ2MzNNZHUwRDd0eTdSMGhEWmZ6NFNpTkNrbzlqQVRtSWNaVEwxTlV0SExvY3JUalJYODRDdHE0UW9OaVZ5S29JdERId3p6SEluZE5jcGNKcnh6aVg4OTYxUVY1MUMzWV9oYktpN3pGdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxQdVR3S0xRUHZjV0tUV3pPYUNzamJMZEIxV3ZaSFlieUxIWFZEVXFZMHM4R0Yzb2ZWb3ZxMjhHaHNGUGFFSFdBSEVEbXVNRUhkcWhlSmt2YlZ5VDl2emYtRGJEdHVwejQ2Z0w4WERLSzhjR2dsR0FvNDN5OW9fci1vdnEzZnJ5SjhFQkM3NXlMZk13RVd3bWpnSUtyWUd1N3Y2M2Z1R9IBqgFBVV95cUxOWGhVUlEzWnJZbFF0V2t3M3h2VUc2SVQyTmFfRFlmb3NHblAyY3J4U3ljZG5XOS1BRXlpNDNyaVlpSnQ2MzNNZHUwRDd0eTdSMGhEWmZ6NFNpTkNrbzlqQVRtSWNaVEwxTlV0SExvY3JUalJYODRDdHE0UW9OaVZ5S29JdERId3p6SEluZE5jcGNKcnh6aVg4OTYxUVY1MUMzWV9oYktpN3pGdw",
+      "published_ts": 1767859200,
+      "id": "dc409743167e07c7d8fe6ee4"
     },
     {
       "bundle": "Indiana TOD",
@@ -1679,6 +1756,17 @@
       "id": "6fe1b338fa75b993b9e8caff"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Wayne County Jail demolition underway: Officials tout Detroit economic growth - fox2detroit.com",
+      "source": "fox2detroit.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdEdiRGlmSmcwc2FlRFQyOTUxbnVpVWtpNmlfUVJfSDRaajdRMTMxdWhhV3NabFBuYTVwLXhXVjkxQ0x2dWxTdFZmeVhUSGE0YnVPeGhHbkdCaXNTS0d4M3FxUlI0M2p6ZExXd091Y2xZa1pfX3M1WjRhd05aZFp0aHo1bTRQeDRuSUxvZ09namhGeTdBSFN1RlVqM2QyVktQT2RuczgzbHF6UGhxNXc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMirgFBVV95cUxNdEdiRGlmSmcwc2FlRFQyOTUxbnVpVWtpNmlfUVJfSDRaajdRMTMxdWhhV3NabFBuYTVwLXhXVjkxQ0x2dWxTdFZmeVhUSGE0YnVPeGhHbkdCaXNTS0d4M3FxUlI0M2p6ZExXd091Y2xZa1pfX3M1WjRhd05aZFp0aHo1bTRQeDRuSUxvZ09namhGeTdBSFN1RlVqM2QyVktQT2RuczgzbHF6UGhxNXc",
+      "published_ts": 1767340800,
+      "id": "9a81f82687049a1a0418c5df"
+    },
+    {
       "bundle": "Detroit Mayor",
       "query": "Detroit Government",
       "title": "Just in time for America's 250th birthday, these local Snack-Sized Civics videos are a patriotic pick-me-up - Detroit Lakes Tribune",
@@ -1688,6 +1776,17 @@
       "guid": "CBMi2gFBVV95cUxOWm5iaTFfUXBWRWFvMkJfZ3JjRXJvMzlVdmp1WkJIOHRndlh0YUh6NDhCU1JuWmVQQ3p0U3dHUFpQZmxqMFNZNGlWRUVoQ2tweXZ2emtoZl9pVDUwaWhVOUpJR284TlJXNzRIUjM4N1doY3N5LUZXWmtkRUpPWGRtMGNVYm1vLVU2NE54QUZXcGVydU8tcVBTNHN5QkJzblB6RFVweGVNcjczNDRlSkwzVk5ScG1hMjcyU1VZa3dhNUc1LUlxTDRKTmd1TGY4VUNvdUlJdVFLSTRoZw",
       "published_ts": 1767269040,
       "id": "0a35745c2c5e7c05e1ddcc6d"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "IndyGo Blue Line project aiming to improve travel time, infrastructure - wthr.com",
+      "source": "wthr.com",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaWJveC1GVkdLUjVha3doRlJnYmw0SF9MNWJkODc0Y1otTWhtVXI2SVYyTnFKVW9MZjlkMFhSOFB5TzJXcEpoRFJmWTRLWFJaZzZnRjhWVHhIcUd3XzkyNDFwcXU0azBGd0g2cmZza3VQNTZnWk11NHF1cFkwdTJkbmh6ZVF3VDBPZlQ4bW5WS1FWVk8tcFYwSHJhN2s0a25rN1JURVdkMzNRMkNma1Y3UXNQS3Mzb0R0RkFUXzNDUjRsbGtIc1p0Q212ZjFrREVMZkl1QkxpRm5yMEZrLWdGNnJpdmZDUVJCWnRvR3kwWVBScHZxa1E?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi9gFBVV95cUxNaWJveC1GVkdLUjVha3doRlJnYmw0SF9MNWJkODc0Y1otTWhtVXI2SVYyTnFKVW9MZjlkMFhSOFB5TzJXcEpoRFJmWTRLWFJaZzZnRjhWVHhIcUd3XzkyNDFwcXU0azBGd0g2cmZza3VQNTZnWk11NHF1cFkwdTJkbmh6ZVF3VDBPZlQ4bW5WS1FWVk8tcFYwSHJhN2s0a25rN1JURVdkMzNRMkNma1Y3UXNQS3Mzb0R0RkFUXzNDUjRsbGtIc1p0Q212ZjFrREVMZkl1QkxpRm5yMEZrLWdGNnJpdmZDUVJCWnRvR3kwWVBScHZxa1E",
+      "published_ts": 1767254400,
+      "id": "23c3da0f32e968f0322ccace"
     },
     {
       "bundle": "Wayne County TOD",
@@ -2163,6 +2262,28 @@
       "id": "48826029ea11ef8a14741128"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Morrow: Detroit must rally behind Mayor-elect Sheffield - detroitnews.com",
+      "source": "detroitnews.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ25aeTlzVmZMdF9ZTDI3REhyR3lQOENIOE1GRlAxanppOFBqbHFfanBZODNPYkpJRWRlWFFxTzd5eDNYU01DbWItd3FUaTJ4SUZyeGE4VHFxV2IwZEhaZk5xR19ZUm1ySURKVUpJRGFPc2RGQlVqSWE2VWg0SFVzQUFCclhZYUc5b05JcUowRWpzdGdPbEJPYWU2d1A4VVNKSldXT2tWQkg3MVpCM2hLeDA0S3owUmhXMEhCRw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivAFBVV95cUxQZ25aeTlzVmZMdF9ZTDI3REhyR3lQOENIOE1GRlAxanppOFBqbHFfanBZODNPYkpJRWRlWFFxTzd5eDNYU01DbWItd3FUaTJ4SUZyeGE4VHFxV2IwZEhaZk5xR19ZUm1ySURKVUpJRGFPc2RGQlVqSWE2VWg0SFVzQUFCclhZYUc5b05JcUowRWpzdGdPbEJPYWU2d1A4VVNKSldXT2tWQkg3MVpCM2hLeDA0S3owUmhXMEhCRw",
+      "published_ts": 1765785600,
+      "id": "4f0c37564594d0b00bfdec93"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "Police search Brown University after shooter kills 2 and wounds 8 on campus - detroitnews.com",
+      "source": "detroitnews.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnZmTmM4RGdzanlwUzlsVXRja2tZc3JGM0JEOU9sdkVQY08zV3lmZVE4Rmx0Umw4LUYwQ0Jpb2dMcXFYb1BMTWJMM3pBVktsc3o2a2lwcEZyQlNXR0pQQ09sLTZPNk9kLUpXbEFueHRQSXFhMll4UUFUUmMxZWtHclVGcFUxaW5Xbnk2Z1M3QXAyNWlxZ1lrYWJCREtZR3NXZHk0VFd1ZG1SUmdvd1dpUHJ6MVo?oc=5",
+      "canonical_url": "",
+      "guid": "CBMitAFBVV95cUxNMnZmTmM4RGdzanlwUzlsVXRja2tZc3JGM0JEOU9sdkVQY08zV3lmZVE4Rmx0Umw4LUYwQ0Jpb2dMcXFYb1BMTWJMM3pBVktsc3o2a2lwcEZyQlNXR0pQQ09sLTZPNk9kLUpXbEFueHRQSXFhMll4UUFUUmMxZWtHclVGcFUxaW5Xbnk2Z1M3QXAyNWlxZ1lrYWJCREtZR3NXZHk0VFd1ZG1SUmdvd1dpUHJ6MVo",
+      "published_ts": 1765612800,
+      "id": "b766205a77585dad225aeaf6"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis economic development",
       "title": "IEDC releases job data, regional development vision - Indiana Capital Chronicle",
@@ -2216,6 +2337,17 @@
       "guid": "CBMiuAFBVV95cUxPblVUdk4xcTFxUnY3a292Vm5OOHBXTWRoUlE3N2IzcGo4WE5vaUtVUWV3dnktcWRXb1d1REJDWDhPTWc0QVRTdFZVcE5hc09kbS1UTzk5OXZ5YkpDZmtiR3ZrazJueXhCSndfWmM2UUJxRnpSbmptSVpKUkhTU25PY294bkR5REYtSG03T2FwbS1QX0x3QWdoS1hRekdlRU1tZzNCbFJGOXAtUzNpU0V5TkpTbzBtZV9G",
       "published_ts": 1765440000,
       "id": "dc51c35eed45a437dfe6b13b"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "Wayne County advisory board hears reentry providers describe CBT, trauma-informed care and housing supports - CitizenPortal.ai",
+      "source": "CitizenPortal.ai",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQVGo4NFNrdWlScEMtSzc3cUNxNzk2Y2lrUzVNY0h5c1pfWUVpTXJzSVl5d3BURHF0UlNUaUVOVFdTbmtoUTVHMnZGNEZNaTJBN2pUbms3Y1R6eDJzMEFoSTM3OFp2bVc1dmVna1I1ekdPblpnM3NLM2VVRXFLX0NHaHYzek40OXdyZnNmR1hoUkFyZUJSQ1U2dmU0b2FuSzhrdGZpd2Y5Z2VoNWE2NHNfNGV2akh0bWFldmpiaHRnRlRmQkJHbzAtSHdZSV9nSjdZcFJnazAwUWhwaXFfRXNObjlreG9XNjZJWnR3TXpFekJabU1LUW1BYWhuOEp6bzRMVktFVA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihAJBVV95cUxQVGo4NFNrdWlScEMtSzc3cUNxNzk2Y2lrUzVNY0h5c1pfWUVpTXJzSVl5d3BURHF0UlNUaUVOVFdTbmtoUTVHMnZGNEZNaTJBN2pUbms3Y1R6eDJzMEFoSTM3OFp2bVc1dmVna1I1ekdPblpnM3NLM2VVRXFLX0NHaHYzek40OXdyZnNmR1hoUkFyZUJSQ1U2dmU0b2FuSzhrdGZpd2Y5Z2VoNWE2NHNfNGV2akh0bWFldmpiaHRnRlRmQkJHbzAtSHdZSV9nSjdZcFJnazAwUWhwaXFfRXNObjlreG9XNjZJWnR3TXpFekJabU1LUW1BYWhuOEp6bzRMVktFVA",
+      "published_ts": 1765440000,
+      "id": "41c8770b54d3b56ae0e83da5"
     },
     {
       "bundle": "Wayne County TOD",
@@ -2348,6 +2480,17 @@
       "guid": "CBMi2wFBVV95cUxQUUJTQWQ0YkRDQ2RHc2d1aHBiWVNGTEtEeFhob3hhTDhHVWFBU2JiR2dINzhvSHZta24tYWt0b1FvQm5iTzJva1dUMU4wdkVsajBPcjU1X2VHTkp3OUpIb2lVcTdYWDZOSmJJSG5tM1hsOVJwN3EyeGhBTjdfOFc3YWdzaDVnRWtBY0NuLWM0YVdQSXBERDFaOWdiTXN0UU43WWhJTFVrQjA1cDJ5N3dXejN5VkdZSzI3c2RfR2FMX1QtWU9mRE5IaXlhcDFqS19DTm5WSzZhZGRBZW8",
       "published_ts": 1765267200,
       "id": "538cc2cdef6d5466f427f376"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Home sellers pull properties at record rate as housing market cools - wishtv.com",
+      "source": "wishtv.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBINzFPelpSN0lHTV9sU3hxTGdERUFVSlZtalk5NkRabjZ2cHJ2OUNsdjZ5NkY3RnFfWVZWNW5lU1dsM3VYYk9VREh0aGlpS2RxWnVHeE1DaU9BX28wWXFGQTlEczI3OUxKWmpfc0U1dWFQc2c4dkFj?oc=5",
+      "canonical_url": "",
+      "guid": "CBMid0FVX3lxTFBINzFPelpSN0lHTV9sU3hxTGdERUFVSlZtalk5NkRabjZ2cHJ2OUNsdjZ5NkY3RnFfWVZWNW5lU1dsM3VYYk9VREh0aGlpS2RxWnVHeE1DaU9BX28wWXFGQTlEczI3OUxKWmpfc0U1dWFQc2c4dkFj",
+      "published_ts": 1765267200,
+      "id": "d3103f4213d85bfa97b71fb6"
     },
     {
       "bundle": "Wayne County TOD",
@@ -2524,6 +2667,17 @@
       "guid": "CBMi3wFBVV95cUxNcElXNkZYSkVRcFNoQmJXWXJQX0ZiR0QtM3g1VkxBc1hteGIyN1otbkhPZmRNVkNjMDdQX3lkTjNud2lFMWpPNS01THUtWDR4NnlEU1MzZGZzRG1wZlRNalBZTEF4cFZpS19HSGFZVTgzS0Z4M2JpWmY4a29aTFRFQVJfZFdWNTRIVE14MVlMaW0zclJ6YnpWNV9DVEZ5ZFJFYUVKOHpJNUI4dWZTQndjUzNxS0h5TkV1eE5td0dzTi1lNlBTR1RGenBBRmNHbzdDOTQ4T0Z4dVkwc2xBVUxV",
       "published_ts": 1764748800,
       "id": "496a5df04f68e08edbfd6aab"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana launches new pilot program allowing state workers to bring newborns to the office - indianacapitalchronicle.com",
+      "source": "indianacapitalchronicle.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc1g5eGp5M19NTXIyaWVmUS00NHh2VjZIMGtPcGIydTZOWFBxVUpGMjFrTVh3ZEYzUWFRUWcwSUtZcV9OaC1QRDVzS1ZxY2RoMW9KUDJnSzlhUGlkdWpBWFRNRktUTHVNamJlOHpvU2g2YXdJeDFJbUh3MGFDVlFDNUl3RTN5c09WQldEcnYyZDRRanFna0xtY1ViUGJrc3VlcktwS2Z1WndpU1J4YTctRnY2bC1ZenM3Z1hpQWVpb3ZtbnhfZ2J6UW40OFFtZ01uMFFj?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi0wFBVV95cUxQc1g5eGp5M19NTXIyaWVmUS00NHh2VjZIMGtPcGIydTZOWFBxVUpGMjFrTVh3ZEYzUWFRUWcwSUtZcV9OaC1QRDVzS1ZxY2RoMW9KUDJnSzlhUGlkdWpBWFRNRktUTHVNamJlOHpvU2g2YXdJeDFJbUh3MGFDVlFDNUl3RTN5c09WQldEcnYyZDRRanFna0xtY1ViUGJrc3VlcktwS2Z1WndpU1J4YTctRnY2bC1ZenM3Z1hpQWVpb3ZtbnhfZ2J6UW40OFFtZ01uMFFj",
+      "published_ts": 1764748800,
+      "id": "a2333a1cf1978ac447a65536"
     },
     {
       "bundle": "Indiana TOD",
@@ -3054,6 +3208,17 @@
       "id": "8e05744112ee45649c02c045"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit workforce",
+      "title": "Detroit Free Press Recognizes Aledade with 2025 Michigan Top Workplace Award - Business Wire",
+      "source": "Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVm5zclAyVUtBYTc3YmptMzVkZHkwMlR6b3BRdHIycmxOeWoxVnZNcFVqcWhVRUVyNUF1eUs1RFhYYXN0QUFRS3B3YzRreWtpaE1XMTBLRXExRkRnT252V0JudUc1Nktxdzl1dTlhdThzMUZFaGlOSml1dGUtNTNVSGh1VHk3LWg2ZnFJU3hJZzd3cmRGVGdmcFZ6a0prbkRUdjhrTnRUTS1Cd2JfYzh2TFNQZnBPNDdQSHpjdUVFR0ZvSUk0QlFuT2tnWm9XQQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizgFBVV95cUxPVm5zclAyVUtBYTc3YmptMzVkZHkwMlR6b3BRdHIycmxOeWoxVnZNcFVqcWhVRUVyNUF1eUs1RFhYYXN0QUFRS3B3YzRreWtpaE1XMTBLRXExRkRnT252V0JudUc1Nktxdzl1dTlhdThzMUZFaGlOSml1dGUtNTNVSGh1VHk3LWg2ZnFJU3hJZzd3cmRGVGdmcFZ6a0prbkRUdjhrTnRUTS1Cd2JfYzh2TFNQZnBPNDdQSHpjdUVFR0ZvSUk0QlFuT2tnWm9XQQ",
+      "published_ts": 1763452800,
+      "id": "4ae6165bf273893837930de4"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis transit",
       "title": "Where to find help with rent, utilities, clothing and food this winter - Mirror Indy",
@@ -3151,6 +3316,17 @@
       "guid": "CBMiyAFBVV95cUxOLUF5cE1VOEhMNU81eEVoU3JXYnBYZk1VN09LTll4ZEYwTjFnZS1ESHNlUk5oQkpZOGd2cUdtc3pJNWVmcUFzY0NrUkdzeTdnaWsxcVlkRmRhbnBBellocWxqQ1o1MDE0dmNvZHNvdW9mR1Q2MUY5Vk5sblpLVWVtX0JjUUVYV1gweTNYZFZFMi1uN090elpfNXhsOUtuck5HMkdLeWZ1a1NRNDRHUG1NYmlqTWxHRTBlY2hxb1prTHNoZGJHSXhjOQ",
       "published_ts": 1763107200,
       "id": "c5077fdd151f8220cacdd34a"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "DeWine awards $13.5M for transit projects - limaohio.com",
+      "source": "limaohio.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOFRtdldMWmhOODBkQmtPY25VN2oyZFdYWUtVdUFBX3V6WnF4LXJlTHdfQXU0Z2xXdHlUZm16aDJFTHExdVdlNW9NbkFvN2hpb3JCMHpKVXVsSUhybW9COUNHZjBhdzJrTlZ4WUZDREJCZFppaDVzUGNYLXJ2U2RMeDNTTnBHUGFhaVE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiigFBVV95cUxOOFRtdldMWmhOODBkQmtPY25VN2oyZFdYWUtVdUFBX3V6WnF4LXJlTHdfQXU0Z2xXdHlUZm16aDJFTHExdVdlNW9NbkFvN2hpb3JCMHpKVXVsSUhybW9COUNHZjBhdzJrTlZ4WUZDREJCZFppaDVzUGNYLXJ2U2RMeDNTTnBHUGFhaVE",
+      "published_ts": 1763107200,
+      "id": "418c234e8de12f72ce6ae60f"
     },
     {
       "bundle": "Wayne County TOD",
@@ -4174,6 +4350,17 @@
       "guid": "CBMimAFBVV95cUxOcTNIS2t3d3p1XzhJd01zMWpwS0NsUTQtREQ5bnRDejJHRml5dXRHdE4tUHp0NGdmMlRrSGlUVl9JLWhtcXNUcHIzQXlwWVdsbHR1YlNoNmp3NGhPVzdwUm1OTVFrek0wVkloTjBtV0J6dmoydjVrMVBCUFlXU0VXc0hudFZzdmFQRjVKempPMlBMS2pjYUNoQw",
       "published_ts": 1761030000,
       "id": "ff0b94fe76b898507d810303"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Bus driver hits, kills 2 pedestrians in Indiana County - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qeFhGeml3bTE4UGVFUW9Ic2h5RUJyeHd4UWZwVEJmUGZDRXhscEdSMWVYWS1nNFdEeWJGR1lqQVZzR0VKdExtejdPbk1PYkFNQjR5RVRXb0VhZWRxUlktTUxWYmlnaG5haDZBYlhLOVdISGdrNTN6N3Vvcw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMie0FVX3lxTE5qeFhGeml3bTE4UGVFUW9Ic2h5RUJyeHd4UWZwVEJmUGZDRXhscEdSMWVYWS1nNFdEeWJGR1lqQVZzR0VKdExtejdPbk1PYkFNQjR5RVRXb0VhZWRxUlktTUxWYmlnaG5haDZBYlhLOVdISGdrNTN6N3Vvcw",
+      "published_ts": 1761030000,
+      "id": "7bb6e3da2ba19872f2b8edc3"
     },
     {
       "bundle": "Indiana TOD",
@@ -5310,6 +5497,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Workplace Investigations - indianachamber.com",
+      "source": "indianachamber.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05MXFQTWtjWXlRVVhiUVFQd0h0T2J0NmQxZHR3M0ZrLUVGdHZ3YnRlSlJVMnpQb01XZDdkMDBsSGE0eWdjVUZaejltMlJiNS1NUDMtQ2FibXRpaHNQU2FvdG5KMS1pX3E2VGx3dDFxMA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMib0FVX3lxTE05MXFQTWtjWXlRVVhiUVFQd0h0T2J0NmQxZHR3M0ZrLUVGdHZ3YnRlSlJVMnpQb01XZDdkMDBsSGE0eWdjVUZaejltMlJiNS1NUDMtQ2FibXRpaHNQU2FvdG5KMS1pX3E2VGx3dDFxMA",
+      "published_ts": 1758661858,
+      "id": "1d456ecffd55451d5e65dbd7"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis transit",
       "title": "IndyGo planning new bus docking bays by Carson Transit Center, eliminating street parking - ibj.com",
       "source": "ibj.com",
@@ -5604,6 +5802,17 @@
       "guid": "CBMivgFBVV95cUxQX1cxWk1FaW9TcXl0aGtiVGdNdDdXV1VlNUtXQjNudHMyZEpUTU1kNGthX28zR2Q0MVJ6dE9rbWtXcS15ZWo0Z29QeWVNWmtnQ1E1LWxzZHJPS2pPa21MVjJTaEo5Q2x6RHMzXy13UUpqQ0VFVnRLd015YWJiUFZzckRFQ080Y1lMT0R2QlpoZ1UzTDRnVWRkeGtrUHVPemRGbFA2c1BwVV9mQXdhX1hwN002THB0ZGEzbE1ZY2Rn",
       "published_ts": 1757919600,
       "id": "7bf445fe1c61b8a9045f559e"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "$750K Green Jobs Initiative to train 100 Indianapolis residents - wrtv.com",
+      "source": "wrtv.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeTJybmJ4SnZ4d3hYbHE5NmxIVDZremt4bUNDRzFZRHhfRWEtWHIzUkRmQ3JuUkd1OVJHdzR6NUlZWUFMTDBxc1dRUmUwcEZwMjdtZ2dVVEtYZVNuaTBJMVpvNTBWVjJxS2c4TC1XR1VzS19jZGRzUzBpU2pHQVVnNGZKVTIyQVAyZW5WOHlVUHl0TmFtS0p6T2FMdGJ6VkhE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxPeTJybmJ4SnZ4d3hYbHE5NmxIVDZremt4bUNDRzFZRHhfRWEtWHIzUkRmQ3JuUkd1OVJHdzR6NUlZWUFMTDBxc1dRUmUwcEZwMjdtZ2dVVEtYZVNuaTBJMVpvNTBWVjJxS2c4TC1XR1VzS19jZGRzUzBpU2pHQVVnNGZKVTIyQVAyZW5WOHlVUHl0TmFtS0p6T2FMdGJ6VkhE",
+      "published_ts": 1757919600,
+      "id": "1ec9305fb2d25353282ea0d0"
     },
     {
       "bundle": "Wayne County TOD",
@@ -6057,6 +6266,17 @@
       "id": "0349acfd8a8a36d8137a98c2"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Brevard County Sheriff Wayne Ivey Delivers Labor Day Message to Recognize America’s Workforce - spacecoastdaily.com",
+      "source": "spacecoastdaily.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY0g0amtUanV6NG5GUnZ4cDJ4X0ctOEQ0d0VYWERSNVFHWXRscXBGX1NGZlVFMVhsVHBuU2d3MUZVWmxEZE42alg0NEdPenktWGx6Z1NqaUsxY1E2THQ0aGRMdHFnRXdQVVNyaFdnNWJDaEZIdW5sNDJXYkNTTTlLMkticG1yMVZ5TDd1eFVVdnRIUTFlci1RNFdkdmtiWkdNUURIMjZlZXhXVGZKNFpybEYxeW1HQkZLaGpCdHpJb2dDc3hGYU5JZA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiyAFBVV95cUxQY0g0amtUanV6NG5GUnZ4cDJ4X0ctOEQ0d0VYWERSNVFHWXRscXBGX1NGZlVFMVhsVHBuU2d3MUZVWmxEZE42alg0NEdPenktWGx6Z1NqaUsxY1E2THQ0aGRMdHFnRXdQVVNyaFdnNWJDaEZIdW5sNDJXYkNTTTlLMkticG1yMVZ5TDd1eFVVdnRIUTFlci1RNFdkdmtiWkdNUURIMjZlZXhXVGZKNFpybEYxeW1HQkZLaGpCdHpJb2dDc3hGYU5JZA",
+      "published_ts": 1756710000,
+      "id": "8213ab8a93c465b5fabc9196"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis economic development",
       "title": "Ports of Indiana Appoints Dexter Salenda to Foreign Trade And Economic Development Director Role - buildingindiana.com",
@@ -6143,6 +6363,17 @@
       "guid": "CBMiekFVX3lxTE5VeHZGYTZ1VWJkNUhVUWtWeTdfYjRsR1UxU0kyWDZuNkJWdHJpZ0tuV3l2NEhpdEdLYkVac1RNb184akNGeHozdFg1WmViRmJCZUtUTm90QlhKQmdKWjFzdExab1I0WHpEcHN2VkRYaUV1cHlMVnk4bmxR",
       "published_ts": 1756450800,
       "id": "2c70c3f34801c756cfdf41af"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana’s Growth Story is Really an Indy Story - news.iu.edu",
+      "source": "news.iu.edu",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzE1YWk0VGxtZWdsYVFLalVfajVLVXVDM3M0VGJBMklrd2xuWldfUGJxN2FwdEQ4RkN1MkNFWXdRQ3E2TWRoVmpNSGd6SnZSSjZSWTAweE1ZbEhzSmpZdGN2LVRzOGRkQjZBR1lsWTVQR3k2SFRCMlY3cW9WQTVLd0xpMGxVb3hLT2d3N1BoZXlMNEZiSFE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilgFBVV95cUxQSzE1YWk0VGxtZWdsYVFLalVfajVLVXVDM3M0VGJBMklrd2xuWldfUGJxN2FwdEQ4RkN1MkNFWXdRQ3E2TWRoVmpNSGd6SnZSSjZSWTAweE1ZbEhzSmpZdGN2LVRzOGRkQjZBR1lsWTVQR3k2SFRCMlY3cW9WQTVLd0xpMGxVb3hLT2d3N1BoZXlMNEZiSFE",
+      "published_ts": 1756450800,
+      "id": "cd00ef3f7da24c56c8410c48"
     },
     {
       "bundle": "Wayne County TOD",
@@ -6288,6 +6519,17 @@
       "id": "b97c5a589c1fe3d1756caaca"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Brian Smith named Pa Commissioner of the Year - riverreporter.com",
+      "source": "riverreporter.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOWJRekI5bFFmMGVnU0lEMTQ0UjFMdXJlRnFyWk40YW5fZTByVWhJTHJ4RndRWno5ZmhpOW5zZnlreG00OWlFa1ZDZ0hHcERnT2tidVU0eGVWNDY5VTRBMmhNRnlTWW1CbFR6TGJTQThfWk9xcDJUOHNVNE95WHFvLXBSWmo2Rm9CQklFR2c2OA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijwFBVV95cUxPOWJRekI5bFFmMGVnU0lEMTQ0UjFMdXJlRnFyWk40YW5fZTByVWhJTHJ4RndRWno5ZmhpOW5zZnlreG00OWlFa1ZDZ0hHcERnT2tidVU0eGVWNDY5VTRBMmhNRnlTWW1CbFR6TGJTQThfWk9xcDJUOHNVNE95WHFvLXBSWmo2Rm9CQklFR2c2OA",
+      "published_ts": 1755846000,
+      "id": "496bccd35cccc897bbdc110d"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis transit",
       "title": "IndyGo approves first fare hike in over 15 years. How much riding the bus will cost in 2026 - IndyStar",
@@ -6374,6 +6616,17 @@
       "guid": "CBMirgFBVV95cUxNVGs5bE93bFFYc0dXUm5aSGxod1VrRF9ESlJwN0VkZHVKa2RsV2xibVhGeHhuTUg5YlR2U2hZbC1VQnMxdVR0cjVuN2p3NkxmbkFlSGRpS3JYaWlDaktmaW1fWTNQRmctQ1R0ZWxKcmNVSWY1NDE0Y0pVV1YxbGxDdTg1aV81alhDTHAxZXlzQm1XbF9kS1ItNkVWWEJ6TUFXY3B3SHB1TDdTUVFxVGc",
       "published_ts": 1755673200,
       "id": "58c5be48c74a2948ee1c129f"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "SNAP cuts will worsen Indianapolis' housing crisis for working families | Letters - indystar.com",
+      "source": "indystar.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXZsYkc3ZFFJT3lXY0JzZGxaZHlhUGhLeEpqLWhpR1Vnc29mdmZtLUZ6SFlvaDUyOHpHWEplWlR5bFJ0dTBqNUFzNGQyQVY4NnY0R2NWMGZZVDVHOWlzSlRoWkFEaUtKeWMtdTdMM09zaExNVkNHUzZpT1pPRkhmLUc0R1A4LTdwbEZBMThVZEFuczU0TWs4Z1lVUXA1NGlYSGt4TkRleWdxVm9GczhlcFhnQVJ4V1piMXlKRVB2ekQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiwAFBVV95cUxPZXZsYkc3ZFFJT3lXY0JzZGxaZHlhUGhLeEpqLWhpR1Vnc29mdmZtLUZ6SFlvaDUyOHpHWEplWlR5bFJ0dTBqNUFzNGQyQVY4NnY0R2NWMGZZVDVHOWlzSlRoWkFEaUtKeWMtdTdMM09zaExNVkNHUzZpT1pPRkhmLUc0R1A4LTdwbEZBMThVZEFuczU0TWs4Z1lVUXA1NGlYSGt4TkRleWdxVm9GczhlcFhnQVJ4V1piMXlKRVB2ekQ",
+      "published_ts": 1755673200,
+      "id": "cc80aec146624e00b9e42c63"
     },
     {
       "bundle": "Indiana TOD",
@@ -6495,6 +6748,17 @@
       "guid": "CBMi1AFBVV95cUxOTU42Wkktc1VvYzIwR2RsSHFBQjh6UkRUU1Q2dmNCcGJrdGs0Y1RFLUJhZmQ2WHpxV0U4dTk1ajRmRXdUUWdhRi0waUZ0d2VYMHozdjZ3RDRCUGVOM3RPTk1zNXBETUhNNUIyOFRIRlRBTmcwcDV0eVRpYmZzRm16VmZwREYzbUR2YWNjZ3FURnhjbVp1YmtLZ004eE94dDRrOTVwZDhZVW5hVGRndEpVZExJeDJ2a1ZWRUg5cEZZbEw3S0dGMEZleFg0RDhuS202UlNfYg",
       "published_ts": 1755241200,
       "id": "5dbe94ec87a3b7592b04f069"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Washtenaw County’s Piece of the Regional Transportation Puzzle - concentratemedia.com",
+      "source": "concentratemedia.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2Z3d6WXRveFJNLWZRbW1jRUFVQmo2dVI0cmgxMGhEZGFNYm9uX21fYmlDMW9aajY3Wm40RUxBdmcyOUFIc2NENUxwZ3JEbEZadUtkSGV5NXRPUlJXM0tsNndOV09ScFk?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZ0FVX3lxTFA2Z3d6WXRveFJNLWZRbW1jRUFVQmo2dVI0cmgxMGhEZGFNYm9uX21fYmlDMW9aajY3Wm40RUxBdmcyOUFIc2NENUxwZ3JEbEZadUtkSGV5NXRPUlJXM0tsNndOV09ScFk",
+      "published_ts": 1755209164,
+      "id": "0101e0be90a2913c1f010a24"
     },
     {
       "bundle": "Wayne County TOD",
@@ -6891,50 +7155,6 @@
       "guid": "CBMi5gFBVV95cUxPMlloaWVsTXhtUmlwNmN1U3JLTHFheE9WQWtITmF4ai1PS0tIV0gyLXVOQTlJQXBBNjhaQXNOY1pBcFFkUXl6LWFRWi1BUTZNU1FsUHVtamFUS1k5X3l1M0pCWUdnZXpaQ2w0T2hDTXlDVlhVR296S1VNb29oNGk1MkhlOFNfSEdYb0Q1UUpUQUJ2ZmpWbVB6dEJuQ1BFajBadWxWUGJpSnFDZFd2cm9yQWo1VjRSSmdJU1ZDdDhNaWpZLXhXUHZFOWg3aWFPWHpYWmQ0aVBWQnJNSUthZXdPVjgyYkVSdw",
       "published_ts": 1753858800,
       "id": "769cb565dc20c1064d39b968"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Indy man given 8 years for setting fire to IndyGo bus, station - dailyjournal.net",
-      "source": "dailyjournal.net",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM0pja3gza1g5ckpTckZlZVlmUjNSUWotdmh5bzJEUGFMYUc1RkU5UnlLODcwLVVpWmJBaWgwM3R2cHBJMlA2aGlKZTgxejJJWHRkTl8xbUN0dS1IeGRRS3N4Y0hvMlc4R1dIX0tfbzhodFNETXRZNk1fZGRVTmtVS3B1bmtlQnNvR3BDb3M3bTlUUlExUkJENDRJMWVkSXc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMinwFBVV95cUxOM0pja3gza1g5ckpTckZlZVlmUjNSUWotdmh5bzJEUGFMYUc1RkU5UnlLODcwLVVpWmJBaWgwM3R2cHBJMlA2aGlKZTgxejJJWHRkTl8xbUN0dS1IeGRRS3N4Y0hvMlc4R1dIX0tfbzhodFNETXRZNk1fZGRVTmtVS3B1bmtlQnNvR3BDb3M3bTlUUlExUkJENDRJMWVkSXc",
-      "published_ts": 1753772400,
-      "id": "61f966fde779ecde7b85fafb"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Indianapolis man sentenced to federal prison for starting fire on IndyGo bus - WTHR",
-      "source": "WTHR",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUXVfRUJIUi1XWURUN0U1dGVGUjk4djFLNWM1UlZJOTBxVDM2RUVKeE1sazNFX0V1Tkh5OGk0NS1RQTZ5NEF2cjM5LUNXMllGMFVFRHBSdnJDRGlSXzRsell1RDdpODQ4SFNiYlpPUlo0R3ZUT05kdHFEVTZ0bTZBMDZrS0szdU44UktfTmtfRTZ3VlFVdkNuOUNSUXAxUzdKdGdLbFZxdmJuQzF6cXJKYmxILTNEUFcyeTJ4R05EUjVXNlA2RXlDamhYVC1rVHJfMjkxTWoyUFRpUHFLbE5wbE9Tc0l3LTB4VkN6Ui1Pdm1peEQxVmc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi9gFBVV95cUxPUXVfRUJIUi1XWURUN0U1dGVGUjk4djFLNWM1UlZJOTBxVDM2RUVKeE1sazNFX0V1Tkh5OGk0NS1RQTZ5NEF2cjM5LUNXMllGMFVFRHBSdnJDRGlSXzRsell1RDdpODQ4SFNiYlpPUlo0R3ZUT05kdHFEVTZ0bTZBMDZrS0szdU44UktfTmtfRTZ3VlFVdkNuOUNSUXAxUzdKdGdLbFZxdmJuQzF6cXJKYmxILTNEUFcyeTJ4R05EUjVXNlA2RXlDamhYVC1rVHJfMjkxTWoyUFRpUHFLbE5wbE9Tc0l3LTB4VkN6Ui1Pdm1peEQxVmc",
-      "published_ts": 1753772400,
-      "id": "a002a07cbe8004ff0960147a"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Mayor",
-      "title": "Detroit Evening Report: Early voting open for Detroit primary - wdet.org",
-      "source": "wdet.org",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMGtWYkZYaVRQS01QZF9Vc3FidVBHODFTM1lQdTdmTHctNUhkVGpyRG1sbnhLYmpvaHlZMjVMN2plUU5tejhNR3JOTGJFMmdmdFVYcHFodmg0RTB2MmQtTWJscmdOTHZlUEhONHZGZWszdmg2cXZXcTRsSEtuQ1gwUTE3dkR5M196X0RkZTJoWHpvWTQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikwFBVV95cUxNMGtWYkZYaVRQS01QZF9Vc3FidVBHODFTM1lQdTdmTHctNUhkVGpyRG1sbnhLYmpvaHlZMjVMN2plUU5tejhNR3JOTGJFMmdmdFVYcHFodmg0RTB2MmQtTWJscmdOTHZlUEhONHZGZWszdmg2cXZXcTRsSEtuQ1gwUTE3dkR5M196X0RkZTJoWHpvWTQ",
-      "published_ts": 1753772400,
-      "id": "ea5d13fa3f98e6e803e845f7"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Indianapolis Man Gets Federal Prison Time for Setting IndyGo Bus on Fire - wibc.com",
-      "source": "wibc.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbEoyU3FnNENGdkdRTkFrNEMzWVMyZTU4Smg0dWFaTGZhZnpLbFJLUEkyblEwRUc1MFlaYnR1REgybUgxbkZid3R4MnhidW9uaU9Tblg2NjZxc2tXYTdhWGxZWFh5WTVvbUtNZnZHWmN2cFE5dTRLQmV4UXhDVWlaQUM2Y25ZSjVueExyQ3JmcGN4NkItUldlcXdCOXhYczdX?oc=5",
-      "canonical_url": "",
-      "guid": "CBMioAFBVV95cUxPbEoyU3FnNENGdkdRTkFrNEMzWVMyZTU4Smg0dWFaTGZhZnpLbFJLUEkyblEwRUc1MFlaYnR1REgybUgxbkZid3R4MnhidW9uaU9Tblg2NjZxc2tXYTdhWGxZWFh5WTVvbUtNZnZHWmN2cFE5dTRLQmV4UXhDVWlaQUM2Y25ZSjVueExyQ3JmcGN4NkItUldlcXdCOXhYczdX",
-      "published_ts": 1753772400,
-      "id": "3c8e3433d2037a22beb5b763"
     }
   ]
 }
