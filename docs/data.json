@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T09:38:02.246613+00:00",
+    "generated_at": "2026-02-02T10:03:57.935591+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 824,
+    "items_count": 833,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,39 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit shifts homeless services after kids' deaths. Will it make a difference? - The Detroit News",
+      "source": "The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPeVU5b1h1SkNkbmkzVWJoWklXcXBNZVFCcWE0MzNvUzVFX2hhY2Z3bFRkR2RvdERqX2dYSkU4QmE4TU9RS0hvZkNQZkpLVjBMZ1pmUnYyaWg1OXkyanM0Qjk5Q1BaVDRlZ216dkF3SmFHOVZHcHI5VVdzejZCUzFEZUhvXzVXNWhRbko4d28waUZlTkxxOVB6VWNrQUU3LTV0NFhQMHhzR2t6VWlpYTVpZWRjWkx4VkxBd3lqdDVTYUtMX2pWZG5HNVRYWUtQeE82SnJhdS1IZEN5X2t6REQtcGQ0MVY0NzdCdzBINEtCQm5sZlFGWm8tU2VoWFEyVHFtX3c?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiggJBVV95cUxPeVU5b1h1SkNkbmkzVWJoWklXcXBNZVFCcWE0MzNvUzVFX2hhY2Z3bFRkR2RvdERqX2dYSkU4QmE4TU9RS0hvZkNQZkpLVjBMZ1pmUnYyaWg1OXkyanM0Qjk5Q1BaVDRlZ216dkF3SmFHOVZHcHI5VVdzejZCUzFEZUhvXzVXNWhRbko4d28waUZlTkxxOVB6VWNrQUU3LTV0NFhQMHhzR2t6VWlpYTVpZWRjWkx4VkxBd3lqdDVTYUtMX2pWZG5HNVRYWUtQeE82SnJhdS1IZEN5X2t6REQtcGQ0MVY0NzdCdzBINEtCQm5sZlFGWm8tU2VoWFEyVHFtX3c",
+      "published_ts": 1770004800,
+      "id": "233cb3e70408ee003657009b"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "IndyGo Celebrates Rosa Parks Birthday with Free Fares on February 4th - WISH-TV",
+      "source": "WISH-TV",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPajBRN3BEZEJYUXJqV2xNamRBT2Fmd3NqM281UFRWMG5YVGJ1aXNzWHVHWTBHN0kwUGYtcjIxbkx4Smh6MjJRcFZQUTF0ZmpqcUZhMS1LSzdIeUJOdmpTZ3NjUXRaMURDWFRrSnNRSmFiQTUtb1dsbzFwRWtUWkMyWE5MbnpyQWtNNG1JTWhpZWs4dWNlN0otRHhGenpjOGw3MWUyWA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxPajBRN3BEZEJYUXJqV2xNamRBT2Fmd3NqM281UFRWMG5YVGJ1aXNzWHVHWTBHN0kwUGYtcjIxbkx4Smh6MjJRcFZQUTF0ZmpqcUZhMS1LSzdIeUJOdmpTZ3NjUXRaMURDWFRrSnNRSmFiQTUtb1dsbzFwRWtUWkMyWE5MbnpyQWtNNG1JTWhpZWs4dWNlN0otRHhGenpjOGw3MWUyWA",
+      "published_ts": 1769980705,
+      "id": "ae081124331c1a9f6625d8bb"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "IndyGo Celebrates Rosa Parks Birthday with Free Fares on February 4th - WISH-TV",
+      "source": "WISH-TV",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1FsZ3JWUnBHSGpvaEowZmtBYlhNWEJ3eGNTWUkwd054aWV4VEVEeVI3Y3JuNnVaVkdQUlE1RTZSX2RPeFF2X1NfaURSMFFqbXM4Q2NwUC1vRmpXUHp3bkM1S09EMmJMLTdYM0Vvckt2akRUdzRzWFhaUWptUXViQkxZekpIbHgyNlBOeVVhT1JLODZnZHpNcDJ0ZFd5QmZ2Rk0tTDhNNTFXQkYwT2x2cGs4cVA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMitAFBVV95cUxNX1FsZ3JWUnBHSGpvaEowZmtBYlhNWEJ3eGNTWUkwd054aWV4VEVEeVI3Y3JuNnVaVkdQUlE1RTZSX2RPeFF2X1NfaURSMFFqbXM4Q2NwUC1vRmpXUHp3bkM1S09EMmJMLTdYM0Vvckt2akRUdzRzWFhaUWptUXViQkxZekpIbHgyNlBOeVVhT1JLODZnZHpNcDJ0ZFd5QmZ2Rk0tTDhNNTFXQkYwT2x2cGs4cVA",
+      "published_ts": 1769980705,
+      "id": "0f383ba8fd11bb41618f537a"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
@@ -445,6 +478,17 @@
       "guid": "CBMi0gFBVV95cUxPX2lJSEhJdmc1QkczY1YwZTBrS3RLRHJMRWQ2V2xNYUJIZXJrazd3RnFDbV9XWmp5OWJ3SC1MdDZzZTZlaVB6SjVGZ2xWSUVubUFBeDZzOWc2WGNHVkpjZFhyaHF0Qjl2SHFfSUFyQzltMDNOV05RMFhuZVpJR0tMaUZnSElrVzdOWlcwamVPa0VPZVV1TWZoSUI3cXdiMlJZR0JYWVlubXJORmdoYzBHYTFWa2dBbGNBOEY3N0lVMTZiLW5vb3hKSnZTblZxZmMtZ0E",
       "published_ts": 1769681226,
       "id": "4ee370e9381e2a576c0cdd07"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Hogsett hasn’t delivered a ‘Disclose Indy’ ethics portal. So we built one. - Mirror Indy",
+      "source": "Mirror Indy",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV243YVRlQ0szcjlWS3dLZXFIWUtfYld1cXhLcGJuSUpDVHluSmpvbnE4Yl8zUTVPVWViSUs3X1BQVzVLN19EcTlUbzdUbm9NU3BzX2dvUHJzSFV5bFBRbU5ZMExnbWh5UF84aTRTeGhvbUZweDVlYzhMak5ReXQxRDhNRWk2YnpBWFE5ZDF4UDhRekppYWE0N2ZLeVNoV0Q3bEV4MA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxNV243YVRlQ0szcjlWS3dLZXFIWUtfYld1cXhLcGJuSUpDVHluSmpvbnE4Yl8zUTVPVWViSUs3X1BQVzVLN19EcTlUbzdUbm9NU3BzX2dvUHJzSFV5bFBRbU5ZMExnbWh5UF84aTRTeGhvbUZweDVlYzhMak5ReXQxRDhNRWk2YnpBWFE5ZDF4UDhRekppYWE0N2ZLeVNoV0Q3bEV4MA",
+      "published_ts": 1769680800,
+      "id": "7ce4ef39a0f8357000dec1cb"
     },
     {
       "bundle": "Detroit Mayor",
@@ -2131,6 +2175,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Indiana has a housing shortage. Lawmakers are hoping a new bill could help - Indiana Economic Digest",
+      "source": "Indiana Economic Digest",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcUwzTDV1VGhVWU9hX1hleEJTZ1FIcjAxdFA5bld0R1lSNHh3ZV9rYUxTR19ELWgxcXdwYW84WjRLZU9obnNtUHpYYko2U1Y0cnNkeDZsSWZGdkszb1ZfTVpEQmZoWVNxSS1BanNPSUZTa1JWWXhJWEdDdW9EMzNSOVpRZWYtQi1KRS04S0h5aTk0QnJ5dGFWLTdDUXZOdGxiV3FXM0Uyb05yMU5td3hVUHNqUWNvXzNIakpSaHp4YkFGMUdZa0Mtemhyenp1b1pmS3R5NXlpTDBWRnRRd1M3X0YzdHVrTzVXUk45cWlR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi7gFBVV95cUxQcUwzTDV1VGhVWU9hX1hleEJTZ1FIcjAxdFA5bld0R1lSNHh3ZV9rYUxTR19ELWgxcXdwYW84WjRLZU9obnNtUHpYYko2U1Y0cnNkeDZsSWZGdkszb1ZfTVpEQmZoWVNxSS1BanNPSUZTa1JWWXhJWEdDdW9EMzNSOVpRZWYtQi1KRS04S0h5aTk0QnJ5dGFWLTdDUXZOdGxiV3FXM0Uyb05yMU5td3hVUHNqUWNvXzNIakpSaHp4YkFGMUdZa0Mtemhyenp1b1pmS3R5NXlpTDBWRnRRd1M3X0YzdHVrTzVXUk45cWlR",
+      "published_ts": 1768377600,
+      "id": "6a859f9201b6d523830e85c8"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "IndyGo",
       "title": "First month of new IndyGo fares - wthr.com",
       "source": "wthr.com",
@@ -3572,6 +3627,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Broken cars and fragmented public transit detour Detroit patients’ care plans - Planet Detroit",
+      "source": "Planet Detroit",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WUUNDWmRpcUVQLVo3R2s1cmlNYU9DakVfb2J5RXRUSmNwRURsMlZickVObXRaYXZSWWYwRkJqcnJ3X0VMOTJBaXBudmswTzhxbWZWZzE0WHJNRjFfcnlVUE5RbzNBZDd4a2RENEt4SGQtUHRiMGxkTGNHOA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMie0FVX3lxTE1WUUNDWmRpcUVQLVo3R2s1cmlNYU9DakVfb2J5RXRUSmNwRURsMlZickVObXRaYXZSWWYwRkJqcnJ3X0VMOTJBaXBudmswTzhxbWZWZzE0WHJNRjFfcnlVUE5RbzNBZDd4a2RENEt4SGQtUHRiMGxkTGNHOA",
+      "published_ts": 1765872000,
+      "id": "4933b862b82094d32d43abf9"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Wayne County economic development",
       "title": "Former banker acquires longstanding Wayne County manufacturer - Rochester Business Journal",
       "source": "Rochester Business Journal",
@@ -4812,6 +4878,17 @@
       "guid": "CBMinAFBVV95cUxPRlFqd29QYU1kX3VBTUJqYmdvNUZUN2lJX0p0SVVHb1NZSE5UTF9iNWhTMllXU3FTZUZsTkJVLTM5MUZlS19KaDl0cUNSQm9yNTFrQm8zdkhHTXgtcmRnUU5ldlFUdldaMmg1VktCaFJSY0lkdklJWmhHanBRNTNrNTNtbUJtRkhZb2JiWnRUdmhnZzJuQkZKZ0VOcVo",
       "published_ts": 1763366400,
       "id": "524f6c0293821c243cb401aa"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "The upcoming Oxford Amtrak station is good, but we can do better - The Miami Student",
+      "source": "The Miami Student",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmlrOE1XeXoxbHB1cldyc3BVd3JnR1JVZkQ1dW04Xzg4MmhIbkFudnhjWHZGUTNHSGdreXA4QjhTeE8xaWZGUDVwd0NRd0NLNnNRVzJKVWVzcGgzWlJScU5WcUFtRWtlZGdJQXUyZENNU3hiOUJaTHM3NEVpSGlJY1JzYmNPbUVCLUpydkpKVEdGZU1IMHFjZXM2dDRuMHV0dy1lR3RRUTVNRHlFeVd2T1BjQ1I1aDY1dGJybVFYLUNIc3dVckhrMExn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiygFBVV95cUxNMmlrOE1XeXoxbHB1cldyc3BVd3JnR1JVZkQ1dW04Xzg4MmhIbkFudnhjWHZGUTNHSGdreXA4QjhTeE8xaWZGUDVwd0NRd0NLNnNRVzJKVWVzcGgzWlJScU5WcUFtRWtlZGdJQXUyZENNU3hiOUJaTHM3NEVpSGlJY1JzYmNPbUVCLUpydkpKVEdGZU1IMHFjZXM2dDRuMHV0dy1lR3RRUTVNRHlFeVd2T1BjQ1I1aDY1dGJybVFYLUNIc3dVckhrMExn",
+      "published_ts": 1763366400,
+      "id": "cf09838163f9983b17cf9207"
     },
     {
       "bundle": "Wayne County TOD",
@@ -7289,6 +7366,17 @@
       "id": "c00b4d01ea800465d628eee0"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "NCDOT Reports Major Hurricane Helene Recovery Progress as New Transit and Safety Initiatives Launch - Goldsboro Daily News",
+      "source": "Goldsboro Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNUNIanNuX2E1RWRDY1dOREtWSVAtcjRvNTZvVXlCRWQwSm4yZkx6ZXNHLW9JNFVzbmJEZjgwMGNGN1BLSHdDY3ZSUE5Da2NwQUxvZmlZU1p4NHZxZUNLWTdBQkQtcG1wQk41ajhoYzhfUlVaa19KRlFqQ0prV3NsdzVfS1NVWFpwbFBzMzFwbmZ0REREZV8tSXRHaGtfbFZoYmFZektHOHd0VFRPVEEyQmZlWmx3VThiMV9qWklFaTlsLXZPejg4Sll2VkR2RTl4NGF6aXN4aWN5UnhvTFRz?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi3wFBVV95cUxQNUNIanNuX2E1RWRDY1dOREtWSVAtcjRvNTZvVXlCRWQwSm4yZkx6ZXNHLW9JNFVzbmJEZjgwMGNGN1BLSHdDY3ZSUE5Da2NwQUxvZmlZU1p4NHZxZUNLWTdBQkQtcG1wQk41ajhoYzhfUlVaa19KRlFqQ0prV3NsdzVfS1NVWFpwbFBzMzFwbmZ0REREZV8tSXRHaGtfbFZoYmFZektHOHd0VFRPVEEyQmZlWmx3VThiMV9qWklFaTlsLXZPejg4Sll2VkR2RTl4NGF6aXN4aWN5UnhvTFRz",
+      "published_ts": 1758956400,
+      "id": "7fd3c474414894cdd0dd0ab5"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "Lugar Tower residents await relief with Indianapolis Housing Agency locked in litigation - WFYI",
@@ -7793,6 +7881,28 @@
       "guid": "CBMiwwFBVV95cUxNWjRtZ2l3MXVYdDIwb2xBQkhYTF9hUHlZYmVicUhydUp0YVExdy14S0JDbmltdjljTm1tS2pVTmxlWFU3cDNIRHduV1ZaQVNRQlVWS183T3NPbElENUdTMl9ZQ0ttNGZia09DUnBLcjZOQWl1VFJndEtmVDg3bWVJajRpLXhYdGRWS0xnaVdKdjBaeGVZUFd2anlFdjd1OUxWNE9qUVNxeTdBY2RQY0FFMG1FNzFPSG9KdWZVSFBDWWx0dDg",
       "published_ts": 1758092400,
       "id": "80388f134492913247153478"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana Rolls Out Incentive for Employers Who Upskill Workers - Governing",
+      "source": "Governing",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNG9UZkFpSHZad01EX3hxWlB1Rlp2TFlzRFZIYTBVOHRoc2s1VGNNVm9NWmt0Z2x6bmFXTGFqLTdpMlQ5U3gyazhCYWthM1JjTDRZcTdyNUJ3ZUdFckVkMXNGWlJEWVFlWC0tVGpSSkU0dEhVTkhSSWgtcmZmUWloTWYwSFczWXAwT2ZUSE1fTWY4UkpsVm03MFZ1N0I4dw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMingFBVV95cUxQNG9UZkFpSHZad01EX3hxWlB1Rlp2TFlzRFZIYTBVOHRoc2s1VGNNVm9NWmt0Z2x6bmFXTGFqLTdpMlQ5U3gyazhCYWthM1JjTDRZcTdyNUJ3ZUdFckVkMXNGWlJEWVFlWC0tVGpSSkU0dEhVTkhSSWgtcmZmUWloTWYwSFczWXAwT2ZUSE1fTWY4UkpsVm03MFZ1N0I4dw",
+      "published_ts": 1758092400,
+      "id": "9e24acba0286a596ae7c1589"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "New workforce program reimburses employers who upskill, promote workers - Indiana Public Media",
+      "source": "Indiana Public Media",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWW5QdEtHbUEyZmw5emdwTDJkMG9EYk85T0stN2lhb3MxbGotVi1kMldWaDFkVTA5WEZkbF9WWU1YZ1Z4ckVZV3pnSXFvX2tsR0NsenA0WjFzT1FsQlhIdjd2VjN4TjlqZzNWR1VLNzJaUndCZGFrNWo5UUQ4T2hqOTRQenRQNVhqcW9lcllaTy1sSEtuOG5FdWhzLVl2R0Nrc2ZRb21PTUJIdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqgFBVV95cUxPWW5QdEtHbUEyZmw5emdwTDJkMG9EYk85T0stN2lhb3MxbGotVi1kMldWaDFkVTA5WEZkbF9WWU1YZ1Z4ckVZV3pnSXFvX2tsR0NsenA0WjFzT1FsQlhIdjd2VjN4TjlqZzNWR1VLNzJaUndCZGFrNWo5UUQ4T2hqOTRQenRQNVhqcW9lcllaTy1sSEtuOG5FdWhzLVl2R0Nrc2ZRb21PTUJIdw",
+      "published_ts": 1758092400,
+      "id": "ffd7aa0e1acef4576d2eaa51"
     },
     {
       "bundle": "Indiana TOD",
@@ -8387,6 +8497,17 @@
       "guid": "CBMihwNBVV95cUxPSGV3SlFmb2VRaWRxSWcybUFmNjN4d19ZQmxOZWpLNGEzbE5SQm0zLTd1cFBpbTR0cUtIaTJwZVI0S2ZtX0w4YTNCZDVuejlJMG5RNzRmMXBPNVNiRnhnNU9PVnkyamstMEpGLTJ3eDRxTVZuV0tobUhxLXlWbThmc2xiRXBqQmFPd1UzODZTR2VucTFKT1dLMWpwcE5HNXZNQkFyajZsbC1aXzJxWWtJbndNS096VGZiYkNVYjFvZHp5bi1sYXc4MkgwZEJYLVpUb0xaQzVhdEhtT19DWDBkdVhMejg4RVpXVG9vRFg2NktBcWtnUzYwSUtNSGtubTBQOUltTW5saTJ4T1paNk1Rd3hnMjJGdHpfMUFmMGk4Zkxhb2JYb2d1QThLTUg5a0F1Z2lIRmdZRXY2enRiVFU4STc4SHJtcUE2U1UzMzIzUFJwem5yck5HUGc4czZtSzF4M2FObGRmU1AtdVc3LXZhUmc4OUx4UmFqZ1ZjNEhiRnlnV0FqUkhv",
       "published_ts": 1756796400,
       "id": "a45acb9db4227f4d5cf91f30"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "Rail advocates urge public to demand more passenger train investment locally - WKRC",
+      "source": "WKRC",
+      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOdTlGa1hzNkZvMHJBekhVWTJJVWhfM1k5bWxwTFdKVzg2YThsOFVzNHh5REFDY3FjRnZ0NlFKVm1HLWotc0M0eWkweHA4V0ttRkxNdnZXM2dHYmxwajduREppWmhzVU1rak1ZNUp4clZXaHB5Rm9uQW9aWXFSQ1NrV21pZ3pTNGZIVzUzYUp6bDdRbWpYTUE2RnNuQmFTZnFJNTdIekZEVEh6OVktaWxoRlljLThVZVBUTjkybWlkRWNva0NpMElmWDR6aUVxTmx3NHljVzRLSi03NTlnRkNJbFFsQWRjOExUNVFBY1dnZDh3LUpiSWRPZ1NNeEZRc0ZmT1ZRVjB4bmRIcVo0bFBKeHdCMUwzWnoxMllWbnN5MmI1TjJHNVl5Zjl6VnRYMkk3Zi1sYnV1YTVSeHlWV1d3SlBXdDFrd2hyV1VLV29PajFUSmtlRjAxaHZMLXpEWUYtOE13Z0EwUUdOUHctaTRrQ1Z6QTRtdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi9gJBVV95cUxOdTlGa1hzNkZvMHJBekhVWTJJVWhfM1k5bWxwTFdKVzg2YThsOFVzNHh5REFDY3FjRnZ0NlFKVm1HLWotc0M0eWkweHA4V0ttRkxNdnZXM2dHYmxwajduREppWmhzVU1rak1ZNUp4clZXaHB5Rm9uQW9aWXFSQ1NrV21pZ3pTNGZIVzUzYUp6bDdRbWpYTUE2RnNuQmFTZnFJNTdIekZEVEh6OVktaWxoRlljLThVZVBUTjkybWlkRWNva0NpMElmWDR6aUVxTmx3NHljVzRLSi03NTlnRkNJbFFsQWRjOExUNVFBY1dnZDh3LUpiSWRPZ1NNeEZRc0ZmT1ZRVjB4bmRIcVo0bFBKeHdCMUwzWnoxMllWbnN5MmI1TjJHNVl5Zjl6VnRYMkk3Zi1sYnV1YTVSeHlWV1d3SlBXdDFrd2hyV1VLV29PajFUSmtlRjAxaHZMLXpEWUYtOE13Z0EwUUdOUHctaTRrQ1Z6QTRtdw",
+      "published_ts": 1756796400,
+      "id": "7cfd10b709e4d70873f0698f"
     },
     {
       "bundle": "Indiana TOD",
@@ -9168,28 +9289,6 @@
       "guid": "CBMiowFBVV95cUxPUW5mRDUwMFd6RzhwMERTRHhiZU5Mc2NQaTNpRUhYbVdfRDBqbXhGQ1J5N0ZCTjQxcVRZRXU5S09BXzV3bHhMNWxiWF8yV0ZFWDhJWlhPZzhmV0NyekhyRkh4ZFJBaGFRdGN2R1ZVQXpqNUswN2c4YWFFd25VeGthLVdGa2N5UXkxQjdkRWJmZFgwYmdJbEdsZkx0SzZTVHpzNDYw",
       "published_ts": 1754636400,
       "id": "40343d1eabc6869f69a7869c"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Mary Sheffield to face Solomon Kinloch in November election for Detroit mayor - wric.com",
-      "source": "wric.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU2pHZXJhMHlZRjFPV044UzJkSHdQd3QtMjRJcEJGaXpfSk9GZFJqRG1Qb2xhQVQ1ejk2ZmRfVVhnUUxDYzd2bkFmdnN1NlI2N0NkSXRlUEtERmlaeDhqNGFveGJYWVp1VW5Hc0tqUk55VTdiSmFJQ2prd3ZvWUV1RTZiZGpCV0NvdVAwX2RlN0ZKaXVTR0xObG5XR3VnWTVtbVF4ME5UQjJ6czlWVkkzcm9JWXVpMk1QYzA5Z196TdIBxAFBVV95cUxQdVphWnRKQzFLX0xOa1lTSFdsVzJRZDZCT2pZc090aWFGT1Q1T2FaUWplMWZjbjdDSjVzMEo0N3d6NG5rVi1tU0pOYm51cV9VejdZVGxiRGNFRGFaMWxyTGpicGhLLVNick9wako4ZFRxZlNMQzJCZDMyS2dqSkhTYWp1SDNNc0JCdmc4bXdpbjVfVktBRUhpVmZtRUQxMVl5b0pJME9od0pNZjNscGYzcURSZE45WXk0NjAyZ2Rkblkzdldr?oc=5",
-      "canonical_url": "",
-      "guid": "CBMivwFBVV95cUxPU2pHZXJhMHlZRjFPV044UzJkSHdQd3QtMjRJcEJGaXpfSk9GZFJqRG1Qb2xhQVQ1ejk2ZmRfVVhnUUxDYzd2bkFmdnN1NlI2N0NkSXRlUEtERmlaeDhqNGFveGJYWVp1VW5Hc0tqUk55VTdiSmFJQ2prd3ZvWUV1RTZiZGpCV0NvdVAwX2RlN0ZKaXVTR0xObG5XR3VnWTVtbVF4ME5UQjJ6czlWVkkzcm9JWXVpMk1QYzA5Z196TdIBxAFBVV95cUxQdVphWnRKQzFLX0xOa1lTSFdsVzJRZDZCT2pZc090aWFGT1Q1T2FaUWplMWZjbjdDSjVzMEo0N3d6NG5rVi1tU0pOYm51cV9VejdZVGxiRGNFRGFaMWxyTGpicGhLLVNick9wako4ZFRxZlNMQzJCZDMyS2dqSkhTYWp1SDNNc0JCdmc4bXdpbjVfVktBRUhpVmZtRUQxMVl5b0pJME9od0pNZjNscGYzcURSZE45WXk0NjAyZ2Rkblkzdldr",
-      "published_ts": 1754463600,
-      "id": "f3aefc5f4ec9fb7ede73aaf6"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Mary Sheffield, Solomon Kinloch to face off in Detroit mayoral election in November - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRllnUTJqaVFyeElCcmMzN2g2MnNLQlVYcjEwSlFhb2lOVV9zV2h3dXN3UUNLRG9QTy1WWFdTcUZYMjdtbHdCX1pZNVdSVXVOdXNwSE9xMTFXWElkUlRuek00NV80RXhhUzBZNnhoam1RYXpYWG42b3ZLMEF0Y2FFWUg0SzV4OGpWOGhkYjZ0NDlKSkl5UXRfaXk1dUVIbTlCNHNKOEowWUZTNTh0eTNkc3ltSklON1dzUXc0?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiuwFBVV95cUxPRllnUTJqaVFyeElCcmMzN2g2MnNLQlVYcjEwSlFhb2lOVV9zV2h3dXN3UUNLRG9QTy1WWFdTcUZYMjdtbHdCX1pZNVdSVXVOdXNwSE9xMTFXWElkUlRuek00NV80RXhhUzBZNnhoam1RYXpYWG42b3ZLMEF0Y2FFWUg0SzV4OGpWOGhkYjZ0NDlKSkl5UXRfaXk1dUVIbTlCNHNKOEowWUZTNTh0eTNkc3ltSklON1dzUXc0",
-      "published_ts": 1754463600,
-      "id": "d48ab8186e7e40328a841bc5"
     }
   ]
 }
