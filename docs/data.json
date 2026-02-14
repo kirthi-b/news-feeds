@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-13T09:25:21.462098+00:00",
+    "generated_at": "2026-02-14T09:14:58.546047+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1002,
+    "items_count": 1008,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,61 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Affordable housing takes a hit in PE-backed District Detroit development project - Private Equity Stakeholder Project PESP",
+      "source": "Private Equity Stakeholder Project PESP",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb3R5eV9oVmUycU9wZXZXX3BqenZjUTZCZW92anAtaEFPQS1HY3lMcjhVXzdETzJIZVRjNHRsR0NnYWFWUlUyZU51OHVHdEkzQUdBX2xjUmhmZ0VyVGQ3bmNBR2ZFUHBJbVQxeGx6dUZ2U0prVGhpR1RlMy1YQU9Zenl1R092Zk9GMVhBMTVTNXJvN25taVZLOUlVS2dVUWdrYVVqMGtTeVlZTlYxZnkyR0F3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisgFBVV95cUxQb3R5eV9oVmUycU9wZXZXX3BqenZjUTZCZW92anAtaEFPQS1HY3lMcjhVXzdETzJIZVRjNHRsR0NnYWFWUlUyZU51OHVHdEkzQUdBX2xjUmhmZ0VyVGQ3bmNBR2ZFUHBJbVQxeGx6dUZ2U0prVGhpR1RlMy1YQU9Zenl1R092Zk9GMVhBMTVTNXJvN25taVZLOUlVS2dVUWdrYVVqMGtTeVlZTlYxZnkyR0F3",
+      "published_ts": 1771024450,
+      "id": "6de082104eb196905066f91a"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Economic Development Corp. extends incentive for new employer - Western Wayne News",
+      "source": "Western Wayne News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbTFsVUo0RzhCSWxTcG9IRllUVXRNcDEwRjhFUDFtNjRLY1Q4SmM0RjdpX05FSGtBbDlpYWI5WUhSSEVtLXNJVGhHb1psTmVtX29mNUtHSF9FYzNZaE0xcW9GVEsyakNrTm9ZRXRIT1ZqeUNTVXhxQkNCRVl6a3pGeXhqMzVCYzJIUENyV1ZZUmVaZmpR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilAFBVV95cUxPbTFsVUo0RzhCSWxTcG9IRllUVXRNcDEwRjhFUDFtNjRLY1Q4SmM0RjdpX05FSGtBbDlpYWI5WUhSSEVtLXNJVGhHb1psTmVtX29mNUtHSF9FYzNZaE0xcW9GVEsyakNrTm9ZRXRIT1ZqeUNTVXhxQkNCRVl6a3pGeXhqMzVCYzJIUENyV1ZZUmVaZmpR",
+      "published_ts": 1771020000,
+      "id": "27b6cdec7b99858aa8c261b3"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Housing affordability in metro Detroit worsens, bucking the national trend - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGxDLXlmbWFxamRvamJaRUZ0dmhEVmdIRllmTGY3Z1FLX1ZleTRndVRyV01iLXRqemlsZG1wanFLaWRDWUxyUWNVTkExcTYtZjIwZ1VYWENaM3NXN1pOenk1WlM4ZHVlUW1ab1BtR1VTWXBxMnEzQXdjdjFoTmxkN0loQmVKcDVPc0p2SExoMGJQd2RwVDI2OXJWNmRDY1FISFZCbQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxOOGxDLXlmbWFxamRvamJaRUZ0dmhEVmdIRllmTGY3Z1FLX1ZleTRndVRyV01iLXRqemlsZG1wanFLaWRDWUxyUWNVTkExcTYtZjIwZ1VYWENaM3NXN1pOenk1WlM4ZHVlUW1ab1BtR1VTWXBxMnEzQXdjdjFoTmxkN0loQmVKcDVPc0p2SExoMGJQd2RwVDI2OXJWNmRDY1FISFZCbQ",
+      "published_ts": 1771010480,
+      "id": "7240bcb1f4e22a103d1804c2"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "2026 State of Wayne County talks student debt relief, public transit funding - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTl9GbkJ2OHlkeU9RT0xqdnpjeVI4TWZ5WWVxQ0ltSUEtLTQ0TTljLWpGcjlFVmlMTWlJZEtFNHZqNU1nRG1jenhBTE5QR0NUQUs1LUQ1WnRJeXEtNjJEY2tmbkNOSFZwN0EyZTJoN1VtUDhGMm9pdjJfcmVycG1obFZVamRqN1dXa0xsaDh6YXlKamgyQzRMUlRqcm9ubmQwZkR6S043S2VoOVl3M3p5YVVWenNqaHItektQYXFmNmV0N0tONFFYcDVVQU85a0E2akdpSl9JOWVtU3M?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi2wFBVV95cUxNTl9GbkJ2OHlkeU9RT0xqdnpjeVI4TWZ5WWVxQ0ltSUEtLTQ0TTljLWpGcjlFVmlMTWlJZEtFNHZqNU1nRG1jenhBTE5QR0NUQUs1LUQ1WnRJeXEtNjJEY2tmbkNOSFZwN0EyZTJoN1VtUDhGMm9pdjJfcmVycG1obFZVamRqN1dXa0xsaDh6YXlKamgyQzRMUlRqcm9ubmQwZkR6S043S2VoOVl3M3p5YVVWenNqaHItektQYXFmNmV0N0tONFFYcDVVQU85a0E2akdpSl9JOWVtU3M",
+      "published_ts": 1771007820,
+      "id": "a0426e48315ea16be56b8584"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Repeal the light rail ban and bring back streetcars to Indy | Opinion - IndyStar",
+      "source": "IndyStar",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOE1hbFp1X1RmNFNxREwzTHIwR1VIeWJzN2ItaGtmVjJQVlAwWEVnU1pUVEIybnV1UExzQmgtS2lmd1ZLcG0wUFFfaWQ1RTh1Ymx6LXhsWFZKRnJHaE1Xd2UyUEZMa3JSc2JQWm90U2tpeWsxTm85RGFId3hFUkVsaWk4UFFVeFlnNzFMUHhIZkFIT2FzZzZGTXJ1cmpUMG9QUnc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiogFBVV95cUxNOE1hbFp1X1RmNFNxREwzTHIwR1VIeWJzN2ItaGtmVjJQVlAwWEVnU1pUVEIybnV1UExzQmgtS2lmd1ZLcG0wUFFfaWQ1RTh1Ymx6LXhsWFZKRnJHaE1Xd2UyUEZMa3JSc2JQWm90U2tpeWsxTm85RGFId3hFUkVsaWk4UFFVeFlnNzFMUHhIZkFIT2FzZzZGTXJ1cmpUMG9QUnc",
+      "published_ts": 1770978600,
+      "id": "2b9d44dc855d9c652237c1c2"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
@@ -293,6 +348,17 @@
       "id": "3a6339ca3c58596bf2107a59"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Indiana House Passes Bill to Protect Farmland and Promote Economic Growth Co-Authored by State Rep. Pressel - Hoodline",
+      "source": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVTdoZlVQRDhSVTBFNG9CWktPY2pYSjNnWUpTcURnM285VGk0b1ZycldDVEhLbkVXVExORTdaNC12VkZ6el9pTjVORHRPcXpjMjJlMWhXRFVFTEFxTFdJQlg4TWNhZDNEcThibERjQU90WFBBSllzQktISnFRYWduTWlhUUd1ZTk0SG5OU29YeG1ETHVjbVBIYTBXdEdSb3QzVXZyRG9NODd3cTZTa1E4VTVFVGRnV3ZldmFpVnZHTlFfU1psdFplYTJ0ZmJmb2VyM1E?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi0gFBVV95cUxQVTdoZlVQRDhSVTBFNG9CWktPY2pYSjNnWUpTcURnM285VGk0b1ZycldDVEhLbkVXVExORTdaNC12VkZ6el9pTjVORHRPcXpjMjJlMWhXRFVFTEFxTFdJQlg4TWNhZDNEcThibERjQU90WFBBSllzQktISnFRYWduTWlhUUd1ZTk0SG5OU29YeG1ETHVjbVBIYTBXdEdSb3QzVXZyRG9NODd3cTZTa1E4VTVFVGRnV3ZldmFpVnZHTlFfU1psdFplYTJ0ZmJmb2VyM1E",
+      "published_ts": 1770842406,
+      "id": "4ec00c94e5db468148cd95e4"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit workforce",
       "title": "Detroit Mayor Sheffield taps Mastercard exec Winnie Liao as city's COO - Detroit Free Press",
@@ -346,6 +412,28 @@
       "guid": "CBMihAFBVV95cUxOVXY2STVQVmVLbUxiVURPdUduamtXUGIxdXRzUTd1dkpBZWY3c2s4cHU0aElwZ0UwWFFaUmNNZW9zbVdhLUVoT09pLXBSU2p6WFhaYmxab2w3Mno0TFdVbHprWV9wcUVQVVM5VFNEWDMxblc4cGVvUko1RXZJanV2ek9ENXQ",
       "published_ts": 1770834550,
       "id": "4657c3b697579da7ee20c264"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Braun: $10+ billion Meta data center campus to be established in Lebanon - Fox 59",
+      "source": "Fox 59",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbV9XSF9PWmpnc0JBdzlOemxDU2k2cmctaVZ1dVdZNGliN0pNcVBRVUZ0WU1BSVJpbHRseHhhUnVSU0VEbk9wdDV4bVdUeTJaUkVpTWlNbW1VRlV2bHRpeDF6b1JYYlA5eDQzNDk4WFVJU29haHFqdGF4RWkxMzQ2ODk1SGtCWlYyS01OSzZKRlZ0TEtCWklwTtIBngFBVV95cUxPUDMwVWZiNC12MVhwQWdrbkZlT3ZhWFBKdFhkTWwxRHhnM0RLQTVZejVobUI3dmRNMWdCdUNzeWh2V3ZkbmxaM0NyZUpBc2ttTFNpMnFwZUp2MkZRaVlFVFV6cUFRUHNObl8zaE1GRVZCbTlSaE1CVVpsNXUzSTdBYWVSUDdJTTNiVkZCLTByRmY3Y2FwZG9zQWlnQ3FLZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimAFBVV95cUxPbV9XSF9PWmpnc0JBdzlOemxDU2k2cmctaVZ1dVdZNGliN0pNcVBRVUZ0WU1BSVJpbHRseHhhUnVSU0VEbk9wdDV4bVdUeTJaUkVpTWlNbW1VRlV2bHRpeDF6b1JYYlA5eDQzNDk4WFVJU29haHFqdGF4RWkxMzQ2ODk1SGtCWlYyS01OSzZKRlZ0TEtCWklwTtIBngFBVV95cUxPUDMwVWZiNC12MVhwQWdrbkZlT3ZhWFBKdFhkTWwxRHhnM0RLQTVZejVobUI3dmRNMWdCdUNzeWh2V3ZkbmxaM0NyZUpBc2ttTFNpMnFwZUp2MkZRaVlFVFV6cUFRUHNObl8zaE1GRVZCbTlSaE1CVVpsNXUzSTdBYWVSUDdJTTNiVkZCLTByRmY3Y2FwZG9zQWlnQ3FLZw",
+      "published_ts": 1770834237,
+      "id": "4fa7d6f8891023a04ce61d6c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Wayne County economic development committee receives multiple notices, operating reports - citizenportal.ai",
+      "source": "citizenportal.ai",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTlhQVGpxN1ZXNWlsQTMxbUtDWG9taHJaY21fRVowRUFrTk95RFI3dGlzTnhWbDdXcDl4akN3endQY3NZMk5jR2s5VW1WS1A5b3dfMEFlQWZsQzlndFRXSzNEYjZRNENXdmY3aUhJaXg1b3ZmNk5tVzNkdnhxZEdmcXVkWTFydGVYLTUzM1VSXy02cXhBUmpCVE5ZT2dfbzVaNmJzSmVRcmgySWRuVnBPanlwOGNlWVFnTnhFTF9tVjRQeDdPOWlBQ1Z4Ti1OeTdCTVRMaEs5ZGM4LWx6TU9fTV9CdUF3R1Z0N1Z2VzBiS0lSZWR6eXdwaDhMbnBKY3ZRX1hF?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwJBVV95cUxQTlhQVGpxN1ZXNWlsQTMxbUtDWG9taHJaY21fRVowRUFrTk95RFI3dGlzTnhWbDdXcDl4akN3endQY3NZMk5jR2s5VW1WS1A5b3dfMEFlQWZsQzlndFRXSzNEYjZRNENXdmY3aUhJaXg1b3ZmNk5tVzNkdnhxZEdmcXVkWTFydGVYLTUzM1VSXy02cXhBUmpCVE5ZT2dfbzVaNmJzSmVRcmgySWRuVnBPanlwOGNlWVFnTnhFTF9tVjRQeDdPOWlBQ1Z4Ti1OeTdCTVRMaEs5ZGM4LWx6TU9fTV9CdUF3R1Z0N1Z2VzBiS0lSZWR6eXdwaDhMbnBKY3ZRX1hF",
+      "published_ts": 1770833216,
+      "id": "f6c27722ec4fd6d1d93efc2e"
     },
     {
       "bundle": "Wayne County TOD",
@@ -3646,6 +3734,17 @@
       "guid": "CBMi2wFBVV95cUxPRlZlRW5UeE1vNlBxaVZtSFFVb1pRaXk0bXZkQTlERkRFelo5MGk5TVBiVkZXOElySzRXTWx5UkNWSHFaMzJYTFhlamxCNHE0cUdWeDFGdV94eG8zVjhfSlZoN0VwTU5hc1FxYkxIWGlFTEtKTDNfWm5rOXVxM1RENDBqdmhac1NfcDFkUG5zdTk1X2NNcHVtVU9RcmdlMWJfVmhqQ2M2VWsydEJOZ0xCQmwwcVdWd0xSSXJFWDNlMURDelhaTmpJSmVIZURFcTBKZmZrcjJFdW43VDQ",
       "published_ts": 1768291200,
       "id": "176fc728ed344fb844b25d51"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit workforce",
+      "title": "Wayne State University and Kyndryl announce collaboration to advance AI-driven manufacturing and workforce innovation in Detroit - Wayne State University",
+      "source": "Wayne State University",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVzRQcE5vWjRxRUVYTzVFbE1QYW9VdXNKMEg0WkE3bG5oYmEyS2swVFhwWWRtVk9jNjN5aHNRSWxUTURMUlQ5cEJOZVpNSWVXTVkwRVRMWTN5N2F1NFlJLWFkXzgwOS0xVlJjdllFemZxdVNjWWtDcjdLbTRWS1BYSG1KSW94UlMxVERkWDRhdXhOQXdyaFJ4NEwyb1JyRE1Ha3VVSlFYUXFRZkxqU0NKczFlM0VMVWV4TnZvUFlHQkpLS0tlZVA2MGllOFJqbElmOVp3OEhHLVVwNFFYS3NONEJVZk5sTzFLVGloSTY5Q3hfMHBRVkJsZlNR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi-gFBVV95cUxNVzRQcE5vWjRxRUVYTzVFbE1QYW9VdXNKMEg0WkE3bG5oYmEyS2swVFhwWWRtVk9jNjN5aHNRSWxUTURMUlQ5cEJOZVpNSWVXTVkwRVRMWTN5N2F1NFlJLWFkXzgwOS0xVlJjdllFemZxdVNjWWtDcjdLbTRWS1BYSG1KSW94UlMxVERkWDRhdXhOQXdyaFJ4NEwyb1JyRE1Ha3VVSlFYUXFRZkxqU0NKczFlM0VMVWV4TnZvUFlHQkpLS0tlZVA2MGllOFJqbElmOVp3OEhHLVVwNFFYS3NONEJVZk5sTzFLVGloSTY5Q3hfMHBRVkJsZlNR",
+      "published_ts": 1768291200,
+      "id": "b436ef2227f535b04cb6e01d"
     },
     {
       "bundle": "Wayne County TOD",
@@ -11115,39 +11214,6 @@
       "guid": "CBMiwwFBVV95cUxPRXhtdzFoaWdCVmF6a2luRXVPR21yRDZJd1N0V3NRbWpBOU9venFwUnpHRWRidHI1dmtvOE0yM3RPSXQyWHBHSFNvMjBzcUttWUJDNUxyRmRydHhtbnVXVklZLUpaZUxqX2VEUTVjTzFsUlVsRURIMEtlajdCaTNCaDZYTmJYV0pLZHRSeWhsdXJpSTVjNXZVcmJkRWN5aGZQTzNyMXJFc1J5Smk3SVpxV0lTanBESFZTUDNTX2VyeTVxVE0",
       "published_ts": 1755586800,
       "id": "098a415d67f8b9c5de6d1832"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "IndyGo’s 2026 budget funds Blue Line construction, security upgrades - Mirror Indy",
-      "source": "Mirror Indy",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa3FpNlE5akJMc3NXdGxGVFp3NW5sUE9pb0ZFRWYzZXh6czFySkZQaHFlQWFwY1lNR3Q0MWItUFJfTWNObU4yRy1hSG5EblU0Z0tTM2tfeF9LQldhTGM5VGMxd3gtMk1KUVpwY1NGc0xXZkFsRHhxT3ZGOGVDVjRhWlZ3?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiggFBVV95cUxOa3FpNlE5akJMc3NXdGxGVFp3NW5sUE9pb0ZFRWYzZXh6czFySkZQaHFlQWFwY1lNR3Q0MWItUFJfTWNObU4yRy1hSG5EblU0Z0tTM2tfeF9LQldhTGM5VGMxd3gtMk1KUVpwY1NGc0xXZkFsRHhxT3ZGOGVDVjRhWlZ3",
-      "published_ts": 1755500400,
-      "id": "19883b4edf64f48f024fbd0d"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Amtrak Cardinal",
-      "title": "This Little-Known Town's Retro Amtrak Station Is A Key To America's Newest National Park - TheTravel",
-      "source": "TheTravel",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkRqQ1JYbXRJME5yaDBqNVhpMVNpSVZjQWx3eTZpbEJFN1N3Wjd4emdXWGxfaEZCY0JVZVpQZ0twMGdaUnp6S2ZLVzdQOGI0RzRMWWs2Ql9scWlTblA1V3VkeDVoa0Z5dFR0aWFpSjlxYklsT0ZJQUlaUVBCanpSRGhsWE1zRWZISmZaWlVaOGtQV2w0ODZQS3p5Ykg5NXZoTWIyNTlR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipgFBVV95cUxORkRqQ1JYbXRJME5yaDBqNVhpMVNpSVZjQWx3eTZpbEJFN1N3Wjd4emdXWGxfaEZCY0JVZVpQZ0twMGdaUnp6S2ZLVzdQOGI0RzRMWWs2Ql9scWlTblA1V3VkeDVoa0Z5dFR0aWFpSjlxYklsT0ZJQUlaUVBCanpSRGhsWE1zRWZISmZaWlVaOGtQV2w0ODZQS3p5Ykg5NXZoTWIyNTlR",
-      "published_ts": 1755500400,
-      "id": "341d502daa95a11b4341bba2"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Governance",
-      "title": "Pivotal playoff seeding possibly at stake in Tigers-Astros series - detroitnews.com",
-      "source": "detroitnews.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOa19sR0ljOHZvQ2ZZX19qRkhwSU1UZTJtQ2tJV0xzeDRfZ3BOTFRZb0xOVDlXbVRvM192NU1FXzY5S3hjUC1XTE1YZ0ZyME15X2s1ZGh6NlA2TUtEZDdUS1lCY2FMQ3RJd3djSXI2Yk1UR0I2QzU2S096dlY1a3VyMll6WWtPVFltR0R0aFBKcVZzVFB5OElvRWVCZjk0MzZXSFU5eUwzVVlCR0dKRlJ6b2g3eDk1aHlseVJFZEItX1VkNE1QR0RsbzJ0Y1YxM3ViS2VLcjFUNEN3WGdQNmhZ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3wFBVV95cUxOa19sR0ljOHZvQ2ZZX19qRkhwSU1UZTJtQ2tJV0xzeDRfZ3BOTFRZb0xOVDlXbVRvM192NU1FXzY5S3hjUC1XTE1YZ0ZyME15X2s1ZGh6NlA2TUtEZDdUS1lCY2FMQ3RJd3djSXI2Yk1UR0I2QzU2S096dlY1a3VyMll6WWtPVFltR0R0aFBKcVZzVFB5OElvRWVCZjk0MzZXSFU5eUwzVVlCR0dKRlJ6b2g3eDk1aHlseVJFZEItX1VkNE1QR0RsbzJ0Y1YxM3ViS2VLcjFUNEN3WGdQNmhZ",
-      "published_ts": 1755500400,
-      "id": "93e527b40cd5d9d67ac5c696"
     }
   ]
 }
