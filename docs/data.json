@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-28T09:12:28.553642+00:00",
+    "generated_at": "2026-03-01T09:15:29.415635+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1176,
+    "items_count": 1171,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,39 @@
     }
   },
   "items": [
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Where did Hoosier lawmakers land on data center payments, rental caps, IEDC credits in 2026 session? - Indiana Economic Digest",
+      "source": "Indiana Economic Digest",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWTlrcE1YcVNsZXdQa1lKdFM0Y2NRdkFqTUxIQ0R3SUdjU0N0ak1xNTJfT21IcWlVZUxCMFBrY0cwbk55UHhYenpHOXB3RGgyY3E2c3FfS2ZORHhPUS1mcXlGUUNKRk1qYnJBRnlTVFJzUUNpVjZDd3BlN0Q2SmZHNWFud05KamV4TG5rR2xNR0JKeVRSdXh2MWRPZFFubXNVWjlhdjB5ZlZ1eE01WEpOTFgtaV9IZm1mZkItemZvbzllUERzS2hTTm1HdzdKTHdyMVZMaW5jMl9saDItNUUzOGp3RzJSSVJVbVRoeXphd2ZsV0k0emNuOFEwUnpfc2JzdmJQckNrRHdYcy1MbnVDNHpWclc0Z28?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilwJBVV95cUxQWTlrcE1YcVNsZXdQa1lKdFM0Y2NRdkFqTUxIQ0R3SUdjU0N0ak1xNTJfT21IcWlVZUxCMFBrY0cwbk55UHhYenpHOXB3RGgyY3E2c3FfS2ZORHhPUS1mcXlGUUNKRk1qYnJBRnlTVFJzUUNpVjZDd3BlN0Q2SmZHNWFud05KamV4TG5rR2xNR0JKeVRSdXh2MWRPZFFubXNVWjlhdjB5ZlZ1eE01WEpOTFgtaV9IZm1mZkItemZvbzllUERzS2hTTm1HdzdKTHdyMVZMaW5jMl9saDItNUUzOGp3RzJSSVJVbVRoeXphd2ZsV0k0emNuOFEwUnpfc2JzdmJQckNrRHdYcy1MbnVDNHpWclc0Z28",
+      "published_ts": 1772326937,
+      "id": "00441df36608695d77784866"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Woman Killed in IndyGo Bus Crash on East Side’s North Post Road - Hoodline",
+      "source": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZVR3S05vMnlrNW1OUEg2NkhQU3FzVWdZRXEya2NUSFlPTTRCM3M4OXVHLUFUSEZqOFVnZk9ZVHpIRE52VUg0YUlVNnZRWE9PZkl3V3I4aEhCZ0llblA4OGMyMHlXOF9hLTZjQ0t3cGZUU1ZfdjJpWXR5UTRyUzBYR1Jtd2Z3aXFrU1FQc0NVeDQ3bHQ3TXdXZldiOGNhRk9j?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxOZVR3S05vMnlrNW1OUEg2NkhQU3FzVWdZRXEya2NUSFlPTTRCM3M4OXVHLUFUSEZqOFVnZk9ZVHpIRE52VUg0YUlVNnZRWE9PZkl3V3I4aEhCZ0llblA4OGMyMHlXOF9hLTZjQ0t3cGZUU1ZfdjJpWXR5UTRyUzBYR1Jtd2Z3aXFrU1FQc0NVeDQ3bHQ3TXdXZldiOGNhRk9j",
+      "published_ts": 1772287990,
+      "id": "43167b84789a6e75a05be8ab"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "Woman Dies After Running Into Bus on Indy’s East Side - WIBC",
+      "source": "WIBC",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRTMtMnhPbWtWUWx6cFVqSU5vQ0tZMDV2WWE3UkhpTXdlNG9kcTZicTVJY0o2ZDh5Q252NE83OWhMSlNEME1WakI3cldWLUFMc2lRdXBTbVJxWFZhSlF0YWdJaWV4LUJxaU5rR3JWT2ZpOUI3Vm9sSVRiZXdFc1Y1Qmc0bw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxPRTMtMnhPbWtWUWx6cFVqSU5vQ0tZMDV2WWE3UkhpTXdlNG9kcTZicTVJY0o2ZDh5Q252NE83OWhMSlNEME1WakI3cldWLUFMc2lRdXBTbVJxWFZhSlF0YWdJaWV4LUJxaU5rR3JWT2ZpOUI3Vm9sSVRiZXdFc1Y1Qmc0bw",
+      "published_ts": 1772277337,
+      "id": "73ed146d268aaad4dbcd68d9"
+    },
     {
       "bundle": "Indiana TOD",
       "query": "IndyGo",
@@ -775,6 +808,17 @@
       "guid": "CBMi7gFBVV95cUxNS0lIZEpCTGNQb1gyNDh1SVN3dm03Z1RnUEJDaTlCYkQyMlNpUVplZF8zaEk0cEFtb1hPWG4ybUxqdDZYZjBxQ3FmdjBfT29ZZ2R1YU5XR2UzQUhGT2dCUFFjRDU4aUZDR1d2NGNaQWI1c1dTTVpJaEgwX19Sa3VCUG55ZVNySTlHNTB5VTdzY2QxU215NDRvVFpfOEpNc09icmpnMWxmUnpfOVNNMlJGTWNCS0dyN0pfb0xoT19IYlpGQ0x6T3FaWFBCdHlTcDltZVJpYXZycWxwelFUREdLUFRTblRGYXlCNFBHcDlR",
       "published_ts": 1771905780,
       "id": "0c35f0c503aa9cfd441cb507"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "South Bend Topic Indiana housing - WSBT",
+      "source": "WSBT",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mbTREUVRIZlBsalE1OVRKQnJBYTdiTVFWdVVoUVpueGw1eFRySG1ndnRJaUZlRlB4ZG95SnJnbl9ONGkxVk1TX0g5VVp4bGtzcHc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiUkFVX3lxTE9mbTREUVRIZlBsalE1OVRKQnJBYTdiTVFWdVVoUVpueGw1eFRySG1ndnRJaUZlRlB4ZG95SnJnbl9ONGkxVk1TX0g5VVp4bGtzcHc",
+      "published_ts": 1771891049,
+      "id": "1d5f571a90cd458344e23b65"
     },
     {
       "bundle": "Detroit Mayor",
@@ -12283,6 +12327,17 @@
       "id": "1dc857d600fea114eed95f60"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Norwood Financial and Its Subsidiary Wayne Bank Appoints Dr. Andrew A. Forte Board Chairman; Dr. Marissa Nacinovich and James Shook To Board - citybiz",
+      "source": "citybiz",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPM19acFp1ZnBteU81WmJ0Q3hial83SU1NY1gxeVpBNGI3cHNrU3RCaGtNYlVuV0dPVGhvcjg3ZEhMR0tZNkVCb2hsLXRHTmhfSHNiMW1yMGdDRGVqSnZZSlp0RWhKV2J0UUNYZm9sUVFXOEpwVkJaZUl6YXcyZ25JbFFwZkxvVUgwLU9CVWFWOWxGZnQ2aHhFVDNQODRRZ0RGUFdrcXBSVzlCdlQ5U2NROHROT0tEc25FVjJVYkpkajA4SEJkWnBpbmpsdmEycll5YlN1dkFoX0xIUTA1N05QWlBwdlpua1FDVFJ0bURiN2xfTVRqeXlGLVFVM2pZQ2hGM0d5SHZ3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihgJBVV95cUxPM19acFp1ZnBteU81WmJ0Q3hial83SU1NY1gxeVpBNGI3cHNrU3RCaGtNYlVuV0dPVGhvcjg3ZEhMR0tZNkVCb2hsLXRHTmhfSHNiMW1yMGdDRGVqSnZZSlp0RWhKV2J0UUNYZm9sUVFXOEpwVkJaZUl6YXcyZ25JbFFwZkxvVUgwLU9CVWFWOWxGZnQ2aHhFVDNQODRRZ0RGUFdrcXBSVzlCdlQ5U2NROHROT0tEc25FVjJVYkpkajA4SEJkWnBpbmpsdmEycll5YlN1dkFoX0xIUTA1N05QWlBwdlpua1FDVFJ0bURiN2xfTVRqeXlGLVFVM2pZQ2hGM0d5SHZ3",
+      "published_ts": 1758092400,
+      "id": "28297d61b0529b78e71ecaef"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Indiana will pay your boss to pay you more - Axios",
@@ -12952,116 +13007,6 @@
       "guid": "CBMitwFBVV95cUxNOXNKSC1ybHFjb2E4azdhTDdHdHdWQldocjh6eGFxeDZwUHFvbkFKV3MtUFE5b1FVWldwNDNmUFktb0JlLUNpUy1kbVZvRGgxZ2VEUVYzLWg0OXFOcFFZdTJLbGdRVnJHMHV4eTA2V2p6Ty1zTkE2TWl5cUFRX2lIcXlpLU1rM01uUXJqblhlckZDY19PNmxUQ3FuZ0JJTmpjMmxPY2E5T2w0Sm9DRENDQzJmTUxvSDQ",
       "published_ts": 1756882800,
       "id": "269c59b2631bb67c162753d1"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis housing",
-      "title": "Downtown shooting puts Indy public housing agency in bullseye - Fox 59",
-      "source": "Fox 59",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaktkSnVzQ3NocG5QejFCLWJubjZWaW4telNfZmh2STR1Xy1fTWFHSmlmQ0hlOXg2b1BXSTQyMmxFYmk4ZFNiVnRYTl83SW05VmhkWU5SU2VzeGRwLVRtcHFPNWd6M3VCZUhGV3daZ3IzTzFaX1pPdlRoVmZ5WW5ST2xNY0VRZm9iOW5IZFIzSVZuYU5fa1dYTHlEZ9IBoAFBVV95cUxOV21TYXlEbVR3WkJhN1gya3NQcTlsMGJqVkpuVmpLejl2TVR3OWo1ejY2TFJhSW9ZdWxENHdlRDJ1Z2w2WE8tQlAtZkN4WXpCekZrQmpzWXVhY1h4blRubXBMS3RXbkFlUVBnVkRBUnhOMnFxZW8xSFJLekx4WUxSWDBUNUhybDJPbHhoYU1GZlFNYmJ6THVhaDYwVTRYckxJ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimwFBVV95cUxOaktkSnVzQ3NocG5QejFCLWJubjZWaW4telNfZmh2STR1Xy1fTWFHSmlmQ0hlOXg2b1BXSTQyMmxFYmk4ZFNiVnRYTl83SW05VmhkWU5SU2VzeGRwLVRtcHFPNWd6M3VCZUhGV3daZ3IzTzFaX1pPdlRoVmZ5WW5ST2xNY0VRZm9iOW5IZFIzSVZuYU5fa1dYTHlEZ9IBoAFBVV95cUxOV21TYXlEbVR3WkJhN1gya3NQcTlsMGJqVkpuVmpLejl2TVR3OWo1ejY2TFJhSW9ZdWxENHdlRDJ1Z2w2WE8tQlAtZkN4WXpCekZrQmpzWXVhY1h4blRubXBMS3RXbkFlUVBnVkRBUnhOMnFxZW8xSFJLekx4WUxSWDBUNUhybDJPbHhoYU1GZlFNYmJ6THVhaDYwVTRYckxJ",
-      "published_ts": 1756796400,
-      "id": "9cd1bef36f6c7e17991e6a13"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "IndyGo announces 2 closures on Washington Street - Fox 59",
-      "source": "Fox 59",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1heW1pbGs5bjgwQUg1Tkl4M2RZTEdPaFNjeUFrT1BNZk1OX1FlVU9zalBXbVprTVI4eEJYT0hhd1Fud3NacE5FOTlwVGZpSF92YkFVbHdHbnExbHRIUDVoeDlfSVQ0Y1VBdVdRZk1KN2JrYnlFRGItYUo3WV_SAYIBQVVfeXFMTWMtLXhfSm5WaFh2bVlMZVhQMWJoU1BUbmF1UFVWWFQ4TTBVWXZSam00ZjItMGlha2dYY2g4RF9va2tnRW5fdzYwRGJjR091b29ORFNENGYyWVlxQVNIaHNuVk1IY0dHTEJ4eV9LQllnM0VWSGxabWJ5UThXU0hrMDlKZw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMifEFVX3lxTE1heW1pbGs5bjgwQUg1Tkl4M2RZTEdPaFNjeUFrT1BNZk1OX1FlVU9zalBXbVprTVI4eEJYT0hhd1Fud3NacE5FOTlwVGZpSF92YkFVbHdHbnExbHRIUDVoeDlfSVQ0Y1VBdVdRZk1KN2JrYnlFRGItYUo3WV_SAYIBQVVfeXFMTWMtLXhfSm5WaFh2bVlMZVhQMWJoU1BUbmF1UFVWWFQ4TTBVWXZSam00ZjItMGlha2dYY2g4RF9va2tnRW5fdzYwRGJjR091b29ORFNENGYyWVlxQVNIaHNuVk1IY0dHTEJ4eV9LQllnM0VWSGxabWJ5UThXU0hrMDlKZw",
-      "published_ts": 1756796400,
-      "id": "68bfebaf5f51bcb3be362555"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "IndyGo announces 2 closures on Washington Street due to Blue Line construction - WTHR",
-      "source": "WTHR",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPVmFnVkNfQVBRNGUtbjM3VFpYb1REdWNGa24yRG9rcVRmQUZNUXhYbHNDeHZmME8waGNtd3QwUHFDX1NaN2NSMjBhY2dxbEg3M0gxMHl5V2EwSlc4TldxMG9mZGxJYnRnSTlaeW1rZUxONnpuUl9xQTljM19yU3d6akxtd0VLQVY5dWc2UlJSTk94VzEtRVI2OFpubjFaY2pqTHI4cGFGUW5yVkNPVE05UkJyOWcxdWhlckljNkRwazY3em9PUUZscEpaTW5DS1JUTjM1aER5Y3kzVUIzeHZYaEpLcmFnRURseEJLcXdZVExBVDVMZWVMUkozV1JZUXd4cVE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiggJBVV95cUxPVmFnVkNfQVBRNGUtbjM3VFpYb1REdWNGa24yRG9rcVRmQUZNUXhYbHNDeHZmME8waGNtd3QwUHFDX1NaN2NSMjBhY2dxbEg3M0gxMHl5V2EwSlc4TldxMG9mZGxJYnRnSTlaeW1rZUxONnpuUl9xQTljM19yU3d6akxtd0VLQVY5dWc2UlJSTk94VzEtRVI2OFpubjFaY2pqTHI4cGFGUW5yVkNPVE05UkJyOWcxdWhlckljNkRwazY3em9PUUZscEpaTW5DS1JUTjM1aER5Y3kzVUIzeHZYaEpLcmFnRURseEJLcXdZVExBVDVMZWVMUkozV1JZUXd4cVE",
-      "published_ts": 1756796400,
-      "id": "68651a01aa047f71aa87b009"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit workforce",
-      "title": "Steinhauser: Leaders must prevent AI from displacing Michigan workers - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYlFvdzNSc2Z6QzVtZVg0ZFBpTVJrWkJqZVhhSFpPTzJnR2V4UWQ2QmJncXBjZmxFNmhMUjMxelVmMXhiMWRTbkVjNTN1LXo4ZG5mZ0JpZFR6RE1zbTY4THMtNl9Fdy1udldxSHVHTTFVWG5sY1FwemJnNW40M0x0bnNSU19wa1dwallJS1paSVlMT3JVNmIwbEZQR3VJcGt1MW9aREVMSEJpNFdXYV91YWhYS3gzQlVzbElnNVl2bXB0VDNLOFd0MXdQekpsQU1SRlQ1TGpLZUt0b3B5MTF0MkI1ZlRDdm5jNWgzeHk5TVR4ckE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi8wFBVV95cUxPYlFvdzNSc2Z6QzVtZVg0ZFBpTVJrWkJqZVhhSFpPTzJnR2V4UWQ2QmJncXBjZmxFNmhMUjMxelVmMXhiMWRTbkVjNTN1LXo4ZG5mZ0JpZFR6RE1zbTY4THMtNl9Fdy1udldxSHVHTTFVWG5sY1FwemJnNW40M0x0bnNSU19wa1dwallJS1paSVlMT3JVNmIwbEZQR3VJcGt1MW9aREVMSEJpNFdXYV91YWhYS3gzQlVzbElnNVl2bXB0VDNLOFd0MXdQekpsQU1SRlQ1TGpLZUt0b3B5MTF0MkI1ZlRDdm5jNWgzeHk5TVR4ckE",
-      "published_ts": 1756796400,
-      "id": "da537f2f4e2db6e1c620cb11"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Rail advocates urge public to demand more passenger train investment locally - cwcolumbus.com",
-      "source": "cwcolumbus.com",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPajI5YnFFOUs0M2g3LXlXc1pVZDVaUmt0YVFxTzcySWk1X0tnQXJQWUxweTNtOTdYMjdST25IQmZsV3BxeTZXb1hXZUdFS0VNR0gtdFM0U1R4SzZKcEwzU1JJdm14aFlfYmJ0Wk9IckltLW0xdDdPaFM1emo1TXdOeV9QX3RnaFU4cEgwY01HVjJONkZCMDM5M3N2MGNkalhjMUQ1UklUaGloZDlyY0t2YUZyNGZ4Sk11YkdSWDB2X3RrY0pMUzUyOWVIQ1QzR0tVcl84STlrLWpSZHJWcHFFWkl6Q3FHT0dtUWxqODJnSW56V25IbDkySF9uRzQ2STlXeUxJWm52SE9rRm5ZUGstV2dMTU4xTUwySUt3X24wbEIzUnR3VTJJeHl0ZlotdEZ5VXJuMGlHNUxZUTVpN1BQV3Fsb1V5U3JZR1NkTVJhR2xRb1g5em50eVp3Rl9HTWkyLVM0VUlDMmdsb21UZGN5d3BkSnVoX2ZYWHc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi-gJBVV95cUxPajI5YnFFOUs0M2g3LXlXc1pVZDVaUmt0YVFxTzcySWk1X0tnQXJQWUxweTNtOTdYMjdST25IQmZsV3BxeTZXb1hXZUdFS0VNR0gtdFM0U1R4SzZKcEwzU1JJdm14aFlfYmJ0Wk9IckltLW0xdDdPaFM1emo1TXdOeV9QX3RnaFU4cEgwY01HVjJONkZCMDM5M3N2MGNkalhjMUQ1UklUaGloZDlyY0t2YUZyNGZ4Sk11YkdSWDB2X3RrY0pMUzUyOWVIQ1QzR0tVcl84STlrLWpSZHJWcHFFWkl6Q3FHT0dtUWxqODJnSW56V25IbDkySF9uRzQ2STlXeUxJWm52SE9rRm5ZUGstV2dMTU4xTUwySUt3X24wbEIzUnR3VTJJeHl0ZlotdEZ5VXJuMGlHNUxZUTVpN1BQV3Fsb1V5U3JZR1NkTVJhR2xRb1g5em50eVp3Rl9HTWkyLVM0VUlDMmdsb21UZGN5d3BkSnVoX2ZYWHc",
-      "published_ts": 1756796400,
-      "id": "eff9b8ac0e5c31acad290000"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "IU, Cook Medical partnership will translate IU research into real-world applications - news.iu.edu",
-      "source": "news.iu.edu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc1AwRmVMUXN2TmVZc0IyWEthMWlEc1pSVzdPelF5Sld2R1RfdEd6aFFudnBPYmJQZ1NNRElpZ2Q2Z3Z4NUJoalpodHR4ME5pdXBrVjhUU1l2b2hiY282RTJodkNfYVNVSXl0SENDTkVIVVpsM2JFdmhFeGpOVjlfUGswcnRFMXhs?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiiAFBVV95cUxOc1AwRmVMUXN2TmVZc0IyWEthMWlEc1pSVzdPelF5Sld2R1RfdEd6aFFudnBPYmJQZ1NNRElpZ2Q2Z3Z4NUJoalpodHR4ME5pdXBrVjhUU1l2b2hiY282RTJodkNfYVNVSXl0SENDTkVIVVpsM2JFdmhFeGpOVjlfUGswcnRFMXhs",
-      "published_ts": 1756796400,
-      "id": "93a92f0ac6ddfd11a538910a"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Rail advocates urge public to demand more passenger train investment locally - abc6onyourside.com",
-      "source": "abc6onyourside.com",
-      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxPSGV3SlFmb2VRaWRxSWcybUFmNjN4d19ZQmxOZWpLNGEzbE5SQm0zLTd1cFBpbTR0cUtIaTJwZVI0S2ZtX0w4YTNCZDVuejlJMG5RNzRmMXBPNVNiRnhnNU9PVnkyamstMEpGLTJ3eDRxTVZuV0tobUhxLXlWbThmc2xiRXBqQmFPd1UzODZTR2VucTFKT1dLMWpwcE5HNXZNQkFyajZsbC1aXzJxWWtJbndNS096VGZiYkNVYjFvZHp5bi1sYXc4MkgwZEJYLVpUb0xaQzVhdEhtT19DWDBkdVhMejg4RVpXVG9vRFg2NktBcWtnUzYwSUtNSGtubTBQOUltTW5saTJ4T1paNk1Rd3hnMjJGdHpfMUFmMGk4Zkxhb2JYb2d1QThLTUg5a0F1Z2lIRmdZRXY2enRiVFU4STc4SHJtcUE2U1UzMzIzUFJwem5yck5HUGc4czZtSzF4M2FObGRmU1AtdVc3LXZhUmc4OUx4UmFqZ1ZjNEhiRnlnV0FqUkhv?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihwNBVV95cUxPSGV3SlFmb2VRaWRxSWcybUFmNjN4d19ZQmxOZWpLNGEzbE5SQm0zLTd1cFBpbTR0cUtIaTJwZVI0S2ZtX0w4YTNCZDVuejlJMG5RNzRmMXBPNVNiRnhnNU9PVnkyamstMEpGLTJ3eDRxTVZuV0tobUhxLXlWbThmc2xiRXBqQmFPd1UzODZTR2VucTFKT1dLMWpwcE5HNXZNQkFyajZsbC1aXzJxWWtJbndNS096VGZiYkNVYjFvZHp5bi1sYXc4MkgwZEJYLVpUb0xaQzVhdEhtT19DWDBkdVhMejg4RVpXVG9vRFg2NktBcWtnUzYwSUtNSGtubTBQOUltTW5saTJ4T1paNk1Rd3hnMjJGdHpfMUFmMGk4Zkxhb2JYb2d1QThLTUg5a0F1Z2lIRmdZRXY2enRiVFU4STc4SHJtcUE2U1UzMzIzUFJwem5yck5HUGc4czZtSzF4M2FObGRmU1AtdVc3LXZhUmc4OUx4UmFqZ1ZjNEhiRnlnV0FqUkhv",
-      "published_ts": 1756796400,
-      "id": "a45acb9db4227f4d5cf91f30"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Rail advocates urge public to demand more passenger train investment locally - WKRC",
-      "source": "WKRC",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOdTlGa1hzNkZvMHJBekhVWTJJVWhfM1k5bWxwTFdKVzg2YThsOFVzNHh5REFDY3FjRnZ0NlFKVm1HLWotc0M0eWkweHA4V0ttRkxNdnZXM2dHYmxwajduREppWmhzVU1rak1ZNUp4clZXaHB5Rm9uQW9aWXFSQ1NrV21pZ3pTNGZIVzUzYUp6bDdRbWpYTUE2RnNuQmFTZnFJNTdIekZEVEh6OVktaWxoRlljLThVZVBUTjkybWlkRWNva0NpMElmWDR6aUVxTmx3NHljVzRLSi03NTlnRkNJbFFsQWRjOExUNVFBY1dnZDh3LUpiSWRPZ1NNeEZRc0ZmT1ZRVjB4bmRIcVo0bFBKeHdCMUwzWnoxMllWbnN5MmI1TjJHNVl5Zjl6VnRYMkk3Zi1sYnV1YTVSeHlWV1d3SlBXdDFrd2hyV1VLV29PajFUSmtlRjAxaHZMLXpEWUYtOE13Z0EwUUdOUHctaTRrQ1Z6QTRtdw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi9gJBVV95cUxOdTlGa1hzNkZvMHJBekhVWTJJVWhfM1k5bWxwTFdKVzg2YThsOFVzNHh5REFDY3FjRnZ0NlFKVm1HLWotc0M0eWkweHA4V0ttRkxNdnZXM2dHYmxwajduREppWmhzVU1rak1ZNUp4clZXaHB5Rm9uQW9aWXFSQ1NrV21pZ3pTNGZIVzUzYUp6bDdRbWpYTUE2RnNuQmFTZnFJNTdIekZEVEh6OVktaWxoRlljLThVZVBUTjkybWlkRWNva0NpMElmWDR6aUVxTmx3NHljVzRLSi03NTlnRkNJbFFsQWRjOExUNVFBY1dnZDh3LUpiSWRPZ1NNeEZRc0ZmT1ZRVjB4bmRIcVo0bFBKeHdCMUwzWnoxMllWbnN5MmI1TjJHNVl5Zjl6VnRYMkk3Zi1sYnV1YTVSeHlWV1d3SlBXdDFrd2hyV1VLV29PajFUSmtlRjAxaHZMLXpEWUYtOE13Z0EwUUdOUHctaTRrQ1Z6QTRtdw",
-      "published_ts": 1756796400,
-      "id": "7cfd10b709e4d70873f0698f"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "IU, Cook sign 5-year partnership for workforce development, research - Indiana Public Media",
-      "source": "Indiana Public Media",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQkVWX0Q4d1VlSG5wSGl0YWMxaFdSbmh0ZGZPNDFWUWlBNlFmb1NyUS1CamNhWEM4NUd6MDlkdTFBQllRMG8zTkpyUHZ4WXZ0TURNYXNZMThEVGFPX19QVUxYN2FEUWduS0hTUHdnVVlzTy1LRWlrU0E0NVYyVUYzYkg5M0FtaUZuV3gxN1FOMjNKYlFCb296b2E0OERXbC1QNmVMSg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipAFBVV95cUxQQkVWX0Q4d1VlSG5wSGl0YWMxaFdSbmh0ZGZPNDFWUWlBNlFmb1NyUS1CamNhWEM4NUd6MDlkdTFBQllRMG8zTkpyUHZ4WXZ0TURNYXNZMThEVGFPX19QVUxYN2FEUWduS0hTUHdnVVlzTy1LRWlrU0E0NVYyVUYzYkg5M0FtaUZuV3gxN1FOMjNKYlFCb296b2E0OERXbC1QNmVMSg",
-      "published_ts": 1756796400,
-      "id": "e04a482d9a9733a25258b24d"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "IndyGo announces two Washington Street closures for Blue Line Construction - WRTV",
-      "source": "WRTV",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUlF0SFJJVlZWNy1ha0ItY2VaQkE1MTJIWEl1cDZKT3FpYzFaYjlVYWkxV0UzU1NMbzFtY0lXaHctYndlcHdxVkw2NFgwNkdpemE4X1VoVWllcmFrZ3VRMzBkMVBFT1NaZXRjU09TaTJjMHZwZm5qZVh3Q3lsS3hmcTVzN1RiZFBXY1duSl9BX1h3eUEtdHM3YUZyZlBjMGxIZDJSXzJlZXoyZ05VZlVwdw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMisAFBVV95cUxPUlF0SFJJVlZWNy1ha0ItY2VaQkE1MTJIWEl1cDZKT3FpYzFaYjlVYWkxV0UzU1NMbzFtY0lXaHctYndlcHdxVkw2NFgwNkdpemE4X1VoVWllcmFrZ3VRMzBkMVBFT1NaZXRjU09TaTJjMHZwZm5qZVh3Q3lsS3hmcTVzN1RiZFBXY1duSl9BX1h3eUEtdHM3YUZyZlBjMGxIZDJSXzJlZXoyZ05VZlVwdw",
-      "published_ts": 1756736959,
-      "id": "0349acfd8a8a36d8137a98c2"
     }
   ]
 }
