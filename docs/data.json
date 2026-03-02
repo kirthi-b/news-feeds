@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T09:15:29.415635+00:00",
+    "generated_at": "2026-03-02T09:26:20.087414+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1171,
+    "items_count": 1172,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -152,6 +152,17 @@
     {
       "bundle": "Indiana TOD",
       "query": "IndyGo",
+      "title": "IMPD is investigating a deadly crash involving a pedestrian and an IndyGo bus - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHdQUXVqMXM0cE5VTmFjTUtwd1VBMExrQlNqTjFVS2dLam1hQktGaFhDRTh6ZnFQN0pqaDlIakE3WmpCVDN4bVFlSzQ0YkIxT05nN0VvZEJ1eFlhZkVsTDByZHVFY3YwOFRLNVJKSlg0N0RyV2Q5cUtRQlpneHhQYnc1Vm01RUFKVVFOSWk5LWRCVXFj?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilAFBVV95cUxPSHdQUXVqMXM0cE5VTmFjTUtwd1VBMExrQlNqTjFVS2dLam1hQktGaFhDRTh6ZnFQN0pqaDlIakE3WmpCVDN4bVFlSzQ0YkIxT05nN0VvZEJ1eFlhZkVsTDByZHVFY3YwOFRLNVJKSlg0N0RyV2Q5cUtRQlpneHhQYnc1Vm01RUFKVVFOSWk5LWRCVXFj",
+      "published_ts": 1772283643,
+      "id": "891f97b70a811a221e44f990"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
       "title": "Woman Dies After Running Into Bus on Indy’s East Side - WIBC",
       "source": "WIBC",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRTMtMnhPbWtWUWx6cFVqSU5vQ0tZMDV2WWE3UkhpTXdlNG9kcTZicTVJY0o2ZDh5Q252NE83OWhMSlNEME1WakI3cldWLUFMc2lRdXBTbVJxWFZhSlF0YWdJaWV4LUJxaU5rR3JWT2ZpOUI3Vm9sSVRiZXdFc1Y1Qmc0bw?oc=5",
@@ -280,6 +291,17 @@
       "guid": "CBMilgFBVV95cUxNa1ppMXo3QUNFMlZEQV9KcDVUT3dXU3V2Skx5MjJFTGFkY3dYbjB1Z2FfNWtOZUpxY0t5QmZZdmI5QXI5eXFtaTZreldPN0VQLXJsXzg0R1dtU1kxYll4dHlCRXRXVFhFTnV6T1ZjdzVxd1phdlFleEw0S0ljblJKUV9SYzVMck0tdTNHMmJ5WF9BdEttbEHSAaoBQVVfeXFMUEhJVmg5UjNGeEFQaUNkWTZXRUctWFd6NFgwMEZDZmR3VHRuc21jYTlodFpHLURZSzZhV3RVd2cteTljeGpEemZuaHhNdnNrQ2h3cFhFM2FMSlpvTHI1a0ViVXlTMFhNN1NmYUZ1cWR2NUVwR1o2eVJkVnF5eUhORTVva2RybGtZOFZweFpFWWE5a05SaDdPZ24za2RYRGYzUk5FRlNndDFnY2c",
       "published_ts": 1772156520,
       "id": "7bed1c5b8114fde5710c6635"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Indiana’s housing overhaul bill heads to Gov. Braun’s desk - WPTA | 21Alive | Fort Wayne, IN",
+      "source": "WPTA | 21Alive | Fort Wayne, IN",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa2QtRXdxNk9VUTdRMko5a09jS2FUT0RZa3JwRmxtSVV3em1MNmJMQjdJaGV5RjFQU1diOE4xUDJYeTlaTVl3ZndtZV9JcXItblY1NDBjXzNUaE9Sa0dmQVNDWXZscUo4YlBqTHVwcnJBNGxHNG41MkJFR0xsbDllQklwNjlEbTdKaklHakFUXzVaN1V6d0g40gGrAUFVX3lxTE91aXFCNVRLdVpBdWpPRGhDeEx4S2U3dFFHZm5ONWJreHVKeHVycGJZVFJ6THpvRkZzd0poTExHS2l2OWVfajFFOF9uMzlJSndfbzJZZUtfUGEzazdiYUh2eTJ3by1pZkh3aHJELTF0WGVQRkQwc2hZLVNUdnZkSGxmSzVJdElDM3Z0TUtRMGxsTWFZVmhyOTVjeEprU1p4XzFNcjF0XzQwSnptcw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilwFBVV95cUxOa2QtRXdxNk9VUTdRMko5a09jS2FUT0RZa3JwRmxtSVV3em1MNmJMQjdJaGV5RjFQU1diOE4xUDJYeTlaTVl3ZndtZV9JcXItblY1NDBjXzNUaE9Sa0dmQVNDWXZscUo4YlBqTHVwcnJBNGxHNG41MkJFR0xsbDllQklwNjlEbTdKaklHakFUXzVaN1V6d0g40gGrAUFVX3lxTE91aXFCNVRLdVpBdWpPRGhDeEx4S2U3dFFHZm5ONWJreHVKeHVycGJZVFJ6THpvRkZzd0poTExHS2l2OWVfajFFOF9uMzlJSndfbzJZZUtfUGEzazdiYUh2eTJ3by1pZkh3aHJELTF0WGVQRkQwc2hZLVNUdnZkSGxmSzVJdElDM3Z0TUtRMGxsTWFZVmhyOTVjeEprU1p4XzFNcjF0XzQwSnptcw",
+      "published_ts": 1772156520,
+      "id": "83d99e3b4cf5520ce80a66ae"
     },
     {
       "bundle": "Indiana TOD",
@@ -1149,6 +1171,17 @@
       "guid": "CBMiqwFBVV95cUxPcEs1QkY3WkJvSFFaY3JfQnB4dTdNNW9iZjE5QUM3TU9oSGpMSDBrYkpSVzU1aThzald5WFA1N2N5emE5ZTloTDhPOERhVFVnQWItYkUwbGlzel9DN2JJLWJTX1NsT3VmQ0g1Y05PdXFNd2U3MUFfM2U5YnBpX2s3OXVfVUdRcGY3RGhua1hxSlp6VUJSeTVrVk5yaTFtOGd1UXFfNnFESGhmV2s",
       "published_ts": 1771606800,
       "id": "d59a639116ab327c5e4da4bc"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Feb. 20, 2026 | This Week in Government - Detroit Regional Chamber",
+      "source": "Detroit Regional Chamber",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWTVGMk5tVzdldDhnX0sxeFR6cXBRWEFhdDduNktuZWVqQmpYM21jaTZKOENCcW1qV0FQX21sUHVLZTFOZWp5MmNmWlBISmREN1JIdlF0WmppU1dfRFFDcmpQbElTdURfNUhHdklndUd0SlhSNXc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMidkFVX3lxTE5PWTVGMk5tVzdldDhnX0sxeFR6cXBRWEFhdDduNktuZWVqQmpYM21jaTZKOENCcW1qV0FQX21sUHVLZTFOZWp5MmNmWlBISmREN1JIdlF0WmppU1dfRFFDcmpQbElTdURfNUhHdklndUd0SlhSNXc",
+      "published_ts": 1771603348,
+      "id": "373b7b2b36186fbda5684c7a"
     },
     {
       "bundle": "Indiana TOD",
@@ -8059,6 +8092,17 @@
       "id": "00890ec95fd829489d0ca992"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Mary Sheffield",
+      "title": "Mary Kathryn (Hyde) Zimmerman Obituary October 18, 2021 - Fisher Cheney Funeral Home",
+      "source": "Fisher Cheney Funeral Home",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sb3pxaExZSTJCMGw2S2pvTlRtVWFOd0paNHkwVGRSZkdFZnM1ZXVDUndOLTBqQm1ockVoMEswMmxDV19iSW5fVll1X2xvdDB4aUFJZDYtdDU1YXp0aS1qTEFndVdRR0ZFMGY2NXh3eTI0TGMxQm0xTUZzdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMie0FVX3lxTE1sb3pxaExZSTJCMGw2S2pvTlRtVWFOd0paNHkwVGRSZkdFZnM1ZXVDUndOLTBqQm1ockVoMEswMmxDV19iSW5fVll1X2xvdDB4aUFJZDYtdDU1YXp0aS1qTEFndVdRR0ZFMGY2NXh3eTI0TGMxQm0xTUZzdw",
+      "published_ts": 1763745066,
+      "id": "7655e671b89c7563c019a784"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Indiana Sports Corp, UIndy partner to shape the future of state’s sports and events workforce - dailyjournal.net",
@@ -10061,6 +10105,17 @@
       "id": "50db437031720c20e38fcda6"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Michigan experts warn of rise in food insecurity amid federal government shutdown - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTExKdm5UaDFkMVpBaWRVQ3Rvcm9qelFSNHRqVGlKTWxsM1V3TGJCX2lRMjBxcWdMYzljNDBvSzVMY19MUlVMRUNpd1JvbEtZSDdhLVFzOEVpc1NVaVhLQnEtMG9nQ2hpeUoxN1BnNmxELUJONHYzR0VDM3lTX1ExWjRZemdzSHZFUHpIUnNUWFU1UFpKTW9CTGpNaXJ0ckdCaXA0NVNpNA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipwFBVV95cUxQTExKdm5UaDFkMVpBaWRVQ3Rvcm9qelFSNHRqVGlKTWxsM1V3TGJCX2lRMjBxcWdMYzljNDBvSzVMY19MUlVMRUNpd1JvbEtZSDdhLVFzOEVpc1NVaVhLQnEtMG9nQ2hpeUoxN1BnNmxELUJONHYzR0VDM3lTX1ExWjRZemdzSHZFUHpIUnNUWFU1UFpKTW9CTGpNaXJ0ckdCaXA0NVNpNA",
+      "published_ts": 1761289200,
+      "id": "af06e4086e77d8e292d79c52"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis transit",
       "title": "East side Wawa rejected under transit-friendly Indianapolis laws, but fight could continue - IndyStar",
@@ -11700,6 +11755,17 @@
       "id": "4456d5fa106b9a5e150979bc"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Redefined Indiana economic development roles coming, months after legislative mandate - The Indiana Lawyer",
+      "source": "The Indiana Lawyer",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPblJxalV3YVIxRzhzUWRFakdGSlpEM3F4Zng0UU55Q0g4OTRGVVJSNmc3Q0RnUGROemh4RFlYNk05bTZ5MTdfNUNFVWFfWGNHc0RzQlhfdk5rMFVOTUVuZ0ROU1ZLMmQ5MURMdHFUOWdpVXIwVGRMSkZGcFEzVi1OQ2U3eks2WkpESjNJbHBrTXlXYmJzQ0VIRFhrcGNsRmhGVG1hS25KOFlndmFIV2p3WFJHbm1jWVhyWlU5RHkzd24zdGlQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixAFBVV95cUxPblJxalV3YVIxRzhzUWRFakdGSlpEM3F4Zng0UU55Q0g4OTRGVVJSNmc3Q0RnUGROemh4RFlYNk05bTZ5MTdfNUNFVWFfWGNHc0RzQlhfdk5rMFVOTUVuZ0ROU1ZLMmQ5MURMdHFUOWdpVXIwVGRMSkZGcFEzVi1OQ2U3eks2WkpESjNJbHBrTXlXYmJzQ0VIRFhrcGNsRmhGVG1hS25KOFlndmFIV2p3WFJHbm1jWVhyWlU5RHkzd24zdGlQ",
+      "published_ts": 1759129200,
+      "id": "40667bf400c22310f29438f9"
+    },
+    {
       "bundle": "Detroit Mayor",
       "query": "Detroit Mayor",
       "title": "Guardians win AL Central title, finishing off comeback of the century - MLB.com",
@@ -12952,61 +13018,6 @@
       "guid": "CBMixgFBVV95cUxPdzZkNTUtemEtSXZYVWhJcXgyUFBMcW1rOTAtYm1TQlZMSENrVFVuZ012V3hMUWFfcmdUczZmS19ZODJlUjZ6TkRJeDQxcWxjbjRsWDdfd2tLVXZtZlptZmFTZDBteENwb09CY0pGLTI3U0lmSTBaZWY4TWd4elBCLXRRdG1peGVVNHFkQjVlTDZsVl9keV9mUHBCWDZXSjBpOXJDa1d0RTJBX3VTOHpiZjhDTnppWG5ia2sxWFQ1aUxydWpEV3fSAdoBQVVfeXFMT1plUy1ZQXdnV2hPejNYUGw3bGNtc0RHd0lBalMzc1JRX2xKWWV3eWt6ekEwSVFQc2pkRkt3NnRMTnpvS2lzMnNMRnVqZmc0a3JpRm4zUmRDQ1pKMGpaRHRPUmNBSjhoeTZvZHBHMWdKRGxrektyaFc5SkZhaGJwQXBWd0ZfZWxyLXpwX0pRVzJvazZMOW5oWW9xTUtzU1dzdUhWUmtUTkx3WnA3ek1iSi04U214bEVvSHJzWjdzUkNJTkFzb1FfanA2bnlIcElQMzVoNU5lRERCUFE",
       "published_ts": 1756969200,
       "id": "16b702a754b9aa2796d78ccb"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Freeman Building Systems designs, builds and invests as Wayne County growth spurs - Wooster Daily Record",
-      "source": "Wooster Daily Record",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxONF8tX2txR0ZRY2Y0aTVCX2w1UlZFWl9DeUJfRUJyOFN5SVFuVWZhM3hRQkJ6MU5mZWdpaXNjMzVOSW5lcHNXOFFQdjJJTlNNbUI2Sm12V04xZi1HOHRPbmdVSkJWQ0JZVTdKaVF0VHVvRUg4RHlFQlk2cWxnVWx5VVdrdjZHY19UbkRfNUh0OVE5bWpUbXNEclVsY0pxVXE3Tm9DOEpQVkhxRGVHaFJfTjlabmFsUVNXb3lGOExWUldKMTVZbThtVkxIbkNnZ2lwcnBjdFBPdUVTOXI1ZGJJVzJlemNCb3FMZVdBcXBuTW9MQy1VOHMtYUFJbEJjQk5HZWtyTUwzZXVXcUJGMVpnTGNn?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikgJBVV95cUxONF8tX2txR0ZRY2Y0aTVCX2w1UlZFWl9DeUJfRUJyOFN5SVFuVWZhM3hRQkJ6MU5mZWdpaXNjMzVOSW5lcHNXOFFQdjJJTlNNbUI2Sm12V04xZi1HOHRPbmdVSkJWQ0JZVTdKaVF0VHVvRUg4RHlFQlk2cWxnVWx5VVdrdjZHY19UbkRfNUh0OVE5bWpUbXNEclVsY0pxVXE3Tm9DOEpQVkhxRGVHaFJfTjlabmFsUVNXb3lGOExWUldKMTVZbThtVkxIbkNnZ2lwcnBjdFBPdUVTOXI1ZGJJVzJlemNCb3FMZVdBcXBuTW9MQy1VOHMtYUFJbEJjQk5HZWtyTUwzZXVXcUJGMVpnTGNn",
-      "published_ts": 1756882800,
-      "id": "7a5b4cad967a90022a05ff3f"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Hood Industries expanding operations in Waynesboro - Mississippi Development Authority",
-      "source": "Mississippi Development Authority",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUWxwNHh5RUtrVWx1X2I4aGt6WTIxNU5TT243NDFNSU1HbEFFdHJIc0QwTGJaTElKcG5fdzZZaG4wQW5PV2t0b2Z3UDJRaHhNZ1FNczZwX1R5SUlKWGFLS29WX0tnQTFWb1FuNXhZRmRkel9paDI2ajZiYVYwR0xZZEIxR2hZT0U?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihwFBVV95cUxOUWxwNHh5RUtrVWx1X2I4aGt6WTIxNU5TT243NDFNSU1HbEFFdHJIc0QwTGJaTElKcG5fdzZZaG4wQW5PV2t0b2Z3UDJRaHhNZ1FNczZwX1R5SUlKWGFLS29WX0tnQTFWb1FuNXhZRmRkel9paDI2ajZiYVYwR0xZZEIxR2hZT0U",
-      "published_ts": 1756882800,
-      "id": "6b88f817505fbda7f42d5582"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County workforce",
-      "title": "YMCA of Wayne County begins before and after school programming in Millersburg - Wooster Daily Record",
-      "source": "Wooster Daily Record",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObGJUTm9NQ0NWSlRUd3NXbE5GcWNQeEk2R0piSGh1RTloV1FYYW50YVJPZ0p2ZXN3bDZjOTVVUTJUdDlyWG1iU2owUDVKYndjSTF1Q056RFJoOUxBblllLVVqcTdhS2VaeWE3VHAyZmRnN3d3cl9ybm1ndXRmWGRMc2F2Rm9RUFg2V3VHOXFOVXZwVmk3MzU2enNzUjlwcndBS05ua3BySi16Q0s0N2JqWXFTMGQxRVoxWXdMOWJzRU52VEE5QmdmZVlkdzN0TkZiYlNxN3RFYzJaRHNLUVNiRFQ1WjY0TjEtdWNMcFE0aUdVdUJZeVB3Ujc0amtPMW1aODcwZWRzNEc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiiAJBVV95cUxObGJUTm9NQ0NWSlRUd3NXbE5GcWNQeEk2R0piSGh1RTloV1FYYW50YVJPZ0p2ZXN3bDZjOTVVUTJUdDlyWG1iU2owUDVKYndjSTF1Q056RFJoOUxBblllLVVqcTdhS2VaeWE3VHAyZmRnN3d3cl9ybm1ndXRmWGRMc2F2Rm9RUFg2V3VHOXFOVXZwVmk3MzU2enNzUjlwcndBS05ua3BySi16Q0s0N2JqWXFTMGQxRVoxWXdMOWJzRU52VEE5QmdmZVlkdzN0TkZiYlNxN3RFYzJaRHNLUVNiRFQ1WjY0TjEtdWNMcFE0aUdVdUJZeVB3Ujc0amtPMW1aODcwZWRzNEc",
-      "published_ts": 1756882800,
-      "id": "7955cb7a57003f5c243da659"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Hood Industries invests $245 million in Waynesboro expansion - magnoliatribune.com",
-      "source": "magnoliatribune.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbXEtVVFObzBBN3ZJZnVjU0ZqT0hLdUxfUGxsaGktajlsYWV0eUdfVEt5SmF3OEhiMVdIakc5UmxLN3FpQnU2aGhfT1YxNE1LbUJTc1VsOERlRk5lQmhWanFlbERKQ25jVnQyeGoyWnhibUtkS2d3OXJkQ053ZGlyTFRyWFBJaFp0Zm55NF8yWXNvMHdSV1BvYUhIWmxFTFZ1?oc=5",
-      "canonical_url": "",
-      "guid": "CBMioAFBVV95cUxQbXEtVVFObzBBN3ZJZnVjU0ZqT0hLdUxfUGxsaGktajlsYWV0eUdfVEt5SmF3OEhiMVdIakc5UmxLN3FpQnU2aGhfT1YxNE1LbUJTc1VsOERlRk5lQmhWanFlbERKQ25jVnQyeGoyWnhibUtkS2d3OXJkQ053ZGlyTFRyWFBJaFp0Zm55NF8yWXNvMHdSV1BvYUhIWmxFTFZ1",
-      "published_ts": 1756882800,
-      "id": "c86abfd7aeb2938eaa0565e6"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County workforce",
-      "title": "Hood Industries Investing $245 Million in Waynesboro Sawmill Expansion - desotocountynews.com",
-      "source": "desotocountynews.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXNKSC1ybHFjb2E4azdhTDdHdHdWQldocjh6eGFxeDZwUHFvbkFKV3MtUFE5b1FVWldwNDNmUFktb0JlLUNpUy1kbVZvRGgxZ2VEUVYzLWg0OXFOcFFZdTJLbGdRVnJHMHV4eTA2V2p6Ty1zTkE2TWl5cUFRX2lIcXlpLU1rM01uUXJqblhlckZDY19PNmxUQ3FuZ0JJTmpjMmxPY2E5T2w0Sm9DRENDQzJmTUxvSDQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMitwFBVV95cUxNOXNKSC1ybHFjb2E4azdhTDdHdHdWQldocjh6eGFxeDZwUHFvbkFKV3MtUFE5b1FVWldwNDNmUFktb0JlLUNpUy1kbVZvRGgxZ2VEUVYzLWg0OXFOcFFZdTJLbGdRVnJHMHV4eTA2V2p6Ty1zTkE2TWl5cUFRX2lIcXlpLU1rM01uUXJqblhlckZDY19PNmxUQ3FuZ0JJTmpjMmxPY2E5T2w0Sm9DRENDQzJmTUxvSDQ",
-      "published_ts": 1756882800,
-      "id": "269c59b2631bb67c162753d1"
     }
   ]
 }
