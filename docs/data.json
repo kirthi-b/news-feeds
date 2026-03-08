@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-07T09:13:20.900416+00:00",
+    "generated_at": "2026-03-08T09:13:59.509657+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1248,
+    "items_count": 1254,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -130,6 +130,39 @@
     {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
+      "title": "Southside Shock as Squatters Ram Car Into Vacant Indy Apartment - Hoodline",
+      "source": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWR4eEZGWkw4YkFWOEZvWmF6cmJIekZnNlYtS29mSkYwc3ZGM2xXZzgxVnJlM0xyZUdiWXVaWng0OEhEMzJfbEQ2VUY0QlFrTVJYNGVqU052dko3bWlMVDBrS2U1eUw4b1V2eEwxVER0OXV0d0JGLUF1UTFLSUpicjdVTlVpUjBkckFKblVUczlsMldZMk9HOA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimAFBVV95cUxNbWR4eEZGWkw4YkFWOEZvWmF6cmJIekZnNlYtS29mSkYwc3ZGM2xXZzgxVnJlM0xyZUdiWXVaWng0OEhEMzJfbEQ2VUY0QlFrTVJYNGVqU052dko3bWlMVDBrS2U1eUw4b1V2eEwxVER0OXV0d0JGLUF1UTFLSUpicjdVTlVpUjBkckFKblVUczlsMldZMk9HOA",
+      "published_ts": 1772907452,
+      "id": "3e8a171262c57ce57e2121b9"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit has made headway on home repair. It’s still a $1B problem - Michigan Public",
+      "source": "Michigan Public",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWdJMXRNSi1WMVdnQ01uZEVFdl85MXFCNXVkOTA5NHlHSTFaNWZ2SXJoa1BYNGVyMlJyNExUQU5Hal9qOTRrYXFjc3B6Z0p1X29NeGlfWXBXOG5WS1k1ZDUwNTNldjNFeVlVS1ZqRmJOY3BsWmc2d19NdnhmbXJETFpvd094cG4wd1Y3SEU0dXpZRXZ0NTRZSmdQd0pyUjlsQXY2SXBEVW5Kb3lQZS1LN2J3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisgFBVV95cUxNSWdJMXRNSi1WMVdnQ01uZEVFdl85MXFCNXVkOTA5NHlHSTFaNWZ2SXJoa1BYNGVyMlJyNExUQU5Hal9qOTRrYXFjc3B6Z0p1X29NeGlfWXBXOG5WS1k1ZDUwNTNldjNFeVlVS1ZqRmJOY3BsWmc2d19NdnhmbXJETFpvd094cG4wd1Y3SEU0dXpZRXZ0NTRZSmdQd0pyUjlsQXY2SXBEVW5Kb3lQZS1LN2J3",
+      "published_ts": 1772888400,
+      "id": "463d316402a7a23d12a9f0a4"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "'I was shocked' | Neighbor catches squatters using car to break into vacant apartment at troubled south Indianapolis complex - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNck42dmxVcHUwZ2o1T2ZQeFBNeExpRjRvbVB3dGhVQkhtYnNQNFBTOXBjZkhiSTI0YWNadmdndWNmb24wNjBVWThPUjhMbHVSaXBzTkRtRWd0V18tTkJNZ08waTE1RHRoNkloRFFtQm16cnNPNm9pZ2RMU0xnbjYwYVV0MXlyVEU4bFloWG42aWo5ekZMSDM2X08zZW5jSGlyLXR2R2ZiZG5ZUDVlR1FfQzV6SVF3ZXBMYm5henl2WFRHVjNfcl94dG9MSDZFSlY0emd5S0dnMWVYbFJiSU0ySDlpdW5idGFHd1VnaVZlR19tV2k0SXFYOVotUXF1TWJBZmg5M2tR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihgJBVV95cUxNck42dmxVcHUwZ2o1T2ZQeFBNeExpRjRvbVB3dGhVQkhtYnNQNFBTOXBjZkhiSTI0YWNadmdndWNmb24wNjBVWThPUjhMbHVSaXBzTkRtRWd0V18tTkJNZ08waTE1RHRoNkloRFFtQm16cnNPNm9pZ2RMU0xnbjYwYVV0MXlyVEU4bFloWG42aWo5ekZMSDM2X08zZW5jSGlyLXR2R2ZiZG5ZUDVlR1FfQzV6SVF3ZXBMYm5henl2WFRHVjNfcl94dG9MSDZFSlY0emd5S0dnMWVYbFJiSU0ySDlpdW5idGFHd1VnaVZlR19tV2k0SXFYOVotUXF1TWJBZmg5M2tR",
+      "published_ts": 1772840940,
+      "id": "0d18cbd08948ba7d75ed961c"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
       "title": "Column: Housing roundtables inspire lively, respectful debate - Current Publishing",
       "source": "Current Publishing",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWlMxX1EwNDZfZXZKYWF4WHBIc2t5ZFJhYnVfV2UwMnZGWThwck1YU0lBV01qbnNrVGtQdkY4M0JtLVFIV1d4VGI5dEhCX3ltSmMzeEhUeUg1M2xjS3hVc0U0anViZ3pEczV2cnpoUFYwQ3g5SDZ1TjNsbEJpM29QVy1DSW5aeHhsbmMxaHhvaGFZeTdOWDQtbFVYSWJrdw?oc=5",
@@ -137,6 +170,17 @@
       "guid": "CBMingFBVV95cUxQWlMxX1EwNDZfZXZKYWF4WHBIc2t5ZFJhYnVfV2UwMnZGWThwck1YU0lBV01qbnNrVGtQdkY4M0JtLVFIV1d4VGI5dEhCX3ltSmMzeEhUeUg1M2xjS3hVc0U0anViZ3pEczV2cnpoUFYwQ3g5SDZ1TjNsbEJpM29QVy1DSW5aeHhsbmMxaHhvaGFZeTdOWDQtbFVYSWJrdw",
       "published_ts": 1772837860,
       "id": "db0d392c06f425bff09fed98"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Tee Grizzley Giving Back To His Hometown With Housing Project - HotNewHipHop",
+      "source": "HotNewHipHop",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xMG1IaGdaX3ZDaEk4QkFSMGJSSXpsMnVpdGxyRFMxb0lDU1NyZ2R2cGMyenBpT25KLUVINUx2S1VBZG5MY2VPMzlWMzRZTENCXzlBN0NuQjhwZ0ppeklGTEtNc1U5eHdXQklOTnpISWNBek5CQXBPUVJvNVBGQQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMifkFVX3lxTE5xMG1IaGdaX3ZDaEk4QkFSMGJSSXpsMnVpdGxyRFMxb0lDU1NyZ2R2cGMyenBpT25KLUVINUx2S1VBZG5MY2VPMzlWMzRZTENCXzlBN0NuQjhwZ0ppeklGTEtNc1U5eHdXQklOTnpISWNBek5CQXBPUVJvNVBGQQ",
+      "published_ts": 1772836288,
+      "id": "a0c518727c16d6dd3a2e29a6"
     },
     {
       "bundle": "Wayne County TOD",
@@ -1842,6 +1886,17 @@
       "guid": "CBMipgFBVV95cUxOUXhFV1lTQnMxVnFIZnZMaUVhMkNDR254ZlhRNlg3YXp1LXJfR0lKMVhCbEh3WkdwUHBhbHp6WEJ3TEdjN2NKUlE2WWt2eUxTYV9WTW5oNXc1NVdQc3VCMm0zZmJqN2dhdVNOeXhkYTA0ZWdtbUZ4TG1YRTZZVE04ZTdrbDRQbXVRa0xQTDhjRlQ0N1c4WUExcWJnUmNRVzVIcVZqSXZn",
       "published_ts": 1771622105,
       "id": "e1d3b1ebb7ba2a0895c1a67c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Tax Relief, Housing Reforms, and the Push for Economic Competitiveness - Detroit Regional Chamber",
+      "source": "Detroit Regional Chamber",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLUdHektHNW1QV2JSQ1NjU1Bha3hZa3JBbjk3ZEw3MWltZHhEOU5GM0hwNU8xSUFFS3h3WU1LUC1RbG1iVWl1SW5MQ01ORWVSZ0NkVXp2bGVhNHctOS1rb05LNUJnc3NvQ3JNd20xZ21xdk96Q2pXRFdTdVE4alhMb0ZGSkRYaWlsYXdKaTJGUUdDQk41TUhwRWVLNklNZ21iQ1E?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiogFBVV95cUxOLUdHektHNW1QV2JSQ1NjU1Bha3hZa3JBbjk3ZEw3MWltZHhEOU5GM0hwNU8xSUFFS3h3WU1LUC1RbG1iVWl1SW5MQ01ORWVSZ0NkVXp2bGVhNHctOS1rb05LNUJnc3NvQ3JNd20xZ21xdk96Q2pXRFdTdVE4alhMb0ZGSkRYaWlsYXdKaTJGUUdDQk41TUhwRWVLNklNZ21iQ1E",
+      "published_ts": 1771619622,
+      "id": "e69cc054c460b97aa24cb9a4"
     },
     {
       "bundle": "Wayne County TOD",
@@ -7564,6 +7619,17 @@
       "id": "c636849ce576675c94d219a8"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Sheffield Administration",
+      "title": "Poker Player James Bord Emerges as Preferred Bidder For Sheffield Wednesday Soccer Club - SCCG Management",
+      "source": "SCCG Management",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVlRwQ3pKcy1MTFA5dWJZdWt4bXpvTDh1RkNxbjdQZE5PZlBjclo5MXdSZ3hJUUxnZGFoeGs0TzJvZFlzWXhVQWtWWTZ2SmNkZ01QYzZlTUpRN1ZJa3hucS1Sbk80blFNaURLazhaZjdVX1Z3eXpyOHpkNWlncTNURzZwbWZPS1NnWlhhcUllVTNreEFsNUpGcHNoTWFKdmk0cU1ERVFvd0RhNzhaM3lOaXZpNjZiRHYwWFdnYXhXbjdkaVdrVFNod1hLLVhwZTg4RWc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi0gFBVV95cUxOVlRwQ3pKcy1MTFA5dWJZdWt4bXpvTDh1RkNxbjdQZE5PZlBjclo5MXdSZ3hJUUxnZGFoeGs0TzJvZFlzWXhVQWtWWTZ2SmNkZ01QYzZlTUpRN1ZJa3hucS1Sbk80blFNaURLazhaZjdVX1Z3eXpyOHpkNWlncTNURzZwbWZPS1NnWlhhcUllVTNreEFsNUpGcHNoTWFKdmk0cU1ERVFvd0RhNzhaM3lOaXZpNjZiRHYwWFdnYXhXbjdkaVdrVFNod1hLLVhwZTg4RWc",
+      "published_ts": 1766736000,
+      "id": "0685abe6bf41c154e04740a2"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit transit",
       "title": "Stupka: Transit knits southeast Michigan together - The Detroit News",
@@ -9908,6 +9974,28 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "How to travel from Indy to the East Coast with Amtrak - INDYtoday",
+      "source": "INDYtoday",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeFdlOW1DTnRuOUo4TzlNSXlYMzF5ZVcwa1ptRDdzTnZiWVpWUzVVSTc5TE5aU1FWQU45aHEyeGlHTzRYcEtadURLMFFnZDZjRTd3TlFDYmdPeDRPQ2trWWI1MmljYmpOYWlIc2pwcVZ3V1J4TmdNWGVwRnk3OUx2Sm9YWEZxMDJnOEk1MGlLWGdBUDhRd1NpWXNja2dMYkMtVmpNUmtR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipgFBVV95cUxQeFdlOW1DTnRuOUo4TzlNSXlYMzF5ZVcwa1ptRDdzTnZiWVpWUzVVSTc5TE5aU1FWQU45aHEyeGlHTzRYcEtadURLMFFnZDZjRTd3TlFDYmdPeDRPQ2trWWI1MmljYmpOYWlIc2pwcVZ3V1J4TmdNWGVwRnk3OUx2Sm9YWEZxMDJnOEk1MGlLWGdBUDhRd1NpWXNja2dMYkMtVmpNUmtR",
+      "published_ts": 1762502400,
+      "id": "17f509f16f92bf08c66d91f7"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "FBI raids in Dearborn spark outrage and doubt in the Arab American community - ArabAmericanNews",
+      "source": "ArabAmericanNews",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWG92elRxTVRvaTJERG1mLV9RMlJmbUVDUlhBTFo2SDZ0RlNvSFV0RlI4TFVpcmlkRE9ETjBWUTlBSDRpaVlfbGdTRHNXczlaa0l0VzNFQ2VqSFMxMkhoS2RrSkYwTFpqLTdUWEJqUFNMVmJwN1plSkhfN2dKbWtvVmtVTzdfNl9KN1lDYzNIa1pEQmUwVXlDeUR0SDFYMHNZeDcxOUhVZXBqRmFfS3MtRUN2RjdnR3At?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiuAFBVV95cUxNWG92elRxTVRvaTJERG1mLV9RMlJmbUVDUlhBTFo2SDZ0RlNvSFV0RlI4TFVpcmlkRE9ETjBWUTlBSDRpaVlfbGdTRHNXczlaa0l0VzNFQ2VqSFMxMkhoS2RrSkYwTFpqLTdUWEJqUFNMVmJwN1plSkhfN2dKbWtvVmtVTzdfNl9KN1lDYzNIa1pEQmUwVXlDeUR0SDFYMHNZeDcxOUhVZXBqRmFfS3MtRUN2RjdnR3At",
+      "published_ts": 1762502400,
+      "id": "96192c3dab564e17d89be85d"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "Indianapolis housing market sees 56% price cuts - HousingWire",
       "source": "HousingWire",
@@ -11445,6 +11533,17 @@
       "guid": "CBMi2gFBVV95cUxOMVpXdFEzdmtQMUxJdmNTODByR0NuSndXOTdpRlZyN3l1eWhmc01temUyd2l5OUhjQ1VYS3NYbDdlRmtScm5ybHBuZng0T0c5Uk1MNHhGZWRTaG1idlprMzNOQ2lXaUFfQnRYc3lLVHlpTXhBdUI2dHcxQmotbFN6UC1rOTdDdFdmX2tsb3U4X2U1d1R1STRqREp1WUFyd0JrTm9LWXRzYnZxUkpkbEJqTU9vYXZFLTNvUlpaVjdsOHNuVWlYOVdHX25HRlhIRmhKUVpRVWQ0X2JVZw",
       "published_ts": 1760943600,
       "id": "8e2dab8f2f65e9a0e01c1aa5"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Mary Sheffield",
+      "title": "Donald Trump Appoints Mark Savaya as Special Envoy to Iraq - Kurdistan24",
+      "source": "Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTU55VEE4VkE5NFZ6dHNDRXR2VXRyU3hCc0ZrMVRmb2ZCTkU0TjF6c0xyZkFZXzEwWDF1bWJvQVBrT3Jhb2w1SnQyYkxqb2dGenpWQThvY1phdUZuNElZSkQ3eERlNktKRkdXX0ozNEM0V0E0VWNhaTdzd2dIUU44V3RuY3lfRXJfLWFMelRoZlhIWkpEOGZkbmZ4SDFiYkFZY2M0Wg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxOTU55VEE4VkE5NFZ6dHNDRXR2VXRyU3hCc0ZrMVRmb2ZCTkU0TjF6c0xyZkFZXzEwWDF1bWJvQVBrT3Jhb2w1SnQyYkxqb2dGenpWQThvY1phdUZuNElZSkQ3eERlNktKRkdXX0ozNEM0V0E0VWNhaTdzd2dIUU44V3RuY3lfRXJfLWFMelRoZlhIWkpEOGZkbmZ4SDFiYkFZY2M0Wg",
+      "published_ts": 1760857200,
+      "id": "a05e62f7c326aaa5fb45180a"
     },
     {
       "bundle": "Detroit Mayor",
@@ -13438,6 +13537,17 @@
       "id": "0711e3a9e9186b65155e2030"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Quick survey, big impact - The River Reporter",
+      "source": "The River Reporter",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWbGloZ3BfZ0g5VzFyQmR3bTZiOVJKeE1tQXc2TEtobDFhdDNtZW1rdjVBT1lTbXJESm9HVl9ob3oyQnFFdzFTU0dRd0pRRm5yOVhxYTF1TlRfX1NkT0RGTXYwMDBZS2t2VkhwaWJ1cUxNUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMickFVX3lxTFBWbGloZ3BfZ0g5VzFyQmR3bTZiOVJKeE1tQXc2TEtobDFhdDNtZW1rdjVBT1lTbXJESm9HVl9ob3oyQnFFdzFTU0dRd0pRRm5yOVhxYTF1TlRfX1NkT0RGTXYwMDBZS2t2VkhwaWJ1cUxNUQ",
+      "published_ts": 1758092400,
+      "id": "86725d01b78b0c057fd94496"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Indiana will pay your boss to pay you more - Axios",
@@ -13810,50 +13920,6 @@
       "guid": "CBMizAFBVV95cUxOekNQSzQ0VG95WWEtSGpLdUw0ZVRPVlVuN3Bsc3I5VV94eFY5eGdVNEMxZnFfZTkwV1R0Q01QOGtBZVNNN1lZRWozaU56Ymh3dUdiTzFpcXljLXFkSDVadFhEaGV2SnhfUFl6bUhrTWRWUzBMYUhlXzQwRW94ZTlqS01YNXdSVDZWeUEySlNvTjZ4dXZmcjQtQU00N2k0Zm40c3V6RTBpbThsY0xEZE9keWgtcE9yX05TeXpVaE4xdXNOODJiN2dXVEoxcUQ",
       "published_ts": 1757487600,
       "id": "91a342e03ea770b7beff3062"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis housing",
-      "title": "Four months into IHA improvement plan, residents want more progress - WRTV",
-      "source": "WRTV",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd3I3UHNqalFfREdWX0ZYZHByLXcxNmZRR01mTTNBZi1Oc2ZaZzc3cVhBOUNkQWt5NWtsY0V5MmdLb2lKRlFlYVdRRkFTUmVUa0p1MFZNTHFIZnlMdjl1Q0FYY0o4VUFIUEZmNzU0aUhkR25uREZHRnFLaTlacFdUUERyYXgyLWhCdzhhZV9rWndtWGpTcTJYMmV6UEdTSXdpc1JFYVVsYUFTNDZBYzl3akNBSmpkcmRFVkhpT0t1aHRtOTBCOHhlSU8xZUtrOHAyNXE4?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi0wFBVV95cUxPd3I3UHNqalFfREdWX0ZYZHByLXcxNmZRR01mTTNBZi1Oc2ZaZzc3cVhBOUNkQWt5NWtsY0V5MmdLb2lKRlFlYVdRRkFTUmVUa0p1MFZNTHFIZnlMdjl1Q0FYY0o4VUFIUEZmNzU0aUhkR25uREZHRnFLaTlacFdUUERyYXgyLWhCdzhhZV9rWndtWGpTcTJYMmV6UEdTSXdpc1JFYVVsYUFTNDZBYzl3akNBSmpkcmRFVkhpT0t1aHRtOTBCOHhlSU8xZUtrOHAyNXE4",
-      "published_ts": 1757401200,
-      "id": "d71bf271bf5a353967284385"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Another MS business boost: Sawmill plans $245M expansion in southeastern part of state - The Clarion-Ledger",
-      "source": "The Clarion-Ledger",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeE9WOFZYWmpTeHJHSEgxRVhSZXRVLUd3RW9oYjA3SDdFamJmWHVNSzNoaTZ4TkhSREJtMElUZlYxRU9UWTlKQ1l2QUpGVnM0bTIxM3ZjZzgwOEk4UlRWdEJmazRZUGtENVd6elkyS2JZWkJlcjgtQ0MxOW9Xd09odWN1M19hZDZqV3kybGhIcHNmV2lZVDlxWV93dWhaSnZCWi1OZWlEc3J5ejE2Z1ZNSi1hbTBCcnR6MXh3Rzg2UUpPbkJLT2tXMTZ4MlJ4SElnYjJzT0dNSFQxTkVQcWFBZ3ZPbTYydmc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi5wFBVV95cUxPeE9WOFZYWmpTeHJHSEgxRVhSZXRVLUd3RW9oYjA3SDdFamJmWHVNSzNoaTZ4TkhSREJtMElUZlYxRU9UWTlKQ1l2QUpGVnM0bTIxM3ZjZzgwOEk4UlRWdEJmazRZUGtENVd6elkyS2JZWkJlcjgtQ0MxOW9Xd09odWN1M19hZDZqV3kybGhIcHNmV2lZVDlxWV93dWhaSnZCWi1OZWlEc3J5ejE2Z1ZNSi1hbTBCcnR6MXh3Rzg2UUpPbkJLT2tXMTZ4MlJ4SElnYjJzT0dNSFQxTkVQcWFBZ3ZPbTYydmc",
-      "published_ts": 1757401200,
-      "id": "c42db83119936a98280c3071"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis housing",
-      "title": "Real Estate Rundown: August 2025 housing market report - WISH-TV",
-      "source": "WISH-TV",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WVGRaNk0xaW1pWlBXdExyVnh2aHBzZDk0VWJtRTVCUjlTTWVra3V0ak95d0MzWWZRLWpMY2ZuOHJadVc0LUdIeDdhNzJZV1dIVnlsVUNxUDFuTF91RkVxcUIwcDlIUHpqalZUNV9Xbm9qbmFfelM2Zk1R?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiekFVX3lxTE9WVGRaNk0xaW1pWlBXdExyVnh2aHBzZDk0VWJtRTVCUjlTTWVra3V0ak95d0MzWWZRLWpMY2ZuOHJadVc0LUdIeDdhNzJZV1dIVnlsVUNxUDFuTF91RkVxcUIwcDlIUHpqalZUNV9Xbm9qbmFfelM2Zk1R",
-      "published_ts": 1757401200,
-      "id": "2c092fdf41827d3725571f27"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Sept. 8 - Do it Best marks 80 years with growth, workforce expansion, and $10.4M economic Impact from Fall Market - fwbusiness.com",
-      "source": "fwbusiness.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQangxYlEtbXBlT0JVTmNvdFIyQXFLSnpNRTdWVVhPRGs0cmZVeWxwVXE5VkRhZ21ZU2ZMRWpmd05IN3YxRklZSGNVbmtJV1NDY29OcnlGYXh3VUEzYkxrRFhvaUdNcWVmLUozNU1MSXZ0bnFYcWd6MEtXQnZ6TGFuQTVYMGY3OFNR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiiAFBVV95cUxQangxYlEtbXBlT0JVTmNvdFIyQXFLSnpNRTdWVVhPRGs0cmZVeWxwVXE5VkRhZ21ZU2ZMRWpmd05IN3YxRklZSGNVbmtJV1NDY29OcnlGYXh3VUEzYkxrRFhvaUdNcWVmLUozNU1MSXZ0bnFYcWd6MEtXQnZ6TGFuQTVYMGY3OFNR",
-      "published_ts": 1757369766,
-      "id": "d76bc790d3f725eb25db17fd"
     }
   ]
 }
