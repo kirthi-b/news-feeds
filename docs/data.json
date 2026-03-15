@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-14T09:17:44.379627+00:00",
+    "generated_at": "2026-03-15T09:24:26.122517+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1318,
+    "items_count": 1321,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,61 @@
     }
   },
   "items": [
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Indianapolis International Airport Guide: Terminals, Ground Transport, and Car Rentals - thetraveler.org",
+      "source": "thetraveler.org",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObkl3dDVFRkhROVFFZ193VXhFMFIwR0JYR3FFdTNsWnZhNXVpSFdHRkhYRjl3by1UaE95Qmx3bE5wVGppRFo0WHdpTTFLa01WMXdTMDhjS0RINWJaWlZ4cWpwaVlNQUJSNFZqYnUtWGxIUmhrM1d5NE9rODVPbC1aSUNzNlc0VFlGY2M4dVFRMHV0V0diSnQydFg0NXZWZDlBdm1NdGI2WGV1WlVkUnlnc3FR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisgFBVV95cUxObkl3dDVFRkhROVFFZ193VXhFMFIwR0JYR3FFdTNsWnZhNXVpSFdHRkhYRjl3by1UaE95Qmx3bE5wVGppRFo0WHdpTTFLa01WMXdTMDhjS0RINWJaWlZ4cWpwaVlNQUJSNFZqYnUtWGxIUmhrM1d5NE9rODVPbC1aSUNzNlc0VFlGY2M4dVFRMHV0V0diSnQydFg0NXZWZDlBdm1NdGI2WGV1WlVkUnlnc3FR",
+      "published_ts": 1773565031,
+      "id": "6ad911a67a16080cf4dce223"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Regional collaborative aims to address workforce challenges - Scranton Times-Tribune",
+      "source": "Scranton Times-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOWJJVHdJamhPSnFzUEJVRW9wRWxZTVI3QXNySFdEVWhMNndabHJXMzgyWThwaVY3ZjBHMmJUcXl6UDZkVWt5QTgtbWQxazFLd1VIU3cwYjhGYks2X0N3RU5vVjhubG45MXhOYXY0R1NxM3ZjX1Y4WUgwVUpEWmhHcXhtS1BnWEJYNUJMUk9FTGktVktHOEw3a0Z2WU92eW40bEFZc3d6aw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipwFBVV95cUxOOWJJVHdJamhPSnFzUEJVRW9wRWxZTVI3QXNySFdEVWhMNndabHJXMzgyWThwaVY3ZjBHMmJUcXl6UDZkVWt5QTgtbWQxazFLd1VIU3cwYjhGYks2X0N3RU5vVjhubG45MXhOYXY0R1NxM3ZjX1Y4WUgwVUpEWmhHcXhtS1BnWEJYNUJMUk9FTGktVktHOEw3a0Z2WU92eW40bEFZc3d6aw",
+      "published_ts": 1773547298,
+      "id": "9bf15ddd66ec32c28922ded4"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "He's helping families turn abandoned Detroit houses into homes - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjZ0bXhIblcxN1ZGaVFFRFNWeUd1b3dIWS0ybGVqU2UyMU5abV9vdEp3WmFxbFRqUFNrTTE3X1lxRkhRcU85NHdNdDdueFhfWk5TRFFmRS13XzlObUFvcUtfWWhiejVJaTR5R1Yxa09teVhqaFVOMjJacHNjaVdLTnFTWjRRbURiV1lLclctWGZOSlpLcGRBLTdydXpTb29ZSm9LdXpYMDMxd05BVVFEQ2NNdGZXLXNvLW1lR0VPQQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivwFBVV95cUxNbjZ0bXhIblcxN1ZGaVFFRFNWeUd1b3dIWS0ybGVqU2UyMU5abV9vdEp3WmFxbFRqUFNrTTE3X1lxRkhRcU85NHdNdDdueFhfWk5TRFFmRS13XzlObUFvcUtfWWhiejVJaTR5R1Yxa09teVhqaFVOMjJacHNjaVdLTnFTWjRRbURiV1lLclctWGZOSlpLcGRBLTdydXpTb29ZSm9LdXpYMDMxd05BVVFEQ2NNdGZXLXNvLW1lR0VPQQ",
+      "published_ts": 1773523260,
+      "id": "16264ccb3ec2f531930b9212"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Public Transportation in Indiana: Buses, Rideshares, and Transit in Major Cities - thetraveler.org",
+      "source": "thetraveler.org",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnktWEVfMWp4X3lUQkloWVB3c0NpUHhzMGZXWG5BUjIta1VVQ09YT2xTUEhTUlBfdmtBVW1ESXduWTVkekRpcTdub1JaOXZOeHRBcDAtVE4xLWJaeVFyM29tbE0xa0V5aUhtVUNFR0c1UmZETlJ0eVRoOS1zbjFRUzZYeHRHbWR0NF9NWWNFc2U5Qk1RUU8xVEhCQ2RPRFZkcmpOVUpjUDFnUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqgFBVV95cUxORnktWEVfMWp4X3lUQkloWVB3c0NpUHhzMGZXWG5BUjIta1VVQ09YT2xTUEhTUlBfdmtBVW1ESXduWTVkekRpcTdub1JaOXZOeHRBcDAtVE4xLWJaeVFyM29tbE0xa0V5aUhtVUNFR0c1UmZETlJ0eVRoOS1zbjFRUzZYeHRHbWR0NF9NWWNFc2U5Qk1RUU8xVEhCQ2RPRFZkcmpOVUpjUDFnUQ",
+      "published_ts": 1773493115,
+      "id": "53d810ac3ebd98094d2a7ffa"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "IndyGo offering free rides for Thanksgiving, Christmas - MSN",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOd0c0b012aHpLd3RxZ0xVdWhYRGVIdWRrVTlQX2ZYY0d5ODJEa2VNUHFrOWxzTmt0MTd2TmZHOExWaDczWnpfNFRQWHBHWkQwM1VxTlp2V2ZmOHVZRjRaWXRlb0RNSzR6T3VpdHp2QzhTWHZqbzg0UGg2VFBUcGpfWFltZnptQmstOFcwX0lDRHdvTWd6MlZLeVNlcUlSNGh6SWVDUXNUcmhjc3hzRzR0MHI5Zmg0d1dqVGNkemc1UGRfSFd2Y2s3YmRGMTVva3M1YnhlMHlvdlh6TVktRVdTU1BmN1RHT2d5UUJXVUlrNFh6aVlISmE0YzA2OGFrZE5JTFJxS3lSeXRhQ1NwMWRVek5PUDE4SVR6MmRwelkzZjBMck5qMGF6eWVNUUNJb05hWlQyZXZPbk9mUW5mbEIzRHJBVkIxNWdFVVpLN25vQWJkbmp5eklMZnMyRFhudw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi3gJBVV95cUxOd0c0b012aHpLd3RxZ0xVdWhYRGVIdWRrVTlQX2ZYY0d5ODJEa2VNUHFrOWxzTmt0MTd2TmZHOExWaDczWnpfNFRQWHBHWkQwM1VxTlp2V2ZmOHVZRjRaWXRlb0RNSzR6T3VpdHp2QzhTWHZqbzg0UGg2VFBUcGpfWFltZnptQmstOFcwX0lDRHdvTWd6MlZLeVNlcUlSNGh6SWVDUXNUcmhjc3hzRzR0MHI5Zmg0d1dqVGNkemc1UGRfSFd2Y2s3YmRGMTVva3M1YnhlMHlvdlh6TVktRVdTU1BmN1RHT2d5UUJXVUlrNFh6aVlISmE0YzA2OGFrZE5JTFJxS3lSeXRhQ1NwMWRVek5PUDE4SVR6MmRwelkzZjBMck5qMGF6eWVNUUNJb05hWlQyZXZPbk9mUW5mbEIzRHJBVkIxNWdFVVpLN25vQWJkbmp5eklMZnMyRFhudw",
+      "published_ts": 1773480516,
+      "id": "64a383ce46a0e3ff5e0f0cae"
+    },
     {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
@@ -346,6 +401,17 @@
       "guid": "CBMiUkFVX3lxTE5UTVZ5VUtqN1VHRWpzek9lN18zNHdJN3Vsb244b2tRaFZjaF9reWpuODJfNnFnLUpuOFA3alZWeUVIWVhTRlgxRDVwVGlPal9BcFE",
       "published_ts": 1773349231,
       "id": "15e7f47578b49fa61322c484"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Southwest Michigan Regional Chamber Wins State Economic Development Award - National Today",
+      "source": "National Today",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdGd4U0xjY1QzaFlVZzh0dVdZUnBVTm5nLTlncXJpOGlPWm9IbGhWMmp4SjcxNFh2VGZGb0F5b2R2VVNJb2cxVkNrWnB4MGp4Q0dsT1hOOHVSNjFDYW95cnBwT0JxOEIxd3dTYWlSNk0yeEJIdWFzdEFFbXIzblJpZjNIYnBCYlRJWkk4UWF0UXJxMlhpd0R1ek1uYVZDVndReGI2dzNRR3J6c3NUQ2hYMHN4TG1NMFhjaDhUMGZkbHhPZVJnempNdlJn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiygFBVV95cUxNdGd4U0xjY1QzaFlVZzh0dVdZUnBVTm5nLTlncXJpOGlPWm9IbGhWMmp4SjcxNFh2VGZGb0F5b2R2VVNJb2cxVkNrWnB4MGp4Q0dsT1hOOHVSNjFDYW95cnBwT0JxOEIxd3dTYWlSNk0yeEJIdWFzdEFFbXIzblJpZjNIYnBCYlRJWkk4UWF0UXJxMlhpd0R1ek1uYVZDVndReGI2dzNRR3J6c3NUQ2hYMHN4TG1NMFhjaDhUMGZkbHhPZVJnempNdlJn",
+      "published_ts": 1773343667,
+      "id": "10c88e85bdffcf5cbf9039a2"
     },
     {
       "bundle": "Wayne County TOD",
@@ -7521,6 +7587,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "In Detroit speech, Trump touts an economic boom invisible to many - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejhXd3U4QkNOdkZjRWloYzdyVWVpTHZOVUU5ZDBsZE1fRVJ2ZmpzTjNkRWQtVXQ3VmdydUNiVzJBazJoQ19Uem5seklZREJsUWdtLU1pQXBvRzZWZ05OOFowU255TEZCNWx0YnNGWkZmcFEzd3J3Ni1oaHdidzBoR1pDWjhQSERyQU96OUo0YkYyZHpDemlaQ2c2cUF2alFGRm11cTkwYzZmSDQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqwFBVV95cUxQejhXd3U4QkNOdkZjRWloYzdyVWVpTHZOVUU5ZDBsZE1fRVJ2ZmpzTjNkRWQtVXQ3VmdydUNiVzJBazJoQ19Uem5seklZREJsUWdtLU1pQXBvRzZWZ05OOFowU255TEZCNWx0YnNGWkZmcFEzd3J3Ni1oaHdidzBoR1pDWjhQSERyQU96OUo0YkYyZHpDemlaQ2c2cUF2alFGRm11cTkwYzZmSDQ",
+      "published_ts": 1768291200,
+      "id": "4dbff374643ae98031dba77c"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit workforce",
       "title": "WCC convenes mobility leaders to highlight workforce solutions at Detroit Auto Show - Yahoo Finance",
       "source": "Yahoo Finance",
@@ -11800,6 +11877,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Applied Research Institute Announces Workforce Training and Innovation Headquarters for Heartland BioWorks - Building Indiana Business",
+      "source": "Building Indiana Business",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaldCdFhvOTV6dUhYU2N2bllXWmhKRTdwVFllNUdhMDk2NTh0TUZFYUt3MXlycGl4MWphNFRQVGp1bHJlY3dsMGU2UC1uLUNUbjh0Sm1lUGMwcG8yU2d3MFRhTXRwVmNHZlZldGVFZDJ4MUQ2T0pKSjA1b094YWhNMGwwMW0yVFA1TGJJOHVzYXpRX1FhVGh0X1BEdi1iQUEzQUVCSkhULWNQYWpuSW00NDNSdVpoc251dzhTNXc2SS1KOUVuWkZpdnZfR0Y1N2dtblB4NXh3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi1gFBVV95cUxNaldCdFhvOTV6dUhYU2N2bllXWmhKRTdwVFllNUdhMDk2NTh0TUZFYUt3MXlycGl4MWphNFRQVGp1bHJlY3dsMGU2UC1uLUNUbjh0Sm1lUGMwcG8yU2d3MFRhTXRwVmNHZlZldGVFZDJ4MUQ2T0pKSjA1b094YWhNMGwwMW0yVFA1TGJJOHVzYXpRX1FhVGh0X1BEdi1iQUEzQUVCSkhULWNQYWpuSW00NDNSdVpoc251dzhTNXc2SS1KOUVuWkZpdnZfR0Y1N2dtblB4NXh3",
+      "published_ts": 1761721200,
+      "id": "e73e3a82ce9236f4d70b6d83"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "IndyGo",
       "title": "Person shot at IndyGo bus stop on Meridian Street and Fall Creek Parkway - WISH-TV",
       "source": "WISH-TV",
@@ -14319,6 +14407,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Free transit service in Martin County boosts access to healthcare and daily needs - WCTI",
+      "source": "WCTI",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORjBkTm42ZVVGZVhFTl9lWXVCV0pqcTA0UjIyRTNBUnBkN2lNNnN1OTA5LTdlVUJSczBBcHJQU0dZMVUxdzFrdlhVVkUyVjZhNzNaRThIYmV2U1ZUN3FXSE91Nml1aFJ3R09RWEF2Y2VteWVfemNwaG5HN0Nadl91dFVEWURUZzZMSzQ2NjNYdko1NXozd29BVWJOZjlLdUg3WWZKbmxrZ051VzEtbE96bw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxORjBkTm42ZVVGZVhFTl9lWXVCV0pqcTA0UjIyRTNBUnBkN2lNNnN1OTA5LTdlVUJSczBBcHJQU0dZMVUxdzFrdlhVVkUyVjZhNzNaRThIYmV2U1ZUN3FXSE91Nml1aFJ3R09RWEF2Y2VteWVfemNwaG5HN0Nadl91dFVEWURUZzZMSzQ2NjNYdko1NXozd29BVWJOZjlLdUg3WWZKbmxrZ051VzEtbE96bw",
+      "published_ts": 1758524400,
+      "id": "01ac63abd8ca50666f6344e1"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit transit",
       "title": "Gilbert: Next mayor, governor should put top priority on transit - Crain's Detroit Business",
       "source": "Crain's Detroit Business",
@@ -14558,72 +14657,6 @@
       "guid": "CBMickFVX3lxTFBWbGloZ3BfZ0g5VzFyQmR3bTZiOVJKeE1tQXc2TEtobDFhdDNtZW1rdjVBT1lTbXJESm9HVl9ob3oyQnFFdzFTU0dRd0pRRm5yOVhxYTF1TlRfX1NkT0RGTXYwMDBZS2t2VkhwaWJ1cUxNUQ",
       "published_ts": 1758092400,
       "id": "86725d01b78b0c057fd94496"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Indiana will pay your boss to pay you more - Axios",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVDMzVlB2c2xGZUh1UzdncHZrdmV2TmJGeEhvRnh5end4QmFWVG9ibnFST1UyS2x3V2p1R1BRcDNna0NUNUhjQWM1VnhNd3diUWdsaEljUHp3Z3RsV0hCT3E4LUM0d1lCTFRTVU9QVG52a0JIQXZqTlZGdUdqbUdCcDRRa1pDVXlsYWZOWW9CWEZtRGh3OVZUeEtsSGstVEN0?oc=5",
-      "canonical_url": "",
-      "guid": "CBMioAFBVV95cUxNVDMzVlB2c2xGZUh1UzdncHZrdmV2TmJGeEhvRnh5end4QmFWVG9ibnFST1UyS2x3V2p1R1BRcDNna0NUNUhjQWM1VnhNd3diUWdsaEljUHp3Z3RsV0hCT3E4LUM0d1lCTFRTVU9QVG52a0JIQXZqTlZGdUdqbUdCcDRRa1pDVXlsYWZOWW9CWEZtRGh3OVZUeEtsSGstVEN0",
-      "published_ts": 1758006000,
-      "id": "aaf7fa84fa71028d5a15bdb7"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "New workforce program reimburses employers who upskill, promote workers - WFYI",
-      "source": "WFYI",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS0V3VzE3NHJqYXlaTVB1S2VPZlhieWh3UXZDbXI2bWhwUlJaMlZwSkxvU0M0aUtQNW0yYWYzUllDS1UyRDVqZXJWWjFyY2hDX1lObmk1cEZkNkhGM1VGcklMX1N3dnh4TGlYN1NFbU5xQ0U4Y1ppdk92Ukh6cHRXYTdCdnEzU0hCSFVxLVFBT1Rnc1VONmc2ZGxYdWptZ0dBcV9rRDRqT3E?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqAFBVV95cUxPS0V3VzE3NHJqYXlaTVB1S2VPZlhieWh3UXZDbXI2bWhwUlJaMlZwSkxvU0M0aUtQNW0yYWYzUllDS1UyRDVqZXJWWjFyY2hDX1lObmk1cEZkNkhGM1VGcklMX1N3dnh4TGlYN1NFbU5xQ0U4Y1ppdk92Ukh6cHRXYTdCdnEzU0hCSFVxLVFBT1Rnc1VONmc2ZGxYdWptZ0dBcV9rRDRqT3E",
-      "published_ts": 1758006000,
-      "id": "57724731099fa9c5f2cae455"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Indiana Chamber of Commerce’s new program identifies employers improving workforce - superhits979.com",
-      "source": "superhits979.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQnpRd1BiS01PT1F3aW9hZ2xGb2VfeFZJa0hLOE9wUzNsc3pZS1Bfb1EtYkVibkpOa0Jmbkh1ZHZiUjY4S2oxbU1SLXhOZ0l1dzlhbXNVLXVIbEx4a05ZR1R3dDhMOV9OZU10Q0FtU1lOdlItWmNtdWdGWlpVbzFuOWlaMXQwVk1aODliY1hncDgyejA4N1JaLWNxclhtUThFU2thVEpPc0FjMldPWWR0cl9R?oc=5",
-      "canonical_url": "",
-      "guid": "CBMisgFBVV95cUxNQnpRd1BiS01PT1F3aW9hZ2xGb2VfeFZJa0hLOE9wUzNsc3pZS1Bfb1EtYkVibkpOa0Jmbkh1ZHZiUjY4S2oxbU1SLXhOZ0l1dzlhbXNVLXVIbEx4a05ZR1R3dDhMOV9OZU10Q0FtU1lOdlItWmNtdWdGWlpVbzFuOWlaMXQwVk1aODliY1hncDgyejA4N1JaLWNxclhtUThFU2thVEpPc0FjMldPWWR0cl9R",
-      "published_ts": 1758006000,
-      "id": "1738448e11636abca1d9da22"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Lenoir, Greene and Wayne drivers compete in forklift rodeo - neusenews.com",
-      "source": "neusenews.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUEFFcm9xakNoQW1Tb096LU5BeXJSTFZXWWlWQ2U5OGpma3pfSjN1aTZaUEhiOWZsX2w4Mm1UZTNFRlR4bDg5N2JieUZCTnowVTBDVDdXLXRWVm1qUktRTHJZUmduQmJVR1hldHJYNDRsZzFSUnY0aHVCS2FDWkU3RDlFbHVTM0dCWG1JV182VUJZRGRGNkNKbWxJaUNZYVF5dW9kVDlVd1hyY3NoV0tJTkplbjZvSFdjZVVMUFFEVGNhdnVrenFGNElkZHJOZUNXRlJKc2QzdVRkdlZ4eHB2SkRtVWc4RENBRFNvRHRjNVRqeUhBZnloMVBWSHMyYXluU2xtNlBmbHA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiiAJBVV95cUxPUEFFcm9xakNoQW1Tb096LU5BeXJSTFZXWWlWQ2U5OGpma3pfSjN1aTZaUEhiOWZsX2w4Mm1UZTNFRlR4bDg5N2JieUZCTnowVTBDVDdXLXRWVm1qUktRTHJZUmduQmJVR1hldHJYNDRsZzFSUnY0aHVCS2FDWkU3RDlFbHVTM0dCWG1JV182VUJZRGRGNkNKbWxJaUNZYVF5dW9kVDlVd1hyY3NoV0tJTkplbjZvSFdjZVVMUFFEVGNhdnVrenFGNElkZHJOZUNXRlJKc2QzdVRkdlZ4eHB2SkRtVWc4RENBRFNvRHRjNVRqeUhBZnloMVBWSHMyYXluU2xtNlBmbHA",
-      "published_ts": 1758006000,
-      "id": "d093af3b9d9b442bcf7989a3"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Wayne Community College Opens State-of-the-Art Industrial Technology Center - Goldsboro Daily News",
-      "source": "Goldsboro Daily News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSkdVU0lxWm5XMXV1aGJLNm9wUTZrZ1h6VDhYMmU0S3ZnWHNyN19RRS1BbnEtZDdsNjF0YkR5OUhuaFVnckZ2bEczalE1TUsxaUVfR0V0ZGhiejNBdmlqYjZwLS1OOFJNa1E4QmdXZE82WGdOVlRvcUdpOEJxMnpyT2FJa0x0LXNlYkhUd3NWdUhKZjFHOHVtS0xxZDV0UndiSS1ZZTlaWFZKdEpwR2xmUF9MYkRsaTNOOXB6ZmFUMA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMivwFBVV95cUxPSkdVU0lxWm5XMXV1aGJLNm9wUTZrZ1h6VDhYMmU0S3ZnWHNyN19RRS1BbnEtZDdsNjF0YkR5OUhuaFVnckZ2bEczalE1TUsxaUVfR0V0ZGhiejNBdmlqYjZwLS1OOFJNa1E4QmdXZE82WGdOVlRvcUdpOEJxMnpyT2FJa0x0LXNlYkhUd3NWdUhKZjFHOHVtS0xxZDV0UndiSS1ZZTlaWFZKdEpwR2xmUF9MYkRsaTNOOXB6ZmFUMA",
-      "published_ts": 1758006000,
-      "id": "2244ae6b3970125184bdca2d"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Mayor",
-      "title": "Where Cleveland Guardians sit in AL wild-card standings after Tuesday games? - Akron Beacon Journal",
-      "source": "Akron Beacon Journal",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON05POHJFWFZqS3U4QWotZkVzbF9Kd3NjdUJCSGRtZVFvNUU4cjhMRk4tUVllcHItajFIMFY4eHk2Q3c5b3ZYbnRxTUlqaG1WQWJ2c2hXczFFZ21PR1REMHVueVpXdFNsUlAzRFZKUjR3OVJDTHM0SHJfOThRYjFZd1NNNkZoLVZoalhjRWZvSDhUVXFaQlNwMldkOFJXODlsVE1OUTlIOU9sZndIY1RNTC1oNldxRmdEYXB3UXk3MjZ5WHExUDZLdU9fVF9FcU9mZFNQZ0YwRzk5Zw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi2gFBVV95cUxON05POHJFWFZqS3U4QWotZkVzbF9Kd3NjdUJCSGRtZVFvNUU4cjhMRk4tUVllcHItajFIMFY4eHk2Q3c5b3ZYbnRxTUlqaG1WQWJ2c2hXczFFZ21PR1REMHVueVpXdFNsUlAzRFZKUjR3OVJDTHM0SHJfOThRYjFZd1NNNkZoLVZoalhjRWZvSDhUVXFaQlNwMldkOFJXODlsVE1OUTlIOU9sZndIY1RNTC1oNldxRmdEYXB3UXk3MjZ5WHExUDZLdU9fVF9FcU9mZFNQZ0YwRzk5Zw",
-      "published_ts": 1758006000,
-      "id": "a96c82275737ce2fb83d6e50"
     }
   ]
 }
