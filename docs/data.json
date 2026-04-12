@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-04-11T09:24:05.046507+00:00",
+    "generated_at": "2026-04-12T09:25:59.449280+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1809,
+    "items_count": 1818,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,17 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Michigan State University trustees approve 5% increase on housing and dining rates - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYlptMVNWNkZlX0hqRmF5ZkNIY0JKNVgxT29NTkQxUW11Mk0wMWtiQ1NxMWxUTUJHa3UzelIydnh1WmdkUGlPSWtGZm1IOWc2UXFHR1NlMWp1dHFOY0pFb1lSMVhxcDdVcVpCWXVJbUFhOWpUYllsMDh3UkRNQlh6c1FkTG4wUTRBeWpLNg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijAFBVV95cUxNYlptMVNWNkZlX0hqRmF5ZkNIY0JKNVgxT29NTkQxUW11Mk0wMWtiQ1NxMWxUTUJHa3UzelIydnh1WmdkUGlPSWtGZm1IOWc2UXFHR1NlMWp1dHFOY0pFb1lSMVhxcDdVcVpCWXVJbUFhOWpUYllsMDh3UkRNQlh6c1FkTG4wUTRBeWpLNg",
+      "published_ts": 1775930691,
+      "id": "b7b27b892ba06363f8637d4e"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
@@ -269,6 +280,17 @@
       "guid": "CBMisAFBVV95cUxOeWVST0RFdnltU1FZc3RnM0gzQVY4R25SengzVjUteEVSMXRDd0VpTGQyYUdQQ21BYm1WMGxyaUxSVDhTQ1ZOU1NISnczWm5SN3dJeTFSbmRsTjFHUmI1ZE1heUlyb29nSVVfTG02STduVzNnN3JqRWdkc1V3VTNSNzROVWlMVWFGTmVlRzBpazA1dWFYZllwX2YwNDh0Q0VaTnZrdHY5R05PMUZuWGNrVw",
       "published_ts": 1775790750,
       "id": "e9e884698bfafd8153cf849f"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "State Ethics Commission rules against former IEDC official, grants waiver to governor’s aide - Indiana Capital Chronicle",
+      "source": "Indiana Capital Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZHdKNWt2cTd5elBDSVlyQm5oVkpsbmlTOXA3SG5qVE1GWThnUFJuVTI0YlFOTk9kNlFFWEg1MWZaM1dmd2E2TVF1U1RiV3NQU0VkYVZkU09mTHVzaVFDRTM5UExTdk90RzJtaW15MWluOFBjOE84S3ZrVTBYNHFtdWdLQWVTQ1dISmJ5VnJTX1RLS2hrZTd2dDA3ekk0TWpBNkZQbkdLWlJMU2RlaWZXLUdyWkVKVGc2clJyU1VReHZGc0JPWklhaVFpajZHbldrQUExUA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi1AFBVV95cUxPZHdKNWt2cTd5elBDSVlyQm5oVkpsbmlTOXA3SG5qVE1GWThnUFJuVTI0YlFOTk9kNlFFWEg1MWZaM1dmd2E2TVF1U1RiV3NQU0VkYVZkU09mTHVzaVFDRTM5UExTdk90RzJtaW15MWluOFBjOE84S3ZrVTBYNHFtdWdLQWVTQ1dISmJ5VnJTX1RLS2hrZTd2dDA3ekk0TWpBNkZQbkdLWlJMU2RlaWZXLUdyWkVKVGc2clJyU1VReHZGc0JPWklhaVFpajZHbldrQUExUA",
+      "published_ts": 1775781359,
+      "id": "37d86b9efa86bcf1f47a15f1"
     },
     {
       "bundle": "Wayne County TOD",
@@ -434,6 +456,17 @@
       "guid": "CBMi2gFBVV95cUxOZjFZQmRJYXptTG1mNndmUGkzZFhlcUxhSDlzWU9yeUtFTDZTVzhZV1ZNMDVpUWduM1ZXdzMxZVJTRmtnNjJ0TjFRRWpsejJyY0x0am44QXFQVGwzQnotcU52dXZhaGRVcUJGcVdSelhKcTg0Q1VSR0JhWHhsLUNMMXkyUjNrbVFhTl9YTDRBbFhSTmFaNXFJcFVwc1pDLTFlZFhuQ05iVXNDT2VjTFNjUHZOeWZqV0g3cmUxY1l4ZFZPc2hNNndqekdSbDcxQjZFWkl0aWZyX1dmdw",
       "published_ts": 1775742060,
       "id": "ffdb925fd5a4e4fb37803039"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit to Crack Down on 61 Apartments with Maintenance Issues - National Today",
+      "source": "National Today",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYU9zdVVzZWJab1hhaDRWdzhmLXVTUnp0UXZvQVBkeE5yUjU1SHpBVmlaOVJvd1JxS1ZXLTYxLWkzRzhXb3B5dF9sNnhXTzB4MDVWclU1MUFUZG9aREM1ZGtPWnNlM0JLWmN1R2tMeUpCbEU4ZXk0QXVJUFVjU0hLV1hWbThwak1QeVcwa241VFlhZ1BkTEVZUkFndHRBMVBRRnE1Nmc1SkVVTUtwS1hWRW16eVRBcHo0NGVB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiuwFBVV95cUxQYU9zdVVzZWJab1hhaDRWdzhmLXVTUnp0UXZvQVBkeE5yUjU1SHpBVmlaOVJvd1JxS1ZXLTYxLWkzRzhXb3B5dF9sNnhXTzB4MDVWclU1MUFUZG9aREM1ZGtPWnNlM0JLWmN1R2tMeUpCbEU4ZXk0QXVJUFVjU0hLV1hWbThwak1QeVcwa241VFlhZ1BkTEVZUkFndHRBMVBRRnE1Nmc1SkVVTUtwS1hWRW16eVRBcHo0NGVB",
+      "published_ts": 1775731424,
+      "id": "b56994b2faf806ef1424fa20"
     },
     {
       "bundle": "Indiana TOD",
@@ -621,6 +654,17 @@
       "guid": "CBMi3AFBVV95cUxQLWhWMkt1bFZ5RkI1d0tXeXE0V0VqaV83anltM1pPSzEtQjVXc05ZRkg4QXpXNlJCSVFITXp5ZHk1cV9qSjh0V1pYMVdHb1h0a1M1TS05X18wQ2t3ZWJCTlYtTmlTT2JYZ19KVmxnbXFFZUtpdGZva29teXhnV09JMm1YbEVnZ2NNVDFlcXdmcmxQMkpuWUoyM0l0UW9KakRLUm1FRWpMYUZxYmdzbXJNR2RWNlhLUWdtUDBtUlNDOVBuQ1JIYktYMjdLWEoxa2xpbEZyb1h3dEJYcTBr0gHcAUFVX3lxTFAtaFYyS3VsVnlGQjV3S1d5cTRXRWppXzdqeW0zWk9LMS1CNVdzTllGSDhBelc2UkJJUUhNenlkeTVxX2pKOHRXWlgxV0dvWHRrUzVNLTlfXzBDa3dlYkJOVi1OaVNPYlhnX0pWbGdtcUVlS2l0Zm9rb215eGdXT0kybVhsRWdnY01UMWVxd2ZybFAySm5ZSjIzSXRRb0pqREtSbUVFakxhRnFiZ3Ntck1HZFY2WEtRZ21QMG1SU0M5UG5DUkhiS1gyN0tYSjFrbGlsRnJvWHd0QlhxMGs",
       "published_ts": 1775662480,
       "id": "931423a2c8ac087750ad2073"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "DirectEmployers Marks 25 Years as National Workforce Leaders Convene in Indianapolis for DEAMcon26 - EIN News",
+      "source": "EIN News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR0xHZjEtbkdsT0tYVTRZOEE2NTd0bWRCMFRpMDB6ZG1uNUxnLTlGZmF3YzBRV3ZkQ3FIRkVWQk5nVnpwcEJSamhYdmxOSHkxMWFrZHB2TWRNQVUyS1ljNEdpYVotcXVVVVhLTmVXTnNpTndaMHhjLTZmTEhIZTFQMjNKX1VqOFNnVWFMQUNieU8zUzJDdnJqdnppem1hdmF3U0hONUJfaXRfZHg1bDBjQ1BxV25BWTBEc3FsWTJsQ0dpbllvdEdZakR3OTNhNU8taEhhNnpUUdIB3AFBVV95cUxQLWhWMkt1bFZ5RkI1d0tXeXE0V0VqaV83anltM1pPSzEtQjVXc05ZRkg4QXpXNlJCSVFITXp5ZHk1cV9qSjh0V1pYMVdHb1h0a1M1TS05X18wQ2t3ZWJCTlYtTmlTT2JYZ19KVmxnbXFFZUtpdGZva29teXhnV09JMm1YbEVnZ2NNVDFlcXdmcmxQMkpuWUoyM0l0UW9KakRLUm1FRWpMYUZxYmdzbXJNR2RWNlhLUWdtUDBtUlNDOVBuQ1JIYktYMjdLWEoxa2xpbEZyb1h3dEJYcTBr?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi1wFBVV95cUxNR0xHZjEtbkdsT0tYVTRZOEE2NTd0bWRCMFRpMDB6ZG1uNUxnLTlGZmF3YzBRV3ZkQ3FIRkVWQk5nVnpwcEJSamhYdmxOSHkxMWFrZHB2TWRNQVUyS1ljNEdpYVotcXVVVVhLTmVXTnNpTndaMHhjLTZmTEhIZTFQMjNKX1VqOFNnVWFMQUNieU8zUzJDdnJqdnppem1hdmF3U0hONUJfaXRfZHg1bDBjQ1BxV25BWTBEc3FsWTJsQ0dpbllvdEdZakR3OTNhNU8taEhhNnpUUdIB3AFBVV95cUxQLWhWMkt1bFZ5RkI1d0tXeXE0V0VqaV83anltM1pPSzEtQjVXc05ZRkg4QXpXNlJCSVFITXp5ZHk1cV9qSjh0V1pYMVdHb1h0a1M1TS05X18wQ2t3ZWJCTlYtTmlTT2JYZ19KVmxnbXFFZUtpdGZva29teXhnV09JMm1YbEVnZ2NNVDFlcXdmcmxQMkpuWUoyM0l0UW9KakRLUm1FRWpMYUZxYmdzbXJNR2RWNlhLUWdtUDBtUlNDOVBuQ1JIYktYMjdLWEoxa2xpbEZyb1h3dEJYcTBr",
+      "published_ts": 1775655000,
+      "id": "beba517a383c8f77b562949a"
     },
     {
       "bundle": "Wayne County TOD",
@@ -918,6 +962,17 @@
       "guid": "CBMilgFBVV95cUxPUXVOZGVBaXc0dXhXZmFFemU5MEQzTHpxTm1sX1ZBaTA0elBkLTRzWExFc1lNc1dVVi13UHpSQTdXR25MRUZQeEIzWTJGbzNmRGc4NjFTWWxhRzVwU0pUM1k2RzlhY25BUktYc2EwdklpYjJjd3B0SWVSZ3FwVklfZzlRZVNPQ2pRa2x5MWxfXzBEdEk5NUE",
       "published_ts": 1775472169,
       "id": "e2097ff250dc92f6649e70ac"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Gov. Braun announces appointment of new Indiana Economic Development Corporation president - MSN",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQMFFxa0xJRnVjTFR6MVlOMDZXYkJGT1lnekE2dnZYU0F3dXFkSkxPYkFGQnd6eE1qZHZCVjVNc0JwMmlRRll6NU8wWHp2WDZoOGhqcENYSElCd1VwTEp0Z2V0OEdpOVEwd2FTemUwYmZBWFB6LTFsN3lmUTFVZTdsYkN2eFU3c0ZiSUNvNFVZbS1QZVVvVzZ2RlZXU3JrTVlLTnhHXzVBU2dnSlU3dXo1b3FYbUZvZmM5bGEyNjM1bVFKQVZHR216NDJqb1A3T2tZd1NBUTg2eTFPdmhQcU5lU3hCenVYWlRrRWt0NUJwNkl0WEtBSG9wUjd0WG44X0dkWFNEbWhBaGl2XzFQalItUUM0U3pJa08zNS1fUVhKNVQ2eE45aDlBeXZ6RzZYY09pS2dpSlhvdEdFZjVPNGFMcGhScm4zeU9jbVc1QWhCSmJBZ0YxNXBwaFo4ZmtHMEhQVndmdGdZamlWMkZicEhIdUVn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi8gJBVV95cUxQMFFxa0xJRnVjTFR6MVlOMDZXYkJGT1lnekE2dnZYU0F3dXFkSkxPYkFGQnd6eE1qZHZCVjVNc0JwMmlRRll6NU8wWHp2WDZoOGhqcENYSElCd1VwTEp0Z2V0OEdpOVEwd2FTemUwYmZBWFB6LTFsN3lmUTFVZTdsYkN2eFU3c0ZiSUNvNFVZbS1QZVVvVzZ2RlZXU3JrTVlLTnhHXzVBU2dnSlU3dXo1b3FYbUZvZmM5bGEyNjM1bVFKQVZHR216NDJqb1A3T2tZd1NBUTg2eTFPdmhQcU5lU3hCenVYWlRrRWt0NUJwNkl0WEtBSG9wUjd0WG44X0dkWFNEbWhBaGl2XzFQalItUUM0U3pJa08zNS1fUVhKNVQ2eE45aDlBeXZ6RzZYY09pS2dpSlhvdEdFZjVPNGFMcGhScm4zeU9jbVc1QWhCSmJBZ0YxNXBwaFo4ZmtHMEhQVndmdGdZamlWMkZicEhIdUVn",
+      "published_ts": 1775461556,
+      "id": "8199dc94016fe06eac2ca569"
     },
     {
       "bundle": "Indiana TOD",
@@ -1864,6 +1919,17 @@
       "guid": "CBMiugFBVV95cUxNSGF3Q1FqMDdmU1lNUHhENEJ5Z1JtVGQ2OHlNWXhmQ2Y0ZHRBVG9jbTFER3p2Vm95X0pkOUhwRHNxQkUwOHhtTWhDSkE1VU1tUlVkQmpZaVViNGkxRFBKVV9RaFAxSzA5Mnp1MjF5a2hsOXItZFd5MkxSNUMzMVZtU2VHdGR4VWtpdnRlcnNoLVBIejBnbUR4UW5VN0xKMC1tVU5UaE42S1RQYnZXaXg0dUYtNGF4RzIxMFE",
       "published_ts": 1774791222,
       "id": "8727566a493c341397288e58"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "What to know about Detroit Lions at 2026 league meetings - MSN",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeUlrajdweWlYb1FRN2NBdnNmXzRoQTg5QzlTMmRoNmFjakJNckdMTzZZQTJZTVp5ZnhmNFVhRFB4TlpIRHhxVF91dFI0RzRKVEszRXA0clAyQ3c4YXRSVjIxcDNENmNpdWRVTVpzMVdVX2NIVDhCRDJLZ2wzeUdTZDd2NjQ0ZjRobmd2dVgzTzhzYkNvV2dMOC1pRlNjdzRydmVNQVBDQ1M?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqAFBVV95cUxQeUlrajdweWlYb1FRN2NBdnNmXzRoQTg5QzlTMmRoNmFjakJNckdMTzZZQTJZTVp5ZnhmNFVhRFB4TlpIRHhxVF91dFI0RzRKVEszRXA0clAyQ3c4YXRSVjIxcDNENmNpdWRVTVpzMVdVX2NIVDhCRDJLZ2wzeUdTZDd2NjQ0ZjRobmd2dVgzTzhzYkNvV2dMOC1pRlNjdzRydmVNQVBDQ1M",
+      "published_ts": 1774767600,
+      "id": "ab4c396237e76a6fe53097b3"
     },
     {
       "bundle": "Wayne County TOD",
@@ -4332,6 +4398,17 @@
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
+      "title": "Mayor Sheffield wants to build 1,000 homes in Detroit in 4 years - BridgeDetroit",
+      "source": "BridgeDetroit",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2pDd2JhRFREYnRVVDE4bmthWXNzeWx4WFE0RW1tQXRZbGRfZXdOU09ITkU0Zi04SnpCWGpOVjY3X3NPdjByRlNXZkVKbFR0TzVVRGlTWDN1Slp4SnNIQVNzWDhKSzRRU1ZCdUI0RHJfZ0k1emxNaGNySmdQVWp3ZXZGdlU1WFltT1g5QlhrR2pnNXdENnRYM1N3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimgFBVV95cUxNM2pDd2JhRFREYnRVVDE4bmthWXNzeWx4WFE0RW1tQXRZbGRfZXdOU09ITkU0Zi04SnpCWGpOVjY3X3NPdjByRlNXZkVKbFR0TzVVRGlTWDN1Slp4SnNIQVNzWDhKSzRRU1ZCdUI0RHJfZ0k1emxNaGNySmdQVWp3ZXZGdlU1WFltT1g5QlhrR2pnNXdENnRYM1N3",
+      "published_ts": 1773689389,
+      "id": "518b6e88a83f8ef810e1e279"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
       "title": "Detroit launches 'same day' reno permits, streamlined infill housing approvals - Crain's Detroit Business",
       "source": "Crain's Detroit Business",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0o3NEVFREozMUQ2dTd3UXhnUG9jOTlvTVlsdXkxWHFsYVpKRE84N2xZbERZMVRJQzliSE5FTmdhS2FwcEtNdXBSX29NT2JnRS1LVEQ3VV96cTh1YjVPWHMxbXdNMkxRSUxYbXY3bDZyVWhTdFV6TVpRQ2hxWjN0OXYtaU1WVnVqYzNGV3ZpWF8xNVhqR1E2VWRwaW05NUot?oc=5",
@@ -5472,6 +5549,17 @@
       "guid": "CBMiogFBVV95cUxOTUxPWTFIUFVJQUctMTZ4NUp3ZDRDY3RCQlN3amljUmtrdnUwd3JPRmFwdjNkTzRZOW1sdGJCOWNNejhrejY4LUVNSC1sNTdyYTQtamRzTzJrclVUVUt6cXdGOXk4MjVaaFVkU0h1M3hTY1NISVU4UTVyNzJ4SlNTUjZ1Y2NRdUxFM2RnbzVoVFdSWngycFZ1NU01V0xoLV94VHc",
       "published_ts": 1773039600,
       "id": "d9bcbb7b892832bf65eaa7c6"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Junior League of Detroit- 313 Reserve Event - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdDNULXlPLXpDbll5Q09BWngtUFV6dWJJTGpBVVBCeDVaUXdhWThCY1VKRWZjOHhpdE9qNFgza3JRWFdkQmVxZVVsM3c5NUZjei1od21QMnpzaldXNEVoWWxwakhtWlNxLWlZZTI1VlF2a1NzaWJtS3FKSVFnSFRpblZ0NG5vS0xabWdiY0pjRkxpWkZyYUZwTXE3a0NkVE9rOTVDV1FtaXM?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqAFBVV95cUxNdDNULXlPLXpDbll5Q09BWngtUFV6dWJJTGpBVVBCeDVaUXdhWThCY1VKRWZjOHhpdE9qNFgza3JRWFdkQmVxZVVsM3c5NUZjei1od21QMnpzaldXNEVoWWxwakhtWlNxLWlZZTI1VlF2a1NzaWJtS3FKSVFnSFRpblZ0NG5vS0xabWdiY0pjRkxpWkZyYUZwTXE3a0NkVE9rOTVDV1FtaXM",
+      "published_ts": 1773039600,
+      "id": "677a7476995433aa39b33d10"
     },
     {
       "bundle": "Indiana TOD",
@@ -9115,6 +9203,17 @@
       "id": "4f756757dd40e4d635104f07"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Fetterman Secures Nearly $300 Million in Federal Funds for Pennsylvania Projects - U.S. Senator John Fetterman (.gov)",
+      "source": "U.S. Senator John Fetterman (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQUFiWEdmWFlpVTRWa2ZwQk1QUWhjd2pwWG9UUUFFMHZ1VTB2TFBUSlJiaHVkd1ctNi1oMl9VazJ2YzdralhTMnpBXzdKUDk1bExMTVNNR2VOQTI1YWJNYzhVQlZnaHRvWXBjNGk5ZGJyX3NXV0JtUk5CUUl5VjZoZFRTWU1jUnlfTW5NWTVFSU40a09QaGpaNzgycHpXY3RobXptb0NLNUJpb0pRaGZxeDF4TQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiswFBVV95cUxQQUFiWEdmWFlpVTRWa2ZwQk1QUWhjd2pwWG9UUUFFMHZ1VTB2TFBUSlJiaHVkd1ctNi1oMl9VazJ2YzdralhTMnpBXzdKUDk1bExMTVNNR2VOQTI1YWJNYzhVQlZnaHRvWXBjNGk5ZGJyX3NXV0JtUk5CUUl5VjZoZFRTWU1jUnlfTW5NWTVFSU40a09QaGpaNzgycHpXY3RobXptb0NLNUJpb0pRaGZxeDF4TQ",
+      "published_ts": 1770710400,
+      "id": "e1073973279a54715b29b1df"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "Looking to buy a home in 2026? Why Zillow ranks Indianapolis as your best bet - WRTV",
@@ -11764,6 +11863,17 @@
       "guid": "CBMisgFBVV95cUxQYklfS1JUWkZMZUNjbnREZ09sTTd0Mmcycmx5MEt6cG1jYnhTWFJBVm11REQ1Z2dkS0FQRVhfXzVqM1RmanFrYk5iLVdtTW1tZzBBa2xnN0VjR1RWT2NjeGJCUk0yTEhsd3ZvMzR2MmtGWmFnekJFaGVDZWlFeGs0MWhpcGl5OER6bDB5WW5uSzdUZkNOLWhrUnJHenhHZDhPaUt0Y2RrdmFhNjBLbGg3VjJn",
       "published_ts": 1769155200,
       "id": "dccfbc3df70a027904e65aa8"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "He once lived in prison. Now he’s turning one into a place for second chances. - North Carolina Health News",
+      "source": "North Carolina Health News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU3NEMGNSRGlDamw4M2FtQlg3b1ZZeU9TZEJRQzZtbXZVcU4xclQ4cm1BX3M0SjdHMGsyNXlnQjVuemFhVWt1Uk0wa0JBZGs2MVJBNVJwWnBjSTk3X05sWG5weHR3TktrcFpOU3BOTU9TaVlnY3NwTzJmNFlzem5nWkN0NkhlUURtRGtDS19TckdEd2tOdUZTVGVNMHlnWnN0TFY5SDliaDVwSHpUTGVRSnJwR1VkcnREbXBiOUotTkc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiwAFBVV95cUxPU3NEMGNSRGlDamw4M2FtQlg3b1ZZeU9TZEJRQzZtbXZVcU4xclQ4cm1BX3M0SjdHMGsyNXlnQjVuemFhVWt1Uk0wa0JBZGs2MVJBNVJwWnBjSTk3X05sWG5weHR3TktrcFpOU3BOTU9TaVlnY3NwTzJmNFlzem5nWkN0NkhlUURtRGtDS19TckdEd2tOdUZTVGVNMHlnWnN0TFY5SDliaDVwSHpUTGVRSnJwR1VkcnREbXBiOUotTkc",
+      "published_ts": 1769155200,
+      "id": "69d37314a801fea45aff3785"
     },
     {
       "bundle": "Wayne County TOD",
@@ -20014,17 +20124,6 @@
       "guid": "CBMipgFBVV95cUxQMkEtQ2RUOWFjYktYdFBJa0RQS0g0cjBRb0g5RFRxTGF4bjBXNGxON1g0MERLcGlLUi03bG42TEpTN3YwSm53cHFBTVl2QkVFbXNTYkFKU1o5b01WRDdFWU9QeWVSMEJyTExfbFlXRnpDYXV4WkREQmpSZFlJZl9DU2otM081amNkOWV4N3V3ZW5CRlpKb3N3dWRYM0RubjRocGVwZXlB",
       "published_ts": 1760511600,
       "id": "a5fbe6280bb7def15a68e478"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Reparations program offers $25,000 in housing support to Black metro Detroiters - Detroit Free Press",
-      "source": "Detroit Free Press",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVFA4VnVZVHpQdjZ3NW1VM2d5LVVEa1NsQUxhUVAxRnZvWFIwOWNaajNFUHBhMmo4STRaRFNxalI1aWZ0QlJ1VFUya1Fidlc4eDNtY1lrcUg5bVg3VnRZSkNsekJzREN1OUZ4STBZcDFwQUtLdDVqNlJGN2UteVk3dE9aeFpaS05vM2huRTgwZXdHcmNlSk5OSURIem0xLTdJRGt1YjN6UVNud3Z4VGdtbDhQSlpraEU3Wldjd3I3TUJsNjlsak05MmxaNHpLTFoybXRwLUxNaw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi1wFBVV95cUxNVFA4VnVZVHpQdjZ3NW1VM2d5LVVEa1NsQUxhUVAxRnZvWFIwOWNaajNFUHBhMmo4STRaRFNxalI1aWZ0QlJ1VFUya1Fidlc4eDNtY1lrcUg5bVg3VnRZSkNsekJzREN1OUZ4STBZcDFwQUtLdDVqNlJGN2UteVk3dE9aeFpaS05vM2huRTgwZXdHcmNlSk5OSURIem0xLTdJRGt1YjN6UVNud3Z4VGdtbDhQSlpraEU3Wldjd3I3TUJsNjlsak05MmxaNHpLTFoybXRwLUxNaw",
-      "published_ts": 1760425200,
-      "id": "e4db00b84b34f91d56d967a2"
     }
   ]
 }
