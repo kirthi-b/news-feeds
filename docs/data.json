@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T09:25:55.766486+00:00",
+    "generated_at": "2026-04-19T09:25:42.395678+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 1897,
+    "items_count": 1889,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -129,6 +129,28 @@
   "items": [
     {
       "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "I spent 21 hours traveling by train to avoid flights. Was it worth it? - The Washington Post",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWlVsaHFOeWJPYjdvdUVhTDZjZU5ISk5LSFdtd2lha04ybmRGeDFzZFVZQ2luWkEwRlM4eHVnem4xdzRNeHl4empLUGRtem9mWF9EamZST2lHZFhDYXVvUm9PaWlaRE5LM25uMTUxUjBGbmZfb19MMHdPakdzWE5yRlVCaHk3UjQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihwFBVV95cUxOWlVsaHFOeWJPYjdvdUVhTDZjZU5ISk5LSFdtd2lha04ybmRGeDFzZFVZQ2luWkEwRlM4eHVnem4xdzRNeHl4empLUGRtem9mWF9EamZST2lHZFhDYXVvUm9PaWlaRE5LM25uMTUxUjBGbmZfb19MMHdPakdzWE5yRlVCaHk3UjQ",
+      "published_ts": 1776589503,
+      "id": "37bf3e29f545233276e85dbf"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Dearborn approves $31M townhome development with affordable units - MLive.com",
+      "source": "MLive.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbk5ULU1lU2JJOVQ0dmFJbjVGNy12WjdIa3NqTnpRSEU3b2J3U19rTTBxZUI0ZkUzUk4xMTRDZGZwOEVGV3FYcmNkVG40aWhqMTJ1a0tnQ3FQWTdaTmd1cnRWLTlwUXVfMVF2ZTR0dkZMY0VBdnBSN0dUTnNRNks1X0o0aUhuUG5hTU05UjkxWGxBRWlnS1pjNy1fQWoxOVM4ellHRHdVZ1dGNE9YdVl5a0NR0gHGAUFVX3lxTFBwZFp5cXNTNDFjNTNZT1V4Nks5SVJzU3ZGcWtDQ3Z6djNscWVTTGZySmhGdG9WczFFM0xjc0RJa3N0QkRyRXZQX29wTmgwdVBvOGRueG80bjE4VFZRR3ZBUE1BNTRZUGhUaVVBWVVrNzJZVHR3WjJ4aVlDWkQ3RGxIT1ZTZEswNkcybW1VeGdKdHR3N3JDWWthalFfODA4dlJTdkdlNGp6UHhFOTV5U0hNcVNwMTZXSzNEWDdlRHpiOXZvSGtGZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisgFBVV95cUxQbk5ULU1lU2JJOVQ0dmFJbjVGNy12WjdIa3NqTnpRSEU3b2J3U19rTTBxZUI0ZkUzUk4xMTRDZGZwOEVGV3FYcmNkVG40aWhqMTJ1a0tnQ3FQWTdaTmd1cnRWLTlwUXVfMVF2ZTR0dkZMY0VBdnBSN0dUTnNRNks1X0o0aUhuUG5hTU05UjkxWGxBRWlnS1pjNy1fQWoxOVM4ellHRHdVZ1dGNE9YdVl5a0NR0gHGAUFVX3lxTFBwZFp5cXNTNDFjNTNZT1V4Nks5SVJzU3ZGcWtDQ3Z6djNscWVTTGZySmhGdG9WczFFM0xjc0RJa3N0QkRyRXZQX29wTmgwdVBvOGRueG80bjE4VFZRR3ZBUE1BNTRZUGhUaVVBWVVrNzJZVHR3WjJ4aVlDWkQ3RGxIT1ZTZEswNkcybW1VeGdKdHR3N3JDWWthalFfODA4dlJTdkdlNGp6UHhFOTV5U0hNcVNwMTZXSzNEWDdlRHpiOXZvSGtGZw",
+      "published_ts": 1776513600,
+      "id": "cc54c36466911402c117711b"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis economic development",
       "title": "Longtime business leader Jim Schellinger leaves Indy’s economic development agency - Indianapolis Business Journal",
       "source": "Indianapolis Business Journal",
@@ -148,6 +170,28 @@
       "guid": "CBMikwFBVV95cUxOWndteFhmX3E3bVZFajQxX0VSdld3ODBsYWFWN2ZEbUwyYTZESlk1djN2NTgzRl9scU10ZzVUTm9KcXR3MU00ajRPY3ZGUHdRX1k3UUxMY0QyTmZGRG9rUUUta2UyYzV6aHAyV21UeGc1R3ZhNUZBS1NCQlJYUmgyQmJxSFhVTy1mWnQ2Ylcwd0VaLVk",
       "published_ts": 1776464894,
       "id": "cecb82e649675e08d604995f"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "District Detroit’s first project breaks ground at Cass Avenue site - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU3hVb0FRXzY1ZXRTd21ZakFtaURWRFh6Rno2M3RMU2x2MXZwSXRtQmdDa2FBMXZURW9hcXV5MS16dmFYZjlzSlFUSmZNWVVLSTZTZ0hSeldnR3JvcF8yamlBaXc2b3ZyUjdKQW1tcTJCdEdaQ28yUzJEMjVCN0xBRHVUOA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxOU3hVb0FRXzY1ZXRTd21ZakFtaURWRFh6Rno2M3RMU2x2MXZwSXRtQmdDa2FBMXZURW9hcXV5MS16dmFYZjlzSlFUSmZNWVVLSTZTZ0hSeldnR3JvcF8yamlBaXc2b3ZyUjdKQW1tcTJCdEdaQ28yUzJEMjVCN0xBRHVUOA",
+      "published_ts": 1776460788,
+      "id": "8260ed1d0ebf40c4f2deea5a"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "University of Michigan expands Detroit footprint with new housing - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVhveGpvUjhCVmZ4eUZyWFNFaVVfXzZaQ1VsX09IU3pNU2lkVXNrcFBUVUZJa3luQkJZRTlPelZSM3NKYWJOYXJZTzlIQjBid0V4blZfclRYRHJiRlFFVUNEWDVmbDMxNFAxR3ROX0F6VlBWTndmdkE1MVprWFFDQVc4SXNUekxqQ2Q4Ui1jU21scnM?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikwFBVV95cUxQdVhveGpvUjhCVmZ4eUZyWFNFaVVfXzZaQ1VsX09IU3pNU2lkVXNrcFBUVUZJa3luQkJZRTlPelZSM3NKYWJOYXJZTzlIQjBid0V4blZfclRYRHJiRlFFVUNEWDVmbDMxNFAxR3ROX0F6VlBWTndmdkE1MVprWFFDQVc4SXNUekxqQ2Q4Ui1jU21scnM",
+      "published_ts": 1776456883,
+      "id": "92cce68f2d4afe2e91cf91b4"
     },
     {
       "bundle": "Wayne County TOD",
@@ -214,6 +258,17 @@
       "guid": "CBMikAFBVV95cUxNa3R6M2JRemgyeVVVNVYtcElXcjJGb211NGtZTU1rWGpqd0lyMjRoc2tBbGplazNrNGdzbTNtNk9MTzJzWm0xMjJUVjB0OGJlNGhtVkpIZnB4aHhxbzJLTTQ0bzNiY0x1VHhvY015aEo3VEEyU29WSmh2X3ZORGtyaTlVQWNyeVRLeE1lMjJTdjA",
       "published_ts": 1776437269,
       "id": "59aec070cecae477693f1f84"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Residents sue Indy housing agency, landlord over crime and security concerns - MSN",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOU0gtdmM3RGxEU1FnbGRHcDR6RHBDSHhoWTh5VmJSczFfYjJqSkZpS1VyWWlibUdTcDcyRXpxekttN0NCRmN3b2lseFZXS3E5S1FzRnBMX1pGMnRWS0Q3ZHpxamhIUkxaMUtPNjE0RUZRWTY1aUtoVnhfTWREZUpmYVVWeUJHM3pYT25CYzFUZlBDZThxQ2lZWmhGNDVONmtZTnU4YTFpWXBIYVFPRkpFOE1IQ0dRaDJSbFZVZGRWd1g0ekVadmkySFJKY1NNZ3FfXzNGY0UxUjRzMWR4N1BNckk3THI0eFV4aDZmOWtqbjJFcWxwOUhxM2thc28tUG1ub205U2VNdTlGS2xTMlg1WENFcUVOV0VLTnMxNzJQamVubXJWZkNZV3lxcm9kVmV2ZXRRYVBrNzlwRkNIeGZ2REJWWHB0eHhlU3JDNFJYd2loUW8wRV8wLVFETUx2c2tL?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi4AJBVV95cUxOU0gtdmM3RGxEU1FnbGRHcDR6RHBDSHhoWTh5VmJSczFfYjJqSkZpS1VyWWlibUdTcDcyRXpxekttN0NCRmN3b2lseFZXS3E5S1FzRnBMX1pGMnRWS0Q3ZHpxamhIUkxaMUtPNjE0RUZRWTY1aUtoVnhfTWREZUpmYVVWeUJHM3pYT25CYzFUZlBDZThxQ2lZWmhGNDVONmtZTnU4YTFpWXBIYVFPRkpFOE1IQ0dRaDJSbFZVZGRWd1g0ekVadmkySFJKY1NNZ3FfXzNGY0UxUjRzMWR4N1BNckk3THI0eFV4aDZmOWtqbjJFcWxwOUhxM2thc28tUG1ub205U2VNdTlGS2xTMlg1WENFcUVOV0VLTnMxNzJQamVubXJWZkNZV3lxcm9kVmV2ZXRRYVBrNzlwRkNIeGZ2REJWWHB0eHhlU3JDNFJYd2loUW8wRV8wLVFETUx2c2tL",
+      "published_ts": 1776428378,
+      "id": "484ac51dbd51043d2f34a73e"
     },
     {
       "bundle": "Wayne County TOD",
@@ -8929,6 +8984,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Indiana housing overhaul bill advances by one vote as senators warn of 'one-size-fits-all' risks - WFYI",
+      "source": "WFYI",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbGc3N1R5NkhvNk04VU94RkRURS1tMjVJOEVJVFJMa1d5eHhtQ2hJcUNMSmliNXRqYkZtTTBUQmt5ODRkN0lDODNnSWhuRFVxb1ZkSjBiVjVlalh3ZE9hRzRGa3BHVWRJTF9NLUJ0Ty1aTzZDZEExNkg5X195MW9ELU9hZTM0eFFPTmM1Zllsc0ZzSWtabVo3Q2NfbmJGc0tJa0NTYVY4MThDYXdzRVkwUkZfbFdiNThpeUQ3SUJHTktZLXFlbWg3TF9HVXprWlRJdzBhWDVGTEg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi2AFBVV95cUxNbGc3N1R5NkhvNk04VU94RkRURS1tMjVJOEVJVFJMa1d5eHhtQ2hJcUNMSmliNXRqYkZtTTBUQmt5ODRkN0lDODNnSWhuRFVxb1ZkSjBiVjVlalh3ZE9hRzRGa3BHVWRJTF9NLUJ0Ty1aTzZDZEExNkg5X195MW9ELU9hZTM0eFFPTmM1Zllsc0ZzSWtabVo3Q2NfbmJGc0tJa0NTYVY4MThDYXdzRVkwUkZfbFdiNThpeUQ3SUJHTktZLXFlbWg3TF9HVXprWlRJdzBhWDVGTEg",
+      "published_ts": 1771574400,
+      "id": "eca668313fcd5fc9bf9e1ec2"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis BRT",
       "title": "Central Indiana severe weather: Storm brings hail, tornado - IndyStar",
       "source": "IndyStar",
@@ -9124,6 +9190,17 @@
       "guid": "CBMi0wFBVV95cUxNWjVNbVRyaTN0YVlvZ25KR2xaaHRLVGZud3AyTjNyY3NnVTNiMkt2WXZSdWY4VXl3bThRczloRjJuWE1EN2ZEc09YQkt2dUE5MlpleWxlZTRkMTE4VFp2WFAtT0dVbi1kRzNWb2lweGp4dEpPZXhQck9ZU2lWMzFpNUF3b3ZSX0RFRWpiRXFjMGt0d1lXZWIyTFJKR3VtNWhOeFF5S095MzBINEViODNKVTFTN3gzZ2xRMWJJN2pNaEk4OFJwVHJ2bjJCcVZTNnBnc1Zn0gHYAUFVX3lxTE0xdWFWZmtzSzVSMGR4MUlLeFNOQ2ZMZm9oQU52aVltbUNZTDVIMmFyZ2t1N0tOZjdIcTItUXR0MngxaGdWZnhYVGtPQkpsRGpVOUZJQWtzVjlUaUpPQk9JMS1wT3FYZDAxZVhwMTV2bEhDV1o4ZUpRNmd4VXZ3R2hNUzhyQW5PaTFtb0RTZVVRUE0tNlBpOVFpQWRRTmpHMGZvY1Z0cXlMT1RiS1RTclhPRUZMOURkZkxvTEtVcDV0SWxfMDdfdjdkZkgxRGRjalI5bEdTQjFTWg",
       "published_ts": 1771488000,
       "id": "b16d4d02e564c45f71e70a81"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Indiana housing overhaul bill advances by one vote as senators warn of ‘one-size-fits-all’ risks - WPTA | 21Alive | Fort Wayne, IN",
+      "source": "WPTA | 21Alive | Fort Wayne, IN",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdllnOVpwdUwydko5WFlNOUwzSkhiOTEyMlB1N2FBWk5QT0NuWnAxWjhXYkJxZ3o2blhoQjRsdHdVOEtrMDlrbjlLRmhGME4weTU3STB4ZnBJRXgyUjBPWTgza1dFOXZGNWxxbVBxZXlLdVRxUzE4MHNWMkhZSko5WTVlbFdFYTI3eHhzamI3TFo4VlFueTZEU3hOeml3cG1VUDIzWms5cTZNQTRyN3A2UkhjQ0Q1Q2FxX2pmbTBVcWpTdXUzSjFF0gHbAUFVX3lxTE9PZ3k5QW1DMFh6ZHpVZmtMbGNPN0xESkdkOHdPZUJHNzdERVFDVi1QQzBKY196LXlMb0NjUFI2bmEtdzgwa280eXpuaEFnRGNKZ1hEOVpwR0gwSTJ5SF9LTkp3anlVMk1LNzZpTjVyaU9LR2V1VklJd2ttelZldjBqODU0elpwbHlSNmM5VFU1a3RFN1lhMktZM19uZDhPQTFpQzBOQ21XTEI3d0MtRllOemRaWWg3cTh3dDNZRDN4eURxSTVvb0dhTjVmdXRFclF1OXlSOE9FdUxGbw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixwFBVV95cUxQdllnOVpwdUwydko5WFlNOUwzSkhiOTEyMlB1N2FBWk5QT0NuWnAxWjhXYkJxZ3o2blhoQjRsdHdVOEtrMDlrbjlLRmhGME4weTU3STB4ZnBJRXgyUjBPWTgza1dFOXZGNWxxbVBxZXlLdVRxUzE4MHNWMkhZSko5WTVlbFdFYTI3eHhzamI3TFo4VlFueTZEU3hOeml3cG1VUDIzWms5cTZNQTRyN3A2UkhjQ0Q1Q2FxX2pmbTBVcWpTdXUzSjFF0gHbAUFVX3lxTE9PZ3k5QW1DMFh6ZHpVZmtMbGNPN0xESkdkOHdPZUJHNzdERVFDVi1QQzBKY196LXlMb0NjUFI2bmEtdzgwa280eXpuaEFnRGNKZ1hEOVpwR0gwSTJ5SF9LTkp3anlVMk1LNzZpTjVyaU9LR2V1VklJd2ttelZldjBqODU0elpwbHlSNmM5VFU1a3RFN1lhMktZM19uZDhPQTFpQzBOQ21XTEI3d0MtRllOemRaWWg3cTh3dDNZRDN4eURxSTVvb0dhTjVmdXRFclF1OXlSOE9FdUxGbw",
+      "published_ts": 1771488000,
+      "id": "89de199d8f6099169144231a"
     },
     {
       "bundle": "Wayne County TOD",
@@ -17784,6 +17861,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation - About Amazon",
+      "source": "About Amazon",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOU9YSjM1dXFDM0RnRWVIWmU3eHg0WmJ5TmtiQVJsRUo1b2kxUkNQT2xDNW1xSWRGbnNWekJ0SlEwX29scUppNnIzekdzZmItM24yZnllYmktTDh0a1BKYlR1cUxCeHYwOThtUTBSN25BQm5YcEs3UnF4eWtxWlJSTXBHdHluOHFJa2p6WQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijAFBVV95cUxPOU9YSjM1dXFDM0RnRWVIWmU3eHg0WmJ5TmtiQVJsRUo1b2kxUkNQT2xDNW1xSWRGbnNWekJ0SlEwX29scUppNnIzekdzZmItM24yZnllYmktTDh0a1BKYlR1cUxCeHYwOThtUTBSN25BQm5YcEs3UnF4eWtxWlJSTXBHdHluOHFJa2p6WQ",
+      "published_ts": 1763971200,
+      "id": "559d160709705a4730ab17e3"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "Indianapolis faces the loss of $10 million in federal funds for housing to end homelessness - WFYI",
       "source": "WFYI",
@@ -19896,6 +19984,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Report: Indiana workforce system seeks bigger role in meeting state’s labor needs - Dubois County Herald",
+      "source": "Dubois County Herald",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQVGFkeFRZLVE4TGg1azlyV0VoRTRpc2NzMDRoTFdObC11VjBac0Ixb1V5NTB2NzJJQUNfTUJ5MkUyV3YzN0NEcXpfQi1nTlB5RWh1OGR5WTNLMm1zNWxRTzUxN2lzN3ljaERYa1duLVI4MGZoZmhmSFM3d2tXRnZpRkZVdW1PelFMNGZLMGR3bEFrelZ2U2ZTOW1ZMmthaW1XWGJsdHd4bjdib0dvVVdONnJBa1NIRlJPS19Ta25QTno1VzQ5aHk3LXZ6eEN3S1lhSTBpNXRjR3hVZUQ3RW5mb3ZlZUloN0M5WEh3UExTb0dfcWJsWExaek1QandveWxsZnZGVm1mSkItUFRMMEk5V0VNQmdCY1ZHX3hER25kc20tX3FZTFJ2Y3VnNWIyWE1iNDNYVjZHN25yem00Smc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivgJBVV95cUxQVGFkeFRZLVE4TGg1azlyV0VoRTRpc2NzMDRoTFdObC11VjBac0Ixb1V5NTB2NzJJQUNfTUJ5MkUyV3YzN0NEcXpfQi1nTlB5RWh1OGR5WTNLMm1zNWxRTzUxN2lzN3ljaERYa1duLVI4MGZoZmhmSFM3d2tXRnZpRkZVdW1PelFMNGZLMGR3bEFrelZ2U2ZTOW1ZMmthaW1XWGJsdHd4bjdib0dvVVdONnJBa1NIRlJPS19Ta25QTno1VzQ5aHk3LXZ6eEN3S1lhSTBpNXRjR3hVZUQ3RW5mb3ZlZUloN0M5WEh3UExTb0dfcWJsWExaek1QandveWxsZnZGVm1mSkItUFRMMEk5V0VNQmdCY1ZHX3hER25kc20tX3FZTFJ2Y3VnNWIyWE1iNDNYVjZHN25yem00Smc",
+      "published_ts": 1761807600,
+      "id": "bc378a83c9c1d9cc43f3ef5b"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis economic development",
       "title": "Gov. Braun announces appointment of new Indiana Economic Development Corporation president - WTHR",
       "source": "WTHR",
@@ -20806,193 +20905,6 @@
       "guid": "CBMi2AFBVV95cUxNLU9oaFJwSmVqSzlfV1V0T3RyUmZfZW52ZU1KN2hJa1RtTjU0bHc0Rnd1TF9qZ1J4RHpsbFBNWkdRV0p4MldKOUtvRmVCTEE2V0hEOUkwWGlXRExNbXN0c01UVTNscnhYanRZQXhqLUw5RDBtRFUxU01VYkdscnJ6X2tEMjlqWGg5LXlZN3gyLUxWaDNwMk5LU0dMeTJyTVpvNDdFU1NDSm9XR3VaNEY4T2IycXR6MG80SUg1Ry00d1dONEtrMnc3aUo3Ylh1R0cwNWVBQ1hTN3I",
       "published_ts": 1761084109,
       "id": "51205398bbed33547c6aaa20"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Caterpillar to invest $5 million in Indiana workforce training - WISH-TV",
-      "source": "WISH-TV",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KZWtUN1BmQS1JaTJTTGEzamo4M2ctbW5WM1Rudjk4emdWVGlYYmJRYnpUTjV6c2paXzVaZWc3WWs3Qk9ic2FPSVNSY2ZsRUNGUU9mYmZ4Tm1sZW5wM2FXRnNLZmhiemxYZkk0OGRCV3B5aGRST056VGlrVHlrWVk?oc=5",
-      "canonical_url": "",
-      "guid": "CBMif0FVX3lxTE9KZWtUN1BmQS1JaTJTTGEzamo4M2ctbW5WM1Rudjk4emdWVGlYYmJRYnpUTjV6c2paXzVaZWc3WWs3Qk9ic2FPSVNSY2ZsRUNGUU9mYmZ4Tm1sZW5wM2FXRnNLZmhiemxYZkk0OGRCV3B5aGRST056VGlrVHlrWVk",
-      "published_ts": 1761030000,
-      "id": "6fa7575f4580d866db130f84"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit workforce",
-      "title": "Michigan Central and Grand Valley State University Partner to Expand Workforce Development and Educational Opportunity in Detroit - Michigan Central",
-      "source": "Michigan Central",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbFN4NDNxMUM3Q0pJTGYxdGJxTmh0cTlxclIyWlJUdGdrUGlvMmgyMHVnNkh6M1J0TTRlbGJBMU53Z0dkeUFWemNfWDRSQmplTjBRXzVmaWpqSHBTdGdMaVdacGxOc2ZDTHdweHpJa3dGSjh1WFVoZGJHQzJULW02NnhwQ2hEakdFX2xYNUtMSmduaV9XVG1aejNKSlFpTkFCNDBmZlNGRWFma0l4TjFTdHlwbmdLYzhWLVROSHNKLWk4ZnJueHRCWFJxRXd5eV9ldTRhZDY5WEQ4WUVkejlMa0RPQXB0V2k3elduZ2o2WQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi7wFBVV95cUxPbFN4NDNxMUM3Q0pJTGYxdGJxTmh0cTlxclIyWlJUdGdrUGlvMmgyMHVnNkh6M1J0TTRlbGJBMU53Z0dkeUFWemNfWDRSQmplTjBRXzVmaWpqSHBTdGdMaVdacGxOc2ZDTHdweHpJa3dGSjh1WFVoZGJHQzJULW02NnhwQ2hEakdFX2xYNUtMSmduaV9XVG1aejNKSlFpTkFCNDBmZlNGRWFma0l4TjFTdHlwbmdLYzhWLVROSHNKLWk4ZnJueHRCWFJxRXd5eV9ldTRhZDY5WEQ4WUVkejlMa0RPQXB0V2k3elduZ2o2WQ",
-      "published_ts": 1761030000,
-      "id": "fa5c61c2ff1459985e1ec346"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit workforce",
-      "title": "Michigan Central and GVSU Partner to Expand Workforce Training and Education in Detroit - The Michigan Chronicle",
-      "source": "The Michigan Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGM2TERMX2I0b215cHE0UUZtVWRWTGZ3S1pSblZvbjJBbXViQ2diM0NKb2d1WXZ3d2hnYU1teWd1bUlVSXZMNWxoWVcyYVBfcWRxVl8wLVJEZjlYTWN6M1dDSmM5M1NVWFdaeGg4aW4zREhlOVVhVWQ3MlUzMk01dzFsdkI2MzZjb01QTVg4bVpRODM2bVc0dC1EN0Z6MGVITmpFS0tFdFByeGl3X2NiekIzYWhqYlJvRmc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiugFBVV95cUxQcGM2TERMX2I0b215cHE0UUZtVWRWTGZ3S1pSblZvbjJBbXViQ2diM0NKb2d1WXZ3d2hnYU1teWd1bUlVSXZMNWxoWVcyYVBfcWRxVl8wLVJEZjlYTWN6M1dDSmM5M1NVWFdaeGg4aW4zREhlOVVhVWQ3MlUzMk01dzFsdkI2MzZjb01QTVg4bVpRODM2bVc0dC1EN0Z6MGVITmpFS0tFdFByeGl3X2NiekIzYWhqYlJvRmc",
-      "published_ts": 1761030000,
-      "id": "2f29a111bcc4f88a53a56b95"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "2 people hit, killed by bus in Indiana County | Victims identified - wtae.com",
-      "source": "wtae.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTNIS2t3d3p1XzhJd01zMWpwS0NsUTQtREQ5bnRDejJHRml5dXRHdE4tUHp0NGdmMlRrSGlUVl9JLWhtcXNUcHIzQXlwWVdsbHR1YlNoNmp3NGhPVzdwUm1OTVFrek0wVkloTjBtV0J6dmoydjVrMVBCUFlXU0VXc0hudFZzdmFQRjVKempPMlBMS2pjYUNoQw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimAFBVV95cUxOcTNIS2t3d3p1XzhJd01zMWpwS0NsUTQtREQ5bnRDejJHRml5dXRHdE4tUHp0NGdmMlRrSGlUVl9JLWhtcXNUcHIzQXlwWVdsbHR1YlNoNmp3NGhPVzdwUm1OTVFrek0wVkloTjBtV0J6dmoydjVrMVBCUFlXU0VXc0hudFZzdmFQRjVKempPMlBMS2pjYUNoQw",
-      "published_ts": 1761030000,
-      "id": "ff0b94fe76b898507d810303"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Bus driver hits, kills 2 pedestrians in Indiana County - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qeFhGeml3bTE4UGVFUW9Ic2h5RUJyeHd4UWZwVEJmUGZDRXhscEdSMWVYWS1nNFdEeWJGR1lqQVZzR0VKdExtejdPbk1PYkFNQjR5RVRXb0VhZWRxUlktTUxWYmlnaG5haDZBYlhLOVdISGdrNTN6N3Vvcw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMie0FVX3lxTE5qeFhGeml3bTE4UGVFUW9Ic2h5RUJyeHd4UWZwVEJmUGZDRXhscEdSMWVYWS1nNFdEeWJGR1lqQVZzR0VKdExtejdPbk1PYkFNQjR5RVRXb0VhZWRxUlktTUxWYmlnaG5haDZBYlhLOVdISGdrNTN6N3Vvcw",
-      "published_ts": 1761030000,
-      "id": "7bb6e3da2ba19872f2b8edc3"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit To Build New Bus, Train Hub Next to Historic Station - Planetizen",
-      "source": "Planetizen",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYW4xZXRnWEJubW8wVWdCcWNVN0JkSVhGR0tlRkpvWEtNbjB5ZkRnVFV0eHhzaEppMEdXVklraDZOTlE1S3lwYjJkajRjaUs2TkdtTDNYQUlYaThvWUxXQk1MN2t2WjZUYWV4Yjk1ZUdZWXh1VGJhWEN5NzgxcU1aTTBFalU1TWx5MmRXRC1EWnVZR1NOZV9SUVZrRTh5TC1JbUHSAacBQVVfeXFMT284LXI1TEhLYVQ2ZHlYY0RqM2FlUjUza1ljT3pyNVhTUElvYVdzQUtaenZBM1NGLVRZYktnaU9kb2dlNWZTMFdpbGU1amFlRHJjSlI2eGtNT09ON2JMRUJQNFhacnFhTV8xbVNWNGhlQk5QRDV6TzEweVVPa2pQUGo2STlUTGkyT21YQWZSSDBHLUE2OHM5WXNPRHRWdWtPYW52RF9BTXM?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiogFBVV95cUxNYW4xZXRnWEJubW8wVWdCcWNVN0JkSVhGR0tlRkpvWEtNbjB5ZkRnVFV0eHhzaEppMEdXVklraDZOTlE1S3lwYjJkajRjaUs2TkdtTDNYQUlYaThvWUxXQk1MN2t2WjZUYWV4Yjk1ZUdZWXh1VGJhWEN5NzgxcU1aTTBFalU1TWx5MmRXRC1EWnVZR1NOZV9SUVZrRTh5TC1JbUHSAacBQVVfeXFMT284LXI1TEhLYVQ2ZHlYY0RqM2FlUjUza1ljT3pyNVhTUElvYVdzQUtaenZBM1NGLVRZYktnaU9kb2dlNWZTMFdpbGU1amFlRHJjSlI2eGtNT09ON2JMRUJQNFhacnFhTV8xbVNWNGhlQk5QRDV6TzEweVVPa2pQUGo2STlUTGkyT21YQWZSSDBHLUE2OHM5WXNPRHRWdWtPYW52RF9BTXM",
-      "published_ts": 1761030000,
-      "id": "c6d5e67e62533b1cd59d6c14"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Caterpillar Invests in U.S. Manufacturing and Future Workforce Skills Training - Caterpillar",
-      "source": "Caterpillar",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOUxOSFRXUFl1akJhelN0Zi11WDZHLWdrUkRBdWk2M2JqOXZVUEhNQzRxMWVPZU5uSnQ3dFV1OHE2Wmg0RnEyQ0dMcFBLaXYxRTFjZkpmSncwUGsta1VZT29aQS1qOVBuemd2WEhrT2F4Y3cxZG16dU0wTVB4NTQteTZNUmJEVUxRVVpuaEtocWt2aXNJeUl4aEVCdw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimwFBVV95cUxOOUxOSFRXUFl1akJhelN0Zi11WDZHLWdrUkRBdWk2M2JqOXZVUEhNQzRxMWVPZU5uSnQ3dFV1OHE2Wmg0RnEyQ0dMcFBLaXYxRTFjZkpmSncwUGsta1VZT29aQS1qOVBuemd2WEhrT2F4Y3cxZG16dU0wTVB4NTQteTZNUmJEVUxRVVpuaEtocWt2aXNJeUl4aEVCdw",
-      "published_ts": 1761030000,
-      "id": "5bf61af50e4221dc4701c6f5"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Caterpillar details workforce training funding for Indiana - Inside INdiana Business",
-      "source": "Inside INdiana Business",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbkpoZUVRV29GOWZReHdCWTVmSmVUTzZJSklnamlvX0FYT0VSYWVmYTBFamhnQ1dUZVVFMjhUdDFhUWhvc3hlSEpiMkUtVERNLXEwRnkwS1R6SzBodFliXzVsanA1WFJPN1ZnMTZmck05cndYbWcwMHlPZ1RLZFc3OENEUnppR2N5TkFvMm5UWkMteDlNM3NSYndjZWxhWUg0ZjhoV09OUlM?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqAFBVV95cUxPbkpoZUVRV29GOWZReHdCWTVmSmVUTzZJSklnamlvX0FYT0VSYWVmYTBFamhnQ1dUZVVFMjhUdDFhUWhvc3hlSEpiMkUtVERNLXEwRnkwS1R6SzBodFliXzVsanA1WFJPN1ZnMTZmck05cndYbWcwMHlPZ1RLZFc3OENEUnppR2N5TkFvMm5UWkMteDlNM3NSYndjZWxhWUg0ZjhoV09OUlM",
-      "published_ts": 1761030000,
-      "id": "3c568a66f82e127067e13337"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Multimodal Mobility Hub Planned for Historic Detroit Train Station - GovTech",
-      "source": "GovTech",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZElYdmVMVVh2R0tCWVZMY0VHeVMyalYta2I4aG5aZ2hVbUJ0M3JRN1RvQ0lXUjktRWN4eG91Tks5Y0tDSHZsT1hTLWlpdlRKTHZpUXhxTTlTQmJsQXRERFU2UF9BVlBGcTBONTZJZFgyVF9pYzNDUDVJbXZPaXoweVN6Tm5nVzZvZ2gzdTdNUUtVdGVzRWR6UFA5SVFJOC1WNkFmcVNKdEc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqAFBVV95cUxPZElYdmVMVVh2R0tCWVZMY0VHeVMyalYta2I4aG5aZ2hVbUJ0M3JRN1RvQ0lXUjktRWN4eG91Tks5Y0tDSHZsT1hTLWlpdlRKTHZpUXhxTTlTQmJsQXRERFU2UF9BVlBGcTBONTZJZFgyVF9pYzNDUDVJbXZPaXoweVN6Tm5nVzZvZ2gzdTdNUUtVdGVzRWR6UFA5SVFJOC1WNkFmcVNKdEc",
-      "published_ts": 1761030000,
-      "id": "192ebc1da124f0c1c694ff55"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Mayor",
-      "title": "Scouting Detroit Tigers prospects at the Arizona Fall League -- here’s what I saw - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVjluVkVIUmdQbTNQYWVWYTc0dHJ4SmdCdndOVHBfMUdhd3AwckZkVHJvYUtZUURXYlVKejc5RVhMNWp2UnV3TlluSXdwekd0cERjN2w3V19ZSWhSeTVWUlBPLVV5SlNjWGc2VGNJOXZBdTU5OWhmZ0lpMFB6XzVRUXp2YWZoLVhKYWJkQ0lRLWtyWlhzQ3JKNWdLbGdnM0tGVnQyMlgwejRCem93bHlsa3VlZlNGS0lLYk1ELUUxSTlVaDN6dFE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMixgFBVV95cUxPVjluVkVIUmdQbTNQYWVWYTc0dHJ4SmdCdndOVHBfMUdhd3AwckZkVHJvYUtZUURXYlVKejc5RVhMNWp2UnV3TlluSXdwekd0cERjN2w3V19ZSWhSeTVWUlBPLVV5SlNjWGc2VGNJOXZBdTU5OWhmZ0lpMFB6XzVRUXp2YWZoLVhKYWJkQ0lRLWtyWlhzQ3JKNWdLbGdnM0tGVnQyMlgwejRCem93bHlsa3VlZlNGS0lLYk1ELUUxSTlVaDN6dFE",
-      "published_ts": 1761030000,
-      "id": "a02fdb1e5c785f2bc7c37e1a"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Caterpillar Invests in U.S. Manufacturing and Future Workforce Skills Training - Caterpillar",
-      "source": "Caterpillar",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPX2FNWUxWZnRWUTNzM2FST2Jic1BjZjBxT1pEOFFiaXczWmU0UVRlNmRoWS05X1dGVVBJOTJ4MTAyLU9uRS1QZVp5QWdwb0MtU3dYYUwxNlpMU1NXQWxRLUFGZkhfamR4QXF2M2N4LVJhMW9PWW12RUFCRFl3bVBzZDZQemZ2cjhXUUtITm9JMHlWVjFxYjRObkxWcHNkQWY2dnlDZlJwMnRzU2RZWVBhQ0FjVVFiSk9CcWlDZ3ItUHVobW5nU3FQbWxQa0VyTGktLVVncE1rVTk5ZTBubHZNUTRR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi4gFBVV95cUxPX2FNWUxWZnRWUTNzM2FST2Jic1BjZjBxT1pEOFFiaXczWmU0UVRlNmRoWS05X1dGVVBJOTJ4MTAyLU9uRS1QZVp5QWdwb0MtU3dYYUwxNlpMU1NXQWxRLUFGZkhfamR4QXF2M2N4LVJhMW9PWW12RUFCRFl3bVBzZDZQemZ2cjhXUUtITm9JMHlWVjFxYjRObkxWcHNkQWY2dnlDZlJwMnRzU2RZWVBhQ0FjVVFiSk9CcWlDZ3ItUHVobW5nU3FQbWxQa0VyTGktLVVncE1rVTk5ZTBubHZNUTRR",
-      "published_ts": 1761030000,
-      "id": "2d5e1b2c69e0d16b1ec3f04d"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "2 pedestrians hit, killed by bus in Indiana, Pa. - Pittsburgh Post-Gazette",
-      "source": "Pittsburgh Post-Gazette",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcG1lSlZrN0NZTmlaa0U1cFFFcWdiRmpncFZkcDQ3c1NyX0JmaTJjVUFuOWtrSXpCOU9aZTVDQUJWV3BGY3B3SFNuaGdnamtsN2xvX212eWtUdmViQjFhUkdPTUhGWWFOR2JnTjExbzhscXd4NUhEQklhaTAzOUstLTVhc2Jack10X3ZZRlBkWEhzQk5EVnlCSWpvdHdUXzkxdWhsalRwcHdWaFVLYUtDWQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMisAFBVV95cUxOcG1lSlZrN0NZTmlaa0U1cFFFcWdiRmpncFZkcDQ3c1NyX0JmaTJjVUFuOWtrSXpCOU9aZTVDQUJWV3BGY3B3SFNuaGdnamtsN2xvX212eWtUdmViQjFhUkdPTUhGWWFOR2JnTjExbzhscXd4NUhEQklhaTAzOUstLTVhc2Jack10X3ZZRlBkWEhzQk5EVnlCSWpvdHdUXzkxdWhsalRwcHdWaFVLYUtDWQ",
-      "published_ts": 1761030000,
-      "id": "2e830a901edb870b5a8e9438"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Bus driver hits, kills 2 pedestrians in Indiana County - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qeFhGeml3bTE4UGVFUW9Ic2h5RUJyeHd4UWZwVEJmUGZDRXhscEdSMWVYWS1nNFdEeWJGR1lqQVZzR0VKdExtejdPbk1PYkFNQjR5RVRXb0VhZWRxUlktTUxWYmlnaG5haDZBYlhLOVdISGdrNTN6N3Vvc9IBgAFBVV95cUxPOGp3MWNONE9OZU1WemZFRjltUG0xSVhaSWlzMHF3bDFlTDRzaGRsdkFPLTR3R3NocEZPVFdkVUtEbWc5eEVOQk5DelNaWUVfeDZheXlCUXJQMkppV21GR0doVkszdmFoY3NfeGVBRmd6anY5TGFsTG1kMVVNOGJMQg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMie0FVX3lxTE5qeFhGeml3bTE4UGVFUW9Ic2h5RUJyeHd4UWZwVEJmUGZDRXhscEdSMWVYWS1nNFdEeWJGR1lqQVZzR0VKdExtejdPbk1PYkFNQjR5RVRXb0VhZWRxUlktTUxWYmlnaG5haDZBYlhLOVdISGdrNTN6N3Vvc9IBgAFBVV95cUxPOGp3MWNONE9OZU1WemZFRjltUG0xSVhaSWlzMHF3bDFlTDRzaGRsdkFPLTR3R3NocEZPVFdkVUtEbWc5eEVOQk5DelNaWUVfeDZheXlCUXJQMkppV21GR0doVkszdmFoY3NfeGVBRmd6anY5TGFsTG1kMVVNOGJMQg",
-      "published_ts": 1761030000,
-      "id": "d26d4c06f41afcf4d7c56439"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Caterpillar commits $5M to Indiana workforce development - Investing.com",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUXlGeHRtc0hXNE9HMnZrV3Z4RDJyT0tVYk9nYzNsZkVQLTZvYXlNSHRYQUF0MEYxZThNc1gyVVdYUW5CYWo2bVBGazE5aEpCd1ZPOWRsVk92dDdHelFZY1QyQW9hZkZSdjJ2SHVFc09jb0R5ckxBX1pWYWtMVXVOS0hxRXdoMUNmT1R4Z0EtejZvRW5qc0NBcFFuRjl5czNjUk5EaWRldVEtRjFWdmQ0QURn?oc=5",
-      "canonical_url": "",
-      "guid": "CBMisgFBVV95cUxPUXlGeHRtc0hXNE9HMnZrV3Z4RDJyT0tVYk9nYzNsZkVQLTZvYXlNSHRYQUF0MEYxZThNc1gyVVdYUW5CYWo2bVBGazE5aEpCd1ZPOWRsVk92dDdHelFZY1QyQW9hZkZSdjJ2SHVFc09jb0R5ckxBX1pWYWtMVXVOS0hxRXdoMUNmT1R4Z0EtejZvRW5qc0NBcFFuRjl5czNjUk5EaWRldVEtRjFWdmQ0QURn",
-      "published_ts": 1761030000,
-      "id": "d269f49f556fab9ee0550f2e"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Caterpillar (NYSE: CAT) highlights $725M Lafayette expansion; begins $100M skills pledge - Stock Titan",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUNMT2g5Uk9zSU5xX1REOER6cFlfUGhKcXhERDhRUlZJV2pOVllfLTJVSTNnaVFRem1lalAzU1BXMzlKZkh2VWFtbVRLTDdWODNGN2w3b0hRUEdBQ3pMSnA3TnMxdXhzWkJvTXgxOEhBa21vLVJWZy10VjhGd01iampBT1QxXzQ2bzZLcnhnS0hzRkpKUXphVEV3WUVEUVQ0alpZdGNrb19KU3Z6RUo0aVRHY1c5VmFFUUt4SS1Gaw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMivwFBVV95cUxOTUNMT2g5Uk9zSU5xX1REOER6cFlfUGhKcXhERDhRUlZJV2pOVllfLTJVSTNnaVFRem1lalAzU1BXMzlKZkh2VWFtbVRLTDdWODNGN2w3b0hRUEdBQ3pMSnA3TnMxdXhzWkJvTXgxOEhBa21vLVJWZy10VjhGd01iampBT1QxXzQ2bzZLcnhnS0hzRkpKUXphVEV3WUVEUVQ0alpZdGNrb19KU3Z6RUo0aVRHY1c5VmFFUUt4SS1Gaw",
-      "published_ts": 1761030000,
-      "id": "47bb641c95df1a7eeac78f24"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Attorney killed by bus in Indiana County remembered for wanting to help the less fortunate - WPXI",
-      "source": "WPXI",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVRtZTg2WUhHdnUyV09uT3hYX2VxRGtUVDFJSmRxYW9HbFJucWxSZU1udmlrX1JMWEFOSkUwREc5aWxxNnM1ZHBld2I1aDFEMEg3WXpiNkt2U2lRQW1IZC1IYm8tMjhhUl80VlZ1Q2Fya0Fsd2hKZk05dUI5cUxqM2k2d194eThvTnhiMkZDT2lJY0wxdTViTnFLd3BCNkhIVkxfOHlMdG5meE05X2Jnc3hkTjNROXppeDYwaHV3Z3BPOVZSNFN4elA1c2hZZWV4c3fSAeYBQVVfeXFMUFprM2F6b09uLUVsQkhvM2dKbFdMazZsMnNfZjRIdS1aSzRTRWZoaFFPTC1hajJ5d2lGNGxzQzVqZHNNY1JKalFpZDdLVVBNRjR5Wkw0aVFiakUyaGFXTV8xU1BUeXlDZzQzRTJ3cmEyMWNRQmdoMkZjSXM2R3ZQSktWdjlmMU1xTDZFN3gzVy02SEoyQXhwMGYtdUM4ZWEyRWZMeHpWUVdGeVFPTFhJeGdzTk80NUJMa0ZHMkVDckdZOERzNzdWSkJjQVJIOG04cmprYzRzdzcwYWJfdnVGXzc0NHg2akE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi0gFBVV95cUxQdVRtZTg2WUhHdnUyV09uT3hYX2VxRGtUVDFJSmRxYW9HbFJucWxSZU1udmlrX1JMWEFOSkUwREc5aWxxNnM1ZHBld2I1aDFEMEg3WXpiNkt2U2lRQW1IZC1IYm8tMjhhUl80VlZ1Q2Fya0Fsd2hKZk05dUI5cUxqM2k2d194eThvTnhiMkZDT2lJY0wxdTViTnFLd3BCNkhIVkxfOHlMdG5meE05X2Jnc3hkTjNROXppeDYwaHV3Z3BPOVZSNFN4elA1c2hZZWV4c3fSAeYBQVVfeXFMUFprM2F6b09uLUVsQkhvM2dKbFdMazZsMnNfZjRIdS1aSzRTRWZoaFFPTC1hajJ5d2lGNGxzQzVqZHNNY1JKalFpZDdLVVBNRjR5Wkw0aVFiakUyaGFXTV8xU1BUeXlDZzQzRTJ3cmEyMWNRQmdoMkZjSXM2R3ZQSktWdjlmMU1xTDZFN3gzVy02SEoyQXhwMGYtdUM4ZWEyRWZMeHpWUVdGeVFPTFhJeGdzTk80NUJMa0ZHMkVDckdZOERzNzdWSkJjQVJIOG04cmprYzRzdzcwYWJfdnVGXzc0NHg2akE",
-      "published_ts": 1761030000,
-      "id": "a1951aeb3cecb378b488fa6a"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "INDIGO RELEASES STATEMENT CONCERNING FATAL INCIDENT IN DOWNTOWN INDIANA - WCCS AM1160 & 101.1FM",
-      "source": "WCCS AM1160 & 101.1FM",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb1NTWXpBNExIcjFaUDNEejRJM3lNaEZ5Zm1Ga0tlNndzWmZLbHBLT1RndlR5NzU5b3hTcksyaDdxQXEwcDR0OFc5YUZyNUpPM3JaYTFGRkVvVVhITWk3dlJJaWhEWUI5SWdyei1EYWxjR3pGYTFVZkttYVFPWE15aXdrYmM5OWZ3VHdGbGpRVG1EbkZObXpCLVlVUW8wS0hVUEY0SkhBMkN5R0draXc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMirgFBVV95cUxNb1NTWXpBNExIcjFaUDNEejRJM3lNaEZ5Zm1Ga0tlNndzWmZLbHBLT1RndlR5NzU5b3hTcksyaDdxQXEwcDR0OFc5YUZyNUpPM3JaYTFGRkVvVVhITWk3dlJJaWhEWUI5SWdyei1EYWxjR3pGYTFVZkttYVFPWE15aXdrYmM5OWZ3VHdGbGpRVG1EbkZObXpCLVlVUW8wS0hVUEY0SkhBMkN5R0draXc",
-      "published_ts": 1761030000,
-      "id": "9248a398ffd8e7e257432802"
     }
   ]
 }
