@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T09:32:51.631274+00:00",
+    "generated_at": "2026-05-03T09:37:57.343748+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2035,
+    "items_count": 2025,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -173,6 +173,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "How many homes are getting built in Detroit in 2026? - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WS3BLZ201SVE1ZDV3NS1BYmlvajA5RDNpeXFHbUNIWXVaQndBR3ZnejlBNE1nN21mNWpGcXJZa2JkSFpjaW1aMHViWVNoMUV4dG9rQ05KSXNLSC0tTVhJZW54RmZfWkt2ZEVwcnoybWgxTjZrRndqMlNYZGc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMifEFVX3lxTE1WS3BLZ201SVE1ZDV3NS1BYmlvajA5RDNpeXFHbUNIWXVaQndBR3ZnejlBNE1nN21mNWpGcXJZa2JkSFpjaW1aMHViWVNoMUV4dG9rQ05KSXNLSC0tTVhJZW54RmZfWkt2ZEVwcnoybWgxTjZrRndqMlNYZGc",
+      "published_ts": 1777660821,
+      "id": "dbb8bc8a987dfdffcf81b2bd"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit transit",
       "title": "Detroit Evening Report: Transportation hub planned near Michigan Central - WDET 101.9 FM",
       "source": "WDET 101.9 FM",
@@ -280,6 +291,17 @@
       "guid": "CBMiuAFBVV95cUxQMmdwQmpHZFhUYlpQT2tjZEdhc1VITVY5SnYxaFJ5THZ0M01Nb0VuVENjN1Y1Sm01NF9PRjRoVzA0SjNPdk11ODVTVy01V0xMVDFhbVRja25jRzN1MXNfSXVyMjJyeEU0V2xnWWVTam8wemJlN1ZtMHpyaTNWalV2bjl6Tm5ZcTFXdWRmZjR2QUF0eVV4T1VvelEwNWpOd09KcHVJY2EtQzNwNFVYN0hJN0hfZVkwU1hH",
       "published_ts": 1777629600,
       "id": "a774a36dd0bf930e8be5b991"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Long-vacant riverfront hotel owner seeks investors for redevelopment effort - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYUhvNWlvcXJwUGwyMlBPWVpDQTdpV3kwUWFXT2x4OWhHemFoRnlzM1Fyek8wNXFzR0lYS2E4Zlh3d3k4REMtUnhILWRvdl9yaW1FYmlFSjN4dHgycWNsQnl5ZFlqVEItbF9IRXRaa2NuZ2Nhc3ZtZmtOWUVQeFdtT3ZEamxPTHY5MllGaHA5djlyS2N3MXc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilgFBVV95cUxPYUhvNWlvcXJwUGwyMlBPWVpDQTdpV3kwUWFXT2x4OWhHemFoRnlzM1Fyek8wNXFzR0lYS2E4Zlh3d3k4REMtUnhILWRvdl9yaW1FYmlFSjN4dHgycWNsQnl5ZFlqVEItbF9IRXRaa2NuZ2Nhc3ZtZmtOWUVQeFdtT3ZEamxPTHY5MllGaHA5djlyS2N3MXc",
+      "published_ts": 1777628700,
+      "id": "f10e6f9e645bfc4e0aa1dfdb"
     },
     {
       "bundle": "Indiana TOD",
@@ -456,6 +478,17 @@
       "guid": "CBMi0gFBVV95cUxQR05ralI5QldhV0RJZzJRMk5vRmFtTXRJTVl3SkJlSURQakxndHpVWTRpU3J6dU9FTnhaS3NyVkxtYzV3WDhEZzBtZU1ISnJYYVliQzB5TTc3MXBhbVFFSXNhaFBiM2t2OUtZU3ZIQ3pIN2pSS3dBU0dmN2FRdzRnZDFINVh1WlBSc0hfTGhRSzluRjdZQk85QkNSTWhKemM0czc4QXBoTENFTy1yclh4cDJZZDdCcDdVMkxIc3U1OVZnWlR4NmRST1N0clNSRmtZTUE",
       "published_ts": 1777539720,
       "id": "eed7168549023c43bef5a300"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Wooster High expands CTE with crane, welding and forklift training - Your Ohio News",
+      "source": "Your Ohio News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSlpTMVl6cTNYTTQxYy1VY2QtWHBDVlRSeDVMZGtUak1tMDJ6UkktWVBwRDNzYmpjY0RqbjhISzJtZVp3WHhxemZVSW5XX1poM3kxX1A3bm1jYm9NeUIyWkg0QnRJdzJjcFFwZUtsQXc2UzZ4bXVneE1FTGJNb2FObmJKZlB5UTRic0RxZW9nNXROZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikgFBVV95cUxPSlpTMVl6cTNYTTQxYy1VY2QtWHBDVlRSeDVMZGtUak1tMDJ6UkktWVBwRDNzYmpjY0RqbjhISzJtZVp3WHhxemZVSW5XX1poM3kxX1A3bm1jYm9NeUIyWkg0QnRJdzJjcFFwZUtsQXc2UzZ4bXVneE1FTGJNb2FObmJKZlB5UTRic0RxZW9nNXROZw",
+      "published_ts": 1777539600,
+      "id": "ff1f1030c468f6eccea0657d"
     },
     {
       "bundle": "Wayne County TOD",
@@ -1875,6 +1908,17 @@
       "guid": "CBMihwFBVV95cUxOWlVsaHFOeWJPYjdvdUVhTDZjZU5ISk5LSFdtd2lha04ybmRGeDFzZFVZQ2luWkEwRlM4eHVnem4xdzRNeHl4empLUGRtem9mWF9EamZST2lHZFhDYXVvUm9PaWlaRE5LM25uMTUxUjBGbmZfb19MMHdPakdzWE5yRlVCaHk3UjQ",
       "published_ts": 1776589503,
       "id": "37bf3e29f545233276e85dbf"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Amtrak Cardinal",
+      "title": "Amtrak adapts after Cardinal's Indiana crossing accident - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblpHRi10dFBnT2UyaGI5OVpLSTVmd0M3NGw2ckQ2SURJMEVhaHFnbnE0MHlRY1FjS0x6SDV3NFRHa2hwdFJ6RjdTQkpBZlBiQnFVMEQ0XzJTand2RUszMW9Ucms1YlcwUnByYWdRTGZfaGdYa3dxWGFVTUthOGNhZm4wLVVuUEp0dTg4cXZoOHBTUXlCSEE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilgFBVV95cUxOblpHRi10dFBnT2UyaGI5OVpLSTVmd0M3NGw2ckQ2SURJMEVhaHFnbnE0MHlRY1FjS0x6SDV3NFRHa2hwdFJ6RjdTQkpBZlBiQnFVMEQ0XzJTand2RUszMW9Ucms1YlcwUnByYWdRTGZfaGdYa3dxWGFVTUthOGNhZm4wLVVuUEp0dTg4cXZoOHBTUXlCSEE",
+      "published_ts": 1776582000,
+      "id": "7b987a78332a41efe8d578a5"
     },
     {
       "bundle": "Wayne County TOD",
@@ -3307,6 +3351,17 @@
       "id": "32cfd8617b5f3026da2a6b31"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Go Woo-suk Demoted to Double-A, MLB Return Diminished - 조선일보",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMHpjSWM1cjJ0RHFDemNiMThqUUJnSG0zQ1pWZkswNUpoUXNxU0VpX0k1d1pKb2RFQ1hGZXVzeVZsSE01RlNqSlJvYkNCbDVjNXhqcE9Ma1BNbzdoOUNORWdrNjQyVUo1UUJuaXdwVUVQdHRqZ29aT3Vpc1ljN0NRRmJ5R1FZUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihgFBVV95cUxQMHpjSWM1cjJ0RHFDemNiMThqUUJnSG0zQ1pWZkswNUpoUXNxU0VpX0k1d1pKb2RFQ1hGZXVzeVZsSE01RlNqSlJvYkNCbDVjNXhqcE9Ma1BNbzdoOUNORWdrNjQyVUo1UUJuaXdwVUVQdHRqZ29aT3Vpc1ljN0NRRmJ5R1FZUQ",
+      "published_ts": 1775718000,
+      "id": "3fa82fa239097126ba924919"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Indiana Department of Workforce Development lays off 123 workers - MSN",
@@ -4548,6 +4603,17 @@
       "guid": "CBMisgFBVV95cUxOX2N0aThmekl4UjdQUnJ4bnFjSFQwakpUNlBDUHRURFpLaVBGcEZPWWxWLW5tMk1jeFo5clRPQnM4dFVDZWRKN2tYcTZ5U2NpNXJqWWxVYzRZMk9OZ0V3VnhhZzZqTWVmWVpuSVd4Q1JiQWpGU2ZNY1VZU0JDRlBkN1FKZjIxRFRsQmxUU3NTVzRRWVlUSm5fTTJfdExHWndzSXZfN29NY05IUGpiZWd4VUFB",
       "published_ts": 1775026800,
       "id": "e7ea08b15c6d97e823da73a0"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Indy commission approves data center in Martindale-Brightwood - Indianapolis Business Journal",
+      "source": "Indianapolis Business Journal",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQVFoU0NNUzdqc3hVczdQTlJOY21YM0tpRDUxMnFCZGg1Qnladlc1VGlMSFIyMnB2YkRlcEd6a1dNUnlwNWYtVFgwYUFlbXV1NTlrYms5dlREdlZLaWZBRDY2bnFnRDZVUmJFRzFWZjQtRURDS2RtZmZYSFRaeDY5cUpoX1BZOGVsLXFBM1VNVWpGM1ph?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilAFBVV95cUxNQVFoU0NNUzdqc3hVczdQTlJOY21YM0tpRDUxMnFCZGg1Qnladlc1VGlMSFIyMnB2YkRlcEd6a1dNUnlwNWYtVFgwYUFlbXV1NTlrYms5dlREdlZLaWZBRDY2bnFnRDZVUmJFRzFWZjQtRURDS2RtZmZYSFRaeDY5cUpoX1BZOGVsLXFBM1VNVWpGM1ph",
+      "published_ts": 1775026800,
+      "id": "fa3f8d9f54846259aa28ca13"
     },
     {
       "bundle": "Wayne County TOD",
@@ -7652,6 +7718,17 @@
       "id": "7621e6796193316e021f272d"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Braun: $1 billion investment aimed at creating 100,000+ jobs in Indiana agricultural, life sciences industry - Fox 59",
+      "source": "Fox 59",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakFiZmNMQVhtRkJWOXhhUzExMkhtMElCZ0F0cV9MblBiZDFMOGt1bzBlMEwtdjlKazgybXBqekdJMUdIODUxWTRNR3FFOVNJZmlKZVB3RzllLUsxVnpWTkM0N1BKVlVXT2p2YUpNcFdPSG16QWdQNVB2TFhZczF3b3dRVlRSS3JuWWZ5SF9ZM2ViaEZ2YnVzSldZNWxud1RGWEE3NHBFeWx4eFNSbHNyVVpMZC1VRzNJcktTdkVR0gHDAUFVX3lxTFBxSXJmNVhNU0hDRFQxSHV6ZHBMQTFDWlZ2QTBYUGI5SkY3RU5BUXJkUVVwdVFpNlJRWDNIX2JOd0hhQzY0MnhCQ1JyZFZad2xxV0UwNGxzSkJCWG1qWThsX2dWT0dHVTZGZW80SDNVQzZYeTlMaXphUXJzc0drMnJnQUdNU1RSV21sejMwRktnZ25GSVRLbVcya091Wm5WYUhNUGZpeWMxVmZpVWlvSTJ1WVgyRFdOSGhXelUyNXJfUXZDcw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivgFBVV95cUxQakFiZmNMQVhtRkJWOXhhUzExMkhtMElCZ0F0cV9MblBiZDFMOGt1bzBlMEwtdjlKazgybXBqekdJMUdIODUxWTRNR3FFOVNJZmlKZVB3RzllLUsxVnpWTkM0N1BKVlVXT2p2YUpNcFdPSG16QWdQNVB2TFhZczF3b3dRVlRSS3JuWWZ5SF9ZM2ViaEZ2YnVzSldZNWxud1RGWEE3NHBFeWx4eFNSbHNyVVpMZC1VRzNJcktTdkVR0gHDAUFVX3lxTFBxSXJmNVhNU0hDRFQxSHV6ZHBMQTFDWlZ2QTBYUGI5SkY3RU5BUXJkUVVwdVFpNlJRWDNIX2JOd0hhQzY0MnhCQ1JyZFZad2xxV0UwNGxzSkJCWG1qWThsX2dWT0dHVTZGZW80SDNVQzZYeTlMaXphUXJzc0drMnJnQUdNU1RSV21sejMwRktnZ25GSVRLbVcya091Wm5WYUhNUGZpeWMxVmZpVWlvSTJ1WVgyRFdOSGhXelUyNXJfUXZDcw",
+      "published_ts": 1773730800,
+      "id": "4e67fb753993898b5020a1da"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Wayne County transit",
       "title": "Rural public transit advocates in push back on Missouri governor’s pro... - waynecojournalbanner.com",
@@ -8785,6 +8862,17 @@
       "id": "bcc1ff9f6c6261fc88cbc75b"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Carmel tech firm sues IEDC, others over alleged IP theft - The Indiana Lawyer",
+      "source": "The Indiana Lawyer",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYlljM3YzUHEzN1JyYUhmV3h3RmM3eTAxYVRlVWFSUVhMak50RVZQWjRfWTJPWWZHd2tXeEUzNEZyYktlNVhRR1NzRmNZYkstemZRUDVpYnpScXZTVkd4eW1NLUE3T25oWFQwU19Zc3IzQlRUbDdqQ0k1bnpwV204VHF1dW95azhEemYtTkliZmpPUWRFbWRIX3JxOXBaUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMingFBVV95cUxPYlljM3YzUHEzN1JyYUhmV3h3RmM3eTAxYVRlVWFSUVhMak50RVZQWjRfWTJPWWZHd2tXeEUzNEZyYktlNVhRR1NzRmNZYkstemZRUDVpYnpScXZTVkd4eW1NLUE3T25oWFQwU19Zc3IzQlRUbDdqQ0k1bnpwV204VHF1dW95azhEemYtTkliZmpPUWRFbWRIX3JxOXBaUQ",
+      "published_ts": 1773126000,
+      "id": "3e5f38ebcf79028e68cacabd"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit transit",
       "title": "Proposed North + South Passenger Rail aims to connect cities along renovated freight tracks - The Michigan Daily",
@@ -9832,6 +9920,17 @@
     {
       "bundle": "Indiana TOD",
       "query": "IndyGo",
+      "title": "14-year-old girl identified as victim of crash involving IndyGo bus - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQm50dUNNOXBaem8yXzh6RWxqaGlOak9vUlRkNkF1M0pvdGJ3RVNQWWtKZTRZaUVVdnlUelp5dlNCS0Q0MnRoMm5qTi1aOHBCeHVycWhFemk1dFN3azZlSWNTWUVVRm5SamZDcWRTVVlXVkpMNFlxQ3JpVTVSWWVQc3dIeXd0dGg4OFY1cms4NndHN0JsbWhlVngzODhZcmNNVTZCdUdDZVNBMUpWNFR0VGlGUThxeEFsSlNYUHFReVdRb0ZPeFBXRDk2c29vMks5MVluSmdTOExZX01kZThF?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi3wFBVV95cUxPQm50dUNNOXBaem8yXzh6RWxqaGlOak9vUlRkNkF1M0pvdGJ3RVNQWWtKZTRZaUVVdnlUelp5dlNCS0Q0MnRoMm5qTi1aOHBCeHVycWhFemk1dFN3azZlSWNTWUVVRm5SamZDcWRTVVlXVkpMNFlxQ3JpVTVSWWVQc3dIeXd0dGg4OFY1cms4NndHN0JsbWhlVngzODhZcmNNVTZCdUdDZVNBMUpWNFR0VGlGUThxeEFsSlNYUHFReVdRb0ZPeFBXRDk2c29vMks5MVluSmdTOExZX01kZThF",
+      "published_ts": 1772524800,
+      "id": "f1c36f0ed43c544e3189b353"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
       "title": "14-year-old girl dies after being hit by IndyGo bus on northeast side - Yahoo",
       "source": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FMnBUd3pQTnQxLVcwMERweEZsaUlLZDBFMmxDaVhkTmxrLTRrRVZ1UzRSWDZFbnVmVW4xZ25uTFdZNjd6RXM2d0ZYM1ZTZ0ZMLVFyM2w4LWd2THFrSVRsZXYzcFNVSGNZMEFFQUtEVWZvS0wyQWMtRkd5bw?oc=5",
@@ -9949,6 +10048,17 @@
       "guid": "CBMi3AFBVV95cUxOc0JWX2ZXTldlLW1uek5xeEVic2ZDZ2N3MWFuMHh1NUhxYW1oYXNNdF9GLUhFZ3lDYmFlNDdGeGdpVmJ6ZTF3bFFLREtFN05jdkdlNzNCZzhfS2NkdWVWbGdTNW1nQkNRdjlub09HbDZZSkFfelpJYzJ1QVZLcEo1U29QdjRXRU1vVVo5UWtPaEZoS2VSY1NyeDNtWWtUX2RYYmltOEZseG1ZNHhvcXVJRkF5aUxKbmRkeFVWOHR4NjFCb1lTMVpFWHlXZVNqTVd5Z3dWNlp5VElCYk5t",
       "published_ts": 1772438400,
       "id": "ecb771cf07e7a9a12d2b65c1"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "14-year-old girl dies after being struck by IndyGo bus on Indy's east side - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQWZjcmNEejRoYmtuUWFqV3NrWWFrM0VBbEJKS19xSlVnTUp1Q01oNk5BRzVVV2luN3JhRGwycHI3SmI0aWhiVlpZa3ZGNXo0VFVpeWdRQUVrUmxqb2hqYUt6Yk5keGxUa2tMNWYxR01qWHVseHhPd1RlOHNOY2FTQXFBbFU3Q0hkVzNjN1drY1NmdWxnRk1uMTlibk1IckRLR0RRdGZ2MUMzNVVPSG12WnE3dmZhMUJIVWdvODBxMjZMMXA4MlJ1RkZFaVhFX3VsZkluMTJTTG5BaU9qdkppcXJ4dUhkMzA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi5wFBVV95cUxPQWZjcmNEejRoYmtuUWFqV3NrWWFrM0VBbEJKS19xSlVnTUp1Q01oNk5BRzVVV2luN3JhRGwycHI3SmI0aWhiVlpZa3ZGNXo0VFVpeWdRQUVrUmxqb2hqYUt6Yk5keGxUa2tMNWYxR01qWHVseHhPd1RlOHNOY2FTQXFBbFU3Q0hkVzNjN1drY1NmdWxnRk1uMTlibk1IckRLR0RRdGZ2MUMzNVVPSG12WnE3dmZhMUJIVWdvODBxMjZMMXA4MlJ1RkZFaVhFX3VsZkluMTJTTG5BaU9qdkppcXJ4dUhkMzA",
+      "published_ts": 1772438400,
+      "id": "c727a56416376b3ebfda6bf2"
     },
     {
       "bundle": "Indiana TOD",
@@ -13601,6 +13711,17 @@
       "guid": "CBMisgFBVV95cUxQT1VqcjgzOXczMzcta19MRUhSLVdrQml1X1JaWmhPVVB6azN6MTNHV1YtRVBwbFl5NEE4NzVqdS1wcGhrTDZ4RlIzazVBMDFNcjhjcDNrN1JRb1FkVUlIQUxIXzFDaGJlalJGbEw5QnhzelE4QzdrcFlPdlgyY2t5V1otQVhhb2VQNWJWTkhPVHdSelpUMS02WjYyU1V5a1U2Q2JKcnBTeHdHcldveHdLUEVR",
       "published_ts": 1770105600,
       "id": "11376775c2e6fc3352e6169d"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "President Trump Suggests Federal Government Should \"Get Involved\" In Running Elections - C-SPAN",
+      "source": "C-SPAN",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVm5qdkVEVTRJZGstVEMyRm9rU2VFdXgyOVdMdTNseGZHUVN0MndtZ3ROV3FYNldKWFc0NVQtZG9CUGxOSmxMeUZqUFhpSGhNak51blNOUmY4Qm9WSmotM2J3R3ExZWwzcjF4dmhHVXNWcm55YWdoRTZyYjZ3dU9vb1JYWE9SU0F0Z3BmNjR0Tk1zajFYcFpyOTM0TFpmWlZOUmpoWFpkT1JraF9JSzhKLUFfNnZEYXRHb2d1SDNYdGNubWRHaHhTamZfQmxxc1NqeG9LLQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi1AFBVV95cUxQVm5qdkVEVTRJZGstVEMyRm9rU2VFdXgyOVdMdTNseGZHUVN0MndtZ3ROV3FYNldKWFc0NVQtZG9CUGxOSmxMeUZqUFhpSGhNak51blNOUmY4Qm9WSmotM2J3R3ExZWwzcjF4dmhHVXNWcm55YWdoRTZyYjZ3dU9vb1JYWE9SU0F0Z3BmNjR0Tk1zajFYcFpyOTM0TFpmWlZOUmpoWFpkT1JraF9JSzhKLUFfNnZEYXRHb2d1SDNYdGNubWRHaHhTamZfQmxxc1NqeG9LLQ",
+      "published_ts": 1770105600,
+      "id": "e39bf9bdc30ae0d5f4f421ae"
     },
     {
       "bundle": "Indiana TOD",
@@ -21017,6 +21138,17 @@
       "id": "7981444e905d2c697313cffb"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "Man wanted in Wayne County for stolen property, petit larceny - Fingerlakes1.com",
+      "source": "Fingerlakes1.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT1pwZDIzOWIyVWd6NjhtZUtYUjFkQTY0SjBEQWN1WVl2UXdSamRjUnpUU2FjYTMxRFIzSnNQa1RxNmdDc2xibXFIZWFXeGp4SGVWemtyRFczcTc0blRSWHVySTRZRkdrN0o4OEpONEhZQ1E1LUFaVlFyNmhvaERzejZvQTM4NWFZelJmeVlnVDJLUzJxWDRjYmlzYlk2aGtoenpv?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiowFBVV95cUxNT1pwZDIzOWIyVWd6NjhtZUtYUjFkQTY0SjBEQWN1WVl2UXdSamRjUnpUU2FjYTMxRFIzSnNQa1RxNmdDc2xibXFIZWFXeGp4SGVWemtyRFczcTc0blRSWHVySTRZRkdrN0o4OEpONEhZQ1E1LUFaVlFyNmhvaERzejZvQTM4NWFZelJmeVlnVDJLUzJxWDRjYmlzYlk2aGtoenpv",
+      "published_ts": 1763539200,
+      "id": "573f6726a3d708f4b04942dd"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "New partnership boosts state’s biomanufacturing workforce development - Purdue University",
@@ -22269,248 +22401,6 @@
       "guid": "CBMiuAFBVV95cUxQLUo4TlNVLUcydmNCVHVQWlhST2xFT0hJdHc4U0FtU3VqY0lYMU5VUEEwVmFWU2RKUGk0RHVSQlZ3Smc5Q2RYVVVoZWF5VVh5d3JDdG9WUVQwd1NuUjREa0Zod1N4S2NWM1hYSTZOaWgwaEZURGZLR19UNUxkcU5BUEFQN3NnSG9ranhKYWc2RmRMWFJiTWRWdEZOaFM0RUZiXzBZaTgxMGFhMnpwTHdDd3BaZHVTblBR0gG-AUFVX3lxTE81ZHdHeDNnYktsSUNqMllDSDhNMlFvN1pBWmNjaDh0ZlBHYlcyUW1GaURxaURUMlpsVUtYeTJaM2FYa0J1bk9BQ0V2dmtjcnJaMEFqb09MV1R5SlVSLXZtSkl0RGRwSmlGdTN2YnJSYmxpLVhTazBFdXJHNjRKM0NuM18zY19iVmszdkVXa3o1ajgwd3NZdHBLaUhRLUtJeEJnYU9iZzB2cjBQSGVpTWlLQmJrYzdLTVdsMEcyUUE",
       "published_ts": 1762329600,
       "id": "28a5b199956c6043da5d7e29"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County housing",
-      "title": "Ex-County Staffer, Housing Leader Admit To Bribery Scheme - Law360",
-      "source": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc2FFRnlHTm9ic1BmT2dsV3VINU1EV19RZUVXaWRLeFN0cXAzWVEyUXZHMW9YdlByUFlVdDZBaHdQMTNxZ3IzbE5hXzBoYnVvc2l2dGhSY1JucEUxX3dHMXBOekJ5Z0xIRHlXeTlPalBSdVhKOFJVTGNpTjl6YjI0WHU2dUNPbjhHYlU4VXd6aTlnVEx5TGRxMzYwbWkwOENMQzdGUlpvWjdRZzdXMkM0NjBheXFhUnVVOUHSAXNBVV95cUxQbkFvN2xrZk1INDd5YlNyRlpGYXk4WXllN3NsSXcybEZjTHdwMEVqQXpDTG9kdXQwMDROT2RGTnJXZVF2TTRjaXNwZ2ZDUFpHMXRqT2dfZ2Z3dm9nWG40UmNubFM3LXlzWWVzVW9sWHRRUVNz?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiugFBVV95cUxQc2FFRnlHTm9ic1BmT2dsV3VINU1EV19RZUVXaWRLeFN0cXAzWVEyUXZHMW9YdlByUFlVdDZBaHdQMTNxZ3IzbE5hXzBoYnVvc2l2dGhSY1JucEUxX3dHMXBOekJ5Z0xIRHlXeTlPalBSdVhKOFJVTGNpTjl6YjI0WHU2dUNPbjhHYlU4VXd6aTlnVEx5TGRxMzYwbWkwOENMQzdGUlpvWjdRZzdXMkM0NjBheXFhUnVVOUHSAXNBVV95cUxQbkFvN2xrZk1INDd5YlNyRlpGYXk4WXllN3NsSXcybEZjTHdwMEVqQXpDTG9kdXQwMDROT2RGTnJXZVF2TTRjaXNwZ2ZDUFpHMXRqT2dfZ2Z3dm9nWG40UmNubFM3LXlzWWVzVW9sWHRRUVNz",
-      "published_ts": 1762243200,
-      "id": "9e9f14fbbcc5ed335a09a143"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County housing",
-      "title": "Wayne County federal bribery case yields two new convictions - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeGhqN2RJXzQtMlFncDUxNHJCcUwxNEgtM2RPUE1zUjVjQTZxR0VTV0t5aFh4bjhCM1RNX2F1REZFM09SVHFqRy14NGF2TUdDbWJIdE1wclVDNUQwamRyektXVTI4bE8wRnB1RVN1bUdZcTZKX0xMMENHM1BkamhjdjlwLTNpdWNDR0xCdmxiMEQ2Yk00SjJMQlR0THdHR25JM3A0clBNRjl6U0x3THZBanMzUV9sZVd3UTdTaDRoRGNuaWJ1WFB5R25GTXJyeTE2Sk5nbUdKWk9tQQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi2gFBVV95cUxOeGhqN2RJXzQtMlFncDUxNHJCcUwxNEgtM2RPUE1zUjVjQTZxR0VTV0t5aFh4bjhCM1RNX2F1REZFM09SVHFqRy14NGF2TUdDbWJIdE1wclVDNUQwamRyektXVTI4bE8wRnB1RVN1bUdZcTZKX0xMMENHM1BkamhjdjlwLTNpdWNDR0xCdmxiMEQ2Yk00SjJMQlR0THdHR25JM3A0clBNRjl6U0x3THZBanMzUV9sZVd3UTdTaDRoRGNuaWJ1WFB5R25GTXJyeTE2Sk5nbUdKWk9tQQ",
-      "published_ts": 1762243200,
-      "id": "1086c7df56d164adf4599c6f"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit economic development",
-      "title": "Building an Innovation Corridor for Michigan’s Economic Success - Detroit Regional Chamber",
-      "source": "Detroit Regional Chamber",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNFNGVmoyeDByck1tLUNjaU5rVzNHd2RvVjFnRUYxaGd3WG9FNVRZa2E2Ty12azlEXy1hRmJNVGhtVTJzMWwxVHpTTUpKTzAwaVZBa0t2M3ZJVE9INGNIc1hmWWhRQzg3THpwSWFXQTB6MzBpaWlCWjlqYkdDTnpEaW92UFNrcHpjakczdE1NTkg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikAFBVV95cUxPNFNGVmoyeDByck1tLUNjaU5rVzNHd2RvVjFnRUYxaGd3WG9FNVRZa2E2Ty12azlEXy1hRmJNVGhtVTJzMWwxVHpTTUpKTzAwaVZBa0t2M3ZJVE9INGNIc1hmWWhRQzg3THpwSWFXQTB6MzBpaWlCWjlqYkdDTnpEaW92UFNrcHpjakczdE1NTkg",
-      "published_ts": 1762243200,
-      "id": "d10ee17c68c8c8354cc510f3"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit workforce",
-      "title": "Ally Financial lays off 2% of workforce in 2nd round of job cuts this year - Automotive News",
-      "source": "Automotive News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ldDBKWmRHMHBXU0gzN0hIU1pnUWlEbTlaWEc1WkhmRGl3alp0S3pwUGo3MGNtWS1iNVl5UVVTM285c3dReWdKWEdBYWZkMjBWRVF0eXFINGZwaHBPQ1g5WnVESzczRHBuU2tzT1FHZnlqd0VZNmMwT3d1SQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMie0FVX3lxTE9ldDBKWmRHMHBXU0gzN0hIU1pnUWlEbTlaWEc1WkhmRGl3alp0S3pwUGo3MGNtWS1iNVl5UVVTM285c3dReWdKWEdBYWZkMjBWRVF0eXFINGZwaHBPQ1g5WnVESzczRHBuU2tzT1FHZnlqd0VZNmMwT3d1SQ",
-      "published_ts": 1762243200,
-      "id": "a9473b9e0129563e2fc4f29a"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Parking, traffic and transit information for Penn State football vs. Indiana - psu.edu",
-      "source": "psu.edu",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYlhiNUhscDI1Y1hLZzBRR2p2UE9VaDcwNERaN1pJUkZ1RlR3a1h5U1A0cEdWX2JmWHBCMGlvZy1uS1F2MWE3WVIyR25mR0l3U0E4U280ZVM1QW8zanRxYjExUXhONnFDN2lFcmVaeVROSWVjRjU2TjJ5Y2x5eUdIN0c5Q2hmcEpibVktYTY4VHJUdDBkYnNHME8tTk9oeDYxYmRyTnhPR09iNy1vbm9BTEYxdw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiswFBVV95cUxPYlhiNUhscDI1Y1hLZzBRR2p2UE9VaDcwNERaN1pJUkZ1RlR3a1h5U1A0cEdWX2JmWHBCMGlvZy1uS1F2MWE3WVIyR25mR0l3U0E4U280ZVM1QW8zanRxYjExUXhONnFDN2lFcmVaeVROSWVjRjU2TjJ5Y2x5eUdIN0c5Q2hmcEpibVktYTY4VHJUdDBkYnNHME8tTk9oeDYxYmRyTnhPR09iNy1vbm9BTEYxdw",
-      "published_ts": 1762243200,
-      "id": "1ac93f579176a03c793a35c5"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "AP Race Call: Mary Sheffield wins Detroit mayor’s race, will be first woman to lead city - wric.com",
-      "source": "wric.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNazZTVHYwcDMwRXpfZHBncERKajJKSUxGckdXSXpPcXp3NjZXcEpMVG94Y3JoaEZTVGpCdlFlTElQY2ZBaEFqS2hldEY5ZFdXNWVfZ3c5VkNfR1lvWnlJRU9yTFhtQWtobjUwV0VLQUI1cFNfaWVwUEVHZE9Bc1lsNjQ2Qk9BUUZCMm5XQW1aWjlrUzV2SDgzQTJoTDJJN2xWamZBa0JNVW9lNXBYc1VuNHRUOVBqQzVCQ29Qb2t4VjAxZ9IBxwFBVV95cUxOZ1RnSWwyQlZBQlRHam1rTFNQdGJoaXBCRVg4dXduY1hxT0dDdmVsOTVaVzJuTnd4WVN5Zzg4LUp5SFhORWppeEgyWWdtTVNBbjg3VnQ0WHducjgtZjRtRE5lS01Sd1lzOHB3RTIxQk9Kb3l1VHM2eWMwa09ZWTVoOEYyeGdfbHpYZkJOTlFocG5VWEtWbXg4M0ZkS1FnM09BODEzM0NGM0UzVUl1Smx3U1NOZ2dxcnp0M3ZKNTRSX2R2Q0xaRlUw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiwgFBVV95cUxNazZTVHYwcDMwRXpfZHBncERKajJKSUxGckdXSXpPcXp3NjZXcEpMVG94Y3JoaEZTVGpCdlFlTElQY2ZBaEFqS2hldEY5ZFdXNWVfZ3c5VkNfR1lvWnlJRU9yTFhtQWtobjUwV0VLQUI1cFNfaWVwUEVHZE9Bc1lsNjQ2Qk9BUUZCMm5XQW1aWjlrUzV2SDgzQTJoTDJJN2xWamZBa0JNVW9lNXBYc1VuNHRUOVBqQzVCQ29Qb2t4VjAxZ9IBxwFBVV95cUxOZ1RnSWwyQlZBQlRHam1rTFNQdGJoaXBCRVg4dXduY1hxT0dDdmVsOTVaVzJuTnd4WVN5Zzg4LUp5SFhORWppeEgyWWdtTVNBbjg3VnQ0WHducjgtZjRtRE5lS01Sd1lzOHB3RTIxQk9Kb3l1VHM2eWMwa09ZWTVoOEYyeGdfbHpYZkJOTlFocG5VWEtWbXg4M0ZkS1FnM09BODEzM0NGM0UzVUl1Smx3U1NOZ2dxcnp0M3ZKNTRSX2R2Q0xaRlUw",
-      "published_ts": 1762243200,
-      "id": "0c3392deaeb83add827fc9c4"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Mary Sheffield wins Detroit mayoral election to become city's first woman mayor, AP projects - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZHZFRkxKWXBWcUxPZXQ0ak5zMnAxLUwzdmZiS0pBM3JQaV9mLWFrUFB6TE9QcHNnanlLeGVoZ0lfWlljMVFJRDEzR1hYdkRLUS1RTkRsQzBmN1QtTjcyTkRwSkNnVEVrR19fNHlKcFI0Y29BRDI5SVVSMUhhUTlUUw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMigAFBVV95cUxOZHZFRkxKWXBWcUxPZXQ0ak5zMnAxLUwzdmZiS0pBM3JQaV9mLWFrUFB6TE9QcHNnanlLeGVoZ0lfWlljMVFJRDEzR1hYdkRLUS1RTkRsQzBmN1QtTjcyTkRwSkNnVEVrR19fNHlKcFI0Y29BRDI5SVVSMUhhUTlUUw",
-      "published_ts": 1762243200,
-      "id": "5dcb95b73429b41733d0a62a"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Leaders react to Mary Sheffield winning Detroit mayoral race - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORmJuY3FraGpYYmlial9vdG9VWTlxbmNQTVhzSmpxZGpCd25qdmppbnF5VG80QW40VlVwVWJUOTBpNU5pZEtVUkI4VkdxWHJzTmdYZlR4Q0hoMFZWT1EwVmhMMFk0ZnQtZmt3OHJ4NGJlak1CNHlxbVNFNDE2ZDBxczBOS2xWdWphQTZaUTR0d0hwUUNU?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilAFBVV95cUxORmJuY3FraGpYYmlial9vdG9VWTlxbmNQTVhzSmpxZGpCd25qdmppbnF5VG80QW40VlVwVWJUOTBpNU5pZEtVUkI4VkdxWHJzTmdYZlR4Q0hoMFZWT1EwVmhMMFk0ZnQtZmt3OHJ4NGJlak1CNHlxbVNFNDE2ZDBxczBOS2xWdWphQTZaUTR0d0hwUUNU",
-      "published_ts": 1762243200,
-      "id": "533bd198ba669f31d9499b99"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Mary Sheffield delivers victory speech after winning Detroit mayoral election - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUFJZOFIxTV9Jbm1udU15RmtpV3pLcW41WUx3eEpQRkg2enhPcnpqWGQxTTh1SktjTWloX3pGam9FdWxKenFxWVNKNUVXa3NTbHZlQ015RjJoTXNnLV8xOGdxRXl4VWZmaGhHZE9KMWVYWmFnM1B4aVdlUjZWd0R4Z1FJaHlxS2hNRkw3ZVR3c0FaVURuQ0dKTURmSG04SWJzeHhkTEVTQXhBRlNYT1JFa011UzI5c0k?oc=5",
-      "canonical_url": "",
-      "guid": "CBMitwFBVV95cUxOUFJZOFIxTV9Jbm1udU15RmtpV3pLcW41WUx3eEpQRkg2enhPcnpqWGQxTTh1SktjTWloX3pGam9FdWxKenFxWVNKNUVXa3NTbHZlQ015RjJoTXNnLV8xOGdxRXl4VWZmaGhHZE9KMWVYWmFnM1B4aVdlUjZWd0R4Z1FJaHlxS2hNRkw3ZVR3c0FaVURuQ0dKTURmSG04SWJzeHhkTEVTQXhBRlNYT1JFa011UzI5c0k",
-      "published_ts": 1762243200,
-      "id": "9e25a6fadda3d5b9d41d2cc5"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Following Detroit's mayoral election - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96MmdzUFE2RUhNRVM2Zi1PRTB5aHpZMFlWRTNvblJBUGVqaFhmZGJCNDBNMDQybXd6RDlvQUdnMGphZ21iZkUxTmM5S3pXdFl6WGYtUEhFTVA0dTVpOXBxTkNVNlp5SWtzSWxjekpiS3JVTEgzR0VfQUxOcFJaM00?oc=5",
-      "canonical_url": "",
-      "guid": "CBMif0FVX3lxTE96MmdzUFE2RUhNRVM2Zi1PRTB5aHpZMFlWRTNvblJBUGVqaFhmZGJCNDBNMDQybXd6RDlvQUdnMGphZ21iZkUxTmM5S3pXdFl6WGYtUEhFTVA0dTVpOXBxTkNVNlp5SWtzSWxjekpiS3JVTEgzR0VfQUxOcFJaM00",
-      "published_ts": 1762243200,
-      "id": "40fb9c71255a1fe9f50d4448"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County housing",
-      "title": "Ex-County Staffer, Housing Leader Admit To Bribery Scheme - Law360",
-      "source": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcGhIQkNkUnNSZm41c1NuVjFuYzgzc3FCMFEteUk1N0E4M1BlRjRITTZrbXZzUUdOV2Fic2NNVlFUMnZRWjRpQmx6VG5MNHl4cVU4Um5XbFAybVNwTzlaakxBU1pNbkFxR0xTMFFyRkl1SmFaT0lWcUNOSG5Jd2k4RHVGaGhZa1RkVmxteWQzMElyUWllQkRxc2JMV0nSAVZBVV95cUxORDRRRDd0eklsSWI4c2RDMm83b084QVY1amFGOHpfT2FLSllacWlvQWh2UGZHRm5wU28yQUdzZkx2TWJMX1JKNmtTRDI2WjBpWExMd3B6Zw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMinAFBVV95cUxOcGhIQkNkUnNSZm41c1NuVjFuYzgzc3FCMFEteUk1N0E4M1BlRjRITTZrbXZzUUdOV2Fic2NNVlFUMnZRWjRpQmx6VG5MNHl4cVU4Um5XbFAybVNwTzlaakxBU1pNbkFxR0xTMFFyRkl1SmFaT0lWcUNOSG5Jd2k4RHVGaGhZa1RkVmxteWQzMElyUWllQkRxc2JMV0nSAVZBVV95cUxORDRRRDd0eklsSWI4c2RDMm83b084QVY1amFGOHpfT2FLSllacWlvQWh2UGZHRm5wU28yQUdzZkx2TWJMX1JKNmtTRDI2WjBpWExMd3B6Zw",
-      "published_ts": 1762243200,
-      "id": "9473a516bae27f00da2c1469"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit economic development",
-      "title": "State panel abruptly ends contract of Michigan economic development agency watchdog - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORmk4TlRQaXZtZDVDVmdoc2xMN1JKMjNXU1FmX2hzOExPcHJ4X0tUcGQ4eE9uREtIVkw3WWVWLWtDWEhNY3d0Q3BkTW92dlZKTURMS1pmX2VMU0NhUTZjemdIU1ZVZjh3MTJkbjBPTENPVWVVVjJEdWFFSjFHRHlmai1rNXBZR0M5cHBZdnN0eXlSakl1NUNESnRDMWpnSlU1azM3UTBQZ01uR09GTUZHWFY4cUVLeGplejB0SXhIblZTaUVRREQwR3pWbjRyai1LZGRhVk9qbXRDOEZXRjBlY3IxVjdSb1QteWgyeWNyQjZaVWtCZlhFRG1Nbw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi-wFBVV95cUxORmk4TlRQaXZtZDVDVmdoc2xMN1JKMjNXU1FmX2hzOExPcHJ4X0tUcGQ4eE9uREtIVkw3WWVWLWtDWEhNY3d0Q3BkTW92dlZKTURMS1pmX2VMU0NhUTZjemdIU1ZVZjh3MTJkbjBPTENPVWVVVjJEdWFFSjFHRHlmai1rNXBZR0M5cHBZdnN0eXlSakl1NUNESnRDMWpnSlU1azM3UTBQZ01uR09GTUZHWFY4cUVLeGplejB0SXhIblZTaUVRREQwR3pWbjRyai1LZGRhVk9qbXRDOEZXRjBlY3IxVjdSb1QteWgyeWNyQjZaVWtCZlhFRG1Nbw",
-      "published_ts": 1762243200,
-      "id": "6fcb3742bf402567c95cc946"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit workforce",
-      "title": "Ally Financial lays off 2% of workforce in 2nd round of job cuts this year - Crain's Detroit Business",
-      "source": "Crain's Detroit Business",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVjNZWlRhRW9CbHU0SmQ1VWwyM05Dd1JVWi1zdHVHNER3S1FVTk5QU2JSamFrTHJ0bHlaQW9aaFk1NllEbGJkVUR2c01BNFRXeEdXZGo5d0FhSUppb2NfRkNaSGdJRU96RXg0cGdIZEFYVlQtNXY2QUwtcjNLN1hIMF9TX2M3MFpYWjFHRlJGdVBLRTNQN3I3UkN4Zw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimwFBVV95cUxOVjNZWlRhRW9CbHU0SmQ1VWwyM05Dd1JVWi1zdHVHNER3S1FVTk5QU2JSamFrTHJ0bHlaQW9aaFk1NllEbGJkVUR2c01BNFRXeEdXZGo5d0FhSUppb2NfRkNaSGdJRU96RXg0cGdIZEFYVlQtNXY2QUwtcjNLN1hIMF9TX2M3MFpYWjFHRlJGdVBLRTNQN3I3UkN4Zw",
-      "published_ts": 1762243200,
-      "id": "f01b5fc88185b872169a7f4c"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "City Council President Mary Sheffield wins election to become Detroit’s first female mayor - KSAT",
-      "source": "KSAT",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYk1OblAzUVM2TUVxVHlTTlRuNVJHWTdsTkFnQzRQdHJPdGZzUTZJQkFQdkpCTGYzVEtKTjc4WkVzYVlZZlVCNjVBZ0ZsSnJVaEZ3RnQzbUlLOUVoNFB6azdjUHBRU2lKdkhtbEJIbkNuanAwNXk2b1VHQUZsZTNmcFgza3JBNmkwcEhmdGJNOFdKTnNkZ1NDdC1ER29RS0xKa0RWaEtFZE45VjNHMHBidmIyMVNZQTNvWk8tVzZLM0JLWDVpSktEaHlhRGkxRzRSVmc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi0gFBVV95cUxNYk1OblAzUVM2TUVxVHlTTlRuNVJHWTdsTkFnQzRQdHJPdGZzUTZJQkFQdkpCTGYzVEtKTjc4WkVzYVlZZlVCNjVBZ0ZsSnJVaEZ3RnQzbUlLOUVoNFB6azdjUHBRU2lKdkhtbEJIbkNuanAwNXk2b1VHQUZsZTNmcFgza3JBNmkwcEhmdGJNOFdKTnNkZ1NDdC1ER29RS0xKa0RWaEtFZE45VjNHMHBidmIyMVNZQTNvWk8tVzZLM0JLWDVpSktEaHlhRGkxRzRSVmc",
-      "published_ts": 1762243200,
-      "id": "81b04a34e268eb2d12ff408b"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County housing",
-      "title": "Ex-County Staffer, Housing Leader Admit To Bribery Scheme - Law360",
-      "source": "Law360",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaEJZYjhaSUxhMnBVWFIxUkZGWEdhV3k2V1NFdGVQNkROcW5jeFF2ZVpGbFUwMjFsMmdxQlZSWlBscTJhSkhNb1ZTWWJ0Tzlmc0FGT2lXa3NrT0Q0dmE0a2w2aXFqZlNxaUtCdUJJUTdRMW9HclBCU1ZrQTR0ckU0Ml9VSlV6WU55LVY4QllJSGo5VXdkd1lNdEZ6Mk5ES1NuNEJJZ2F3RFliVEI0Q2FN0gFoQVVfeXFMTjloQi00WEl3cU5kVjZnQ2QteXlOemxibEJRNEJKWjNETjdaQTFGcVBUeVBzY3BYeTVjY2JpMXQzT3JkRFRwMTBGVWVVdmhPR2tmWDJBSGVJQTRqeGhqQWdTR1dVYXdBRUI?oc=5",
-      "canonical_url": "",
-      "guid": "CBMirwFBVV95cUxPaEJZYjhaSUxhMnBVWFIxUkZGWEdhV3k2V1NFdGVQNkROcW5jeFF2ZVpGbFUwMjFsMmdxQlZSWlBscTJhSkhNb1ZTWWJ0Tzlmc0FGT2lXa3NrT0Q0dmE0a2w2aXFqZlNxaUtCdUJJUTdRMW9HclBCU1ZrQTR0ckU0Ml9VSlV6WU55LVY4QllJSGo5VXdkd1lNdEZ6Mk5ES1NuNEJJZ2F3RFliVEI0Q2FN0gFoQVVfeXFMTjloQi00WEl3cU5kVjZnQ2QteXlOemxibEJRNEJKWjNETjdaQTFGcVBUeVBzY3BYeTVjY2JpMXQzT3JkRFRwMTBGVWVVdmhPR2tmWDJBSGVJQTRqeGhqQWdTR1dVYXdBRUI",
-      "published_ts": 1762243200,
-      "id": "53b0e6c39088ded2d8ef0882"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "City Council President Mary Sheffield wins election to become Detroit’s first female mayor - Chicago Tribune",
-      "source": "Chicago Tribune",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcDlqZndDZnBRQUpTN25BR3pIY2U5ZkdsNVdOM2J2MThkMnp1WXZQYVQtRjdFYkFNNHEyTmNMRndKRjU3U0t6ZTJhZHFHZnJNalh1ZkNHUEh2aEdacDBVN0stTEMta3F5VDAtSGJ5R2pRRldLQkFyUUtxZndIY3dfMFJnb2FiQ0xPWjdFZA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMijAFBVV95cUxOcDlqZndDZnBRQUpTN25BR3pIY2U5ZkdsNVdOM2J2MThkMnp1WXZQYVQtRjdFYkFNNHEyTmNMRndKRjU3U0t6ZTJhZHFHZnJNalh1ZkNHUEh2aEdacDBVN0stTEMta3F5VDAtSGJ5R2pRRldLQkFyUUtxZndIY3dfMFJnb2FiQ0xPWjdFZA",
-      "published_ts": 1762243200,
-      "id": "fbb479c6a15e37ef2a0d81c5"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "City Council President Mary Sheffield wins election to become Detroit's first female mayor - Newsday",
-      "source": "Newsday",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGpBOEV1dHRRdU5ISEQxZGRvejNWNDVhVTBhUTd3STZUeEJBcTlfVmd1cDRUSU9aeDI2Sm02ampvSlhhelRMcXJ5cWkxRm5neDVkTGVGV3llcVJtV2hHSFZadjFCOG1tY20zNjlaNmxkOVc4MFI0d2VCQW1xUzlHc0t4VlhZYS1wTFNKeFJSR0VFcDc3aW9V?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilwFBVV95cUxNMGpBOEV1dHRRdU5ISEQxZGRvejNWNDVhVTBhUTd3STZUeEJBcTlfVmd1cDRUSU9aeDI2Sm02ampvSlhhelRMcXJ5cWkxRm5neDVkTGVGV3llcVJtV2hHSFZadjFCOG1tY20zNjlaNmxkOVc4MFI0d2VCQW1xUzlHc0t4VlhZYS1wTFNKeFJSR0VFcDc3aW9V",
-      "published_ts": 1762243200,
-      "id": "f8e4c3ba1957d9aa1a1b5cd1"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "For Mary Sheffield, Detroit’s future begins with keeping families housed - The 19th News",
-      "source": "The 19th News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOTA5eXdyQTVDQWhuSXJGbkNHYjZWUjh4RjhmcFVVZW9TSlliM0tCeUtRMmQ4TWdkQWFoYkxFZVVRWDl4OENjQkg0TFVrZ1lhZmZJR2RETWFGWk03X1JIU0xaSUNtQ3ZVajZBNHlvODI2MEJuZ3UtM3RsNktNbVFPRjJYaDliTnFKbmFSODNQWQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMijwFBVV95cUxOOTA5eXdyQTVDQWhuSXJGbkNHYjZWUjh4RjhmcFVVZW9TSlliM0tCeUtRMmQ4TWdkQWFoYkxFZVVRWDl4OENjQkg0TFVrZ1lhZmZJR2RETWFGWk03X1JIU0xaSUNtQ3ZVajZBNHlvODI2MEJuZ3UtM3RsNktNbVFPRjJYaDliTnFKbmFSODNQWQ",
-      "published_ts": 1762243200,
-      "id": "2b6fad24769b7b37555b4617"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "City Council President Mary Sheffield wins election to become Detroit’s first female mayor - KGW",
-      "source": "KGW",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQdUJlbTVDejl3QzJTUzl3aml1WmpxeFN0RFNNUFBWOGMxTUJMelVrY1FRanBscFJ5OXRVbXV0SUVXZ3JieTluWVByMEc5WG9TeW5FM2pJRVdQV1YyeWo2RG9rVTRFMzEwNDhRWHhlTnZMMEpvUXFQZmsyd3F4SlM2UG5ySmd3Zm1abnZ4MzNmbHVDSUZYSHg2R2R0ZDFuZ0JOcm55dXJ2RmhER2x0c0MyN0stWGlrQWdOaUpZZWJtYThuSlNaRlBWalpWYXRMQmZGeGV3MFF4V2xqenNVMTR3ZFg1ZXU2OTZpTjR0WHlMa0hqTkZHN1pxdXRyTGtIOEhYa3Z6SEtVZFJfQ0hqOC1LMTN6ZVdYTjBqZ0E?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimgJBVV95cUxQdUJlbTVDejl3QzJTUzl3aml1WmpxeFN0RFNNUFBWOGMxTUJMelVrY1FRanBscFJ5OXRVbXV0SUVXZ3JieTluWVByMEc5WG9TeW5FM2pJRVdQV1YyeWo2RG9rVTRFMzEwNDhRWHhlTnZMMEpvUXFQZmsyd3F4SlM2UG5ySmd3Zm1abnZ4MzNmbHVDSUZYSHg2R2R0ZDFuZ0JOcm55dXJ2RmhER2x0c0MyN0stWGlrQWdOaUpZZWJtYThuSlNaRlBWalpWYXRMQmZGeGV3MFF4V2xqenNVMTR3ZFg1ZXU2OTZpTjR0WHlMa0hqTkZHN1pxdXRyTGtIOEhYa3Z6SEtVZFJfQ0hqOC1LMTN6ZVdYTjBqZ0E",
-      "published_ts": 1762243200,
-      "id": "48abcd920c0fc35c1b76be6a"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Mary Sheffield wins Detroit mayoral race - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcW5MQWpQcnVpMjJSdlJaVUh4ZTMtVUxfbGU4NWJCbl9LWHhtWnB0SkpaNkFtSkZ2WUpKV1NuSXJSWG1IdXJmTWpfNmlibFpLWWc2dWVUMWNaOUFxY29SOFZQekVpS2xTdU10SjJ3bTF4QV8wWkVSSXpiUG4xNUl1cGFvVGNydw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihgFBVV95cUxQcW5MQWpQcnVpMjJSdlJaVUh4ZTMtVUxfbGU4NWJCbl9LWHhtWnB0SkpaNkFtSkZ2WUpKV1NuSXJSWG1IdXJmTWpfNmlibFpLWWc2dWVUMWNaOUFxY29SOFZQekVpS2xTdU10SjJ3bTF4QV8wWkVSSXpiUG4xNUl1cGFvVGNydw",
-      "published_ts": 1762243200,
-      "id": "f87cb1bf3c916df6411e19af"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "City Council President Mary Sheffield wins election to become Detroit’s first female mayor - Bangor Daily News",
-      "source": "Bangor Daily News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaS1DaEZzYkNVaUFDdklCeG9RdzBQZ1hSTEZDaE00WVhSMUc5dGFhMHV6a25LaHZmNlhUTEpOaW50TTI2ZDloMnB6d3duUHpDRXZZM2gyNU1kLVJGUEtmbUtYWW1rZ3N5clo4MW8xRWZNQ09tR2ZKcHRDRjkyanZNbDl2eHZDRHJDeGl4RDdnNU0zUHFTSFkwVXN5WjJkZEVoZU5zVFR2V0ItbGlfdXRjNmZCQlJmLXZhVjk0WTV2clotWjdyMXVrcC00a1VzaDZYLVNvTVBLaw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi1wFBVV95cUxQaS1DaEZzYkNVaUFDdklCeG9RdzBQZ1hSTEZDaE00WVhSMUc5dGFhMHV6a25LaHZmNlhUTEpOaW50TTI2ZDloMnB6d3duUHpDRXZZM2gyNU1kLVJGUEtmbUtYWW1rZ3N5clo4MW8xRWZNQ09tR2ZKcHRDRjkyanZNbDl2eHZDRHJDeGl4RDdnNU0zUHFTSFkwVXN5WjJkZEVoZU5zVFR2V0ItbGlfdXRjNmZCQlJmLXZhVjk0WTV2clotWjdyMXVrcC00a1VzaDZYLVNvTVBLaw",
-      "published_ts": 1762243200,
-      "id": "1fea11d77cdf316ee6850c1b"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "City Council President Mary Sheffield wins election to become Detroit’s first female mayor - WILX",
-      "source": "WILX",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORlRzaDJpb1ZjbFVIeXJyOTJISHpWODVtWldiaHBVd1o0YkR6TS1KR21WYllBN09aOTM4dmJWN2VWLVpTU1d4b0R4TlZ1cnNDQVZlZV92X0EyMnBRd25nd256bGpkSjJuLXk1YXJTdWNJaDMwc0xiNVVlbHh5UTZJZzM5djdob2xxZkY2N2NsRXEzbmdrX3lGTlJsWklDejR2djNvSC1kdlI4d0lvZ0FMNWRNSFRGRGRGQUJ3?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiuwFBVV95cUxORlRzaDJpb1ZjbFVIeXJyOTJISHpWODVtWldiaHBVd1o0YkR6TS1KR21WYllBN09aOTM4dmJWN2VWLVpTU1d4b0R4TlZ1cnNDQVZlZV92X0EyMnBRd25nd256bGpkSjJuLXk1YXJTdWNJaDMwc0xiNVVlbHh5UTZJZzM5djdob2xxZkY2N2NsRXEzbmdrX3lGTlJsWklDejR2djNvSC1kdlI4d0lvZ0FMNWRNSFRGRGRGQUJ3",
-      "published_ts": 1762243200,
-      "id": "40a6b59477aade9cf1ab3ce8"
     }
   ]
 }
