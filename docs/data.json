@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-05-05T09:45:55.595503+00:00",
+    "generated_at": "2026-05-06T09:55:26.428441+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2030,
+    "items_count": 2034,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,61 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Ex-Leland House tenants get access to collect belongings - BridgeDetroit",
+      "source": "BridgeDetroit",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BUGVjbXVRR0dYX3dkVUdiSXlJUGJrcWo1UHIzWFJrZ0R3SFlxYWpDd2hqRzZuRnJxRkt6Z1lwYVA3dDNvODg0ajF2TXlQM3pObDI0REF5YkVDM1JUeGxteU12Z0tLNjVzU3ZzOS1UY2pvUFU?oc=5",
+      "canonical_url": "",
+      "guid": "CBMic0FVX3lxTE5BUGVjbXVRR0dYX3dkVUdiSXlJUGJrcWo1UHIzWFJrZ0R3SFlxYWpDd2hqRzZuRnJxRkt6Z1lwYVA3dDNvODg0ajF2TXlQM3pObDI0REF5YkVDM1JUeGxteU12Z0tLNjVzU3ZzOS1UY2pvUFU",
+      "published_ts": 1778058000,
+      "id": "20cb769a0d7b14cd614cea62"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Longtime architecture firm McIntosh Poris relocates to Detroit amid shift in city’s development market - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSW1vR1VfaHVCRVEtN1ZWdVlQTGM0ZDFuZkp2b2ViM19MZ2VtanFmRzh5ZDZhQTV4eUZCSnZSU0dKdzVSNmtZT2xLMmphUGNack9sV1pZdGdHMVJBWUFWTUd3OFJPbmp0Mi14eHVRTGRSQlRWamM2RlFaelF0Y3FQN0dydkt1LXFoRkwzX1RQYl94TjJmQzl2dFB1M05aREJ0dVE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiogFBVV95cUxNSW1vR1VfaHVCRVEtN1ZWdVlQTGM0ZDFuZkp2b2ViM19MZ2VtanFmRzh5ZDZhQTV4eUZCSnZSU0dKdzVSNmtZT2xLMmphUGNack9sV1pZdGdHMVJBWUFWTUd3OFJPbmp0Mi14eHVRTGRSQlRWamM2RlFaelF0Y3FQN0dydkt1LXFoRkwzX1RQYl94TjJmQzl2dFB1M05aREJ0dVE",
+      "published_ts": 1778003520,
+      "id": "13762b29ac6b4e5421d01fc8"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "University of Indianapolis launches UIndy Online with low-cost tuition, free course opportunities - UIndy 360",
+      "source": "UIndy 360",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdUZ2YXRTSkpJUnBFNGdNbTlsaHFhOE16YzgtUEM4bG9xQlhqdVVtRUN5YmdPMHRFNzBQYkRCSTh6RGhvNGt6RkJFVnMtZUtldXBTbjMzbENIdnUxM0xNTWk0QjE2bXp6Nkxpa2E2N3Z4WjFBN184RzJqMXl4dzdBV0FqcVktOXdER3Y5Y21qOHdIRDBzNnEzZms1MDVLWC1NaHdaS0NHdFZhUkNaM08xRmJDYS1wWVVvQkFXTjd2SGRNOEl3dXNZbTRwNA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiywFBVV95cUxOdUZ2YXRTSkpJUnBFNGdNbTlsaHFhOE16YzgtUEM4bG9xQlhqdVVtRUN5YmdPMHRFNzBQYkRCSTh6RGhvNGt6RkJFVnMtZUtldXBTbjMzbENIdnUxM0xNTWk0QjE2bXp6Nkxpa2E2N3Z4WjFBN184RzJqMXl4dzdBV0FqcVktOXdER3Y5Y21qOHdIRDBzNnEzZms1MDVLWC1NaHdaS0NHdFZhUkNaM08xRmJDYS1wWVVvQkFXTjd2SGRNOEl3dXNZbTRwNA",
+      "published_ts": 1777985012,
+      "id": "42789fcf8410cc8018fb47e8"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Questions remain on Michigan Central transit hub cost - Axios",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLVBMNFVtdlp1Yl9XOHJ5NEFwclo1ZHlZN25vUVk0S2xTR0p2Y2Zad2ZRNXkweWtaTm5renlEVGY0OHc5MGRVNVlLY2JzNmo2Wkt6MmJKaDR5UlFWN0xWLTE5YWxPbllBNDlXQmJqbHhiR2oxR200RndseTc2VEZvUURTOHQ2NXZ5d3hqWjhLNTNUQQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikgFBVV95cUxQLVBMNFVtdlp1Yl9XOHJ5NEFwclo1ZHlZN25vUVk0S2xTR0p2Y2Zad2ZRNXkweWtaTm5renlEVGY0OHc5MGRVNVlLY2JzNmo2Wkt6MmJKaDR5UlFWN0xWLTE5YWxPbllBNDlXQmJqbHhiR2oxR200RndseTc2VEZvUURTOHQ2NXZ5d3hqWjhLNTNUQQ",
+      "published_ts": 1777978392,
+      "id": "2fd5339fc4717da4125227e3"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis BRT",
+      "title": "Officials seeks public input on preferred BRT routes - FOX 2",
+      "source": "FOX 2",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcFQ5aThiTEVWU3lqenEza3haTlEzSmtoU0o4QVdxVHFNUGo5Y0xKZzZYY1QyMVlpeDdxWnliemNrR0dXRUZGcDI3YkxBdzI3azZjMWsyVGxpV3BZRGQ0Yjh3cmRUWWdnUkxlQjlqQzU1SkZvcVIybFlQZWxWZTFMZnllRm54a3B5OFhERHR1dlJFNHplOXfSAZYBQVVfeXFMTXBUOWk4YkxFVlN5anpxM2t4Wk5RM0praFNKOEFXcVRxTVBqOWNMSmc2WGNUMjFZaXg3cVp5Ynpja0dHV0VGRnAyN2JMQXcyN2s2YzFrMlRsaVdwWURkNGI4d3JkVFlnZ1JMZUI5akM1NUpGb3FSMmxZUGVsVmUxTGZ5ZUZueGtweThYRER0dXZSRTR6ZTl3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilgFBVV95cUxNcFQ5aThiTEVWU3lqenEza3haTlEzSmtoU0o4QVdxVHFNUGo5Y0xKZzZYY1QyMVlpeDdxWnliemNrR0dXRUZGcDI3YkxBdzI3azZjMWsyVGxpV3BZRGQ0Yjh3cmRUWWdnUkxlQjlqQzU1SkZvcVIybFlQZWxWZTFMZnllRm54a3B5OFhERHR1dlJFNHplOXfSAZYBQVVfeXFMTXBUOWk4YkxFVlN5anpxM2t4Wk5RM0praFNKOEFXcVRxTVBqOWNMSmc2WGNUMjFZaXg3cVp5Ynpja0dHV0VGRnAyN2JMQXcyN2s2YzFrMlRsaVdwWURkNGI4d3JkVFlnZ1JMZUI5akM1NUpGb3FSMmxZUGVsVmUxTGZ5ZUZueGtweThYRER0dXZSRTR6ZTl3",
+      "published_ts": 1777961772,
+      "id": "0c6ee834397fa9a3718851f4"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Wayne County economic development",
@@ -381,6 +436,17 @@
       "id": "40ee4f04f6ea3cf8369d7a79"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Detroit Tigers bring back infielder Zack Short in minor-league deal - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOW8zR2tlTXA3b1g4NHhLc2hGUW1VUzRZYW9neHpRRjNPTEZGV1gxcWRCNU1NckFrYlRodUc5R3kxdmlZS2ZYRjNVUWlsZXVoLWZPSGFCWGRzckxZRTF0ekYyd1JwaVBFMFR4cVAxMk1oQVRKbHd4ZWRXZkFHRlZrMA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigAFBVV95cUxPOW8zR2tlTXA3b1g4NHhLc2hGUW1VUzRZYW9neHpRRjNPTEZGV1gxcWRCNU1NckFrYlRodUc5R3kxdmlZS2ZYRjNVUWlsZXVoLWZPSGFCWGRzckxZRTF0ekYyd1JwaVBFMFR4cVAxMk1oQVRKbHd4ZWRXZkFHRlZrMA",
+      "published_ts": 1777646734,
+      "id": "5c3cf5b9456b0904e65d1f72"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Wayne County transit",
       "title": "Transit Tax Showdown: Suburban Revolt Brews Over Wayne County SMART Plan - Hoodline",
@@ -434,6 +500,17 @@
       "guid": "CBMiuAFBVV95cUxQMmdwQmpHZFhUYlpQT2tjZEdhc1VITVY5SnYxaFJ5THZ0M01Nb0VuVENjN1Y1Sm01NF9PRjRoVzA0SjNPdk11ODVTVy01V0xMVDFhbVRja25jRzN1MXNfSXVyMjJyeEU0V2xnWWVTam8wemJlN1ZtMHpyaTNWalV2bjl6Tm5ZcTFXdWRmZjR2QUF0eVV4T1VvelEwNWpOd09KcHVJY2EtQzNwNFVYN0hJN0hfZVkwU1hH",
       "published_ts": 1777629600,
       "id": "a774a36dd0bf930e8be5b991"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Detroit community group launches study of data center development: ‘It’s really important that we do this soon’ - BridgeDetroit",
+      "source": "BridgeDetroit",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObVhFdzJ0YWxCYkIxWndrbEFUQTc5c2UxUEZwQ1drcEpGZWR0Z0ROUHExNmlEM3lZZXBZYVJOR1hDVFVha3FJR3U4WmVndmdVVXczc1pHcXZ5OFR4Y1cwVGRGYllaMzZvRWE2SENNUHBCZDZSd3JlYkJfSEk2blVJcDRCanRVcm13OHhUd2tHX29ESzZiNkt5WkJBODQtSjZ1UUhYVXZ3VzFRQTJwMms0R2YzeE5BdHJXUjBpaWJORkpSRTRxSlo5MldyNVBXNjZJQ2JYMw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi1AFBVV95cUxObVhFdzJ0YWxCYkIxWndrbEFUQTc5c2UxUEZwQ1drcEpGZWR0Z0ROUHExNmlEM3lZZXBZYVJOR1hDVFVha3FJR3U4WmVndmdVVXczc1pHcXZ5OFR4Y1cwVGRGYllaMzZvRWE2SENNUHBCZDZSd3JlYkJfSEk2blVJcDRCanRVcm13OHhUd2tHX29ESzZiNkt5WkJBODQtSjZ1UUhYVXZ3VzFRQTJwMms0R2YzeE5BdHJXUjBpaWJORkpSRTRxSlo5MldyNVBXNjZJQ2JYMw",
+      "published_ts": 1777629600,
+      "id": "30eab0feb81279067f70ec5e"
     },
     {
       "bundle": "Wayne County TOD",
@@ -764,6 +841,17 @@
       "guid": "CBMixwFBVV95cUxNRk9DYVA0T1VyZTBBdDA0NXR6VlBLU1BuMUF2WEg5aFJ6bVdoUHdCb2k4c1h3TVQzMHc4c2F2NzYzUGwxRkdpY1Q0cnc1SE84bmJqbU9tbldTSzZZTU5CQVNweDBEQUdvV2lhc2FKV0YtY1A4QUY0TzZWZ0VXWkRqR1NMRTliWDJmVms3cmQxb0NCNDFWcWNxRHpvRmtmQVJpcnVOeFFPQkVMWkp5d2tiMXlGajVXeGpSVHBYR25UVl9IWk05MGZz",
       "published_ts": 1777446000,
       "id": "27c14d7229cb7863053079eb"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Detroit Tigers bringing back longtime farmhand on minor-league deal - MSN",
+      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQUHh5N1FnS3JwWDlVOFRrSHBYMWtmR2c4LVZ6SFhyTmN2QzRTamlIR2xrckNIUzVEbkNySnFiRTJpNWFuYXNiX2dtQXh0Tm54SHQyYXM0aEtSQmczWnFHaHVVVV91cGlQV2xkWDBRdGhIakhqeXhIWEo4YkVBaTVDTlRfUnhJaDBUWm9zb3J6WHB5YlhsMnhqVkhZQTY0M1JtNmlaNzVLRUhHZG5xYzhjU1BJeU1zMXZKYzJSdm1ENzV4SDFyQXY3bC1WUS00UjJxcjVhWmhYZmhobFZhOW0tZnNXWnR3SVBDZ0Y4VmE1dUxMNHk2R0t6ek1NUDFXTTlIVEgwM1JDdDV6QlFGY1gyeGd4SmpNWjBRdTU3RnJGNkw3Tmk3S2FZUVl6am5JOG1neG5JU3prN3BJTU9ETWIzWHpVMTZaQ1ZqbVE4RWR3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizgJBVV95cUxQUHh5N1FnS3JwWDlVOFRrSHBYMWtmR2c4LVZ6SFhyTmN2QzRTamlIR2xrckNIUzVEbkNySnFiRTJpNWFuYXNiX2dtQXh0Tm54SHQyYXM0aEtSQmczWnFHaHVVVV91cGlQV2xkWDBRdGhIakhqeXhIWEo4YkVBaTVDTlRfUnhJaDBUWm9zb3J6WHB5YlhsMnhqVkhZQTY0M1JtNmlaNzVLRUhHZG5xYzhjU1BJeU1zMXZKYzJSdm1ENzV4SDFyQXY3bC1WUS00UjJxcjVhWmhYZmhobFZhOW0tZnNXWnR3SVBDZ0Y4VmE1dUxMNHk2R0t6ek1NUDFXTTlIVEgwM1JDdDV6QlFGY1gyeGd4SmpNWjBRdTU3RnJGNkw3Tmk3S2FZUVl6am5JOG1neG5JU3prN3BJTU9ETWIzWHpVMTZaQ1ZqbVE4RWR3",
+      "published_ts": 1777433966,
+      "id": "1cf3f89ab449a95f38b096eb"
     },
     {
       "bundle": "Wayne County TOD",
@@ -2711,6 +2799,17 @@
       "guid": "CBMilwFBVV95cUxPYzI0OWNBLVhCOGpxSTlHcVpoR2FFSmkzTWd3SkdNazJmVUpWUXFaenVUMEI3ZTdnZXlQLVFhLVFXM19iWEJoZ2NtVmZZeF9tNHE3NUhsZGFOSlQtVTF2MlhNVUoxQUJPM3dlejVJM1gxbFo2a2h4RENTZEF3WFh2cHdFTnAzeUtIYUpUNGFnbHhBRVE0alFj",
       "published_ts": 1776236400,
       "id": "3b475ab2e4ea6f244b7cd2c1"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Sheffield Administration",
+      "title": "COO, HR head leave MLB players' union as shakeup continues - Sportsnet",
+      "source": "Sportsnet",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNay13b1U1QjJwbjl2dFJtSTNJWDZ5M1ZXa3IzUUtPdTlxaUZXN2RRRWV6ME8zS045MVRDMHdOUlhjZTZlcng3Ymctd25Sd2x4VFJCSTRrc1E4V0FsbWp0empYa1laNXJUbXpZeEduVnhVV2lSV24tMldxZ0R5US0xQ3hzd0hfa3B6LWtVVFh3VEVjcVkzWVZLb3VrRENYaFo1?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxNay13b1U1QjJwbjl2dFJtSTNJWDZ5M1ZXa3IzUUtPdTlxaUZXN2RRRWV6ME8zS045MVRDMHdOUlhjZTZlcng3Ymctd25Sd2x4VFJCSTRrc1E4V0FsbWp0empYa1laNXJUbXpZeEduVnhVV2lSV24tMldxZ0R5US0xQ3hzd0hfa3B6LWtVVFh3VEVjcVkzWVZLb3VrRENYaFo1",
+      "published_ts": 1776236400,
+      "id": "ff5ff2f7ba3138a984af35bd"
     },
     {
       "bundle": "Indiana TOD",
@@ -9982,6 +10081,17 @@
       "guid": "CBMiZEFVX3lxTE1KOUg2ZWNlVGQtMVItRm01djZ6aWNXcG5jajRVVS1tZ1QyT1ZuZS1ZY1FNN29qTGtoY3VxMzduZWl6TmNzcUxOTWF1S0F5bU9NRUpUWl9HZUxuOXJZRkROUlJTVlrSAWpBVV95cUxPRmRvWDZNZlVOLWRhVmpXWlZ1TExLLV9xVHBzaHY3X3RsSFZtQzQxWktMeTBzZWpBWkRPVU5BNmNXSVlONE4tVTlSWlBLdkxDWGZvZXhybldPMkIydTdPVnRHQzZybzVTQm53",
       "published_ts": 1772697600,
       "id": "1d1e859d6cc569f3777ed879"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "‘Bad policy’: Indy’s prosecutor doesn’t like homeless camping ban - Mirror Indy",
+      "source": "Mirror Indy",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaUpKclRENUNZeWI0WGxyY2VXZF90WGlFVXJINzRzYWFpT2F3TzYtcFJ0cVdIcmt6Tl9hZUpXdlJrVXA3MWJvaDRtNzI3MVFmbXVSNUhCRzBSMm1qR2t5SFVTdW5ac2tGTjA0al9VNFNqTmRQcjYwa3p6a3lWcUE0NmMzNmZGUGY1SUVEZDVXMkpWak05MTRlSzRvc1RoMHFESGY3Z3hieHpiRkJFejJR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMirwFBVV95cUxNaUpKclRENUNZeWI0WGxyY2VXZF90WGlFVXJINzRzYWFpT2F3TzYtcFJ0cVdIcmt6Tl9hZUpXdlJrVXA3MWJvaDRtNzI3MVFmbXVSNUhCRzBSMm1qR2t5SFVTdW5ac2tGTjA0al9VNFNqTmRQcjYwa3p6a3lWcUE0NmMzNmZGUGY1SUVEZDVXMkpWak05MTRlSzRvc1RoMHFESGY3Z3hieHpiRkJFejJR",
+      "published_ts": 1772697600,
+      "id": "7e78a595582638c8e1ecd606"
     },
     {
       "bundle": "Wayne County TOD",
@@ -22390,72 +22500,6 @@
       "guid": "CBMirwFBVV95cUxPLW1LemRwa0dldF9mVlZVUVZLb1JzRVpDb1ZEc3NnZ2V4aktjU0t0dG5EVUJNaXhsNThudUVQemFfaUpCVmxmTUNJWlgwNWVieXRZVWFlTkJrMklQN2ZwZnRyR1VpaklJZ2U1TVVpNVduMlJweHcyVHhyNG82R1lkMHg1aXpDNW1KSnJVZEpFZXpqMFpVNUFmeG5NNnRYUnRVc2ZUc292ZHBNcGd3S3RZ",
       "published_ts": 1762588800,
       "id": "7fbc3b6b14938a4dde5b4e42"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit economic development",
-      "title": "Chamber Backs Historic AI Project, Cites Economic Growth and Ratepayer Protections - Detroit Regional Chamber",
-      "source": "Detroit Regional Chamber",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWVDanBpQ09ONmthYlBGc3U5TjYxLV9JXzZmUUNrX2piU1Fnb3ZfVXc4NzJ0dkN3UXJCemt0SGRuLUZmcFl4T0dGMzNuTUxORlJlOWN6dTFwbGM3LWdZZ2VxRWxiMFpucEhXM0VSQ0NnTVBCUnVOYmE2YjJ6aGZKd3lBNWEzdWIzSkN6Y282VDlFaVViMFVYc2NyN0tYMUZXUUJYSUFXZEg4dVlaT3A2eGU1Yw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiswFBVV95cUxPaWVDanBpQ09ONmthYlBGc3U5TjYxLV9JXzZmUUNrX2piU1Fnb3ZfVXc4NzJ0dkN3UXJCemt0SGRuLUZmcFl4T0dGMzNuTUxORlJlOWN6dTFwbGM3LWdZZ2VxRWxiMFpucEhXM0VSQ0NnTVBCUnVOYmE2YjJ6aGZKd3lBNWEzdWIzSkN6Y282VDlFaVViMFVYc2NyN0tYMUZXUUJYSUFXZEg4dVlaT3A2eGU1Yw",
-      "published_ts": 1762502400,
-      "id": "f9f57f5d77c3e5ebe114a743"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Amtrak Cardinal",
-      "title": "How to travel from Indy to the East Coast with Amtrak - INDYtoday",
-      "source": "INDYtoday",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeFdlOW1DTnRuOUo4TzlNSXlYMzF5ZVcwa1ptRDdzTnZiWVpWUzVVSTc5TE5aU1FWQU45aHEyeGlHTzRYcEtadURLMFFnZDZjRTd3TlFDYmdPeDRPQ2trWWI1MmljYmpOYWlIc2pwcVZ3V1J4TmdNWGVwRnk3OUx2Sm9YWEZxMDJnOEk1MGlLWGdBUDhRd1NpWXNja2dMYkMtVmpNUmtR0gGzAUFVX3lxTE9WOXFhdF9KUXpvS2ZtTTUwOXA4VC0xN2ZiSzJkRF96Qm9nbTVPWEZqYXY3cjRVcW0zak8yVnllS0pMY3JaVk1fZnN0WEVHa1hkVTVaZDlOV0RfeVZpak5id2dXbEY5MnZERnJOaWo0Zlowb1ZQalNNWVd2cTVhWFZuWGxNSFdxZkIwSUFnWDlHLTZpclVmMWJiUVd4U0ZlX2l3aUw3endJeUFEQ3g4cDhNN1k0?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipgFBVV95cUxQeFdlOW1DTnRuOUo4TzlNSXlYMzF5ZVcwa1ptRDdzTnZiWVpWUzVVSTc5TE5aU1FWQU45aHEyeGlHTzRYcEtadURLMFFnZDZjRTd3TlFDYmdPeDRPQ2trWWI1MmljYmpOYWlIc2pwcVZ3V1J4TmdNWGVwRnk3OUx2Sm9YWEZxMDJnOEk1MGlLWGdBUDhRd1NpWXNja2dMYkMtVmpNUmtR0gGzAUFVX3lxTE9WOXFhdF9KUXpvS2ZtTTUwOXA4VC0xN2ZiSzJkRF96Qm9nbTVPWEZqYXY3cjRVcW0zak8yVnllS0pMY3JaVk1fZnN0WEVHa1hkVTVaZDlOV0RfeVZpak5id2dXbEY5MnZERnJOaWo0Zlowb1ZQalNNWVd2cTVhWFZuWGxNSFdxZkIwSUFnWDlHLTZpclVmMWJiUVd4U0ZlX2l3aUw3endJeUFEQ3g4cDhNN1k0",
-      "published_ts": 1762502400,
-      "id": "90605eec36b7d3368c841b0d"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Governance",
-      "title": "Cornell University to pay $60M in deal with Trump administration to restore federal funding - detroitnews.com",
-      "source": "detroitnews.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaFZIYmxHUk1GMk1KY0pOVU1qaDI4VmdxYy16MkZnb3BpZFJuZ0llRE8tLVE5dEhCTkJHZVF3OXFXMlFJUUdEMXdSVUdrSVVRdWFKOHMwcTQwS3NfZEQyaDA4dWtCVGgyS0JXRzA1LW0xMzNlT215YUd6M01xZGJxX0t0dmgxX1lObERjOUY3NGMwNHkyd0FhNnFUSGYtQ0NHYzhPTkduMGJwRXdqcTVzUDVpUzc2WlB4R0h3T0xYckdRQ1V2UHQ2ZkExd3ZsS2JUS3M0?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi0wFBVV95cUxNaFZIYmxHUk1GMk1KY0pOVU1qaDI4VmdxYy16MkZnb3BpZFJuZ0llRE8tLVE5dEhCTkJHZVF3OXFXMlFJUUdEMXdSVUdrSVVRdWFKOHMwcTQwS3NfZEQyaDA4dWtCVGgyS0JXRzA1LW0xMzNlT215YUd6M01xZGJxX0t0dmgxX1lObERjOUY3NGMwNHkyd0FhNnFUSGYtQ0NHYzhPTkduMGJwRXdqcTVzUDVpUzc2WlB4R0h3T0xYckdRQ1V2UHQ2ZkExd3ZsS2JUS3M0",
-      "published_ts": 1762502400,
-      "id": "335f40db2b25cd40377296bf"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit’s Bus Operators Will Now Make $25 Per Hour Under New City Contract - The Michigan Chronicle",
-      "source": "The Michigan Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWd2czlZT2t6SmRhVVBKYmFoUnpELXZjenpiM3NFZUM1SjJMUmNKY2EtOUtsVFlyOVJzTEY1blg1dXNMdUVsWGV0QUdLZGlPUEJWSkkzU2ZGZklFVmlfUGlidlZlcHZ1RjJfN0kxcVFDM293VzB3amZvQjlpNWxDdkdxeVliMWdFSloxb2Y4R1BlRUVkY3ZweDhXVkxJYkRrcjJ3NExR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipgFBVV95cUxQaWd2czlZT2t6SmRhVVBKYmFoUnpELXZjenpiM3NFZUM1SjJMUmNKY2EtOUtsVFlyOVJzTEY1blg1dXNMdUVsWGV0QUdLZGlPUEJWSkkzU2ZGZklFVmlfUGlidlZlcHZ1RjJfN0kxcVFDM293VzB3amZvQjlpNWxDdkdxeVliMWdFSloxb2Y4R1BlRUVkY3ZweDhXVkxJYkRrcjJ3NExR",
-      "published_ts": 1762502400,
-      "id": "a3b37625391d89a8ff0e3f7d"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "How to travel from Indy to the East Coast with Amtrak - INDYtoday",
-      "source": "INDYtoday",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeFdlOW1DTnRuOUo4TzlNSXlYMzF5ZVcwa1ptRDdzTnZiWVpWUzVVSTc5TE5aU1FWQU45aHEyeGlHTzRYcEtadURLMFFnZDZjRTd3TlFDYmdPeDRPQ2trWWI1MmljYmpOYWlIc2pwcVZ3V1J4TmdNWGVwRnk3OUx2Sm9YWEZxMDJnOEk1MGlLWGdBUDhRd1NpWXNja2dMYkMtVmpNUmtR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipgFBVV95cUxQeFdlOW1DTnRuOUo4TzlNSXlYMzF5ZVcwa1ptRDdzTnZiWVpWUzVVSTc5TE5aU1FWQU45aHEyeGlHTzRYcEtadURLMFFnZDZjRTd3TlFDYmdPeDRPQ2trWWI1MmljYmpOYWlIc2pwcVZ3V1J4TmdNWGVwRnk3OUx2Sm9YWEZxMDJnOEk1MGlLWGdBUDhRd1NpWXNja2dMYkMtVmpNUmtR",
-      "published_ts": 1762502400,
-      "id": "17f509f16f92bf08c66d91f7"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Government",
-      "title": "FBI raids in Dearborn spark outrage and doubt in the Arab American community - ArabAmericanNews",
-      "source": "ArabAmericanNews",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWG92elRxTVRvaTJERG1mLV9RMlJmbUVDUlhBTFo2SDZ0RlNvSFV0RlI4TFVpcmlkRE9ETjBWUTlBSDRpaVlfbGdTRHNXczlaa0l0VzNFQ2VqSFMxMkhoS2RrSkYwTFpqLTdUWEJqUFNMVmJwN1plSkhfN2dKbWtvVmtVTzdfNl9KN1lDYzNIa1pEQmUwVXlDeUR0SDFYMHNZeDcxOUhVZXBqRmFfS3MtRUN2RjdnR3At?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiuAFBVV95cUxNWG92elRxTVRvaTJERG1mLV9RMlJmbUVDUlhBTFo2SDZ0RlNvSFV0RlI4TFVpcmlkRE9ETjBWUTlBSDRpaVlfbGdTRHNXczlaa0l0VzNFQ2VqSFMxMkhoS2RrSkYwTFpqLTdUWEJqUFNMVmJwN1plSkhfN2dKbWtvVmtVTzdfNl9KN1lDYzNIa1pEQmUwVXlDeUR0SDFYMHNZeDcxOUhVZXBqRmFfS3MtRUN2RjdnR3At",
-      "published_ts": 1762502400,
-      "id": "96192c3dab564e17d89be85d"
     }
   ]
 }
