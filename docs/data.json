@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T09:43:55.298631+00:00",
+    "generated_at": "2026-05-09T09:39:17.684772+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2062,
+    "items_count": 2069,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -128,6 +128,50 @@
   },
   "items": [
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "House committee outlines mining workforce and regulatory agenda in Indiana hearing - Traders Union",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY19USnhES3g3ZEVFUnhDbWhCSlpDTmJGaDFzTHFMZURlUk93c005a3E0VEtaNzlCUWY1UjFld2o4NTRqcUN3VVlPX2JNeFh1Q3FDcXkxQ1l5SC1oZTdrM25ONUNTVllHRWxnQ01iVGU5TGk0b1FZM2RFTjVmbzR2Nm1YLWFWQVFyOFlCYXF5cF9nRFlXWWNLMHQ3SFNzeUhvV1RyYm93?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipgFBVV95cUxPY19USnhES3g3ZEVFUnhDbWhCSlpDTmJGaDFzTHFMZURlUk93c005a3E0VEtaNzlCUWY1UjFld2o4NTRqcUN3VVlPX2JNeFh1Q3FDcXkxQ1l5SC1oZTdrM25ONUNTVllHRWxnQ01iVGU5TGk0b1FZM2RFTjVmbzR2Nm1YLWFWQVFyOFlCYXF5cF9nRFlXWWNLMHQ3SFNzeUhvV1RyYm93",
+      "published_ts": 1778280244,
+      "id": "c36cb1b56380afe31d0cd28e"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "From homeless shelters to state government: How one Detroiter connects the dots on housing, health, and equity - Planet Detroit",
+      "source": "Planet Detroit",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMUg0WDZndmZNQUVSRTh2cG5NekZtWXFPdHd1Zld2WldBY1pfeUdScEtlbkViS1g5LXdJdkp0VmZEMDJNdnRQMGdNZHRsVFlhVlZJd3VRQUk4elktSW4xbkJFVlNMalNUT1lqNE1GUHJZNEdjZEJGS0ZNTEVNT1NXN2JDbHlYckVNT3gyZUJadVMyLWRRWkxkRFVORjAtVi1DclVnM2dKN3gyUTJUU2Q3NWJGa29WNGZBTURSODNmR1ZqZmpYQ1gyUGFzYTlmQWFYeGVYVzdRc2pYZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi2gFBVV95cUxQMUg0WDZndmZNQUVSRTh2cG5NekZtWXFPdHd1Zld2WldBY1pfeUdScEtlbkViS1g5LXdJdkp0VmZEMDJNdnRQMGdNZHRsVFlhVlZJd3VRQUk4elktSW4xbkJFVlNMalNUT1lqNE1GUHJZNEdjZEJGS0ZNTEVNT1NXN2JDbHlYckVNT3gyZUJadVMyLWRRWkxkRFVORjAtVi1DclVnM2dKN3gyUTJUU2Q3NWJGa29WNGZBTURSODNmR1ZqZmpYQ1gyUGFzYTlmQWFYeGVYVzdRc2pYZw",
+      "published_ts": 1778276805,
+      "id": "b83ecd47ffc5841c2574ea7b"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Financial woes send new Detroit apartment building back to lender - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc3ozVlE5VWM0UU1mN1h1bFY5YlZRSnNIeGdhcmRFdDFfNjVsekY3WmxUXzlpalBYUWRIUzBBZ2ctckxZc1ZoNlczanJ6bUgyZTZUVU93dWYzV0xqN3h2MHBmQ1hDcXNTMjdwVkdPR2dRaHVpVU5uX3FJOG03UjRCUGlqdHhra2J6TURhUDRXQnJTS3QzbjRnSy00U20?oc=5",
+      "canonical_url": "",
+      "guid": "CBMinAFBVV95cUxQc3ozVlE5VWM0UU1mN1h1bFY5YlZRSnNIeGdhcmRFdDFfNjVsekY3WmxUXzlpalBYUWRIUzBBZ2ctckxZc1ZoNlczanJ6bUgyZTZUVU93dWYzV0xqN3h2MHBmQ1hDcXNTMjdwVkdPR2dRaHVpVU5uX3FJOG03UjRCUGlqdHhra2J6TURhUDRXQnJTS3QzbjRnSy00U20",
+      "published_ts": 1778266980,
+      "id": "37266ea19b16ed23842c76a6"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Developer gets tax break to improve low-income apartments - Mirror Indy",
+      "source": "Mirror Indy",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNHowTDdGU0luTGNvaERtZFpqV05USzBYMFhqbEpXTWVnZkYxc3c5bnY0NXRjX3luZjNQWlZMUk1XUGo5QTR6RzZNcW40ckxPMnliaFNwbEhzZml3cXFJVmpHRmZCMWFZd0F3LVZ2SkJzalZSOTNJODVfMkYzQzBtTkt3b3JGUEZ3a3ZpRTNza1gtQQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikgFBVV95cUxPNHowTDdGU0luTGNvaERtZFpqV05USzBYMFhqbEpXTWVnZkYxc3c5bnY0NXRjX3luZjNQWlZMUk1XUGo5QTR6RzZNcW40ckxPMnliaFNwbEhzZml3cXFJVmpHRmZCMWFZd0F3LVZ2SkJzalZSOTNJODVfMkYzQzBtTkt3b3JGUEZ3a3ZpRTNza1gtQQ",
+      "published_ts": 1778266556,
+      "id": "684d671c0a695847434c498d"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
       "title": "Luke Shaefer’s new role and the difference it can make in Detroit - U-M Detroit",
@@ -159,6 +203,39 @@
       "guid": "CBMif0FVX3lxTE1QZlYxS21tOXVLcDFQY2xkSzVSck1yRThtR3RkVGc5cTF5cGs3b3psLXcyaWpFQlNnTGV6azZsSy1xWXJkLVVzQWE2U0xXNzdVZndiTnpoaTlaTkQ2ekt5NUNjS28xQzBPQUxDR3ZHRHJnd2RXMHkzUVh6dnZwbzA",
       "published_ts": 1778176426,
       "id": "ea429a6edcc637b484c4bdde"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "A Property Tax Program Kept 13,000 Detroit Families in Their Homes—Now It Could Expire - Realtor.com",
+      "source": "Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRHR0R0R6cE9JaDFmbnp2SDNlWjhqc1lYbTdJVEdEbEtpWE9OR3FjMUpGNENJbXJkTzBLblhfNndLTTNFQ3BiMlROYkVtT2hIaV8yUS1rS0VlMlFPTWhnTGgtWXFDS1BoTml3ZEJwZTFQRmFmOVVtQkVJamFJU1MxODAxV1QwUWVPVTNR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiiwFBVV95cUxQRHR0R0R6cE9JaDFmbnp2SDNlWjhqc1lYbTdJVEdEbEtpWE9OR3FjMUpGNENJbXJkTzBLblhfNndLTTNFQ3BiMlROYkVtT2hIaV8yUS1rS0VlMlFPTWhnTGgtWXFDS1BoTml3ZEJwZTFQRmFmOVVtQkVJamFJU1MxODAxV1QwUWVPVTNR",
+      "published_ts": 1778174325,
+      "id": "9afbfb42887a3259504d521d"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Michigan and Wisconsin beat the coasts for the hottest housing markets, Redfin finds - Fortune",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMGtUS2hfSkJ6SV90NGVCYy13SW0wYWJMbXp2MF9Vek9EUjA4UEFtZWNPZUY4ZFhWTUM4ei1qa3o3Z3NRbmpzSEZQS2NqZlZNX1l2NGdkb3JEeG50QVR6cGROVnpHZ1E0eHczSTZ4ejN0Tm42TFVybnc0M1dMMFVCNThUX3JuRmgtTDdkS25aQzY?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikAFBVV95cUxPMGtUS2hfSkJ6SV90NGVCYy13SW0wYWJMbXp2MF9Vek9EUjA4UEFtZWNPZUY4ZFhWTUM4ei1qa3o3Z3NRbmpzSEZQS2NqZlZNX1l2NGdkb3JEeG50QVR6cGROVnpHZ1E0eHczSTZ4ejN0Tm42TFVybnc0M1dMMFVCNThUX3JuRmgtTDdkS25aQzY",
+      "published_ts": 1778168940,
+      "id": "749e520356984af514a18eb6"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "📈 Homeownership? That’ll cost extra - Outlier Media",
+      "source": "Outlier Media",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLUGc5UHEzRl9lbHhIM0dYZWxmelJDYlNPUF9sc3dVOXFJdHdDRDR2WnJSeU5BNEp2aWhqYTB6QkhnYzh0YWFzNGxFRV9QUk5WZi1RYXJ3bHBXcWs1ZWRhNjVNUFZ5VnVVZHlUOVNuQzJVQ2lheHFJ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMid0FVX3lxTFBLUGc5UHEzRl9lbHhIM0dYZWxmelJDYlNPUF9sc3dVOXFJdHdDRDR2WnJSeU5BNEp2aWhqYTB6QkhnYzh0YWFzNGxFRV9QUk5WZi1RYXJ3bHBXcWs1ZWRhNjVNUFZ5VnVVZHlUOVNuQzJVQ2lheHFJ",
+      "published_ts": 1778148900,
+      "id": "5a37599395af26f95b59c0a9"
     },
     {
       "bundle": "Wayne County TOD",
@@ -302,6 +379,17 @@
       "guid": "CBMimwFBVV95cUxOQTNzSjZDbXB5cjV4a043Z21WZmtzaXhvQzRrRXNNRklmenZPUERTbFhtTVBhUnAydzQtalBxQ3dfc044c2J3cV9pUVFiQVJqRU5WUmdmWUxBOEl5bmstSGQwdGpkVDdPelJNMm85RDcxZ2llUlQ0cS0wcWwtTnZjUlp3Q2kyMENMOTBUUEM3S291QmE4V2k2QUphUQ",
       "published_ts": 1778070964,
       "id": "9545df6bd351acc594307c22"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Workforce dining platform Fooda plans expansion to Indianapolis - Indianapolis Business Journal",
+      "source": "Indianapolis Business Journal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOWk2S0VLMFEzN0lzTklrREUyNVhjSjQwSmJjYlphdElkNmt4R2QtYUFvN1BqbTVSb0k2NGZEQ1NlT2NGMDdLVHVIempnTW41bENtZWRNaFZ6SzcxRS1vUGplMXdEazhZZFRfaThIelI1MXZEeV81cjBfbXo3RWhWdk9TYVd5ODNXaC16cGxfWlZ0TVF2V2pF?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilwFBVV95cUxNOWk2S0VLMFEzN0lzTklrREUyNVhjSjQwSmJjYlphdElkNmt4R2QtYUFvN1BqbTVSb0k2NGZEQ1NlT2NGMDdLVHVIempnTW41bENtZWRNaFZ6SzcxRS1vUGplMXdEazhZZFRfaThIelI1MXZEeV81cjBfbXo3RWhWdk9TYVd5ODNXaC16cGxfWlZ0TVF2V2pF",
+      "published_ts": 1778068800,
+      "id": "a32f492bedfee099e2360b99"
     },
     {
       "bundle": "Wayne County TOD",
@@ -9025,6 +9113,17 @@
       "guid": "CBMiwwFBVV95cUxQNno1SkZNX0h3WDJuaWVORXdpdEgybkhpb0x5UVA0c1dMUUkteHNmTzl4dVRJTXVyUkJST2ZyZTFDS3NxUHBSU1BiUENHVDdUb253bldNWUtPSThOWmRZdVY2WmtFYUctNHU0Y3BKTEE3OEtrRkxLU2s2cEVnR3FBSHVabXIxLUh6NDJCSzdZRUZpa2NFYVRqVXkzVW96QmRNTzNsMElJa21BMndONWFMSTFQeFByeWRyQmJYSWY5RlJhbkE",
       "published_ts": 1773385200,
       "id": "4e359515fb7dae26bea8de54"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Giant robots battle it out in Detroit's Robowar - VPM",
+      "source": "VPM",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM1BRbTh0bVFXSmkyTGN2M290ME0yUjZxRWdPbGNLNndlSmdCTnBaLXJHN0ZvZmMtX2xPV21UN0pubnByekpaeVZySmVnd0hCaWx1NmpqR2duZ1pNU1Y0QkMzdlM2T3REQzVfeVVtTG5DeWZrR2VYRFozMnE1N24zTDVDb2lGdVVOSkR6WUN5ekxkeUlwT3ZYWHd6UQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimwFBVV95cUxNM1BRbTh0bVFXSmkyTGN2M290ME0yUjZxRWdPbGNLNndlSmdCTnBaLXJHN0ZvZmMtX2xPV21UN0pubnByekpaeVZySmVnd0hCaWx1NmpqR2duZ1pNU1Y0QkMzdlM2T3REQzVfeVVtTG5DeWZrR2VYRFozMnE1N24zTDVDb2lGdVVOSkR6WUN5ekxkeUlwT3ZYWHd6UQ",
+      "published_ts": 1773385200,
+      "id": "92e8cf41e1e80fb94f1bdba1"
     },
     {
       "bundle": "Detroit Mayor",
@@ -22786,28 +22885,6 @@
       "guid": "CBMilgFBVV95cUxNcnhPdHhvUnpvMkhka3VQOGNkeHAwSzA3b1JTLXhFUEpkdHdhYXJ5TkduT2hMM1JTZVd2U1p0TVU2cUtXTGN6dlFud21KTUQ5Yk1OcGVIZHRBRGZiYThRa0hlc1NSRG9KNTZBYW13Y2J1bFdVU0hiNkpCMll2TnJCcDdGMEFKR0RIdHJ2OXQ0d1p1cVhSOHc",
       "published_ts": 1762848000,
       "id": "8b332a4de840571b9992824c"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Michigan Matters: Dissecting Detroit's new leadership post election - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMFBHa1M0dHY4OG1TMUcwVEVQRjRmbWVlZGQtTEZmeC1zZmVwVWZVbW5CWGhvSTFKTXRKaWpMUk9kME1oX0VZVW5CUmZxUThtSnF2ck1kYnhoN29iZ0FLWFpydE5UcVpFellkMTNvR2c2cERidmxsWWNlZi1qWUp6akY0bVpaRXo1YWprWTZ4TkRxVGp5Skp6SXdNaGo5eWQ2dEs4NldR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipgFBVV95cUxOMFBHa1M0dHY4OG1TMUcwVEVQRjRmbWVlZGQtTEZmeC1zZmVwVWZVbW5CWGhvSTFKTXRKaWpMUk9kME1oX0VZVW5CUmZxUThtSnF2ck1kYnhoN29iZ0FLWFpydE5UcVpFellkMTNvR2c2cERidmxsWWNlZi1qWUp6akY0bVpaRXo1YWprWTZ4TkRxVGp5Skp6SXdNaGo5eWQ2dEs4NldR",
-      "published_ts": 1762761600,
-      "id": "d62773d3bb08fd8854d95383"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "The Metro: Why Detroit residents are happy with Sheffield’s victory - WDET 101.9 FM",
-      "source": "WDET 101.9 FM",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc2dtTEZ3N1NUUUNvZ1g3ZHp0SENQQTlvSldualNTR3VBdjVVaGRZa194aUF6ZS1rS2QzdGdqR2ZNQWVMVnB3RW8zUmhpYU82enFlcW5MX0plRnRTWFFmdm0tRXVib3dFRXdyQmJiQzdMZVFmQkdxWXJEM1hHQVdZRHFBNEpNQ3FEYy1zTlEyMUIzNnpaM3FSeXNR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimgFBVV95cUxNc2dtTEZ3N1NUUUNvZ1g3ZHp0SENQQTlvSldualNTR3VBdjVVaGRZa194aUF6ZS1rS2QzdGdqR2ZNQWVMVnB3RW8zUmhpYU82enFlcW5MX0plRnRTWFFmdm0tRXVib3dFRXdyQmJiQzdMZVFmQkdxWXJEM1hHQVdZRHFBNEpNQ3FEYy1zTlEyMUIzNnpaM3FSeXNR",
-      "published_ts": 1762761600,
-      "id": "a692b6368980f16f5c177bb7"
     }
   ]
 }
