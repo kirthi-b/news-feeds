@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-05-22T10:17:04.147543+00:00",
+    "generated_at": "2026-05-23T09:42:13.088807+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2196,
+    "items_count": 2199,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -129,6 +129,83 @@
   "items": [
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Wayne County millage ballot proposal looks to expand transit services. What to know. - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb3ZlMmItLURUaF9wN2FMeXlPX2kxN2phNmRVcHRrMlFFb2FqangwbktHazlpbXRobzBGelZ6bkpNMWhHaUE0RThnOFlYMU9CRVpYZmp1ektrR01BRlNNbmJ5Tlk1UVJLOVVnM2FDNGZoRm1CcXJlSU1OR3UyWnpHNUNFczg5MHZhZ2piWHBuMlpPdjU1cUE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilgFBVV95cUxPb3ZlMmItLURUaF9wN2FMeXlPX2kxN2phNmRVcHRrMlFFb2FqangwbktHazlpbXRobzBGelZ6bkpNMWhHaUE0RThnOFlYMU9CRVpYZmp1ektrR01BRlNNbmJ5Tlk1UVJLOVVnM2FDNGZoRm1CcXJlSU1OR3UyWnpHNUNFczg5MHZhZ2piWHBuMlpPdjU1cUE",
+      "published_ts": 1779481659,
+      "id": "d144699f4e5f6d3362ea90bc"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Wayne County voters to decide on expanding public transit - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeG03MXJBRFlnU0xISlV3cFRnblBBSHowY3drUmhhcEtNUkYtU0lQd0J3MERuc0RMZjZxYnc3OVpHdk9VQmsxSndpSThkeTlTMXZCVU1JRlYzX3RyZ1BUQUgxNUZyU1RNM05CdDRYaVIwUkw4RlNsa3dESC1IUG9CZXQwZzVVODVKWkl6aEln?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijgFBVV95cUxOeG03MXJBRFlnU0xISlV3cFRnblBBSHowY3drUmhhcEtNUkYtU0lQd0J3MERuc0RMZjZxYnc3OVpHdk9VQmsxSndpSThkeTlTMXZCVU1JRlYzX3RyZ1BUQUgxNUZyU1RNM05CdDRYaVIwUkw4RlNsa3dESC1IUG9CZXQwZzVVODVKWkl6aEln",
+      "published_ts": 1779481320,
+      "id": "d44bfdc85f8846e08ff8f1ab"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Wayne County voters to decide on expanding public transit - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWmNtUW9FLXFiTVNMY2Y0TVZFWUh4bC00d0xua25PaGlJQmtZNnlERWwwcVQ1SVNDdzJlMUZtd0VXVnp2eVdEZEpnUG9OeTlRT0h3ODJaVzM1WEZaRVJtOXQzbHpkX05wRkVVU3plTjVRTG5qVUF6YzV4NE9wR2YyWGUxYVQ1YjIzV0tXbGNjUUZFTWdGN1d4dHRadTQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMinAFBVV95cUxQWmNtUW9FLXFiTVNMY2Y0TVZFWUh4bC00d0xua25PaGlJQmtZNnlERWwwcVQ1SVNDdzJlMUZtd0VXVnp2eVdEZEpnUG9OeTlRT0h3ODJaVzM1WEZaRVJtOXQzbHpkX05wRkVVU3plTjVRTG5qVUF6YzV4NE9wR2YyWGUxYVQ1YjIzV0tXbGNjUUZFTWdGN1d4dHRadTQ",
+      "published_ts": 1779481320,
+      "id": "2bfe94fda86fbc38cd465567"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "$15.6M mixed-income housing project breaks ground in Detroit - MLive.com",
+      "source": "MLive.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLXJrT3pmOWh6c19JV0ctaG9VNnI5aHRjMERzeFVlaWRsMmN5Tk1PRWU1eFdwZkE2d2dJUWJteUdCc2NSLWI4N2FDN1VBTjd6NGViXzU3RGRadEhOZ1l0U1AyTFN0SFRObFo5V1IwSXZKX3ZGZGV1ZEtMbl82MWlXWUllM1Q5UVpEb3RnSllmTmNfU3UtTTJLeVplUGpVVVZjVjJlZllLcEpnQdIBvgFBVV95cUxPRzZvRVV2aVJzODdYTGZWa0EwQ2ltNW1xSTR0TkdPSkg0N2hITEowUVZlWS1Say1TT0RDRUJZb3dsazFBbjk5T0pnLU5jWWVqMzdTenBWODhrOUtzZWRNbVBvOFpyMEVSZWVmRmhJTkdRSXhJMm5FZ1RzX0tCRDRBbU1GV2ItMW5IZDQzTkZiaXNVY3NZdUgxaWo0a0UxYmlEZG9OV2dhNlQ2ZGtob3NBWmtOckFrRlozN3ZTVi1B?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqgFBVV95cUxNLXJrT3pmOWh6c19JV0ctaG9VNnI5aHRjMERzeFVlaWRsMmN5Tk1PRWU1eFdwZkE2d2dJUWJteUdCc2NSLWI4N2FDN1VBTjd6NGViXzU3RGRadEhOZ1l0U1AyTFN0SFRObFo5V1IwSXZKX3ZGZGV1ZEtMbl82MWlXWUllM1Q5UVpEb3RnSllmTmNfU3UtTTJLeVplUGpVVVZjVjJlZllLcEpnQdIBvgFBVV95cUxPRzZvRVV2aVJzODdYTGZWa0EwQ2ltNW1xSTR0TkdPSkg0N2hITEowUVZlWS1Say1TT0RDRUJZb3dsazFBbjk5T0pnLU5jWWVqMzdTenBWODhrOUtzZWRNbVBvOFpyMEVSZWVmRmhJTkdRSXhJMm5FZ1RzX0tCRDRBbU1GV2ItMW5IZDQzTkZiaXNVY3NZdUgxaWo0a0UxYmlEZG9OV2dhNlQ2ZGtob3NBWmtOckFrRlozN3ZTVi1B",
+      "published_ts": 1779461940,
+      "id": "3118b4d481f764470eee06d7"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit’s high property taxes are driving a housing affordability crisis – how can city leaders bring down costs? - The Herald Palladium",
+      "source": "The Herald Palladium",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNczUwV3UyUEt4ZjJuWDN0Zm45dmVoM29MSUNCQUtPMFg1ZmdDRkdpM3dIR2RPSV9JTjZQUXhUT3RrN2dLNjdNUWtIRC1vTHJyZDZDN2tmQ05PMXJMellhek8zeEpzcjliZ1ROa2JxMUgyQ3o1VzQxTkZrZ2o5MHMzY0RXOVUyZXA1anRfdk02dmh4WjFuS1lWSENhUks1X1FqbXJibW94TEw4VE5KbFlSdzRpb3pTbzk5RWk3OXRUR0RVLVRJTjYzVC1PRVBZS1k3LUw1eGlBakIyM3dlTlZPX2VNM2FDRFF6NEVES0dOc2ttUHUzd29CQjloRmFkeXJNWDJuVnFydFBERkZEMFlfMG5BbGRSdkpr?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimAJBVV95cUxNczUwV3UyUEt4ZjJuWDN0Zm45dmVoM29MSUNCQUtPMFg1ZmdDRkdpM3dIR2RPSV9JTjZQUXhUT3RrN2dLNjdNUWtIRC1vTHJyZDZDN2tmQ05PMXJMellhek8zeEpzcjliZ1ROa2JxMUgyQ3o1VzQxTkZrZ2o5MHMzY0RXOVUyZXA1anRfdk02dmh4WjFuS1lWSENhUks1X1FqbXJibW94TEw4VE5KbFlSdzRpb3pTbzk5RWk3OXRUR0RVLVRJTjYzVC1PRVBZS1k3LUw1eGlBakIyM3dlTlZPX2VNM2FDRFF6NEVES0dOc2ttUHUzd29CQjloRmFkeXJNWDJuVnFydFBERkZEMFlfMG5BbGRSdkpr",
+      "published_ts": 1779455055,
+      "id": "9b19fd18204d4e42b1cee7a4"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit’s high property taxes are driving a housing affordability crisis – how can city leaders bring down costs? - The Conversation",
+      "source": "The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS1hNQldpRFNjVXlzUmVjdDU0em5mSmtzNkRDSkZIcHlqSThDa0hNRlVDR3VlbFRWLUdCZGFZT3Z2NXRQVlNOSDE2N0xHTDBENkVwZmx2TDNiTzdxTEVOYmNOZEhBcXV2TWhzemQ0OWp4NzhCeFowcFdIaFlhNU1nWjgtVWM1QmVQdHp2RkxKWmxYUHBqblpILTRjSUhlSlU1RlZMUHIzWUgyUGN4bUg5LV8xM3BSRlZycGRIT3cyLUVsN2pXN2lFbkZiaV9KWS1NWkxINDdUWkZ2X2VM?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi3AFBVV95cUxPS1hNQldpRFNjVXlzUmVjdDU0em5mSmtzNkRDSkZIcHlqSThDa0hNRlVDR3VlbFRWLUdCZGFZT3Z2NXRQVlNOSDE2N0xHTDBENkVwZmx2TDNiTzdxTEVOYmNOZEhBcXV2TWhzemQ0OWp4NzhCeFowcFdIaFlhNU1nWjgtVWM1QmVQdHp2RkxKWmxYUHBqblpILTRjSUhlSlU1RlZMUHIzWUgyUGN4bUg5LV8xM3BSRlZycGRIT3cyLUVsN2pXN2lFbkZiaV9KWS1NWkxINDdUWkZ2X2VM",
+      "published_ts": 1779453760,
+      "id": "7989e80a64bd28c9f43099b3"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Wayne County transit millage would expand bus service - Axios",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTHZqRXpLUG1nd19tbVBtblRHQ1haSlg5OVJ6UU8taVkxYTlfelhoLXd2MGlfRURFVTdFMXJ3OU84NEJMZDFKT3JvWm5KRC1EM09PYkkyclF1cmZseFVvaGx3dDE1X2RyTGJ6S0g3czJEdlhyWWNIQmthY2ctNk9zVTYzLS16MUkyR0tuSC1OMzJpYXpZei0tVmc3Q202QQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMingFBVV95cUxNTHZqRXpLUG1nd19tbVBtblRHQ1haSlg5OVJ6UU8taVkxYTlfelhoLXd2MGlfRURFVTdFMXJ3OU84NEJMZDFKT3JvWm5KRC1EM09PYkkyclF1cmZseFVvaGx3dDE1X2RyTGJ6S0g3czJEdlhyWWNIQmthY2ctNk9zVTYzLS16MUkyR0tuSC1OMzJpYXpZei0tVmc3Q202QQ",
+      "published_ts": 1779447306,
+      "id": "8cb4982dd683d9132d5a188b"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit housing",
       "title": "Ribbon cutting ceremony for new affordable housing held in Pontiac - WXYZ Channel 7",
       "source": "WXYZ Channel 7",
@@ -159,6 +236,17 @@
       "guid": "CBMi3AFBVV95cUxPMFJCcVllY2tWa3hhOEpGUWtzcWdmaDVhbldYZFRiZGJWb2M2NW1sZmdfZlNBd3FNM1ZnZEpSa1lvRkxIRlc5T08wZHhZQXF0VU10b04xcWhHREU3d0ZUY0dRc2dfMGVvMUtuRmszY3pLNDB0V0ZQcTd5aTNJQWVveEt6Zl94UzlBVm0zb01sOEJuajU5VHRiVGVJMFBraUhuVXJBMzkzenoxdFM5ZkpncGVLUklZdzNPdDhNY005VERaNml3TW96Z1ZNb1pRWnpFZ3oxMG5CUG1QZEUy",
       "published_ts": 1779400802,
       "id": "fafbc00388f8a060e7cfb9e0"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Bailey, Cantillo lead Guardians to four-game series sweep with 3-1 win over reeling Tigers - Times West Virginian",
+      "source": "Times West Virginian",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbXdPZEhNei0tUERLVUMtLS1OdTktZ0FvbERGcUt6U1Fhb2VJLVA4RC1sN2ZvRXdZbXNYYUdQc2tNaExGU3FNR3VIVVBxZmdzQUh5WVFfVTJqdTdCSzZBUWVJNnlJNmd6V0lFdEhrTWU0SW9hMzFsaVA1ZkdsUDZ6NkI3U25SWkJHbUcwdjRXVXdUR0R3cWFCSjJNemJJOGY0blJZMDBCSUhhT0dRTG1MeWRjR2xuSkFqbHMwamZzT2tUYlVsVUFocExEZWlqQXJveGRiNTBadkFSWGpMUG83bEtaNnE0eTQ3b3lBUk5qNUF0Wi0xVWc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi9gFBVV95cUxPbXdPZEhNei0tUERLVUMtLS1OdTktZ0FvbERGcUt6U1Fhb2VJLVA4RC1sN2ZvRXdZbXNYYUdQc2tNaExGU3FNR3VIVVBxZmdzQUh5WVFfVTJqdTdCSzZBUWVJNnlJNmd6V0lFdEhrTWU0SW9hMzFsaVA1ZkdsUDZ6NkI3U25SWkJHbUcwdjRXVXdUR0R3cWFCSjJNemJJOGY0blJZMDBCSUhhT0dRTG1MeWRjR2xuSkFqbHMwamZzT2tUYlVsVUFocExEZWlqQXJveGRiNTBadkFSWGpMUG83bEtaNnE0eTQ3b3lBUk5qNUF0Wi0xVWc",
+      "published_ts": 1779396300,
+      "id": "b4fb1299d770f3ac111280df"
     },
     {
       "bundle": "Indiana TOD",
@@ -238,6 +326,28 @@
       "id": "99a294d31ad0e91e881f0098"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Gov. Braun highlights Indiana workforce readiness - nwitimes.com",
+      "source": "nwitimes.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVZ5b2RTcDd0eWZHODJwMy1pTHJTdmpRRnFXcVl2eUhHUW1IZWI4b3BHa0U2bUluLXVkTlhESE1wX29oaU5INV92S19YX0d4VndoMEtkLU1nNkJPRTRmTl9vcTNjLU1rUHRJZHBDZ0FkTGN5RVNkclNXQnduc0x1d2l0elRTcmdsXzJOSnJn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijgFBVV95cUxNYVZ5b2RTcDd0eWZHODJwMy1pTHJTdmpRRnFXcVl2eUhHUW1IZWI4b3BHa0U2bUluLXVkTlhESE1wX29oaU5INV92S19YX0d4VndoMEtkLU1nNkJPRTRmTl9vcTNjLU1rUHRJZHBDZ0FkTGN5RVNkclNXQnduc0x1d2l0elRTcmdsXzJOSnJn",
+      "published_ts": 1779346800,
+      "id": "8259136f39a31b194318bce2"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Lt. Gov. Rachel Hunt Visits Wayne Community College During Future-Ready North Carolina Tour - Goldsboro Daily News",
+      "source": "Goldsboro Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZnR1aW4wbjhPdm1rR05BZ2w4amFTWmxhaTJnODhJNndOUWdPdnVvWVpJY1RaTDYxTUlQRmxqMTFlSWxyTjY4OE1CTHlqbzdwUXhFMTY0Z2dIRmJfUUFtRTBzRVhLek1xakdYWXY1NkhLVVJmZXd5Vm1iZVlEMlQ0NXRLZkI2YWJsdHJZbjJwd3VEWEw0ZTQxUWZSeVc2WmhqcXpqaFMwd1BzZ1h0c0s2T0ZUTkw0VjlpN3hEOTQtbmNGc25zNGRyd29vM1M1ZkMzTUE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi0gFBVV95cUxNZnR1aW4wbjhPdm1rR05BZ2w4amFTWmxhaTJnODhJNndOUWdPdnVvWVpJY1RaTDYxTUlQRmxqMTFlSWxyTjY4OE1CTHlqbzdwUXhFMTY0Z2dIRmJfUUFtRTBzRVhLek1xakdYWXY1NkhLVVJmZXd5Vm1iZVlEMlQ0NXRLZkI2YWJsdHJZbjJwd3VEWEw0ZTQxUWZSeVc2WmhqcXpqaFMwd1BzZ1h0c0s2T0ZUTkw0VjlpN3hEOTQtbmNGc25zNGRyd29vM1M1ZkMzTUE",
+      "published_ts": 1779322453,
+      "id": "dfee589766688de4af9233ec"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
       "title": "Pontiac launches ‘100 Homes for Pontiac’ program to boost homeownership - ClickOnDetroit | WDIV Local 4",
@@ -247,6 +357,17 @@
       "guid": "CBMiwAFBVV95cUxONFU0SmxMWWdvUEp1cklDZV9PU2taRnFnYUtzTURZR1Ffdk45OWhZVDdwdEQyQldnM3JXU1JCckN1c2dEdXRUcHpFQUlzTWxDVXozVjBKVS1UQmc1ZUVRdFpoUHl6Q1lhWWpGdDNOUllRWWN2b1Z5VFFQbmx4NnMwMkVDYlBUOGVMWHgtSUtadUhJTTZ3c3c2RWRDLUdsbzMta3ZMSmdGaUxrRWZrNC1YclFZXzNsSXpDQ1dnTnRjM18",
       "published_ts": 1779318008,
       "id": "e2bf519d01413788d1c75ba0"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit workforce",
+      "title": "Acrisure layoffs to number 2,250, attributed to AI advancements - The Detroit News",
+      "source": "The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSjBBQVlsMGV5RDFUNUZUN1BQZWZxWGJEUldYQzBWZVpKRFJRTmRmVzVzN0hwYy10RWg4SnNuM1JkSjhaR2stWHZGR0NpbUdlTnlPM1ZrY0hXdkc0cjRKQmo5d0JwSGhzemFSYy0wc0kzQWpIQnkwYkxVVkVBMWxuZ1RELUk3RWhCM1k5bkJ3Q1NKNWhfOEc2VjFITW5mLTBkVlNCQ0k0dnMzS01tenJXZEQ0Y3k?oc=5",
+      "canonical_url": "",
+      "guid": "CBMitAFBVV95cUxPSjBBQVlsMGV5RDFUNUZUN1BQZWZxWGJEUldYQzBWZVpKRFJRTmRmVzVzN0hwYy10RWg4SnNuM1JkSjhaR2stWHZGR0NpbUdlTnlPM1ZrY0hXdkc0cjRKQmo5d0JwSGhzemFSYy0wc0kzQWpIQnkwYkxVVkVBMWxuZ1RELUk3RWhCM1k5bkJ3Q1NKNWhfOEc2VjFITW5mLTBkVlNCQ0k0dnMzS01tenJXZEQ0Y3k",
+      "published_ts": 1779316601,
+      "id": "ce5fb95ec3f31bd031fa92f2"
     },
     {
       "bundle": "Indiana TOD",
@@ -533,6 +654,17 @@
       "guid": "CBMisAFBVV95cUxPTWNQOXVmZUY3UmNwZWl1WWZwSE1JU1FaRGRvUGh3U3A0TlJRR2N2OG9UMl82RUthVnRUeWd4OVp5ZTBCVjA0czVZdTYzbTRYamlzbXpnTnhVMk83WVFBVlBnMVozTGpYaVZFc2JUN3JJaUZOZTdNTC03VE5ESkhwNUcxcGYtLWNFVTg0US10ZlhlM2xRYVNhSXk0c0w5UVVlQU9TbVdEZnB5UDR1S1phcA",
       "published_ts": 1779222480,
       "id": "98f23705766e96abf6055eb4"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "After 20 years vacant, historic Detroit building reopens as affordable housing - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMC1TRjBvaFZlNnQzbW5HM1JRdzVoME0xeUFJb2MtM2xYWGVVa1Y2Ry02dHc1N2k4aFlUYnd6V1NURzlrd09qa3QyS0ljdUkwOEt4d0RzeWhyOWV3LTJwZkNReHQ3QkZOd2pxam5HQ2ZkamxJSklXeXkteWYwZDB4SHRVVGtxVThvbTNz?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiiwFBVV95cUxQMC1TRjBvaFZlNnQzbW5HM1JRdzVoME0xeUFJb2MtM2xYWGVVa1Y2Ry02dHc1N2k4aFlUYnd6V1NURzlrd09qa3QyS0ljdUkwOEt4d0RzeWhyOWV3LTJwZkNReHQ3QkZOd2pxam5HQ2ZkamxJSklXeXkteWYwZDB4SHRVVGtxVThvbTNz",
+      "published_ts": 1779221058,
+      "id": "5d282751230fe6c04212a6d9"
     },
     {
       "bundle": "Wayne County TOD",
@@ -940,6 +1072,17 @@
       "guid": "CBMilgFBVV95cUxOOFlSWUdacDFCdU8xakxNRXFsVk9pYlh1SGg0VGJJNDRIbE5FaXV5eWZHWTJqS21zTXlfcFk1bUQ4VFBhR1lRQWM4UmVOV1JFeFdxM29lMUFQalZpMUVoTl9HakVxeUlSLTdhUWZxam95OVZidTJzWk1uYV9mOWxUQmNfS0FUYklwV2VNZ195YldDdzI0TVE",
       "published_ts": 1778852379,
       "id": "0263ebb4c3356b5dec10a354"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "Women’s Expo Registration Open + New Programs for Our Region - Pennsylvania House Democratic Caucus",
+      "source": "Pennsylvania House Democratic Caucus",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EZm5xd2daekhaekc1dnBnN2lHajdIMHlZcXJHdmtsdkJoUkpmYzRhVGg1VldfOXdfa19IZFVhcE1qY2dXR1l2VHFIWG9vbFpRNkZBS3hzTFR4MDVUSXNxRlBYZkU?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZEFVX3lxTE9EZm5xd2daekhaekc1dnBnN2lHajdIMHlZcXJHdmtsdkJoUkpmYzRhVGg1VldfOXdfa19IZFVhcE1qY2dXR1l2VHFIWG9vbFpRNkZBS3hzTFR4MDVUSXNxRlBYZkU",
+      "published_ts": 1778851620,
+      "id": "cf0e3f61bf36039881c0fafa"
     },
     {
       "bundle": "Detroit Mayor",
@@ -4801,6 +4944,17 @@
       "guid": "CBMimAFBVV95cUxOdmkxX0k2MEIxekNGZHJUcFZfSG4xZnQtYi1KcDhFVkRNUHY4SHVRZTVTVy1lTmtacEttS3RDWm1UXzVaLUROb2ozeDNodXNEQUJQX3hLRzFfYU5EVUlqWWxWbUkxbDZqNUdtaElpc3FZYkduODAwTXh2M2lWUGZFclZ5SUZSQjZfUU9Uc0J3T2ZhdzJzekNMUg",
       "published_ts": 1776409200,
       "id": "70eb83d5e63faa6a82982523"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "April 17, 2026 | This Week in Government: House Republicans Aim to Reduce FY27 Budget - Detroit Regional Chamber",
+      "source": "Detroit Regional Chamber",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYUJsTTNzNExyWEQ4cVhrY1Q4SUZISUJIcWVLNUhFY3Z2cWltWjdvSlM1YXRMWlp2UzdfZGMtLWZXWEh3UUxENm16RUZZZnZHMFY5Q1hqbmVUYU94eU13RWFiT2tLSS1PdVZmaHphcXUzb3hLTUNJWlBRQjRTVUQxalVsbDF4eTM2cDFncGxsbmJUM1hzTV9uU3lTcjY2OXRxMUVGeE5ua0RkUEhDODZpUmQ3QQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiswFBVV95cUxNYUJsTTNzNExyWEQ4cVhrY1Q4SUZISUJIcWVLNUhFY3Z2cWltWjdvSlM1YXRMWlp2UzdfZGMtLWZXWEh3UUxENm16RUZZZnZHMFY5Q1hqbmVUYU94eU13RWFiT2tLSS1PdVZmaHphcXUzb3hLTUNJWlBRQjRTVUQxalVsbDF4eTM2cDFncGxsbmJUM1hzTV9uU3lTcjY2OXRxMUVGeE5ua0RkUEhDODZpUmQ3QQ",
+      "published_ts": 1776409200,
+      "id": "0a82d4abaabee62266f7cdc5"
     },
     {
       "bundle": "Indiana TOD",
@@ -9381,6 +9535,17 @@
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit economic development",
+      "title": "Derrick Headd - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY2JXX0hOdVh1a3ppWmNOYU1JejNGbmJ6ZWZSV1ZvMXFHS0QydWpDcFRIYnBRUE1TN2dYbXVJV2NOek1sVDBmaFNYb2lXMUlhUzA0VkVtZ245bXYwb0Noc3M3d0pkVGFHYWFWRVdGeVdjbVhCZ092dndjdlRySlFyVDA1aGZ1SWIxVkJ4ZFdZampBMUcwbnFWR0xsMkp5MkFjNEotNXcyOVZVMWMxVVpLNkN5RnpyUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMitgFBVV95cUxQY2JXX0hOdVh1a3ppWmNOYU1JejNGbmJ6ZWZSV1ZvMXFHS0QydWpDcFRIYnBRUE1TN2dYbXVJV2NOek1sVDBmaFNYb2lXMUlhUzA0VkVtZ245bXYwb0Noc3M3d0pkVGFHYWFWRVdGeVdjbVhCZ092dndjdlRySlFyVDA1aGZ1SWIxVkJ4ZFdZampBMUcwbnFWR0xsMkp5MkFjNEotNXcyOVZVMWMxVVpLNkN5RnpyUQ",
+      "published_ts": 1774043960,
+      "id": "728da468578f8532cffe2fc9"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
       "title": "David Howell - Crain's Detroit",
       "source": "Crain's Detroit",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTVljVjN1Y2oxZUpBTFpnRW1YV2hackhwajFEakp1NHppUEZaa0xtZmxybXVna3QzX1pqN3JOY0I3aWNwSUlpREFKX1NUdFBmSlFxbzNOYkJtU0RlZTBiMkNzQkRrS01oYzZ3Ul84czBzR1FSaUNncnlpTURfeWpZZllac2FabFlEME42eUdCMGhnQy02Znp3Y1M5V2pzOWdENnBRakNkdnAzNHc3M2R5VjFXMHA?oc=5",
@@ -13075,6 +13240,17 @@
       "id": "7386e573e03157c559c2778d"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Berkley maps economic development plan to attract businesses, spur growth - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3Vjc0w3QVhyQ2VGRDJLdVI0NDhvWmthel83ajl6UmNiMkZWaDZvSVlld1RBSG5OOEVaLUFvM0lkZDFGaE4xMzFULTBvUjV1S2VTYjlsTVI5Qk15SkxYMmN4MUdXNkVXN2taNXJFYjdsM19RZXRWaGp1cW5Mbl9GNWhwT1lsaE1NSHhyZEY3TktVR29oMTlzUnhQWUwzWHJt?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxOd3Vjc0w3QVhyQ2VGRDJLdVI0NDhvWmthel83ajl6UmNiMkZWaDZvSVlld1RBSG5OOEVaLUFvM0lkZDFGaE4xMzFULTBvUjV1S2VTYjlsTVI5Qk15SkxYMmN4MUdXNkVXN2taNXJFYjdsM19RZXRWaGp1cW5Mbl9GNWhwT1lsaE1NSHhyZEY3TktVR29oMTlzUnhQWUwzWHJt",
+      "published_ts": 1772524800,
+      "id": "17f974557727f2b62d19d772"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "IndyGo",
       "title": "14-year-old girl dies after being hit by IndyGo bus on northeast side - Yahoo",
@@ -13986,6 +14162,17 @@
       "guid": "CBMi8wFBVV95cUxOLWJTRUk4dEpncThkVHF5LUJsa0F5T3QyaUwxTHNodXJQdlVESlU4N0JlamRKMTdtRzBOYUNZNnhTa3pMaFdJZlRYdG5CMFJFc0NvLUYwOEtxMkU5NVJTTnRSYlRXbWlBU2o4MVpxYzZLeEVuZDdnUXlRbzYyT09sMUlKY25TU2dRMHV2S0ZUOTVGNkZieFpXY3ZST3FDVG1pa0hHNGxjSGhQMFM0Vk5DZ01ZMmRpcWRwQkVrMWtSNFQ4RGNRMkZVWVZ5ay16THdfOFpIVm5CLVR1akt5MkQwazJ1aC1yay1ZejNGXzFpMVQ1cm8",
       "published_ts": 1772006400,
       "id": "0e244598e81bec71fd369343"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "Stock the Shelter! 🐶😻 - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM2w0TGgxLUZxTEgzYkR4OW1UU1AtOEw0TXRDcFk4MHFlV0lSaFBvYmZ0LVNodmQ0enJ6aS1sSGthQmFZLTAxTjVfSHMxVktlY2JZNFFDWTNvU1VwQlJwbm9mUUtUMXJJR3puQUllY2VHWUJ4VXpibWRzdXFySDFPUVRDOA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxPM2w0TGgxLUZxTEgzYkR4OW1UU1AtOEw0TXRDcFk4MHFlV0lSaFBvYmZ0LVNodmQ0enJ6aS1sSGthQmFZLTAxTjVfSHMxVktlY2JZNFFDWTNvU1VwQlJwbm9mUUtUMXJJR3puQUllY2VHWUJ4VXpibWRzdXFySDFPUVRDOA",
+      "published_ts": 1772006400,
+      "id": "f622e4e0f6c623f509d7c268"
     },
     {
       "bundle": "Indiana TOD",
@@ -21523,6 +21710,17 @@
       "id": "168423ee3c0efe58f5de2f35"
     },
     {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "INDOT cancels, postpones projects - Indiana Capital Chronicle",
+      "source": "Indiana Capital Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWV9mZHNZQUVsSG14Wm9lSWI0SkF4ODh2SzEySjJjN1VUQjROZWxlWmtIbUZHOXMwTXl3SG1FZVgxUkVad3JQcXRHNXpjVEQtU1lsZ0kzQzJDSGRZV2h1cnJUbzgzZVY0bjFVY205dUZiR1VUNHFBVDhQNlFNY1V1alVJeHUxX0E?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihwFBVV95cUxQWV9mZHNZQUVsSG14Wm9lSWI0SkF4ODh2SzEySjJjN1VUQjROZWxlWmtIbUZHOXMwTXl3SG1FZVgxUkVad3JQcXRHNXpjVEQtU1lsZ0kzQzJDSGRZV2h1cnJUbzgzZVY0bjFVY205dUZiR1VUNHFBVDhQNlFNY1V1alVJeHUxX0E",
+      "published_ts": 1767686400,
+      "id": "dee06d203783d497c6f4e128"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Wayne County economic development",
       "title": "Local development group approves $30K for northeast Indiana casino pursuit - CDC Gaming",
@@ -21972,6 +22170,17 @@
       "guid": "CBMixgFBVV95cUxQTlRubkR5RmNLOWFvb1BTclBHVldidjFmQnJCOWs2THdUYWpPaExoTWhhOTV5U05Lb0RGTXJ2ZEpUcWxDQ0huckdKU255cEpPVzBjQXRfZTE3TEI4UXF2MVJfRFIwRGZ5cjBzSEZuLU5MeEt4UVhVTU9oLTFfblNMMnJvNUEyUVE3YWpPYnVDZXNieWF5UkM4NTBtRENNa29TeHVvVXExa21GV0dlMUY4M3FwQ3lUZm9oVkk3ejhNN0hHdU4xTmc",
       "published_ts": 1767168000,
       "id": "e37901184afb29b2ed2fd811"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Gov. Braun reinstates Indiana Workforce Development Board - The Hamilton County Reporter",
+      "source": "The Hamilton County Reporter",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMF94TnVoTEs2cFFVQjBvLTJ0VlV3dFJweEpLNHlJSndMbEdMUmZncnk2MTJZang0NEpLaWJvYldJMFAyWDFHV2J2T01jQ3lmR0RGSUxtV08wa0NfaFRoY1RTUHNjVWxvcTFMOWg2Q1kxQUc4YjlMTGIyVU1nNjNDQjlPNWdWdGNEZlRIdU9B?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijgFBVV95cUxQMF94TnVoTEs2cFFVQjBvLTJ0VlV3dFJweEpLNHlJSndMbEdMUmZncnk2MTJZang0NEpLaWJvYldJMFAyWDFHV2J2T01jQ3lmR0RGSUxtV08wa0NfaFRoY1RTUHNjVWxvcTFMOWg2Q1kxQUc4YjlMTGIyVU1nNjNDQjlPNWdWdGNEZlRIdU9B",
+      "published_ts": 1767168000,
+      "id": "9f9ca3aa950f3176c99e6360"
     },
     {
       "bundle": "Indiana TOD",
@@ -23537,6 +23746,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Under pressure from budget cuts and investigation, MEDC chief goes to bat for agency - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGhfRWlyOHdfUHZZZk9FX0ZadmUzRnc3ZFlCZWpPaGtIdDBJZkFnWDVucUFUd0NMOThpSjZWRURfdlVpdEJLMG5MRjRoa1Y0Y09iTnNMMzhMc2tMelN2LTlaVnc3X2pla01vWEtya1p6VEJjaUNMdlQ1R3ZEM3UtcGZ6ZGFsQkp1TWtObjRkRFFXNXMxclB0Y2RqUXI4OFRCZGh5TDNB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipgFBVV95cUxPWGhfRWlyOHdfUHZZZk9FX0ZadmUzRnc3ZFlCZWpPaGtIdDBJZkFnWDVucUFUd0NMOThpSjZWRURfdlVpdEJLMG5MRjRoa1Y0Y09iTnNMMzhMc2tMelN2LTlaVnc3X2pla01vWEtya1p6VEJjaUNMdlQ1R3ZEM3UtcGZ6ZGFsQkp1TWtObjRkRFFXNXMxclB0Y2RqUXI4OFRCZGh5TDNB",
+      "published_ts": 1765180800,
+      "id": "cb2960cff71a20beae831ed1"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Wayne County workforce",
       "title": "Stark County employers, agencies make childcare a workforce priority - Canton Repository",
       "source": "Canton Repository",
@@ -24095,193 +24315,6 @@
       "guid": "CBMiigFBVV95cUxNRHc3cGo0SXF0UVFsRmkyMzlIazh1NHdhRmpDYzQ0T3JZelEwakxwa05aTm1ITmljTlRmc2Y5TG81RW53QWV4Y3hpN2tVczBRYVN4bjVyeGlLRWhaaHpPcERiOGNxbG0wMmFjajNSeFdHc0ZoU2VPaXBaQzVrTTBBTjNueTUtbVJHMnc",
       "published_ts": 1764057600,
       "id": "fa103b00a8f573bd0ba08f9f"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Find free and affordable transportation in Indy - Mirror Indy",
-      "source": "Mirror Indy",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMFpFY2xFY0pUNDlrQ215UVJvWkNZTkkxYXFoS0RTVDNjSGdkYm0ycG1fNl81RTQwWVl5NGxlaVBaXzBoR0k1WEtIUkhlQU5pQk1Hbk5oYzZFdlotSFRlVVJlaDluQng1VEVQR05yajBxZ1RyNV9MQWtNNVdGM0xjODZDRDk0OWN3c2c?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiigFBVV95cUxQMFpFY2xFY0pUNDlrQ215UVJvWkNZTkkxYXFoS0RTVDNjSGdkYm0ycG1fNl81RTQwWVl5NGxlaVBaXzBoR0k1WEtIUkhlQU5pQk1Hbk5oYzZFdlotSFRlVVJlaDluQng1VEVQR05yajBxZ1RyNV9MQWtNNVdGM0xjODZDRDk0OWN3c2c",
-      "published_ts": 1763971200,
-      "id": "5425f4bef8104821bf25a5d4"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit transit system upgrades include pay raises, new terminal, bus replacements - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNXpfa0pQaXR1STBCMlc5VlhKVS1FMXMzUjR6VXJHTjllN0RnVE9Gd0dHbG9OYk1kSjBPaUg4VXNwbW5QbVBGVFJNVHNUd1g2RHhzazNOZHQ1TElBUXFTYVFWQm95bkNJazBCMGlOZUxMb3o1cjZRY1pac1ZySjVpQVI4bEZCUzBPejFfLWVBOWthN09EaXgzbVZVYm11b2g3UlFTaU5rSzBna093cWRheUI4eEhsN1ZfelF1MmdlbXEwQlRIbWJwTDE2VEhWbFU?oc=5",
-      "canonical_url": "",
-      "guid": "CBMizwFBVV95cUxQNXpfa0pQaXR1STBCMlc5VlhKVS1FMXMzUjR6VXJHTjllN0RnVE9Gd0dHbG9OYk1kSjBPaUg4VXNwbW5QbVBGVFJNVHNUd1g2RHhzazNOZHQ1TElBUXFTYVFWQm95bkNJazBCMGlOZUxMb3o1cjZRY1pac1ZySjVpQVI4bEZCUzBPejFfLWVBOWthN09EaXgzbVZVYm11b2g3UlFTaU5rSzBna093cWRheUI4eEhsN1ZfelF1MmdlbXEwQlRIbWJwTDE2VEhWbFU",
-      "published_ts": 1763971200,
-      "id": "83217a8331a32b38e876f271"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Q&A: How transportation insecurity erodes Detroiters’ physical and mental health - planetdetroit.org",
-      "source": "planetdetroit.org",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcWo2ODhnWUVCSkhpZWY2RTRGdDJGUlBIdHRTMGl0NzRIdVF6ZnNkd3J3R3JkMmd3bHgxX1hsT3ZRVWJ1ZEZMbm5kaDFaQUc1eWlENVYxajR6Wm9KLThZdnF1VUNfN2NVbG5idHFvQjhzQUF5Q0NkNmgzWHJxZnl5eUJHaw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMigwFBVV95cUxPcWo2ODhnWUVCSkhpZWY2RTRGdDJGUlBIdHRTMGl0NzRIdVF6ZnNkd3J3R3JkMmd3bHgxX1hsT3ZRVWJ1ZEZMbm5kaDFaQUc1eWlENVYxajR6Wm9KLThZdnF1VUNfN2NVbG5idHFvQjhzQUF5Q0NkNmgzWHJxZnl5eUJHaw",
-      "published_ts": 1763971200,
-      "id": "88fd67b1cfa7b7d66ba9a6e5"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit city officials, transit advocates say public bus system is on a roll - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOGFtSGJNWEVTQUxZOWlqMTBNZXlJQjd0WkNSdndUb25aSHUzZTF5VFgzVHZxTHpnQlR5N00xaVVCOVMzNldyN01PblV1Sk56NF9lTV85UW95VXdwRXFQaEVQbHI1WEVNRTF4c1pQTHljRlJtU2ZsN0d4RTktM2JiVDRJZU5NcDJoT1hDc2lob3o4dU1zWjNUdGVmaVZGZHBLR0lhX1o5ZEsxbmhhTjZqR2ZKTl9IS0FWTVN2cUNsc3otSUJMbVJCY1dhRGVSQ2V4MDM0WVU5bHQybVJPcG1IMEZucUM?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi5AFBVV95cUxNOGFtSGJNWEVTQUxZOWlqMTBNZXlJQjd0WkNSdndUb25aSHUzZTF5VFgzVHZxTHpnQlR5N00xaVVCOVMzNldyN01PblV1Sk56NF9lTV85UW95VXdwRXFQaEVQbHI1WEVNRTF4c1pQTHljRlJtU2ZsN0d4RTktM2JiVDRJZU5NcDJoT1hDc2lob3o4dU1zWjNUdGVmaVZGZHBLR0lhX1o5ZEsxbmhhTjZqR2ZKTl9IS0FWTVN2cUNsc3otSUJMbVJCY1dhRGVSQ2V4MDM0WVU5bHQybVJPcG1IMEZucUM",
-      "published_ts": 1763971200,
-      "id": "fc0d10af6edfb0e083363398"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Mayor Duggan says Detroit finally has what it takes to rebuild bus system - Michigan Public",
-      "source": "Michigan Public",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdDR1V0t2ZXFmaENJY04yRkZuN0FZZHdxSFZzVU5hSko1RldkTEJRb09oLVM3VDNMSUhyMEV2UWdtSWxDdHZkRnJWMkhsZjZCdXVNUzNfcVYzS2JTWmhybGs3WEo0NjFVTDRMQVFveTRoNEVKOVkwbDFRMnpQcC10MWpxYXRCa3lsTGl5aUxQcFFKOVhHbVMzYmowdVE4YmtMRGdYdmVTVDFXd280Wno1bGJwMlFmWHMyRFktM295ZXRBMmxZMUdiUHhzRkxnb1JFaDVGeExNNTV5RVFR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3AFBVV95cUxNdDR1V0t2ZXFmaENJY04yRkZuN0FZZHdxSFZzVU5hSko1RldkTEJRb09oLVM3VDNMSUhyMEV2UWdtSWxDdHZkRnJWMkhsZjZCdXVNUzNfcVYzS2JTWmhybGs3WEo0NjFVTDRMQVFveTRoNEVKOVkwbDFRMnpQcC10MWpxYXRCa3lsTGl5aUxQcFFKOVhHbVMzYmowdVE4YmtMRGdYdmVTVDFXd280Wno1bGJwMlFmWHMyRFktM295ZXRBMmxZMUdiUHhzRkxnb1JFaDVGeExNNTV5RVFR",
-      "published_ts": 1763971200,
-      "id": "1573417e7182191bce8dd310"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit to see dozens of new buses as transit workers get pay bump - Crain's Detroit Business",
-      "source": "Crain's Detroit Business",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdHg4NUZIMUNrcjVubXJkcUZpOXhZUnBYNkptcHY2cTI2TmxPVWhpZFI5TWhQM0VKbWhrUWxkRnBycWdMbDgycjRHMkczNDlrbnBzNEdWbmtpTzVvSzhlaFVILTRYclVWSkRsbkFmTmt4SXBBZl85RzA1aEVLWnZaZVdoTWNZVDJlbk9FSGFSWnpxc0Fnd2dZ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilwFBVV95cUxNdHg4NUZIMUNrcjVubXJkcUZpOXhZUnBYNkptcHY2cTI2TmxPVWhpZFI5TWhQM0VKbWhrUWxkRnBycWdMbDgycjRHMkczNDlrbnBzNEdWbmtpTzVvSzhlaFVILTRYclVWSkRsbkFmTmt4SXBBZl85RzA1aEVLWnZaZVdoTWNZVDJlbk9FSGFSWnpxc0Fnd2dZ",
-      "published_ts": 1763971200,
-      "id": "24e211f22f5bf2b1c38a50b6"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit economic development",
-      "title": "Detroit Regional Partnership Launches Digital Advertising Campaign - dbusiness.com",
-      "source": "dbusiness.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa2RRNklZSFU3Z1ZkWkg0cGtwMk5rVWpsdUVqTVAzTFRwOEdZYzI3WTJtYjNRNVpVZW5pUWVYQk5lODh4OUZOSVhfMkczVUpWQVg0dGxnMThVYUpkV1AtRXJQYkpQWmVDQ0VBcmtNNFY4d0l3N2l1OEN0ZHhDNDJFNFo2RWpFVmMxeW1JVk8tbXBVRWJKaE9Ock5HQzFNamFEWGx3TDQ5UQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipwFBVV95cUxPa2RRNklZSFU3Z1ZkWkg0cGtwMk5rVWpsdUVqTVAzTFRwOEdZYzI3WTJtYjNRNVpVZW5pUWVYQk5lODh4OUZOSVhfMkczVUpWQVg0dGxnMThVYUpkV1AtRXJQYkpQWmVDQ0VBcmtNNFY4d0l3N2l1OEN0ZHhDNDJFNFo2RWpFVmMxeW1JVk8tbXBVRWJKaE9Ock5HQzFNamFEWGx3TDQ5UQ",
-      "published_ts": 1763971200,
-      "id": "791840e367f1fb2e5f37997a"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit receives $50M federal grant to rebuild city's bus system - Spectrum News",
-      "source": "Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNME9rODIwclBwUUl0M2c5TEppNktWbFZRbXpiZ2hGWlhnVTE0WUtWazI3MUpRdVZHYzBibkZPMmx5N0dkZjlDdWdFUF9PUjlRNTFDTS1HMzRDU1hJWkNOZHJHc2pZWFdOaE8ySDF3TnRXZllpS3NJZFdYa3JkRUJGWk5IZzZnNjFJa21rcWhnOVNlMG05LWFpcXZ5YW1VbWlGdHZoTFNreHFoN0Q3N21zdg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMisAFBVV95cUxNME9rODIwclBwUUl0M2c5TEppNktWbFZRbXpiZ2hGWlhnVTE0WUtWazI3MUpRdVZHYzBibkZPMmx5N0dkZjlDdWdFUF9PUjlRNTFDTS1HMzRDU1hJWkNOZHJHc2pZWFdOaE8ySDF3TnRXZllpS3NJZFdYa3JkRUJGWk5IZzZnNjFJa21rcWhnOVNlMG05LWFpcXZ5YW1VbWlGdHZoTFNreHFoN0Q3N21zdg",
-      "published_ts": 1763971200,
-      "id": "b1425c5815a3ffb06dc8dba8"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Kolumn Magazine: Black Women Sweep 2025: A New Era of Local Power - democraticmayors.org",
-      "source": "democraticmayors.org",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcktnV0xfNjhSbHpnU0JmX0dKYjlPeTJlVnI1eWVudWhqSTJXRjRLRXpuZlNyX3hFemdhaEhfMkd2aVd3b1lIbWMzeEtLR2VPM19CSDd3ZlpKc3VndEtBS0dJLTBKS0tVNXhPakQtb1RuNDdvQnRqbDl1TW9zQnFvb01HVEVBUXpDcFE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiigFBVV95cUxNcktnV0xfNjhSbHpnU0JmX0dKYjlPeTJlVnI1eWVudWhqSTJXRjRLRXpuZlNyX3hFemdhaEhfMkd2aVd3b1lIbWMzeEtLR2VPM19CSDd3ZlpKc3VndEtBS0dJLTBKS0tVNXhPakQtb1RuNDdvQnRqbDl1TW9zQnFvb01HVEVBUXpDcFE",
-      "published_ts": 1763971200,
-      "id": "fc3377cb1e705cbab0fa6ba3"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit's bus system revamp nearing completion with Coolidge Bus Terminal - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tVE9zUjUwV1g2dGs2WTRaX0dBNzJCVklYeXFDOUhxTGZYU1pzZ1JhcWw3V0ZLSkV3M0lyQ2hFTEdVNnlxQXo4ZHVyQ0ltbURpMGxrN0FuSjJ1M29WdEhiQ2phLXhISGVpQ01XOFpiWVM5WHZ2NlE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMidkFVX3lxTE8tVE9zUjUwV1g2dGs2WTRaX0dBNzJCVklYeXFDOUhxTGZYU1pzZ1JhcWw3V0ZLSkV3M0lyQ2hFTEdVNnlxQXo4ZHVyQ0ltbURpMGxrN0FuSjJ1M29WdEhiQ2phLXhISGVpQ01XOFpiWVM5WHZ2NlE",
-      "published_ts": 1763971200,
-      "id": "66e9cf0d8bd3462d0c941138"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "DDOT announces 'transformational changes' including addition of 53 new buses, $160M terminal - wxyz.com",
-      "source": "wxyz.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSkxUTXZrVE1BY3FlSVhLMktEQ3htenJjQjlCU2FNVE5WdmhQdVhoOWtKTGRvYWR1VEVqNk9TY2w4M0ZHVUdlWUJEUVR1X1VubWtZclRwUzh1a3A2QW9rLUFQNTFZLTB6cW5rVEhoY3ZOd3JtZFNTN0xESGtFNGxxSUJvaFAycy1tWHllVVR4ZnVXXzhTN0Q3d3hPQ1RzbVVyMENmQUdPVmM?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqAFBVV95cUxQSkxUTXZrVE1BY3FlSVhLMktEQ3htenJjQjlCU2FNVE5WdmhQdVhoOWtKTGRvYWR1VEVqNk9TY2w4M0ZHVUdlWUJEUVR1X1VubWtZclRwUzh1a3A2QW9rLUFQNTFZLTB6cW5rVEhoY3ZOd3JtZFNTN0xESGtFNGxxSUJvaFAycy1tWHllVVR4ZnVXXzhTN0Q3d3hPQ1RzbVVyMENmQUdPVmM",
-      "published_ts": 1763971200,
-      "id": "c9a3c193bdd780dc744ef618"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit's bus system revamp nearing completion with Coolidge Bus Terminal - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tVE9zUjUwV1g2dGs2WTRaX0dBNzJCVklYeXFDOUhxTGZYU1pzZ1JhcWw3V0ZLSkV3M0lyQ2hFTEdVNnlxQXo4ZHVyQ0ltbURpMGxrN0FuSjJ1M29WdEhiQ2phLXhISGVpQ01XOFpiWVM5WHZ2NlHSAXtBVV95cUxNYWZSUzlfd2g3akFpOU5WVndSUWptdTgtTGZVSkRUTzFzUVpydnFkb3RfY0UyNVVESEpmbE1KZjM1dFltMUJOemZCdDIyRU92WGNvWG83RVlfT1JXa2IyaFh6dVhTMkpDYXViVUpBY1oxZHh0VThrSW8yZzg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMidkFVX3lxTE8tVE9zUjUwV1g2dGs2WTRaX0dBNzJCVklYeXFDOUhxTGZYU1pzZ1JhcWw3V0ZLSkV3M0lyQ2hFTEdVNnlxQXo4ZHVyQ0ltbURpMGxrN0FuSjJ1M29WdEhiQ2phLXhISGVpQ01XOFpiWVM5WHZ2NlHSAXtBVV95cUxNYWZSUzlfd2g3akFpOU5WVndSUWptdTgtTGZVSkRUTzFzUVpydnFkb3RfY0UyNVVESEpmbE1KZjM1dFltMUJOemZCdDIyRU92WGNvWG83RVlfT1JXa2IyaFh6dVhTMkpDYXViVUpBY1oxZHh0VThrSW8yZzg",
-      "published_ts": 1763971200,
-      "id": "68b60d61ba10278a4ca6b58b"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "Economic experts bullish on NWI’s future - Chicago Tribune",
-      "source": "Chicago Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX2NkWW1PcjV5R2thci1rRDRWdExSNmJEZ2d0QllkYmhrY0F4bDM4TksyMFQ1TDVIc1NnRTlmam1jQUk0a1A0N3c5NXdJSG5tZE9BQndaR2VLSTB6cktvck5XQU1iN1dzYWwzN1VCdE1iVHAwRV9yNXE4bDgySjRRNXpDdlpTbjlNNlE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiigFBVV95cUxQX2NkWW1PcjV5R2thci1rRDRWdExSNmJEZ2d0QllkYmhrY0F4bDM4TksyMFQ1TDVIc1NnRTlmam1jQUk0a1A0N3c5NXdJSG5tZE9BQndaR2VLSTB6cktvck5XQU1iN1dzYWwzN1VCdE1iVHAwRV9yNXE4bDgySjRRNXpDdlpTbjlNNlE",
-      "published_ts": 1763971200,
-      "id": "e488f535cb755245fb538c13"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit to see dozens of new buses as transit workers get pay bump - Crain's Detroit Business",
-      "source": "Crain's Detroit Business",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWkhCcDd0SGxsUlczeUNJMmoxVUIzQzlIaWxrTThpa1cyNDlHZkFlaG82THlPTEotRDFZUzV1T1JyYV93TGJRYjhYS2M2U1FYU0hBZ2w4WmswV3Z3YnBVQ3pHVndZR2ctOVdfMmZtRGhfRUlVQmVCMDB6cWx2RmNhaTJwbVFiU25HVnRIRDVsVm1EdFBhbFJlcQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMimAFBVV95cUxNWkhCcDd0SGxsUlczeUNJMmoxVUIzQzlIaWxrTThpa1cyNDlHZkFlaG82THlPTEotRDFZUzV1T1JyYV93TGJRYjhYS2M2U1FYU0hBZ2w4WmswV3Z3YnBVQ3pHVndZR2ctOVdfMmZtRGhfRUlVQmVCMDB6cWx2RmNhaTJwbVFiU25HVnRIRDVsVm1EdFBhbFJlcQ",
-      "published_ts": 1763971200,
-      "id": "e10ad236ed857f19d4f9af3b"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "Indiana University turns small-town dreams into community action plans - News at IU",
-      "source": "News at IU",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU29mTld0RE9Kd2dUTXZDTlJhYzBIV0RaLUYxODEtWDJ3ZVhoekRlaTR6dmtobDM1N0drQWM3NU5EcGJmelgyVFNuR1dwSzhjSWZ2Mk10cm9zNzBfUzd4ZkRLNlBidTkyNTRkSGhRN0Y3bUJWZ21vUGxERzlOMnR4U0EyTEl2ZXluVUVN?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiiwFBVV95cUxOU29mTld0RE9Kd2dUTXZDTlJhYzBIV0RaLUYxODEtWDJ3ZVhoekRlaTR6dmtobDM1N0drQWM3NU5EcGJmelgyVFNuR1dwSzhjSWZ2Mk10cm9zNzBfUzd4ZkRLNlBidTkyNTRkSGhRN0Y3bUJWZ21vUGxERzlOMnR4U0EyTEl2ZXluVUVN",
-      "published_ts": 1763971200,
-      "id": "a6274a182e82fcf400b025d4"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Detroit transit system upgrades include pay raises, new terminal, bus replacements - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ0M0OG9ON3FQakRfdXdNX0xEcDA5Y3ZxNVJxdExUNldLUDA5dmFrWXIzOWtHcjZOendUUVA1dURYa21qbHM5OVBBMXR6eG9tRlc1Yy1MdHI5aTdtYzU4Mm9ILWVDRlFCMTdtZzJZampoenZKRWVRbG1oNnFYRjR3MFp5bHgxU2k2V1hWa0VKUDBHcm9zbjZwVFRCTm1YYVdwamdyMmwzQTBsSDV6dGQ2NXlGMHpvdFFrWUpaa0tBTjdoSnBYcXZQTGc4UlpZcWc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMizwFBVV95cUxNZ0M0OG9ON3FQakRfdXdNX0xEcDA5Y3ZxNVJxdExUNldLUDA5dmFrWXIzOWtHcjZOendUUVA1dURYa21qbHM5OVBBMXR6eG9tRlc1Yy1MdHI5aTdtYzU4Mm9ILWVDRlFCMTdtZzJZampoenZKRWVRbG1oNnFYRjR3MFp5bHgxU2k2V1hWa0VKUDBHcm9zbjZwVFRCTm1YYVdwamdyMmwzQTBsSDV6dGQ2NXlGMHpvdFFrWUpaa0tBTjdoSnBYcXZQTGc4UlpZcWc",
-      "published_ts": 1763971200,
-      "id": "c94fb929052b2c8c022d8f45"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "Amazon plans to invest $15 billion in Northern Indiana to build new data center campuses and advance AI innovation - About Amazon",
-      "source": "About Amazon",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOU9YSjM1dXFDM0RnRWVIWmU3eHg0WmJ5TmtiQVJsRUo1b2kxUkNQT2xDNW1xSWRGbnNWekJ0SlEwX29scUppNnIzekdzZmItM24yZnllYmktTDh0a1BKYlR1cUxCeHYwOThtUTBSN25BQm5YcEs3UnF4eWtxWlJSTXBHdHluOHFJa2p6WQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMijAFBVV95cUxPOU9YSjM1dXFDM0RnRWVIWmU3eHg0WmJ5TmtiQVJsRUo1b2kxUkNQT2xDNW1xSWRGbnNWekJ0SlEwX29scUppNnIzekdzZmItM24yZnllYmktTDh0a1BKYlR1cUxCeHYwOThtUTBSN25BQm5YcEs3UnF4eWtxWlJSTXBHdHluOHFJa2p6WQ",
-      "published_ts": 1763971200,
-      "id": "559d160709705a4730ab17e3"
     }
   ]
 }
