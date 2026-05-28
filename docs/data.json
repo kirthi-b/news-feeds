@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-05-27T10:30:51.491586+00:00",
+    "generated_at": "2026-05-28T10:35:54.453098+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2252,
+    "items_count": 2261,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,83 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "What Wayne County transit millage would mean for Detroit, 16 other communities - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMm1TOXJrNmdyUnd0VzYwZVQ3VkFiNzVpWERNbUJkWlZiRWF5ZG1JaUFxNTJJcXZabjRobDJfdU5GcW15ajhGOHhxS2d4YVJVZFBYV2RGNGYwdE5JLVJLTjdpb0wtWGJ1ZnV5N25Rbm1PZ053cVQzdEFkNzliUUd3clAzWmlYOHpTQk12S2x6NlJoeDlUbk11VkhheV9MVGRkS0tvSkpkZGY2bzZ6Mmt4QVdRVDNGblRNMmVhekx6ZVBJN01oUkI0UkExTmtTZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizgFBVV95cUxOMm1TOXJrNmdyUnd0VzYwZVQ3VkFiNzVpWERNbUJkWlZiRWF5ZG1JaUFxNTJJcXZabjRobDJfdU5GcW15ajhGOHhxS2d4YVJVZFBYV2RGNGYwdE5JLVJLTjdpb0wtWGJ1ZnV5N25Rbm1PZ053cVQzdEFkNzliUUd3clAzWmlYOHpTQk12S2x6NlJoeDlUbk11VkhheV9MVGRkS0tvSkpkZGY2bzZ6Mmt4QVdRVDNGblRNMmVhekx6ZVBJN01oUkI0UkExTmtTZw",
+      "published_ts": 1779962520,
+      "id": "3a56c74c484e7787269ee20b"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Property values increase in Martindale-Brightwood amid new housing developments - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM0M0RG01RVU2RjluT2twaEEwblVPV2hQU0xaNVVpU1BtTk5yMFY0VXZJRWRReUtfQi1XSTd4UWdKYUdkTV80bllwazFmampzNVBYWXNyVGdfTEdQVjVfbDZhRVpOZEY1V3pUSE1jaFhHYng0RDMyMU5JbzZBVmpnbXNpbW1JUXpIUFhidXNxME52VC14emlzWDdNRkVTQWR3Z0FIVDl5amhMb1dLb0lySVdDVUZlVk9lUzJxN2xsVE9sbmI1WlZRekQ4QVNBS0QyYUxiYjYwVFlBaFp2Q296elVtUE5MZzM1c3JvOFRB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi7gFBVV95cUxQM0M0RG01RVU2RjluT2twaEEwblVPV2hQU0xaNVVpU1BtTk5yMFY0VXZJRWRReUtfQi1XSTd4UWdKYUdkTV80bllwazFmampzNVBYWXNyVGdfTEdQVjVfbDZhRVpOZEY1V3pUSE1jaFhHYng0RDMyMU5JbzZBVmpnbXNpbW1JUXpIUFhidXNxME52VC14emlzWDdNRkVTQWR3Z0FIVDl5amhMb1dLb0lySVdDVUZlVk9lUzJxN2xsVE9sbmI1WlZRekQ4QVNBS0QyYUxiYjYwVFlBaFp2Q296elVtUE5MZzM1c3JvOFRB",
+      "published_ts": 1779917940,
+      "id": "239ef6bfe2076402774706f6"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit city officials break down funding spent from American Rescue Plan Act - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMURTaDBaUDdQSlFxYm81b0E0Q1ZHbXBGUHI3azVpNjFJNFgzQ1ZhOWdaNVlyUklDZ2d4RUlwZ3dsRUlGaW12ZnFqMS1RV2FKel9RUE9QZ2w2QXRjaFNpd1VFc0hwb3p3VTdrbDFYTXE2UXc1ajJlOHlVYW42LUJicU9oX0dNeDRjdEFUbXJ1STJPWThoTUJSWlpWdllyNnhP?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxOMURTaDBaUDdQSlFxYm81b0E0Q1ZHbXBGUHI3azVpNjFJNFgzQ1ZhOWdaNVlyUklDZ2d4RUlwZ3dsRUlGaW12ZnFqMS1RV2FKel9RUE9QZ2w2QXRjaFNpd1VFc0hwb3p3VTdrbDFYTXE2UXc1ajJlOHlVYW42LUJicU9oX0dNeDRjdEFUbXJ1STJPWThoTUJSWlpWdllyNnhP",
+      "published_ts": 1779916802,
+      "id": "6992fda9469ff30f83757b5e"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit workforce",
+      "title": "Powering Michigan’s clean energy workforce: How Detroit-based SEEL is creating real career pathways - FOX 2 Detroit",
+      "source": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12Wmp0R3VmVkdlZHdGalJsM0lmdjFfZ2NJN09VaC0xOG9uNllRN2VuZThFcDhJSnU5OVlhNm9DWk9WYWVqMnA5MEktNWVDWjdXc3pVS0JraHRDdU1ua296Z0t1M0LSAWpBVV95cUxPY0thTngtOUYtTFgzOFBqNEhlSFNJQnJQSjhwYW9rc293UHNvX1pwTzZzWnJGYjV2Z2RrNFcyTFlXN09QN3ZBY19WMmVvQkRFU0pwUWFfbVF4azZRVXVqNmN5SDBsRnZCT3F3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZEFVX3lxTE12Wmp0R3VmVkdlZHdGalJsM0lmdjFfZ2NJN09VaC0xOG9uNllRN2VuZThFcDhJSnU5OVlhNm9DWk9WYWVqMnA5MEktNWVDWjdXc3pVS0JraHRDdU1ua296Z0t1M0LSAWpBVV95cUxPY0thTngtOUYtTFgzOFBqNEhlSFNJQnJQSjhwYW9rc293UHNvX1pwTzZzWnJGYjV2Z2RrNFcyTFlXN09QN3ZBY19WMmVvQkRFU0pwUWFfbVF4azZRVXVqNmN5SDBsRnZCT3F3",
+      "published_ts": 1779916389,
+      "id": "5cc7264b6af333ec4b1533e7"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Housing investments raise property values in Martindale-Brightwood neighborhood - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVXZMM2c2RGF0Vy1UZ1Ryc010UlBPV2pqZjNMUTdYd2hndWFqMWRJVXN2ckc3RmdLZUpYWnNmbEk4Y3lqS21GS01VemVEVmZwVm8yenhHMHY3X1VrN0hMUnNNVmdTSzFPMHFNWVhGMTc0b04tYkxMSkIxSDhYVnhfaWl2cVk4VlNwWVVWUnBERFh2LTZjNWptSWZjTzI5eGtXTEh4b0JTMEpmenpISG9UbkJFeWdTZUtQQ3VRd0Nkb2FhZlFHekU5MG54OExtaWMtVGJnM2FDX3o5eVl5ekgxdDVwU1lyOTlsWkd1NUdLUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi7wFBVV95cUxNVXZMM2c2RGF0Vy1UZ1Ryc010UlBPV2pqZjNMUTdYd2hndWFqMWRJVXN2ckc3RmdLZUpYWnNmbEk4Y3lqS21GS01VemVEVmZwVm8yenhHMHY3X1VrN0hMUnNNVmdTSzFPMHFNWVhGMTc0b04tYkxMSkIxSDhYVnhfaWl2cVk4VlNwWVVWUnBERFh2LTZjNWptSWZjTzI5eGtXTEh4b0JTMEpmenpISG9UbkJFeWdTZUtQQ3VRd0Nkb2FhZlFHekU5MG54OExtaWMtVGJnM2FDX3o5eVl5ekgxdDVwU1lyOTlsWkd1NUdLUQ",
+      "published_ts": 1779914040,
+      "id": "124d80d462b5ebb772a3c1bc"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit’s high property taxes are driving a housing affordability crisis – how can city leaders bring down costs? - U-M Detroit",
+      "source": "U-M Detroit",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV1V3eDY3S0lISTdnTldDM0hkaWZ1XzVNMEZpcm4wVUhiUzhpVXZ2MzR6QWtxeVdydHd3bjdyMEVSMnJvMWpwaGUyMk4tYjZCc1NQaVVFNTZUN3dzSFFPTHZyWTNSM29jQXZMbEFoVS0xTXdKNTdiV2V3MWFaTHN1ZDBWVjRhSTFyc3ZUc1lqMmpoSkw0aHZ1SEpBOWRpV2hZRDduSnZaYmVDemVTb1l3Ri1HZi1KRmR0SWp2c2JzVmIwMDFCd3FIY1h6akctRlFzMmdicXdpZzdmRk42aGhvZVI2bw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi4wFBVV95cUxQV1V3eDY3S0lISTdnTldDM0hkaWZ1XzVNMEZpcm4wVUhiUzhpVXZ2MzR6QWtxeVdydHd3bjdyMEVSMnJvMWpwaGUyMk4tYjZCc1NQaVVFNTZUN3dzSFFPTHZyWTNSM29jQXZMbEFoVS0xTXdKNTdiV2V3MWFaTHN1ZDBWVjRhSTFyc3ZUc1lqMmpoSkw0aHZ1SEpBOWRpV2hZRDduSnZaYmVDemVTb1l3Ri1HZi1KRmR0SWp2c2JzVmIwMDFCd3FIY1h6akctRlFzMmdicXdpZzdmRk42aGhvZVI2bw",
+      "published_ts": 1779897516,
+      "id": "a25b605b5aa96214b3963c82"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Detroit Grand Prix road closures expand: What drivers need to know - MLive.com",
+      "source": "MLive.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWTlXU3RqVTRKLUlMMEdJTTJ4OE81WlhRckhsN2V5d21sSjFrUTNZSnVnMHF3QTRNejdUVExLSEJpZVFyT25TRnRTcmRNTUFac2lmVGs3MzhCVEI2RWlPdG1obHhLc2NIdTItcy1MYTVWUkpYekRCdGZkS3JQN1BPaUw2UnNacnBGVFIySXRqWXQ1aDZXLUtaQVNwREMxOVR6R1Z6R3FveGlZbnBmRm4zRHFvWdIBxwFBVV95cUxPYmZlelNPdkxHTkwtZFp6M1p5ZkRmejFtYl9xYTBpenAwVEpyMlVNY21ZWkEtTWNoXzlvaGhQaFczbzdZRG5kaENXdk11TjhwVkFjOHZUMmlsYm5sa3dqWjZOeG44eWt1cU1YTUtnSEdodTFBUUFuM1NFOW51RWNTbnVzaG5HYnZEVjRzb0M1bnNud0ZyZmxsOXFhdGVjSmd6ampWRFphRzduVDhPRUZHNjhxSUM4Wml6VjhRb3N0a3M5dkdoaF9B?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiswFBVV95cUxNWTlXU3RqVTRKLUlMMEdJTTJ4OE81WlhRckhsN2V5d21sSjFrUTNZSnVnMHF3QTRNejdUVExLSEJpZVFyT25TRnRTcmRNTUFac2lmVGs3MzhCVEI2RWlPdG1obHhLc2NIdTItcy1MYTVWUkpYekRCdGZkS3JQN1BPaUw2UnNacnBGVFIySXRqWXQ1aDZXLUtaQVNwREMxOVR6R1Z6R3FveGlZbnBmRm4zRHFvWdIBxwFBVV95cUxPYmZlelNPdkxHTkwtZFp6M1p5ZkRmejFtYl9xYTBpenAwVEpyMlVNY21ZWkEtTWNoXzlvaGhQaFczbzdZRG5kaENXdk11TjhwVkFjOHZUMmlsYm5sa3dqWjZOeG44eWt1cU1YTUtnSEdodTFBUUFuM1NFOW51RWNTbnVzaG5HYnZEVjRzb0M1bnNud0ZyZmxsOXFhdGVjSmd6ampWRFphRzduVDhPRUZHNjhxSUM4Wml6VjhRb3N0a3M5dkdoaF9B",
+      "published_ts": 1779894420,
+      "id": "ba613cb07de1516319144446"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
@@ -2164,6 +2241,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Wayne County residents file lawsuit over transit millage meeting, ballot language - BridgeDetroit",
+      "source": "BridgeDetroit",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDZhSldTTWY0NTJ6UzRobG9zOF9henFZNjFmYmRHeTNDRHcwVTJPMk1tQ2xJcWV3UDE0MjJ4cTBIYVZNbGNKdGY1cTRYaVFMRFRBajhqVUQtZzh6WUdqeWdhZ0JxWEV0V0dtNnNRbm1SUDNDdGxhOGRzRXg2UUlNMFFBbmdYMmp0cHFQTVdKN3ppd2x4bjF2T3JOLS0zQ09DMm9xVkVtYk5xcjVpRFNfMw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxPcDZhSldTTWY0NTJ6UzRobG9zOF9henFZNjFmYmRHeTNDRHcwVTJPMk1tQ2xJcWV3UDE0MjJ4cTBIYVZNbGNKdGY1cTRYaVFMRFRBajhqVUQtZzh6WUdqeWdhZ0JxWEV0V0dtNnNRbm1SUDNDdGxhOGRzRXg2UUlNMFFBbmdYMmp0cHFQTVdKN3ppd2x4bjF2T3JOLS0zQ09DMm9xVkVtYk5xcjVpRFNfMw",
+      "published_ts": 1778580000,
+      "id": "ef8ffb59bbdec61ca6267feb"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Wayne County economic development",
       "title": "OhioSE among 18 groups receiving AEP Ohio LEAP grant - Chillicothe Gazette",
       "source": "Chillicothe Gazette",
@@ -2956,6 +3044,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Wayne County Advance Plan For Regional Wastewater System - JoCo Report",
+      "source": "JoCo Report",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU0FFN2RwMEV1TlpXSkNNMTMzdWxuVEplWElXVGhhbDBjeXlWb0t1VzNaM21xbmotVTN5MFVXZGIzTlNFUllyQWkzR0g4a1VlN3lMSllqVjNxSmJYU3B1Y3hxZEpLT1lCcnNmN25NSGlobXhoNTVpa2FILURzd0plWEs3alFiZVZCajAwVUd0bFpRdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikgFBVV95cUxPU0FFN2RwMEV1TlpXSkNNMTMzdWxuVEplWElXVGhhbDBjeXlWb0t1VzNaM21xbmotVTN5MFVXZGIzTlNFUllyQWkzR0g4a1VlN3lMSllqVjNxSmJYU3B1Y3hxZEpLT1lCcnNmN25NSGlobXhoNTVpa2FILURzd0plWEs3alFiZVZCajAwVUd0bFpRdw",
+      "published_ts": 1777878000,
+      "id": "317224981a4f2941fd4ec16f"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit housing",
       "title": "Metro Detroit city weighs $1.8M plan to demolish vacant school for 68 homes - MLive.com",
       "source": "MLive.com",
@@ -3217,6 +3316,17 @@
       "guid": "CBMirgFBVV95cUxNN3RCOEdkOF93dWZNWHUwR3dMdW5JZXpTQmYwenU3OUhSNGtfYWprLTNZLWNWU0lwbG1kdXMtQkNvRzFhRmxRMmYxWHJ3NlRXdElfSTE1UkpSYk1rYUlucThJYVlwRjNXajZfNTdUUE85dlhWc0ZPUUxRcm5HaW56c1RvQWJGZ0tvY2JpUUlnTXFnY3JleFZSZFZUX010SXdWVjBFR3RRVlVBcTVFbGc",
       "published_ts": 1777618800,
       "id": "7888f34dd0367bca2b215e47"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "3 Detroit apartment buildings put in receivership - Crain's Detroit Business",
+      "source": "Crain's Detroit Business",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRHVtbnl3WF80VjczVDhKQlQwd2Q0MlVyM09ZaEZYYzdPd2pLUnJtU1BQaW9mcF9kNVJIck05RU4xcHM0NS1XMDU0bnM0TnpqajhRcG93ckxIVHB1WFlPaGMyeUU1QkZQcXBTUG11akszZUlnc1cxeTBRUVp6WTF4UzJJRUh2d3g2ajJwcXRNUXdxdzNkMWMwQzlBOS1uU0ZQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxNRHVtbnl3WF80VjczVDhKQlQwd2Q0MlVyM09ZaEZYYzdPd2pLUnJtU1BQaW9mcF9kNVJIck05RU4xcHM0NS1XMDU0bnM0TnpqajhRcG93ckxIVHB1WFlPaGMyeUU1QkZQcXBTUG11akszZUlnc1cxeTBRUVp6WTF4UzJJRUh2d3g2ajJwcXRNUXdxdzNkMWMwQzlBOS1uU0ZQ",
+      "published_ts": 1777618800,
+      "id": "36dd904fe5920fdbb870a01c"
     },
     {
       "bundle": "Indiana TOD",
@@ -4878,6 +4988,17 @@
       "guid": "CBMi3AFBVV95cUxPdktndXhRNVBpVXJjUEtMbWppRFBwOENXcnREekdXWDllWkFGdU5hakdudXJqMFhfR1lEY01DMERXaXVRRmk3OWp4X2ttMDZYd2w4Z0ktRGRzakJyZTNBODl4X3lrbEc3c3VoTE5PMHNYYW5saHM3VEtac1FJajEwX0NzZkJMeXpLZVJuRkY3eGRtYXRMLWlPWGZKTG9YZmpqZFg5NnhPM0Z0eENPbFhNVEcxaG55WjlRX09RRkM0aGJSdUFIU3JTTEsxal9oSzE4bk5fbXJXWnN3cnJJ",
       "published_ts": 1776754800,
       "id": "97595883fcdadf1ac808c278"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Music Hall expansion nearly a go as City Council approves $166M plan - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdHR3aS1qWkVVU1d6TkluNTBMSGZfclhvSHJQd0xBZXVLUDN5OTA0RjNHYTk4c2oxVVJiSE5kMng1RGV0RGV4ZlM0NWtKLXRya2dGLUVad0hXTVZaV3daVXRxOW1tTm5zMHI1Q3dTZ3laTFpsSTlHaTM4UFJuNzltdnJnRjZpN1Y4MW9JYU9DYzg5OEQ1ZHhCMFBULVpXUUhBWHFCQ0M0R0pHTDYzSEVoc1VfdXJ3Z25heGxsRFlYMkpQTkZkX2FJenZXN1lGYm5E?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi0AFBVV95cUxPdHR3aS1qWkVVU1d6TkluNTBMSGZfclhvSHJQd0xBZXVLUDN5OTA0RjNHYTk4c2oxVVJiSE5kMng1RGV0RGV4ZlM0NWtKLXRya2dGLUVad0hXTVZaV3daVXRxOW1tTm5zMHI1Q3dTZ3laTFpsSTlHaTM4UFJuNzltdnJnRjZpN1Y4MW9JYU9DYzg5OEQ1ZHhCMFBULVpXUUhBWHFCQ0M0R0pHTDYzSEVoc1VfdXJ3Z25heGxsRFlYMkpQTkZkX2FJenZXN1lGYm5E",
+      "published_ts": 1776754800,
+      "id": "862019deea2186dd49d3172f"
     },
     {
       "bundle": "Detroit Mayor",
@@ -12998,6 +13119,17 @@
       "id": "7168d72c2398bf515d8bb29a"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Wayne County community declares pothole emergency - FOX 2 Detroit",
+      "source": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56ay1yZklUUk5xb2ZweW1fNmxFaXg5RWNhTlA5NHVpUGg5QXlwSXRISFAwM2VyX0liV0lscEY4RHBKQ1pKMnB0V1J1bHlNeV80dTR4VklQRE9NbGZtRF95QXpCQWTSAWpBVV95cUxPeUZLWlhxM3dOQkZvUFdUc2xmMllVTVU2Z1dUaEE5dTMzZFJqZ0tWaVVLWGl6Q3VQTGtxb21JZ0RaMHNNVFJDWGN5TmdtMjhGMlA2dWZFVkVJaGNNc0VYa1QyUmVTSGY2TE5R?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZEFVX3lxTE56ay1yZklUUk5xb2ZweW1fNmxFaXg5RWNhTlA5NHVpUGg5QXlwSXRISFAwM2VyX0liV0lscEY4RHBKQ1pKMnB0V1J1bHlNeV80dTR4VklQRE9NbGZtRF95QXpCQWTSAWpBVV95cUxPeUZLWlhxM3dOQkZvUFdUc2xmMllVTVU2Z1dUaEE5dTMzZFJqZ0tWaVVLWGl6Q3VQTGtxb21JZ0RaMHNNVFJDWGN5TmdtMjhGMlA2dWZFVkVJaGNNc0VYa1QyUmVTSGY2TE5R",
+      "published_ts": 1773039600,
+      "id": "791f9c5523ac965abcd0de22"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "IN Association of Realtors talks housing market trends - Inside INdiana Business",
@@ -17693,6 +17825,17 @@
       "guid": "CBMilAFBVV95cUxQbEplOGs5aUQ3VDhSSEZUb2RENVotRENJS2ZkOFJpLWlSek1aWDQxMDlKUlJydWdNUUg5OE1SclYtRjdSQmQ4ejRBdGZta3lQd1l2b2drRkZyNUlNV3FxMXZGNi1ubE1ObE1XQXBMY2VwN2hTMzdfYmM0N2k3QktkdkhFVlZManRldDNXZnkzU0F0NUxf",
       "published_ts": 1770192000,
       "id": "8cb2d50f3b7e15c7e1231168"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit workforce",
+      "title": "Expert says artificial intelligence creates opportunities in job market - FOX 2 Detroit",
+      "source": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMzl1STBOUldTbHF1ZjJrUl9SaHRkNTJDX2NUYlZjWUFfYlNpVDlKYzRwOGRHWlZsY2htS3BENFg3TkwtRVJTdVpNRkVDZmNFS2w5NkhmdmZ0VHQ1bWpOQTdXbncwSDZPUEtOOTk4Ry1GWHBpTThpR0t0RVBCTDNBdlFLRm1NVnpUSE94bUIxMThXTGRXd1JaMTFQOXdXZ2hPdWRV0gGoAUFVX3lxTE9YR19iSmVlb1Z5Umc1enBkM0RNUGZmSEN4a3czckVTR2dPVW9QeHZhcDJZTWVUcmlYQ1VhWGh0WGozeC10VzBQbjg2dTkyZF9ESWtVN2NlMi1aVEFNSmZrc1lrLVRjNWxCcV85R0NiRUN1YWd5eTh0UWM4d21GV2hPU0NlUnUtU1h6X1daaGhIMVJfTVZPZ0hoR25yMUVmRDh5RDltOHgxZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiowFBVV95cUxQMzl1STBOUldTbHF1ZjJrUl9SaHRkNTJDX2NUYlZjWUFfYlNpVDlKYzRwOGRHWlZsY2htS3BENFg3TkwtRVJTdVpNRkVDZmNFS2w5NkhmdmZ0VHQ1bWpOQTdXbncwSDZPUEtOOTk4Ry1GWHBpTThpR0t0RVBCTDNBdlFLRm1NVnpUSE94bUIxMThXTGRXd1JaMTFQOXdXZ2hPdWRV0gGoAUFVX3lxTE9YR19iSmVlb1Z5Umc1enBkM0RNUGZmSEN4a3czckVTR2dPVW9QeHZhcDJZTWVUcmlYQ1VhWGh0WGozeC10VzBQbjg2dTkyZF9ESWtVN2NlMi1aVEFNSmZrc1lrLVRjNWxCcV85R0NiRUN1YWd5eTh0UWM4d21GV2hPU0NlUnUtU1h6X1daaGhIMVJfTVZPZ0hoR25yMUVmRDh5RDltOHgxZw",
+      "published_ts": 1770192000,
+      "id": "a71c505eee6232f78f34d11d"
     },
     {
       "bundle": "Indiana TOD",
@@ -24854,50 +24997,6 @@
       "guid": "CBMirAFBVV95cUxNZ3ZhZWV0TVNVU3UzQnpyWHBBNlJwemc5dkhOTnJ3b2tTRUh2MGdwbW1IYVNsakMyWi1hU09rMFAzckFCMmFTSkFXVlRpWDNSbTJ5bUdOU3BVTXlSZEFvdzRJYmY0T2lmbUZ0bVAtRk1HQkVpUl9NNDc3Q3VEdFdRTTZLeDlaX3pHeTBGTnVPRWpJVEtQQjRPc2RXNHV4VXdsVDhHV0lTRldNVmRp",
       "published_ts": 1764576000,
       "id": "34ff35da42437a4e0d1fb5c6"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit economic development",
-      "title": "Michigan's economic development plan in flux as lawmakers eye changes - Detroit Free Press",
-      "source": "Detroit Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMUszbGx1Ymg0UUZrVXNlZXBmYnJYbkZnaVJWMVZMUXY5Mkx4RHJnVFcteVVQc1c5ejJ6OXo4NDZDYjRlR1A1anRoWENmNk54dWFVMkFQLUg0WGhqeFdQYno2UFhTT1ozNUN4aWstR3IyT04zYmVQRkxMZ051ci14cDdqcVQ0bkwzbFhsZzFnSk9qeEw1VER4cGN6N21EV05mcXh4b1ZGYUt1MjhmWWJIZFNfckFDd1FpM1E?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiugFBVV95cUxPMUszbGx1Ymg0UUZrVXNlZXBmYnJYbkZnaVJWMVZMUXY5Mkx4RHJnVFcteVVQc1c5ejJ6OXo4NDZDYjRlR1A1anRoWENmNk54dWFVMkFQLUg0WGhqeFdQYno2UFhTT1ozNUN4aWstR3IyT04zYmVQRkxMZ051ci14cDdqcVQ0bkwzbFhsZzFnSk9qeEw1VER4cGN6N21EV05mcXh4b1ZGYUt1MjhmWWJIZFNfckFDd1FpM1E",
-      "published_ts": 1764403200,
-      "id": "c1c790df61bc8ae472af0057"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Government",
-      "title": "Northwestern University to pay U.S. government $75 million to restore funding - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLTVQb1A1cGRGVnVzaWd4MDl1TmVVSjNXX1FHOGowZmxRdXlqMEVIdk5zZExUT00tOHpfdHhRV2NDbzBwNGJxWi1zUGVOXzM0Q2xMbDBZV0tNcGx4cTBpTWpBYjZWS1E0N0NpTzFtSVFUTzl2WGZjUjFIbnhvamtILU9IQXNVUU1nbzh1eGhKMV9BaklHQ2UtdkQxY1F0M0ZaZkM1aEpBX2JlWk1DWVZiTUR5cmszeVgxSkd0Vk5FbklOR0xnZG5EeHZqdXAwZEZmanAyOThQd1NqOXNYWnc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3gFBVV95cUxPLTVQb1A1cGRGVnVzaWd4MDl1TmVVSjNXX1FHOGowZmxRdXlqMEVIdk5zZExUT00tOHpfdHhRV2NDbzBwNGJxWi1zUGVOXzM0Q2xMbDBZV0tNcGx4cTBpTWpBYjZWS1E0N0NpTzFtSVFUTzl2WGZjUjFIbnhvamtILU9IQXNVUU1nbzh1eGhKMV9BaklHQ2UtdkQxY1F0M0ZaZkM1aEpBX2JlWk1DWVZiTUR5cmszeVgxSkd0Vk5FbklOR0xnZG5EeHZqdXAwZEZmanAyOThQd1NqOXNYWnc",
-      "published_ts": 1764403200,
-      "id": "7f6632f7dce6caa7ec89e185"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Governance",
-      "title": "Northwestern to pay $75 million in deal with Trump administration to restore federal funding - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOTl1cXl6U0N3X2xzenJ0VXVvZDF4eEJ3WGxaN1U0TUhheUxualVJajlWeXh6WGQ2Qml5V1Y4WlBLdXZqLW9LX1ZaMzRFOVZISmF6by1tc0JoMVR2bmVTa21LM290R2xZbXI3WExJV0hMNzN3NkE0Znh6Q25BRVNtanBxOFhsa04yNW94SFppdlk4TnZWd2s3SUZUTlhzM1M4S0tUZVRhb1VmZTUxSmYzNWJJM051LTJkOEpDUkdDLUFoQmNZWDhOVWI2bVExWkhiMU1TVUFWam1ZVGtBTVF6d2JB?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi4gFBVV95cUxPOTl1cXl6U0N3X2xzenJ0VXVvZDF4eEJ3WGxaN1U0TUhheUxualVJajlWeXh6WGQ2Qml5V1Y4WlBLdXZqLW9LX1ZaMzRFOVZISmF6by1tc0JoMVR2bmVTa21LM290R2xZbXI3WExJV0hMNzN3NkE0Znh6Q25BRVNtanBxOFhsa04yNW94SFppdlk4TnZWd2s3SUZUTlhzM1M4S0tUZVRhb1VmZTUxSmYzNWJJM051LTJkOEpDUkdDLUFoQmNZWDhOVWI2bVExWkhiMU1TVUFWam1ZVGtBTVF6d2JB",
-      "published_ts": 1764403200,
-      "id": "2b1d0d22248ecc3a032f49c2"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Cash named GTP economic development chief operating officer - newsargus.com",
-      "source": "newsargus.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTTk3WEFxYVNGUUpGNFd4M2hyQlM5d01ZNEpmYmJ6bW1PdmtHS3dzVVpaeGpDYkhJWjhOcUlITG1YZ1NoLTU1U0Znd0NxLTFDRktMWWVZM3RpVE1qM0hrNWpTYUZscWJteFE2clUtQURoTHlvTWpTRm91R18xdFJzTGNHZTc0TzROZ24yTXREUUpUZ1YxaDFZTTAtUUJCYW5JWUJWT0s0WWFOa3RCZzhGcVRMVE9Yc1JBbnFzTzNMNXczS25GTGJFa0dDY0NNSEpfTGpCR2xjNXhiZjF4a1dR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3wFBVV95cUxNTTk3WEFxYVNGUUpGNFd4M2hyQlM5d01ZNEpmYmJ6bW1PdmtHS3dzVVpaeGpDYkhJWjhOcUlITG1YZ1NoLTU1U0Znd0NxLTFDRktMWWVZM3RpVE1qM0hrNWpTYUZscWJteFE2clUtQURoTHlvTWpTRm91R18xdFJzTGNHZTc0TzROZ24yTXREUUpUZ1YxaDFZTTAtUUJCYW5JWUJWT0s0WWFOa3RCZzhGcVRMVE9Yc1JBbnFzTzNMNXczS25GTGJFa0dDY0NNSEpfTGpCR2xjNXhiZjF4a1dR",
-      "published_ts": 1764373859,
-      "id": "77e2a9778e96f7bc409cd04c"
     }
   ]
 }
