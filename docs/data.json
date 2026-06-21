@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-06-20T10:07:10.224604+00:00",
+    "generated_at": "2026-06-21T10:20:17.478870+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2542,
+    "items_count": 2549,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -129,6 +129,83 @@
   "items": [
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Detroit bus officials get a break while agency's watchdog gets the axe - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmZ0ZVFIWi1BN1ZhSEtMSV9ReU9SWnBhOHJjZUxWUkEwbGF5WjdtTlZpRWJ2UDUwMlNNVmR4MUZlQ2JmaGVsbDVoTEhsMVJ1dnZrV2IzU0I0Ym1KRlZDM3RzSTZHMnlNSzBZcUhJT0VETmRhLThlRkw5ZFhjT195UmtGT2JUVzcxQjJQQVZKV2FhaVNqOFNvaE1jaVRma2tmMGxiWkxkMFoyRGJBZTdmdXNXOGtNMnJnaFE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiugFBVV95cUxOZmZ0ZVFIWi1BN1ZhSEtMSV9ReU9SWnBhOHJjZUxWUkEwbGF5WjdtTlZpRWJ2UDUwMlNNVmR4MUZlQ2JmaGVsbDVoTEhsMVJ1dnZrV2IzU0I0Ym1KRlZDM3RzSTZHMnlNSzBZcUhJT0VETmRhLThlRkw5ZFhjT195UmtGT2JUVzcxQjJQQVZKV2FhaVNqOFNvaE1jaVRma2tmMGxiWkxkMFoyRGJBZTdmdXNXOGtNMnJnaFE",
+      "published_ts": 1782036360,
+      "id": "6f7f6491a0bf5810bc129761"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "Wayne County Launches Housing Affordability Survey - Finger Lakes Daily News",
+      "source": "Finger Lakes Daily News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU2kwcUJQV19tMHNuTllxTGZwTWJSLWlsVEU0a3dfSmtCamlNdExSdzJCMEhJdmJ4bWVhcVNCd1QxbnFuWk9INndrUkxpbHhGX3lhRTFPX1laSGtOaHVZVG1RcXBhMWN1R3FfVUE1VGxRaHdwa1Q3U1FvVmRud2VlMVU1VUFycnNpMTg2UndyV1NvRHpXanZXbVhB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimgFBVV95cUxQU2kwcUJQV19tMHNuTllxTGZwTWJSLWlsVEU0a3dfSmtCamlNdExSdzJCMEhJdmJ4bWVhcVNCd1QxbnFuWk9INndrUkxpbHhGX3lhRTFPX1laSGtOaHVZVG1RcXBhMWN1R3FfVUE1VGxRaHdwa1Q3U1FvVmRud2VlMVU1VUFycnNpMTg2UndyV1NvRHpXanZXbVhB",
+      "published_ts": 1782015292,
+      "id": "c145c1756df1ff5bc03d5b41"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "Indicators 2026: Examining regional housing challenges - Times Leader",
+      "source": "Times Leader",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZmJOdF82aUdNcVlVMTV3MnlqVmlianR5Ykh4Q0tuZ0lqM0JVeHZXQUQwblBxdEo5RmRXdl9HM2RHRkZ6V3E3UzZjZEFIRjZxUGlqdHQ3azlMNDlULTFpd2pwMkpmZW5uemVFeS1ESGhhU0pOYmxnNWNTT1NMWWdwTC1mc0xETnRlY2xnalhJdENXM1Y0UWs1NU93?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimgFBVV95cUxPZmJOdF82aUdNcVlVMTV3MnlqVmlianR5Ykh4Q0tuZ0lqM0JVeHZXQUQwblBxdEo5RmRXdl9HM2RHRkZ6V3E3UzZjZEFIRjZxUGlqdHQ3azlMNDlULTFpd2pwMkpmZW5uemVFeS1ESGhhU0pOYmxnNWNTT1NMWWdwTC1mc0xETnRlY2xnalhJdENXM1Y0UWs1NU93",
+      "published_ts": 1781996400,
+      "id": "ab4589ece87f0dbb2ec7089c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "'Detroit in Black and White:' Wayne County Executive Warren Evans Makes Big Push To Pass Public Transportation Millage - Deadline Detroit",
+      "source": "Deadline Detroit",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQR1VQbUhsN044SUZLYzhObzVzaDVmbVBJSVRHanBHenBxaGhmNUZJMTJlZVgzVmttZlhOeXdYZHpYSnFHYXVUREFXUHlPbEpSa0pHYVp3NFNLUEVxOENHb2NEVHJFOXAxN3J1dnZ6dTZvLVEtdGFhYlFQRkJ4NTN5eGR5djlsY1lTN2tJeFlMbjJTXzJGNmxiS2NRcDBoSGxNVW5jc1NrVjhqU3IxS0Z3SmVoY29wMW0zbEtDTlZtOFpwdWdERXZLTHlWN1RHd0lzUE9BTnptNFI5QU9pa3NmMDBvQU1HbzBDdlB3aWc4SEtXRlFT?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi9AFBVV95cUxQR1VQbUhsN044SUZLYzhObzVzaDVmbVBJSVRHanBHenBxaGhmNUZJMTJlZVgzVmttZlhOeXdYZHpYSnFHYXVUREFXUHlPbEpSa0pHYVp3NFNLUEVxOENHb2NEVHJFOXAxN3J1dnZ6dTZvLVEtdGFhYlFQRkJ4NTN5eGR5djlsY1lTN2tJeFlMbjJTXzJGNmxiS2NRcDBoSGxNVW5jc1NrVjhqU3IxS0Z3SmVoY29wMW0zbEtDTlZtOFpwdWdERXZLTHlWN1RHd0lzUE9BTnptNFI5QU9pa3NmMDBvQU1HbzBDdlB3aWc4SEtXRlFT",
+      "published_ts": 1781985540,
+      "id": "b91bc192a494eac785cc54ad"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "New York Y vs Detroit: First Inning Run - Coinbase",
+      "source": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1laXNueU1QNUtGejJ1ckVQdHgyNGtfSmZBV0pyeFlxeW41WWhaaVQtYlllTGxWSVRKVE5SZ3dvZnExS3BWNXNlLS1aQzZkWGtNbzZ2dlpubjZobjA3Z28yMXNMNk92U3RVelpFaVhmUkJ1T3pNVkw0SA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMieEFVX3lxTE1laXNueU1QNUtGejJ1ckVQdHgyNGtfSmZBV0pyeFlxeW41WWhaaVQtYlllTGxWSVRKVE5SZ3dvZnExS3BWNXNlLS1aQzZkWGtNbzZ2dlpubjZobjA3Z28yMXNMNk92U3RVelpFaVhmUkJ1T3pNVkw0SA",
+      "published_ts": 1781975732,
+      "id": "d378826cc193932fafe44c69"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Delayed Detroit City FC soccer project is more than a stadium - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTFNMbVUyOUVBY1lUTVZvdEd3MVU5OGVmckZORDYtWThTVVNuVVN5RmJVb290cjA3cVd3SUxnQmpaM3h6YWNQQVhnR0NGNEtwVzMyMWJWQ1NoVzF1WHZiVW9DZXItaE9RaEdYdEFlQ0NodXVrb082QkR3T091TGNKYjBWR3plOHVEaFBZMWxieEpRZ1ZXZmdRYWduZVhXNEpUbzhUck5UbEp6dVZpNGQ2eV9tRUZZc24tTHd2RGQxV3pyNkFDMXh3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixwFBVV95cUxOTFNMbVUyOUVBY1lUTVZvdEd3MVU5OGVmckZORDYtWThTVVNuVVN5RmJVb290cjA3cVd3SUxnQmpaM3h6YWNQQVhnR0NGNEtwVzMyMWJWQ1NoVzF1WHZiVW9DZXItaE9RaEdYdEFlQ0NodXVrb082QkR3T091TGNKYjBWR3plOHVEaFBZMWxieEpRZ1ZXZmdRYWduZVhXNEpUbzhUck5UbEp6dVZpNGQ2eV9tRUZZc24tTHd2RGQxV3pyNkFDMXh3",
+      "published_ts": 1781953560,
+      "id": "50921f9eb90eca22400745d8"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Chicago WS vs Detroit: First Inning Run - Coinbase",
+      "source": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VLWtadmNmTWJ6WnR4UnVzeEpzcXYtUjFzdkFfV2pMckY2blBpc25JT011U0RrNDRMOEJsaGNGVkRrVW9XREpBTkk3ZUNjWmFhUDdxc1J1anFtY3BTX3Z2blBoNjNpMWVRdHVBXy1XYU9Hc1VFd1N3MA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMieEFVX3lxTE9VLWtadmNmTWJ6WnR4UnVzeEpzcXYtUjFzdkFfV2pMckY2blBpc25JT011U0RrNDRMOEJsaGNGVkRrVW9XREpBTkk3ZUNjWmFhUDdxc1J1anFtY3BTX3Z2blBoNjNpMWVRdHVBXy1XYU9Hc1VFd1N3MA",
+      "published_ts": 1781926892,
+      "id": "25b21d112e5dca7dba937599"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Wayne County housing",
       "title": "How many people live in subsidized housing in Wayne County, MI? - USAFacts",
       "source": "USAFacts",
@@ -148,6 +225,17 @@
       "guid": "CBMizAFBVV95cUxPdEMtMXg0S0IwRWlDR05fd21WTHFULXBlNHNjU0VyQm43anpQbnZzSXR6RFVGRWZzS2R0RUxzSm5EWEN3YjZ2LTJHTGpjT01BeXNER2haUDl2RmZqdUkwUGJLeU1oNFE1X0oxSmpBS3ZvdVBEcmZ1Y2IycE1JS1RBeGJGNld5bHJrRXFzSEtJcTk3S21MVUFmQVVMN2ZVczg4RlRPam02aERYVFZMZjBNLXZ3UHZ0NzVIN0FGeHMxTjVTNHVlSWJ0OUJLQks",
       "published_ts": 1781896759,
       "id": "918d80ed88644911981d14b3"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "How many people live in subsidized housing in Wayne County, KY? - USAFacts",
+      "source": "USAFacts",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbnd3R0lVRVU2dFV0dGRGRnl0N0dvOEhaajRXTW1tdmd3YXR2ek5SNlFnOFNhSjhyLWhUS3RQR0Y0VHNySmxvOHJyM2hpdmI2ZHZmakFkVHpONUMyYTdGdWg5QkRjTVQ3YVpJZDl1T3V0ZGROOVJRMUQzLTZUQ1NtWmpMaEhMclpodXphRjd1NUZuVmZSZmFFNWRVTQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimwFBVV95cUxNbnd3R0lVRVU2dFV0dGRGRnl0N0dvOEhaajRXTW1tdmd3YXR2ek5SNlFnOFNhSjhyLWhUS3RQR0Y0VHNySmxvOHJyM2hpdmI2ZHZmakFkVHpONUMyYTdGdWg5QkRjTVQ3YVpJZDl1T3V0ZGROOVJRMUQzLTZUQ1NtWmpMaEhMclpodXphRjd1NUZuVmZSZmFFNWRVTQ",
+      "published_ts": 1781895261,
+      "id": "718f9d1540624ad51cc08548"
     },
     {
       "bundle": "Wayne County TOD",
@@ -172,6 +260,17 @@
       "id": "de0ac18ff9b8edd27b7f07f5"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Detroit Free Press. . A first-in-Michigan childcare center has been built inside a transit hub in downtown Grand Rapids, aimed at making parents' lives easier. Here's reporter Beki San Martin with more. Read the full story using the link in comments. ⬇️ - facebook.com",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZlRJcVVSdWpLRUNGd181X0pOVElQTFNFeENBSlhPeXBxajdTR2NsRVdua0tDcnZyOU5pMW1wNGg1UUNOYVBNV1ZiRHpGZFNVejdwRS0yLXlDdXJiSUQ0b2RrTVVFSmNYTU1ldDI3Mkd3Yl9nQmpJVG00dDJCX2JJd3ViTTdaZHRxUUhFLWdicWdSZ3MxZHJaREp6Y3JOOEdrTUZlNEcyMjFCNXlhNzN5QTBwdFUyaWtWVWt4UTl3ZE5hTUZ3VVlaTXQ3SHhlem4tMjhuWTEzbzAyQi1FblRkeA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi4AFBVV95cUxQZlRJcVVSdWpLRUNGd181X0pOVElQTFNFeENBSlhPeXBxajdTR2NsRVdua0tDcnZyOU5pMW1wNGg1UUNOYVBNV1ZiRHpGZFNVejdwRS0yLXlDdXJiSUQ0b2RrTVVFSmNYTU1ldDI3Mkd3Yl9nQmpJVG00dDJCX2JJd3ViTTdaZHRxUUhFLWdicWdSZ3MxZHJaREp6Y3JOOEdrTUZlNEcyMjFCNXlhNzN5QTBwdFUyaWtWVWt4UTl3ZE5hTUZ3VVlaTXQ3SHhlem4tMjhuWTEzbzAyQi1FblRkeA",
+      "published_ts": 1781889276,
+      "id": "0244519708f8bc4ed2696ee5"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis economic development",
       "title": "In his final IEDC meeting, Adams touts Indiana’s regional development approach - Indianapolis Business Journal",
@@ -181,6 +280,17 @@
       "guid": "CBMiqAFBVV95cUxQVlk1Y3Z0by1aSHMxV1l2QTdtNjNOQWtUeFhaVkVaMTgwT0ZsTmZFMHhCTTR0MzlTRVVzZXJMcDdDTVgyRDlhNDRQbkJXR0dadnJQSG9VbmxrOFRRLTBtYjFrTzBreXNKcDgzb0dUOUdiR3lYbThidU5US2h0YmRQMU12dm5ab1V4elV3NEY0MEhsbmJGNG1fZEVMQWowS012eC01ZWg1b3I",
       "published_ts": 1781875080,
       "id": "994cc0091c4894e719886038"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Cross-border coalition lays out vision for passenger rail between Ontario, Michigan - CBC",
+      "source": "CBC",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVBVQW5Gc1FyR1M3QWoyekdfc25UMWttMmZudEhlMkxQb2FFOEUzVE9NRDR4YWRmWXNXNGptdVlQU0IzdEVSVkp2QTkwTlhyVVhWTkxUWTRyR0FiQndtVDZxSFlEemhTVTcweVhVSFZ1eVVLenplTkZRU05VYUNPWFRPb09nbFE3WjRuUnR4djNWT050N0lDYzNsbUNWN1RRRlNVbktXZm9kM0JuNDhEYjVRMjRyRHo1UVY2eWVaNVM1VXZ1cHR3b3ZR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiygFBVV95cUxQaVBVQW5Gc1FyR1M3QWoyekdfc25UMWttMmZudEhlMkxQb2FFOEUzVE9NRDR4YWRmWXNXNGptdVlQU0IzdEVSVkp2QTkwTlhyVVhWTkxUWTRyR0FiQndtVDZxSFlEemhTVTcweVhVSFZ1eVVLenplTkZRU05VYUNPWFRPb09nbFE3WjRuUnR4djNWT050N0lDYzNsbUNWN1RRRlNVbktXZm9kM0JuNDhEYjVRMjRyRHo1UVY2eWVaNVM1VXZ1cHR3b3ZR",
+      "published_ts": 1781874323,
+      "id": "ccf130438df60e40b24f094c"
     },
     {
       "bundle": "Wayne County TOD",
@@ -4221,6 +4331,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Wayne County millage ballot proposal looks to expand transit services. What to know. - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb3ZlMmItLURUaF9wN2FMeXlPX2kxN2phNmRVcHRrMlFFb2FqangwbktHazlpbXRobzBGelZ6bkpNMWhHaUE0RThnOFlYMU9CRVpYZmp1ektrR01BRlNNbmJ5Tlk1UVJLOVVnM2FDNGZoRm1CcXJlSU1OR3UyWnpHNUNFczg5MHZhZ2piWHBuMlpPdjU1cUHSAZsBQVVfeXFMT0tabHJzWC1TRVFHS0JQdlo3WkxMV1lIc2tVYzNhQzNfdklvODlnQnpsN2RxNnNLVEpqTmhCVmtqRUxZcWhCd3pHM3pLNVhxeTRCOGdhOHdvYWU5TnpjcTdJd09IM3JJYU1mUEhFeEVzQWtSenpCRWlCTEljR0hpTEZaSGpvT0NPa1lJZHlKSHJibzlHQTJfRGxtZmM?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilgFBVV95cUxPb3ZlMmItLURUaF9wN2FMeXlPX2kxN2phNmRVcHRrMlFFb2FqangwbktHazlpbXRobzBGelZ6bkpNMWhHaUE0RThnOFlYMU9CRVpYZmp1ektrR01BRlNNbmJ5Tlk1UVJLOVVnM2FDNGZoRm1CcXJlSU1OR3UyWnpHNUNFczg5MHZhZ2piWHBuMlpPdjU1cUHSAZsBQVVfeXFMT0tabHJzWC1TRVFHS0JQdlo3WkxMV1lIc2tVYzNhQzNfdklvODlnQnpsN2RxNnNLVEpqTmhCVmtqRUxZcWhCd3pHM3pLNVhxeTRCOGdhOHdvYWU5TnpjcTdJd09IM3JJYU1mUEhFeEVzQWtSenpCRWlCTEljR0hpTEZaSGpvT0NPa1lJZHlKSHJibzlHQTJfRGxtZmM",
+      "published_ts": 1779433200,
+      "id": "a395ec833d3d8444ced90fc8"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit housing",
       "title": "Ribbon cutting ceremony for new affordable housing held in Pontiac - WXYZ Channel 7",
       "source": "WXYZ Channel 7",
@@ -4889,6 +5010,17 @@
       "guid": "CBMi2wFBVV95cUxNTGlrN1JPMUsyQmJLaDRSUzlscnJlYmhWY1ZLRERXMW5NNEhVd3k5MERaSTdqN0NfVHJhWWROM05pNGpURVAzb0ttZU5nWW5zLWZ5RV9UOGxpeDlCdUtLMDJXLUZ6d2c3UTVuMktNV2dWdmk2bmRDNElSYmhuUUJ2Wk1NdjlUeXk5WjQ1SGRGaFhCTWg4SWZ6V1VoNEFsVDVDRnB4bzZleDRIY3hKcWcwN0RXbEZxMGlqNFVfTF9zSGxlX2hkWmEzWkFZLTNOaEZVR2ZoamVETUIzS1U",
       "published_ts": 1779174000,
       "id": "63bb6decf01506c8a900a770"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "State grant supports renovation of long-vacant Petersburg motel - Inside INdiana Business",
+      "source": "Inside INdiana Business",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLUpsNnRhS2tmWXJFVXVtNFhmUU41blQ4bVdlV0twSEd6Ql9kckdzOEZFYkZ2LUxWZlpJeWlaTFVuVUo0YmxzRDg5eDQyWkZHcFdhaXZZaVVmZWZULU1XRWUxS2syekVOTkwtTHc4b3JqcmFOc1lSSUtTZW1zM2VjRGhveENRVWdBNFhUNWVCb2pCa0Jwdy1GOWRSNFYzMGJIWHdtNXJyX0UxWndjemtj?oc=5",
+      "canonical_url": "",
+      "guid": "CBMirwFBVV95cUxNLUpsNnRhS2tmWXJFVXVtNFhmUU41blQ4bVdlV0twSEd6Ql9kckdzOEZFYkZ2LUxWZlpJeWlaTFVuVUo0YmxzRDg5eDQyWkZHcFdhaXZZaVVmZWZULU1XRWUxS2syekVOTkwtTHc4b3JqcmFOc1lSSUtTZW1zM2VjRGhveENRVWdBNFhUNWVCb2pCa0Jwdy1GOWRSNFYzMGJIWHdtNXJyX0UxWndjemtj",
+      "published_ts": 1779174000,
+      "id": "f5c26178bfc4ad81ada6f168"
     },
     {
       "bundle": "Indiana TOD",
@@ -27881,6 +28013,17 @@
       "id": "24c08e73540b3bc7cdc6a3a2"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Preliminary results show Kosovo Prime Minister Kurti's party won snap vote with clear margin - PBS",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcWUteFRfbTEzLVY4R2tYeDlFTEFsd2JJUHZoRUVBSWZYbnlibnp1aFFVZjlrUW5pR1d1OURJVC1DZlNhdkkxRVRydjBzZlYwaXRZSFlCLW5pLVBmRTk1aV9hbWhKX1pYbHJLWkhLblQySDlqTEY0NlFZbHJXQXZRUGtabFBUTVlVTzFoMEQ3U29QRTVEMG1GU0ZNeXFMOTRyem1FMG1HY3FCM3ZyWFNBRVpTQXJUc2p6WGpLZmJGWmxGelV00gHKAUFVX3lxTE1oT0V2d3dnUWE0NUp6REdidUxUSHpHTk5KLXVoci1jVVpSVENJVFdWaExGM0wwR1llY3J0NTlDaEhtQzVSdTY4TUxzMXFTV0U5bDNkUURkN2RnNUc4VnI2U1ZUSWFQTUdFOUdqck5lLW4zSTdJNkcyZkpnVlR6cUZvU01PSjBNLWFxd2M0dkIxTFRkR3VQb3VzRHg3ZFpuYktPUXpkbGRrVFN1SmNkbTl1X2ZOOW11bE5GX3hpd045NGxQVVY1cDhMcXc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixAFBVV95cUxNcWUteFRfbTEzLVY4R2tYeDlFTEFsd2JJUHZoRUVBSWZYbnlibnp1aFFVZjlrUW5pR1d1OURJVC1DZlNhdkkxRVRydjBzZlYwaXRZSFlCLW5pLVBmRTk1aV9hbWhKX1pYbHJLWkhLblQySDlqTEY0NlFZbHJXQXZRUGtabFBUTVlVTzFoMEQ3U29QRTVEMG1GU0ZNeXFMOTRyem1FMG1HY3FCM3ZyWFNBRVpTQXJUc2p6WGpLZmJGWmxGelV00gHKAUFVX3lxTE1oT0V2d3dnUWE0NUp6REdidUxUSHpHTk5KLXVoci1jVVpSVENJVFdWaExGM0wwR1llY3J0NTlDaEhtQzVSdTY4TUxzMXFTV0U5bDNkUURkN2RnNUc4VnI2U1ZUSWFQTUdFOUdqck5lLW4zSTdJNkcyZkpnVlR6cUZvU01PSjBNLWFxd2M0dkIxTFRkR3VQb3VzRHg3ZFpuYktPUXpkbGRrVFN1SmNkbTl1X2ZOOW11bE5GX3hpd045NGxQVVY1cDhMcXc",
+      "published_ts": 1766908800,
+      "id": "fe851bd5cb6ed7cc39887ea1"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "The Indiana housing market: Indiana Business Review 2026 forecast - Indiana Economic Digest",
@@ -28022,72 +28165,6 @@
       "guid": "CBMikgFBVV95cUxPQms5VU9GcnRZbW1DdzVKd0tjdnN2WW5acmNWNzlmckV0UnhfaU5mSVVtSmhpaWE2YnhNNEJ1YV85Y0F0VUpNdzJvM0ZvbTRTZXJWcGg2UTBscmFVMnVFbzlWTWRLYk9hU1BySWY1VGh3X1Q2T29VTGxiZ3VhTzdRMThpempNSkplNFNGTFBhSG9pQQ",
       "published_ts": 1766500478,
       "id": "e4a522c2b3ef00216d945065"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Wayne County Courthouse News: December 15 through December 21 - Real WV",
-      "source": "Real WV",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdVhFeFBxMVRoWmd5aG5GTWJHUi1hY1Z1NWN2T01XMEtfLVVvdlQ3YUowSEhlWDFtQVVSY2xVYzRwZjVHSTF6NFZxcngxeG1KZjEtMTRPZFBZeXZQS3pSYVhZa1d6RUVENTl3NHI2QVZJS1B2V3NzNHk5R2wwSnk1Y3VtNm91dnlSd3ozd09kU3phYUh0T1RLVlFxU0U?oc=5",
-      "canonical_url": "",
-      "guid": "CBMinAFBVV95cUxNdVhFeFBxMVRoWmd5aG5GTWJHUi1hY1Z1NWN2T01XMEtfLVVvdlQ3YUowSEhlWDFtQVVSY2xVYzRwZjVHSTF6NFZxcngxeG1KZjEtMTRPZFBZeXZQS3pSYVhZa1d6RUVENTl3NHI2QVZJS1B2V3NzNHk5R2wwSnk1Y3VtNm91dnlSd3ozd09kU3phYUh0T1RLVlFxU0U",
-      "published_ts": 1766476800,
-      "id": "51259b3be0723fbb4a1ff931"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Mayor, MSHDA announce 4 new major affordable & supportive housing projects bringing nearly 200 units - City of Detroit (.gov)",
-      "source": "City of Detroit (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLXJVa1B5YlRuS1F5bnUxNm9OMHBJWWRIN1RhajhUMjVRX1FzTGhnX1p0STkybGdGX2x2bGpHNjlzR2lxLVI2RHlWTjlidjJnTTBlNGV6RTc4TGxGWEdlSC12N0pibDNmY1NzZXd4Yko0LVpuT3FBTnNmaFdtUE02QWVsQmtpODBOa0I3aFFWbzVtQWUwZmlna2NocWlYbVZhQ01obnlBOXE3bHFjNU4taTlBbWhYSzRKRjVzNzEtS3F6QQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiwgFBVV95cUxQLXJVa1B5YlRuS1F5bnUxNm9OMHBJWWRIN1RhajhUMjVRX1FzTGhnX1p0STkybGdGX2x2bGpHNjlzR2lxLVI2RHlWTjlidjJnTTBlNGV6RTc4TGxGWEdlSC12N0pibDNmY1NzZXd4Yko0LVpuT3FBTnNmaFdtUE02QWVsQmtpODBOa0I3aFFWbzVtQWUwZmlna2NocWlYbVZhQ01obnlBOXE3bHFjNU4taTlBbWhYSzRKRjVzNzEtS3F6QQ",
-      "published_ts": 1766476800,
-      "id": "2fbbb59c09332f3862d8aaf8"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "\"Rise Higher Detroit\"",
-      "title": "Investiture of Detroit Mayor Mary Sheffield announced - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbVBVTDhYMTdvMW8wbEZtbU4tc2VaUVhzYm9YZDJfWnVtZEdhYmJ5VFpYSE9IZDRVaTExaDczRm9BMzBCWTBDN0RwSlFuUjA4bThIa29MZGp3STJSNVVMc2tWeVZSV3pzTDdvVFhUeFlTWHJ0WnBJZjdqOVZtVDk1OS15dGgzS3EzaC1WdjR1ejZkcEdmQnVz?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilwFBVV95cUxQbVBVTDhYMTdvMW8wbEZtbU4tc2VaUVhzYm9YZDJfWnVtZEdhYmJ5VFpYSE9IZDRVaTExaDczRm9BMzBCWTBDN0RwSlFuUjA4bThIa29MZGp3STJSNVVMc2tWeVZSV3pzTDdvVFhUeFlTWHJ0WnBJZjdqOVZtVDk1OS15dGgzS3EzaC1WdjR1ejZkcEdmQnVz",
-      "published_ts": 1766476800,
-      "id": "cc9b59f8f8dd503b9eae0476"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "NCsoft makes majority investment in Singapore mobile publisher Indygo - GamesIndustry.biz",
-      "source": "GamesIndustry.biz",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN2ZZUHYteEc4UHRNVUFybEhQVUFUWlhfTngwSGc0OS1XaFVzUmNPb1lFVmZqV3ZHeUVwVFpCdXpVS2Q2RmljR3Q5MTl0V3pWYUxKaEkyazhzY1doMG9oZkhFcW9TUWU4QkpZRWstX2xiZnRvWXNXeG11cnliczJHdjN3TTAwLVdNdURPQUxBQU9hOEJnUTN6YjdvS0tCMll2?oc=5",
-      "canonical_url": "",
-      "guid": "CBMioAFBVV95cUxQN2ZZUHYteEc4UHRNVUFybEhQVUFUWlhfTngwSGc0OS1XaFVzUmNPb1lFVmZqV3ZHeUVwVFpCdXpVS2Q2RmljR3Q5MTl0V3pWYUxKaEkyazhzY1doMG9oZkhFcW9TUWU4QkpZRWstX2xiZnRvWXNXeG11cnliczJHdjN3TTAwLVdNdURPQUxBQU9hOEJnUTN6YjdvS0tCMll2",
-      "published_ts": 1766476800,
-      "id": "02073acaaa5875c9eea9a4ce"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "Indiana Destination Development Corporation releases 2024 tourism report - Fox 59",
-      "source": "Fox 59",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVU5MM1VWMEJhRVlENmc1WXVYX19idGZ1RGN1TWVBREZRaWk3RFh5N2hNdmFFU1VSU1V2Unc0U3VVckp2ZDhhTmlWZHJ1WV9tT2Eydjg1MkN1c1F1RGZXNGtMcWQzbFItQTRlMFB6bDNtSWZZX0Q1bnZMRzRQbmhlLS0xUEgtdjVpeEdSREhfS2dNWkNSakxZM0xQMnc2WllJdlZlY0wzaURlMUnSAbABQVVfeXFMUEJrODBWQVlvd3ZRR2o2VXZWeGJPVUR4QVVKdXR0WDlvQmRCX3docnBwcHpQb2pNeU10Rl8wTHB5bk14aFNGYXBCVkFEWDBidEZPOWx6eDB0ODdrQ3RiU0VCZW9CY3VtVmMzajFKTEpqbmF1T3ZhejBPemkzUVd3dEljdlJaSVFZQkpPak1tVEwwQ290dXdYUlNvSkxMRWJla2VwSFZ4YUcxb1BEMk05Y0U?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqwFBVV95cUxNVU5MM1VWMEJhRVlENmc1WXVYX19idGZ1RGN1TWVBREZRaWk3RFh5N2hNdmFFU1VSU1V2Unc0U3VVckp2ZDhhTmlWZHJ1WV9tT2Eydjg1MkN1c1F1RGZXNGtMcWQzbFItQTRlMFB6bDNtSWZZX0Q1bnZMRzRQbmhlLS0xUEgtdjVpeEdSREhfS2dNWkNSakxZM0xQMnc2WllJdlZlY0wzaURlMUnSAbABQVVfeXFMUEJrODBWQVlvd3ZRR2o2VXZWeGJPVUR4QVVKdXR0WDlvQmRCX3docnBwcHpQb2pNeU10Rl8wTHB5bk14aFNGYXBCVkFEWDBidEZPOWx6eDB0ODdrQ3RiU0VCZW9CY3VtVmMzajFKTEpqbmF1T3ZhejBPemkzUVd3dEljdlJaSVFZQkpPak1tVEwwQ290dXdYUlNvSkxMRWJla2VwSFZ4YUcxb1BEMk05Y0U",
-      "published_ts": 1766476800,
-      "id": "86a4d9e5af99af09eeb3d9d2"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "The creators of Lineage have acquired a controlling stake in Indygo Group, a mobile publisher based in Singapore - WN Hub",
-      "source": "WN Hub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GTFhmbFdNNVgxMDF1ZlMxckhhWXVyVWdTel9BVUZIS0JMcDhxUEFiNUg2ZzdjVU5DcmtObEI4Z3lsc3JUMExtbnc4UUVTTmZXbUtHTVBn?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiVkFVX3lxTE1GTFhmbFdNNVgxMDF1ZlMxckhhWXVyVWdTel9BVUZIS0JMcDhxUEFiNUg2ZzdjVU5DcmtObEI4Z3lsc3JUMExtbnc4UUVTTmZXbUtHTVBn",
-      "published_ts": 1766476800,
-      "id": "63a55faee0b901a3cbad4c98"
     }
   ]
 }
