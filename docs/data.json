@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-06-24T10:12:37.542186+00:00",
+    "generated_at": "2026-06-25T10:11:42.375232+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2594,
+    "items_count": 2618,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -129,6 +129,215 @@
   "items": [
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Former Gov. Eric Holcomb to co-lead nationwide AI workforce effort - Indianapolis Business Journal",
+      "source": "Indianapolis Business Journal",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdl9OQkg0dmNYQlJES0R5VGJzWjg4ckRDa3NfYVlqTm50QlFjNEFvZzd1a2RBN3p2UURUYW1FaEM3S292LXdNNmJzRERVUFIyLUo2YmwyWUsxZTJHOTRtd3NscTd1LUdDcmQ3MVU3czVpV3F5YWRoV0JVTk5NVVBtajRHejFwb1RSeXZj?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiiwFBVV95cUxPdl9OQkg0dmNYQlJES0R5VGJzWjg4ckRDa3NfYVlqTm50QlFjNEFvZzd1a2RBN3p2UURUYW1FaEM3S292LXdNNmJzRERVUFIyLUo2YmwyWUsxZTJHOTRtd3NscTd1LUdDcmQ3MVU3czVpV3F5YWRoV0JVTk5NVVBtajRHejFwb1RSeXZj",
+      "published_ts": 1782378000,
+      "id": "982e93cfaca507f1c49dbe67"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Trump cancels plan to sign housing bill, reportedly leads to shouting match - WXYZ Channel 7",
+      "source": "WXYZ Channel 7",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcUh6Rkd2UFhvUzhLRFdJTXV2dkpQSDluVDNPQXdqckhFREc3cGlGMTl2ZEF2ZzZZdmc2dmszZU5jSkwxX3dNcnZQQnFHM3Vwczk4OUpNMXhVS3R0MVVOMURQQ2c5ZVpiYUZGQ2F3TTBJWlhiV2IzYUdNUFFjYnNXcEJOM3p0MHdjdFY3ZDZPcENMX3RWZ2NJTWRyNUV1SGJtaHhXcHpfSWJ5SVFrZGRnSFZYRUVCcm5Ua2xnN2JhbnUzNEk?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiwwFBVV95cUxPcUh6Rkd2UFhvUzhLRFdJTXV2dkpQSDluVDNPQXdqckhFREc3cGlGMTl2ZEF2ZzZZdmc2dmszZU5jSkwxX3dNcnZQQnFHM3Vwczk4OUpNMXhVS3R0MVVOMURQQ2c5ZVpiYUZGQ2F3TTBJWlhiV2IzYUdNUFFjYnNXcEJOM3p0MHdjdFY3ZDZPcENMX3RWZ2NJTWRyNUV1SGJtaHhXcHpfSWJ5SVFrZGRnSFZYRUVCcm5Ua2xnN2JhbnUzNEk",
+      "published_ts": 1782375175,
+      "id": "7b48a6dc014118f6af66ed9b"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Trump cancels plan to sign housing bill, reportedly leads to shouting match - WRTV",
+      "source": "WRTV",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWsteVNnSzVybDJCeGtSMGF6cW5ka05Jd0NmWURTcTlMUi1LNVY4U2xjVnhnQ0dLbm0wQkthUGpFdElrTzFvMnAzRXlKXzJZeE9USmZUSXVhaGxMU2MtMGpJd1ZSRzF4Um9GQ293T1NFOGQwM1NpeVlSLXhWR25mMllBQ2RzS2VBUjR1Mk5sbVpPWVd6ZEVkNVYwQnIxblB6ZGJVNmRHdFlKM0o4STJHZGNfNnl2V1pfZnNBdGtoMGpWRlU?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiwwFBVV95cUxPYWsteVNnSzVybDJCeGtSMGF6cW5ka05Jd0NmWURTcTlMUi1LNVY4U2xjVnhnQ0dLbm0wQkthUGpFdElrTzFvMnAzRXlKXzJZeE9USmZUSXVhaGxMU2MtMGpJd1ZSRzF4Um9GQ293T1NFOGQwM1NpeVlSLXhWR25mMllBQ2RzS2VBUjR1Mk5sbVpPWVd6ZEVkNVYwQnIxblB6ZGJVNmRHdFlKM0o4STJHZGNfNnl2V1pfZnNBdGtoMGpWRlU",
+      "published_ts": 1782351159,
+      "id": "188d93b1e9bb6833164e1b52"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Trump scraps housing bill signing to pressure Senate GOP on SAVE Act - PBS",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVGN4UnN2aVpUSUVQZlFZWVp1WmlYMXVNOEx5NjJGVkFOYmNXQWZNUUV0S2lMRXFGNEUxUmJfRTlDc08teFNEb1hnUUZpclNFUTVfWHJMU2dKeENQMFd3eUFQVVhXTjlIUXhHUUpZRFFrRFZFbEs3dFVLQWhrVG1ES2pfejdlMXJOQnZ3R0VkTlF5YURmaW85X1BaOTNIbW1qUmZUNA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxPVGN4UnN2aVpUSUVQZlFZWVp1WmlYMXVNOEx5NjJGVkFOYmNXQWZNUUV0S2lMRXFGNEUxUmJfRTlDc08teFNEb1hnUUZpclNFUTVfWHJMU2dKeENQMFd3eUFQVVhXTjlIUXhHUUpZRFFrRFZFbEs3dFVLQWhrVG1ES2pfejdlMXJOQnZ3R0VkTlF5YURmaW85X1BaOTNIbW1qUmZUNA",
+      "published_ts": 1782341758,
+      "id": "a04b40b574652f472f207539"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Trump calls off signing of bipartisan housing bill - FOX 2 Detroit",
+      "source": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBubE92MnIyWXJxbm0yR1hGUHFpNmJqNTNyMmV3TXNVb25ncnhYZ2lXUXZEN3RiTGZtc2pVLUJNd2JrYXBzTHRacUJUaVBaYVFReDhhMEhLU0dLNERpcnIxSXRBdUPSAWpBVV95cUxPTUllaHBmWDZZWVRiUzRlbFktektiWVYyaGllbWVRcV9OLXpTWkhLRG9DcUw4WHMtcVZHcXVXTEprbXdkMnl3YXAxLVZLNUJMNWRnWkVveUI5SHVucVhVd1JGRlVnQkUtczZB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZEFVX3lxTFBubE92MnIyWXJxbm0yR1hGUHFpNmJqNTNyMmV3TXNVb25ncnhYZ2lXUXZEN3RiTGZtc2pVLUJNd2JrYXBzTHRacUJUaVBaYVFReDhhMEhLU0dLNERpcnIxSXRBdUPSAWpBVV95cUxPTUllaHBmWDZZWVRiUzRlbFktektiWVYyaGllbWVRcV9OLXpTWkhLRG9DcUw4WHMtcVZHcXVXTEprbXdkMnl3YXAxLVZLNUJMNWRnWkVveUI5SHVucVhVd1JGRlVnQkUtczZB",
+      "published_ts": 1782341564,
+      "id": "2255d8598fabde59d6063533"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "What's in the housing affordability bill that Trump refused to sign - PBS",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPajdnYV9oVzhSZE5mOVFFT0ZEakdsUEtFWDJleFNsVE5rYW9NZnNtYnJIejlhSy1wNDg5bHE4bmdvTTNJanVWS3RCNUs5bWxrcmFUVDh2MHJQTlM3V29Xc2xYX3VwR2pyQUZ2THd1YnZtTEhSUkx3ZFFhTnI4cHFybHEyWklEcndlWFpFT054RmFhZU0wOTBxQzZnN094RF9GTnc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiogFBVV95cUxPajdnYV9oVzhSZE5mOVFFT0ZEakdsUEtFWDJleFNsVE5rYW9NZnNtYnJIejlhSy1wNDg5bHE4bmdvTTNJanVWS3RCNUs5bWxrcmFUVDh2MHJQTlM3V29Xc2xYX3VwR2pyQUZ2THd1YnZtTEhSUkx3ZFFhTnI4cHFybHEyWklEcndlWFpFT054RmFhZU0wOTBxQzZnN094RF9GTnc",
+      "published_ts": 1782341438,
+      "id": "c271ecdb5ddcf2c53162206b"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Detroit city bus and another vehicle crash downtown, police say - WXYZ Channel 7",
+      "source": "WXYZ Channel 7",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa3pKZTZ3ZV8yNzdZME9xY3JCekFsOExtbmRZVlRHTVNVeGZOM0hVcGRIVkppYVJDRTREamNiZWlublgwcGtrRUNLMWY4NW5ua2l5ZTkzRnRtTmpaNnZQUk5ZaVNJZTRHN3VHdnZUa1YtM0ppSXUxSEtIVjd5RDhsV1ZSODN6U3plbGFmbkZydVY4TEJldmZPWWl1N1BpZEZs?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxOa3pKZTZ3ZV8yNzdZME9xY3JCekFsOExtbmRZVlRHTVNVeGZOM0hVcGRIVkppYVJDRTREamNiZWlublgwcGtrRUNLMWY4NW5ua2l5ZTkzRnRtTmpaNnZQUk5ZaVNJZTRHN3VHdnZUa1YtM0ppSXUxSEtIVjd5RDhsV1ZSODN6U3plbGFmbkZydVY4TEJldmZPWWl1N1BpZEZs",
+      "published_ts": 1782338570,
+      "id": "6aa7860519073b572107f04e"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Trump refuses to sign bipartisan housing bill into law. What does that mean for homebuyers, renters? - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSU5kSnJ0R3RpTEQ4Z1dWN3pERFJOVG4zNV9nSUZ0Ri1FdFA4b3ZBb0lNeVQwM1ktdVlLNTFfakRERGszN0pLeE54U0ZwRWdqSm0wUzZxb1BLREEzQzJnOERwU2doUnVWREd0a2h3M01YdXNwQmc0UmEtNDMtbnFuRlZtbkh2dzVhQ3VDMWFtNHlLQ0pDWUtRRGZoYmdHeDhDMDRsOExGSG1tUjhnUjJDYUVZR0xSNHlTU2hndFZScmF4Uk9KU0tMWDRfdko3RlhFNXF4Q294ZlQxQm5qSUM3MUlsV0NzWFRDWFE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi6gFBVV95cUxOSU5kSnJ0R3RpTEQ4Z1dWN3pERFJOVG4zNV9nSUZ0Ri1FdFA4b3ZBb0lNeVQwM1ktdVlLNTFfakRERGszN0pLeE54U0ZwRWdqSm0wUzZxb1BLREEzQzJnOERwU2doUnVWREd0a2h3M01YdXNwQmc0UmEtNDMtbnFuRlZtbkh2dzVhQ3VDMWFtNHlLQ0pDWUtRRGZoYmdHeDhDMDRsOExGSG1tUjhnUjJDYUVZR0xSNHlTU2hndFZScmF4Uk9KU0tMWDRfdko3RlhFNXF4Q294ZlQxQm5qSUM3MUlsV0NzWFRDWFE",
+      "published_ts": 1782337394,
+      "id": "902c6c184f37f8c5a7481b35"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "State housing fund could finance middle-income projects as Senate approves eligibility expansion - Crain's Detroit",
+      "source": "Crain's Detroit",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcmxKT0hHRElSS2ZkcHM2eHNOTjhrX0RTTU53ZWRGU3E4TWd0ZTl2c3BmTi1XU2NsQ0xVNjlOUmNsX014NEVyUjl5bnc5TjUwOVVMYy1ScUtuSGhHaTE4cFFZV00yWVBpUThtdUtPUk9WcnhuNXBCZG5xWHBoSjZKMHBIc2FET09HRDRyX0xpNml0RTlubEpIX3hxbkJHdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMingFBVV95cUxPcmxKT0hHRElSS2ZkcHM2eHNOTjhrX0RTTU53ZWRGU3E4TWd0ZTl2c3BmTi1XU2NsQ0xVNjlOUmNsX014NEVyUjl5bnc5TjUwOVVMYy1ScUtuSGhHaTE4cFFZV00yWVBpUThtdUtPUk9WcnhuNXBCZG5xWHBoSjZKMHBIc2FET09HRDRyX0xpNml0RTlubEpIX3hxbkJHdw",
+      "published_ts": 1782327240,
+      "id": "f9d92c434570cb95d045d7b8"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "‘The Belle’ Brings Beauty and 42 Apartments to Paradise Valley in Downtown Detroit - The Michigan Chronicle",
+      "source": "The Michigan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWU82aU51dmp6WGZHZUxNZzJ5X0I2b20wRFhyVndKRlBSMDlISjlWX2JRT3lLTWZNaXhubGQtbW55Z01TZkZZZURpY3ZSSldLZWdzSUZsemhOdDBtUnlyQ2NoNHZrWWxHc0dLV2x4RmJvdDRWWXEweXhES2Nfd1pMYjNneTlfMm9ta2hoRE5vYlIwMjNOZXVjMVJBdVNDNURUcXhlYzVzWUJiTmhXV0tmYw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxQWU82aU51dmp6WGZHZUxNZzJ5X0I2b20wRFhyVndKRlBSMDlISjlWX2JRT3lLTWZNaXhubGQtbW55Z01TZkZZZURpY3ZSSldLZWdzSUZsemhOdDBtUnlyQ2NoNHZrWWxHc0dLV2x4RmJvdDRWWXEweXhES2Nfd1pMYjNneTlfMm9ta2hoRE5vYlIwMjNOZXVjMVJBdVNDNURUcXhlYzVzWUJiTmhXV0tmYw",
+      "published_ts": 1782326755,
+      "id": "6f7afe0c5971d359c8c42d82"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Most Undervalued Housing Markets Right Now, According to Realtors - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNzlHY0hhNDFkT3JYbUhCZGRMbV9HQUxBMzVRaUhnbE94bHVNR2kzMWRLSVNodWpIUjdZZThqX3VCX2FNQlFzbTU0alYxaUNuVnBSa19qNmd6eE43cS04a0w4R1R5SEFkMzM4U3hhS1ZYdzNWak1HeDZUOHZubHFIMWI1SG54ZmpTTkU1ZmJR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijgFBVV95cUxPNzlHY0hhNDFkT3JYbUhCZGRMbV9HQUxBMzVRaUhnbE94bHVNR2kzMWRLSVNodWpIUjdZZThqX3VCX2FNQlFzbTU0alYxaUNuVnBSa19qNmd6eE43cS04a0w4R1R5SEFkMzM4U3hhS1ZYdzNWak1HeDZUOHZubHFIMWI1SG54ZmpTTkU1ZmJR",
+      "published_ts": 1782321627,
+      "id": "8797a26987143a8ee439595b"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Andrea Richter-Garry named CEO of Indy Economic Development Inc. - Indianapolis Business Journal",
+      "source": "Indianapolis Business Journal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZVBJaVVsUXMxMUxhYjloeFRlOTFmS1JsV0xwUlEtN0ZPYUhvdDVtdEtzdnFtbWxnNFlXQUJzbThweVphZFdtZ3hUTkNCOUlOTlpnaGQybnJmb3NLQ2Z0ZHZ5aFktZWlqaEtaQ2o1SC1QTWJ6cjZIdXE0Y25OYzdOaThtSlF5eXlHY0NCaEduR09LWWN0Yjc0?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilwFBVV95cUxNZVBJaVVsUXMxMUxhYjloeFRlOTFmS1JsV0xwUlEtN0ZPYUhvdDVtdEtzdnFtbWxnNFlXQUJzbThweVphZFdtZ3hUTkNCOUlOTlpnaGQybnJmb3NLQ2Z0ZHZ5aFktZWlqaEtaQ2o1SC1QTWJ6cjZIdXE0Y25OYzdOaThtSlF5eXlHY0NCaEduR09LWWN0Yjc0",
+      "published_ts": 1782320448,
+      "id": "fd70a796a266fcbd9c8de64e"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Trump says he won't sign major housing bill until Congress passes SAVE Act - PBS",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT3ZIRlBmYnh2MDdLQnk3VUlBdi01UmRmem56OGgtV3RoYnZOdHQweExEdlFDXzdhNkdlMWhWbWlnVUpOcGF2SDloV2VURzNWT2tQMjIyNVVsSVJZTUI1d0pyc0pNRFVFUVNydzJKMVVvYkRLNzVCUXk2MU1Ic0tPNnZBQzItd3hnTlZIZzFqVkRfTmhLS3l2Um0tQzlocVpHTXV5dE1qZXRqWnJnZ3hsQtIBtgFBVV95cUxPX3JJZm9PMVhTTDFTQjdkSG1JbWpHNjhQV09XR3ZseFJ3cjJud3g2Ul8wRXA2YWpib2wyN3ZfWnFnOVUzd1JkeUhaNWREYTNOUkpuVjlrVzlFLWk0LUNTT2FCUWNDc1JHUXVZVkxETVVBbVVlak4zY3pOR1k5VktqZU9WZ3RyLWNXYVFfdXB1RlhhWC1fS0NmOXViSm1MY3oxanhkWjVQQ2NLbkRrd215N1Z0eVRhdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxPT3ZIRlBmYnh2MDdLQnk3VUlBdi01UmRmem56OGgtV3RoYnZOdHQweExEdlFDXzdhNkdlMWhWbWlnVUpOcGF2SDloV2VURzNWT2tQMjIyNVVsSVJZTUI1d0pyc0pNRFVFUVNydzJKMVVvYkRLNzVCUXk2MU1Ic0tPNnZBQzItd3hnTlZIZzFqVkRfTmhLS3l2Um0tQzlocVpHTXV5dE1qZXRqWnJnZ3hsQtIBtgFBVV95cUxPX3JJZm9PMVhTTDFTQjdkSG1JbWpHNjhQV09XR3ZseFJ3cjJud3g2Ul8wRXA2YWpib2wyN3ZfWnFnOVUzd1JkeUhaNWREYTNOUkpuVjlrVzlFLWk0LUNTT2FCUWNDc1JHUXVZVkxETVVBbVVlak4zY3pOR1k5VktqZU9WZ3RyLWNXYVFfdXB1RlhhWC1fS0NmOXViSm1MY3oxanhkWjVQQ2NLbkRrd215N1Z0eVRhdw",
+      "published_ts": 1782318178,
+      "id": "d425e4751e0d4a700029e22a"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Trump cancels bipartisan housing bill signing - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRlRfNGZIU1U1M2dOaFlja1hscGYtVjJhUFAtcEpQOHNzYUczRU9oakFVT3NwUTNqemV3eFAzTXVjN2FFeEhBbUpId3gzejI5SzRTU0w2NXhmc1N4Z0pmX1FCMU1Db2NOSklZaEVyM2FrS1RzTjhEQ2hPaEdWXzItOVlrY1l2SnhvT1pBLQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijAFBVV95cUxNRlRfNGZIU1U1M2dOaFlja1hscGYtVjJhUFAtcEpQOHNzYUczRU9oakFVT3NwUTNqemV3eFAzTXVjN2FFeEhBbUpId3gzejI5SzRTU0w2NXhmc1N4Z0pmX1FCMU1Db2NOSklZaEVyM2FrS1RzTjhEQ2hPaEdWXzItOVlrY1l2SnhvT1pBLQ",
+      "published_ts": 1782317640,
+      "id": "1f44670e79e24da7327cfddd"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Wayne Bank donates to the Wayne County Community Foundation - The River Reporter",
+      "source": "The River Reporter",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN2tjTTFnY3ZyVjlJVkdJMDR4cmNIZHFWVi1kbk9OaDZWY2Z4bkxMY0NpaGZBV0k4eXdFMjFnX0VpTXhja05Sb2xqWEZKNU41ZDhOYy1TNXpUcVhkOFZaYzZfNWxTdUZrX3NEVzMtb1BDTVRMRnl2Qm5xX3Bldi0xVWNsanAyZHlndjRkVnlYM0M1R3RKYjdzQXFsLWxBeDlWalE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiogFBVV95cUxPN2tjTTFnY3ZyVjlJVkdJMDR4cmNIZHFWVi1kbk9OaDZWY2Z4bkxMY0NpaGZBV0k4eXdFMjFnX0VpTXhja05Sb2xqWEZKNU41ZDhOYy1TNXpUcVhkOFZaYzZfNWxTdUZrX3NEVzMtb1BDTVRMRnl2Qm5xX3Bldi0xVWNsanAyZHlndjRkVnlYM0M1R3RKYjdzQXFsLWxBeDlWalE",
+      "published_ts": 1782316856,
+      "id": "6b7e2820b79134911921238c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "COMMUNITY VOICES: Detroit Can Come Together to Address Affordable Housing Challenge, Create Solutions - The Michigan Chronicle",
+      "source": "The Michigan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZVVVZjl4MXgyT2dRdkt5RlVGUnVGY3hrYXRRSjhMVGdlSFZFM01iV1lLZFh0SHhNWjNGckJwWjBZSmlEUUs4QVRBRV8zdGRsb1RQRUUzZkNxU2FqMW1WSWh4Vkpmb3ZKRXZIMmZrV1hEWFNOMi1XQnZJaVhnV3AweGx0dlh0WXNDSHhHdEV3VjhXaVppRlppSTNxc1psREpyZ0JGQ2g4eWdxZTdmT3JsUno2YmNicExONHJRcXQ3V2FiQ01kd1Fodkhn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiygFBVV95cUxOZVVVZjl4MXgyT2dRdkt5RlVGUnVGY3hrYXRRSjhMVGdlSFZFM01iV1lLZFh0SHhNWjNGckJwWjBZSmlEUUs4QVRBRV8zdGRsb1RQRUUzZkNxU2FqMW1WSWh4Vkpmb3ZKRXZIMmZrV1hEWFNOMi1XQnZJaVhnV3AweGx0dlh0WXNDSHhHdEV3VjhXaVppRlppSTNxc1psREpyZ0JGQ2g4eWdxZTdmT3JsUno2YmNicExONHJRcXQ3V2FiQ01kd1Fodkhn",
+      "published_ts": 1782308729,
+      "id": "784f391a6f5952b219212433"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Navigating the current challenges in the Housing Market - FOX 2 Detroit",
+      "source": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0taXNTZ1hGVmpNZWVzX292eE1EY25zQzZMY25QbFVXVVhIM2c0MWdGRF9PQmUxLUd5bUxzVDJwVGJIbGZjSkh0d0tzQnVpR2dkeFFaMlloR3dpSGdqcmdJSmVDeVfSAWpBVV95cUxPNGc3SzFrRVdvY1VWT0FxSWxKaFFxQ2pIOFlncXE2aUR3NHhuajN5blB5eVV6MF9UV3djY1FXRERoNGRmQUFRMnZ0b05EenNRMEJaTmRsYnkxWkFtdG1OQlJmTXdyNkIyeklB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZEFVX3lxTE0taXNTZ1hGVmpNZWVzX292eE1EY25zQzZMY25QbFVXVVhIM2c0MWdGRF9PQmUxLUd5bUxzVDJwVGJIbGZjSkh0d0tzQnVpR2dkeFFaMlloR3dpSGdqcmdJSmVDeVfSAWpBVV95cUxPNGc3SzFrRVdvY1VWT0FxSWxKaFFxQ2pIOFlncXE2aUR3NHhuajN5blB5eVV6MF9UV3djY1FXRERoNGRmQUFRMnZ0b05EenNRMEJaTmRsYnkxWkFtdG1OQlJmTXdyNkIyeklB",
+      "published_ts": 1782304517,
+      "id": "eff1de473080dd24562a84a5"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "House gives final approval to landmark housing bill aimed at lowering costs - PBS",
+      "source": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPODZERkV1Yl9lTUl4QVJfMGZTSDBMS2I1cFo2Z2hLUjNaUmhBenBfZExqWm5DN3VmLVZXYmstTTB3SmljYkx2ODdfUGllNzE3LUFaajBqbHUxTmloZGNlOERnN0dRTGU3cHVfaHJBR0RLSWZTR1hEdm9kd25LQ0RSOXNOWjJ4ZklxaVNJSG5vYUdaajdNZzg3SEdhcE5nZE9MQk54RDBTeHdUWlliRk5mQl9kYw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiswFBVV95cUxPODZERkV1Yl9lTUl4QVJfMGZTSDBMS2I1cFo2Z2hLUjNaUmhBenBfZExqWm5DN3VmLVZXYmstTTB3SmljYkx2ODdfUGllNzE3LUFaajBqbHUxTmloZGNlOERnN0dRTGU3cHVfaHJBR0RLSWZTR1hEdm9kd25LQ0RSOXNOWjJ4ZklxaVNJSG5vYUdaajdNZzg3SEdhcE5nZE9MQk54RDBTeHdUWlliRk5mQl9kYw",
+      "published_ts": 1782302416,
+      "id": "aa6eee209934942fbff9ad94"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "NCEDA recognizes Waukesha expansion project - Goldsboro News-Argus",
+      "source": "Goldsboro News-Argus",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNDFLdk50TTJMNUpSWkxvTVo1SDA5dUhHMlhJd1lhQXl6VU1PMlVkZlJ1WEY0cFlzZm5pNGdiYzdFU2pfTmMxVzg2VXBjT09vR2t0aWp4TFh5dGVGbmtGZE1hdkhVeWdaNVNYOHBqSnNLcDVkREdxMXRLamJ3RmxlRFo5RHE2VVhsY2wxTG1yRkp3WUw4M3dDcDlaUXZxajJrZVNqUDRVX2JfaDhLVzJqMTFxMVN4NlE0dmZJekU1cDZNS1VKNk1URWtn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiygFBVV95cUxPNDFLdk50TTJMNUpSWkxvTVo1SDA5dUhHMlhJd1lhQXl6VU1PMlVkZlJ1WEY0cFlzZm5pNGdiYzdFU2pfTmMxVzg2VXBjT09vR2t0aWp4TFh5dGVGbmtGZE1hdkhVeWdaNVNYOHBqSnNLcDVkREdxMXRLamJ3RmxlRFo5RHE2VVhsY2wxTG1yRkp3WUw4M3dDcDlaUXZxajJrZVNqUDRVX2JfaDhLVzJqMTFxMVN4NlE0dmZJekU1cDZNS1VKNk1URWtn",
+      "published_ts": 1782279000,
+      "id": "eef0a1d0759f98bcb6e0e6ac"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "Housing affordability bill passes Congress, heads to Trump’s desk - WISH-TV",
       "source": "WISH-TV",
@@ -203,6 +412,17 @@
       "guid": "CBMiyAFBVV95cUxQUHI4UjBldFI1Q0o2SVdCd19QWjVacmhGY0pUZllGdDREZG1JTmswS2haQVp3TDZEV21xaFNiazBWek5QbmVicndpTDc0ZFFHd2ZXVWdBNGEwMloyQlptOHQ3bG5KTFJZYy1ZX2F1OU4ySGpobnQ4SWlkRmZBcUVhVUtvbkJORHJ6MlRwRUoyQVpOcXJRMXhTZlVtbXUwMkR6bUROaXpwZnBZczNTNlpoUzZuaTNSV05JZHdhOVlnMGk2UHlIVGhEaw",
       "published_ts": 1782235777,
       "id": "02b6a973afdf069ed6305b43"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "IFD: Juveniles with fireworks started fire at northeast Indianapolis apartments - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNam9FU2lkeV9nY3VKYlNzZVVHYlh6dlg5dnZfcUwtVzBFUGNtM2dyNWpWZXRuTU5PSExBRzhJZklhYTRHc19TRzlycFpJMFllRlZpQWVta0FicXVUTjVNWTUzWmxqUENuSFdfQ1BCeEloNUxfdS14b2gxMWFBVWlKWEUyOF9JTVBWYjV4bnI1anZma01tSzVnTHNnX1E?oc=5",
+      "canonical_url": "",
+      "guid": "CBMinAFBVV95cUxNam9FU2lkeV9nY3VKYlNzZVVHYlh6dlg5dnZfcUwtVzBFUGNtM2dyNWpWZXRuTU5PSExBRzhJZklhYTRHc19TRzlycFpJMFllRlZpQWVta0FicXVUTjVNWTUzWmxqUENuSFdfQ1BCeEloNUxfdS14b2gxMWFBVWlKWEUyOF9JTVBWYjV4bnI1anZma01tSzVnTHNnX1E",
+      "published_ts": 1782234975,
+      "id": "bb49436620a1796f24c3807c"
     },
     {
       "bundle": "Wayne County TOD",
@@ -293,6 +513,17 @@
       "id": "f408ba0f04483df2c7e2a1d7"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit housing project completes construction for 5 homes - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTUpHdjVZUE51eTBxam5qZ0hYeGIzZmJOVVR0WXk0cnBiWXoxdjFWVzhUTnJ1VXdHekk2YmpVLXZmTHgxd2FPWnlqUm5DVTZYQXJTZFhxT0h1eExBdXpXNHpuRWduLXlYeEZNVzJVTVkwcldqY3Z2STZjT3U0Sl9ydUZ0TjZpVUxlbjk0WDVYNnNCYW40d0hJVHZUVQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimwFBVV95cUxOTUpHdjVZUE51eTBxam5qZ0hYeGIzZmJOVVR0WXk0cnBiWXoxdjFWVzhUTnJ1VXdHekk2YmpVLXZmTHgxd2FPWnlqUm5DVTZYQXJTZFhxT0h1eExBdXpXNHpuRWduLXlYeEZNVzJVTVkwcldqY3Z2STZjT3U0Sl9ydUZ0TjZpVUxlbjk0WDVYNnNCYW40d0hJVHZUVQ",
+      "published_ts": 1782163740,
+      "id": "0a5236d5496160389d7e486c"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Amtrak Cardinal",
       "title": "5 scenic Amtrak routes along the East Coast - MSN",
@@ -379,6 +610,17 @@
       "guid": "CBMingFBVV95cUxOS3JORDNmMHFKZktjS2NEcC1xMU03dUhwMXFmTXlyeW5hbjh3UUVTVkZHUWxGekNIYkNaMXhKTk91X1lkc1kwbGJtUjBSS2pZV1k1a2VYOXdibWxrdWtKajJxYkxJVThUaENvZ29teDYtS1J2LW5pTzhZVkt0c1Q0TW1iOHBTODVJdmxVdTBxZGxHQjM0WG8yMFd0QUR3QQ",
       "published_ts": 1782150000,
       "id": "5b83323fd615ca683b9fceea"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "A DDOT supervisor and bus driver were caught on camera kissing, grinding and minding everything but their business in May 2025. See link below ⬇️ 📸 Provided by the City of Detroit - facebook.com",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPR2tkNWJjQ0Z4RVpNVk01cWdoVjZBd0pobHBaNXZMWDJHZ1FfM0FCQkJIS0pueFk5MHB6V19VY0hSc3VSdlRNYWpGTVZOaUVsYU4zM1hZUjBQbkN5c2Y3cE1Pa1p3dy1RUmF3WmlScFRRY21uMUdhdDJWcUlwX1dkY0J2OGprUUxXOVlNOVEydDJORnpOcENUZmdXaWFwdUt1VU5xNWV0dXZJM3FRSF9wcWF2MXhGNVFiSmp5b01EU2Q3b3JUMDZ3bFJpZnhZNmxGdmt0cFpZc2hQR0NQcWU2Sg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi4AFBVV95cUxPR2tkNWJjQ0Z4RVpNVk01cWdoVjZBd0pobHBaNXZMWDJHZ1FfM0FCQkJIS0pueFk5MHB6V19VY0hSc3VSdlRNYWpGTVZOaUVsYU4zM1hZUjBQbkN5c2Y3cE1Pa1p3dy1RUmF3WmlScFRRY21uMUdhdDJWcUlwX1dkY0J2OGprUUxXOVlNOVEydDJORnpOcENUZmdXaWFwdUt1VU5xNWV0dXZJM3FRSF9wcWF2MXhGNVFiSmp5b01EU2Q3b3JUMDZ3bFJpZnhZNmxGdmt0cFpZc2hQR0NQcWU2Sg",
+      "published_ts": 1782145813,
+      "id": "b69b5eab7141f3d0e61392cd"
     },
     {
       "bundle": "Wayne County TOD",
@@ -511,6 +753,17 @@
       "guid": "CBMiwAFBVV95cUxOd2l0cG5ISV9GR0pxa1FUTEdWbFB1T2tvWFpCU0dUNmgwSEdvSXZhZTZ6NGk1Z25ObHd1enV0QW9UOFB3MjhVNFVzS21nNElrZ2tKR3BsZGZaZXZGRlNxcDA0UklfMkdqU0cyRHF1S1hYWF9jUzJaLTllazBCOHlKS0pUZXVlOEY5SWQ2aXZ0LUptbXowR0oyeHZMMzdYYUU4dmtQcTdHUldfMHc1a3RqcDAyaUdJWlhOUmhpbnp2RU4",
       "published_ts": 1782085725,
       "id": "9e1a34219a638e07cf631522"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Detroit Tigers Vs. Seattle Mariners | FULL GAME Highlights | 07.06.2026 | MLB Season 2026 Rays Vs Red Sox (3NbTg1ELfZ) - Fathom Journal",
+      "source": "Fathom Journal",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FRzk4aEVYMDhKeHdLZXRPZGgwMk9mbGdWVFBtX0VueDhvR0JITnJ6UVlBQ2VXYVpIVG54M29uZjVValJkS0FGbHhlUUdsZGJHa1E3TDl4Ry1LVlM2SDJ0TjU5RHA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiZEFVX3lxTE1FRzk4aEVYMDhKeHdLZXRPZGgwMk9mbGdWVFBtX0VueDhvR0JITnJ6UVlBQ2VXYVpIVG54M29uZjVValJkS0FGbHhlUUdsZGJHa1E3TDl4Ry1LVlM2SDJ0TjU5RHA",
+      "published_ts": 1782071144,
+      "id": "d6631258f2e13356171f7755"
     },
     {
       "bundle": "Wayne County TOD",
@@ -3580,6 +3833,17 @@
       "guid": "CBMiiAFBVV95cUxPOUttd2Y0N2pMZUlucFZnOGJOYkJNN0ZGMnpiWVliU1V6SE1wWkJ1ZExfT1U0Ynh4bmg0RUY1bm11V0k5UzRRdGRwUF9lWExhR1FXVEpEUzRNaElXUXh5bUQ0Z0FBb1U2WEdCR1FWRDFDV0o2SjdiWlQ1aHJidnhxQUxTNV9uVnNI",
       "published_ts": 1780297200,
       "id": "3bb0618ef027ca1284757f4c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "Policy Committee Concludes Hearing Series on Expanding Access to Homeownership in Pennsylvania - PA House Republican Caucus",
+      "source": "PA House Republican Caucus",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMGlDVmhKT1lERlRlNGFkNk0weUlnQkVTZE5lTGt2a3BsMEpQT2p6c0hDR096MExxSTROeTlRdnJRemJkRGdFV3BjX3J2dW1hXzZocmFpWEdOMm1kOXFyY1pMTWlucVRWUHNHQXctMUNncTRSRGRzWkoxX19NQXZOR1gwM1YxbVV1Z0M0YmVxUnQ0X1ZqR0N3MGZibWNPWl9vQzRsc2JsQ3lSUm5BX2dYX1ZqekFSNW5sNDlaTnh5MWRvTTlmYTFqNnU5STR5Y0Vlal81QTFPUmw0a0lt?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi3AFBVV95cUxNMGlDVmhKT1lERlRlNGFkNk0weUlnQkVTZE5lTGt2a3BsMEpQT2p6c0hDR096MExxSTROeTlRdnJRemJkRGdFV3BjX3J2dW1hXzZocmFpWEdOMm1kOXFyY1pMTWlucVRWUHNHQXctMUNncTRSRGRzWkoxX19NQXZOR1gwM1YxbVV1Z0M0YmVxUnQ0X1ZqR0N3MGZibWNPWl9vQzRsc2JsQ3lSUm5BX2dYX1ZqekFSNW5sNDlaTnh5MWRvTTlmYTFqNnU5STR5Y0Vlal81QTFPUmw0a0lt",
+      "published_ts": 1780297200,
+      "id": "9e28576d8ba51a92241aa200"
     },
     {
       "bundle": "Indiana TOD",
@@ -11460,6 +11724,17 @@
     {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
+      "title": "Real Estate Market Trends in Indianapolis, IN: Inventory Climbs - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQazlaZW1SNUtzRzdXRzU5Tzd1SHdwdHBwSm1EalNhNURZdUQzODM0TU43NlM3amdEVzU2VVdTNzhkazBFcXpWU0hnODVUeFRQcFVoOWZqcHRYRUNOSGRvZzZzelVfa2ZQbnlLS1I2c2pMNTQ4b3p3ZEhmbzdKQ3RoQVU5X3d2WUV5V09XeUdoM0hsbkRLTEJHWDFQZnhGREpzNzRIZ1ZR?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipgFBVV95cUxQazlaZW1SNUtzRzdXRzU5Tzd1SHdwdHBwSm1EalNhNURZdUQzODM0TU43NlM3amdEVzU2VVdTNzhkazBFcXpWU0hnODVUeFRQcFVoOWZqcHRYRUNOSGRvZzZzelVfa2ZQbnlLS1I2c2pMNTQ4b3p3ZEhmbzdKQ3RoQVU5X3d2WUV5V09XeUdoM0hsbkRLTEJHWDFQZnhGREpzNzRIZ1ZR",
+      "published_ts": 1775804400,
+      "id": "4a103f33dfe88a27eaee353e"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
       "title": "State, local leaders address housing fraud in Indiana - WTHR",
       "source": "WTHR",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZzhPcTM0c09QM2xyQXVteE8yRFFrS200MUZPeWQxTWdxMlYxWEJldWxpMG1JQ0pQb0dXZ3JkUkZBTkhDai1fR3F3dkVCOGZoRGpIbmJSMnVrMEtKM1oybk5SdWNPTExoY1pYd28yc0xzRldmYlN3YlFlYUMtOURyU2NmVjM1WEJaOVptVkRHMDRicEhUWVJhX2p0TWdEX2pkWnRuRWlkRVBTX0NCZmM3Wms4OU1LRWIwb3d1VUhPdmdCZ0k?oc=5",
@@ -15306,6 +15581,17 @@
       "guid": "CBMifEFVX3lxTE1mVDQ5ZXZTUjlEOXIxYVVhdURYMGtYOENMd2t4ODJzOVhFbmdCV2dqalFVOGRkNllQNmpfZzRETmNRLWFiRExRX204Tm5sbmdxWmtPbURGOWhZRUk0c0kwc2xRS3FZRV9hM043eUxFZkxDYXRMa2FOeHpPdXE",
       "published_ts": 1774039810,
       "id": "17f4230dd65cddb90a6f3cd5"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "WILLIAM PHILLIPS, 35 - Crain's Detroit",
+      "source": "Crain's Detroit",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZTlOTE9lRzFPZlhrS2tONkdVR0I2MmZ3VVVnWTg2NGk1emRERTQzUUt4ZGJ4cmxnR3NOc1J4SE5pV3o4UmpnRE4wVHhQWl82dXBBSVc1YUwwV3pGN0Z0c254OFpMZzl1RXJ3SGR4MkhKNEZhM3VNX0dvam1kd2FPWUtDQQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxNZTlOTE9lRzFPZlhrS2tONkdVR0I2MmZ3VVVnWTg2NGk1emRERTQzUUt4ZGJ4cmxnR3NOc1J4SE5pV3o4UmpnRE4wVHhQWl82dXBBSVc1YUwwV3pGN0Z0c254OFpMZzl1RXJ3SGR4MkhKNEZhM3VNX0dvam1kd2FPWUtDQQ",
+      "published_ts": 1774034231,
+      "id": "4bf6aa15e95ffe69f6ba14c4"
     },
     {
       "bundle": "Wayne County TOD",
@@ -26683,6 +26969,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Gov. Braun gave his annual State of the State speech. See the replay - IndyStar",
+      "source": "IndyStar",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRUhySG5vQXVLN3NpeGs4bHQtWXJzR2VySTNQaGNFYTFvVnVjOVM4RzY1LUZmd1dQRzRfT1VWcjd6MkVPSVZhVnFMMmZYekpZUnMzeGc4TjBzbUZOMWtvRGE1OG15YXNfV0VacTRnSTV3WUR2WE5ZQ28wYWhpeDd2S2ZGY0FCNWVmb0VvM2Q3NkxMeTNURFpFdnJ0bWs?oc=5",
+      "canonical_url": "",
+      "guid": "CBMinAFBVV95cUxQRUhySG5vQXVLN3NpeGs4bHQtWXJzR2VySTNQaGNFYTFvVnVjOVM4RzY1LUZmd1dQRzRfT1VWcjd6MkVPSVZhVnFMMmZYekpZUnMzeGc4TjBzbUZOMWtvRGE1OG15YXNfV0VacTRnSTV3WUR2WE5ZQ28wYWhpeDd2S2ZGY0FCNWVmb0VvM2Q3NkxMeTNURFpFdnJ0bWs",
+      "published_ts": 1768377600,
+      "id": "9190d6e9e1f39701bf28ef12"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "IndyGo",
       "title": "First month of new IndyGo fares - wthr.com",
       "source": "wthr.com",
@@ -28627,39 +28924,6 @@
       "guid": "CBMixAFBVV95cUxNcWUteFRfbTEzLVY4R2tYeDlFTEFsd2JJUHZoRUVBSWZYbnlibnp1aFFVZjlrUW5pR1d1OURJVC1DZlNhdkkxRVRydjBzZlYwaXRZSFlCLW5pLVBmRTk1aV9hbWhKX1pYbHJLWkhLblQySDlqTEY0NlFZbHJXQXZRUGtabFBUTVlVTzFoMEQ3U29QRTVEMG1GU0ZNeXFMOTRyem1FMG1HY3FCM3ZyWFNBRVpTQXJUc2p6WGpLZmJGWmxGelV00gHKAUFVX3lxTE1oT0V2d3dnUWE0NUp6REdidUxUSHpHTk5KLXVoci1jVVpSVENJVFdWaExGM0wwR1llY3J0NTlDaEhtQzVSdTY4TUxzMXFTV0U5bDNkUURkN2RnNUc4VnI2U1ZUSWFQTUdFOUdqck5lLW4zSTdJNkcyZkpnVlR6cUZvU01PSjBNLWFxd2M0dkIxTFRkR3VQb3VzRHg3ZFpuYktPUXpkbGRrVFN1SmNkbTl1X2ZOOW11bE5GX3hpd045NGxQVVY1cDhMcXc",
       "published_ts": 1766908800,
       "id": "fe851bd5cb6ed7cc39887ea1"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis housing",
-      "title": "The Indiana housing market: Indiana Business Review 2026 forecast - Indiana Economic Digest",
-      "source": "Indiana Economic Digest",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdWFMUm80RHhGbVk3R2JYUVlzVXFhYnBGbEI5WHF0aFBTQk1MejhZaDhMSVZ6enVJRm90aWwxRTdOWWlfb0E5TGtydFFwbS10WG04NFpkYURmanE3WTJXNUc3QXRSMFg0cDZHRGRCSWNydzNwWWg3MVlrcldTSHpVbVFvdGlHZURBczJBQnFvY1ZjbnQtMjNLeVdpUDlYQmI4cHk5OWYzX2htWTB0NFR5TmRUTjF0TTZHclVnSmJnWloxa3RTZDZZRjllWFk4ZUFuTE10UFZJS195UEs0V0VkVkVR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi4gFBVV95cUxPdWFMUm80RHhGbVk3R2JYUVlzVXFhYnBGbEI5WHF0aFBTQk1MejhZaDhMSVZ6enVJRm90aWwxRTdOWWlfb0E5TGtydFFwbS10WG04NFpkYURmanE3WTJXNUc3QXRSMFg0cDZHRGRCSWNydzNwWWg3MVlrcldTSHpVbVFvdGlHZURBczJBQnFvY1ZjbnQtMjNLeVdpUDlYQmI4cHk5OWYzX2htWTB0NFR5TmRUTjF0TTZHclVnSmJnWloxa3RTZDZZRjllWFk4ZUFuTE10UFZJS195UEs0V0VkVkVR",
-      "published_ts": 1766822400,
-      "id": "28d79a5b6592fc7b6f6bdea1"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "New prices to ride IndyGo starts Jan. 1 - WTHR",
-      "source": "WTHR",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWFBvT29hTk1YR1hMOF83WUNJcEV1ajBwMm9PRU5mN0ZzSUJUSlRnMWhMVmgySkRvN2Q2eGtXN3V1a2Z0M0JoaTNtRFNEaFZ3dE1uODNKcVp2Z3E2T1FrcU9ETDh6SjlwLWoyNG5pUWFNdTB2enFvWGV6RDI0UE9DV0d4SjBieWZWMGotMFRLN1J5dzZ1RktWWjRiM2paeTE3WF9tTGZKUzdwTmdINDMwNDNMTGhkc3pndUdHU0JoNld2c2NzeFB3?oc=5",
-      "canonical_url": "",
-      "guid": "CBMixwFBVV95cUxPWFBvT29hTk1YR1hMOF83WUNJcEV1ajBwMm9PRU5mN0ZzSUJUSlRnMWhMVmgySkRvN2Q2eGtXN3V1a2Z0M0JoaTNtRFNEaFZ3dE1uODNKcVp2Z3E2T1FrcU9ETDh6SjlwLWoyNG5pUWFNdTB2enFvWGV6RDI0UE9DV0d4SjBieWZWMGotMFRLN1J5dzZ1RktWWjRiM2paeTE3WF9tTGZKUzdwTmdINDMwNDNMTGhkc3pndUdHU0JoNld2c2NzeFB3",
-      "published_ts": 1766822400,
-      "id": "a3eaec864ac5935327139f2c"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "IndyGo to raise fares beginning Jan. 1 - WTHR",
-      "source": "WTHR",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFnc1d5UndyOHZqY1k4ZkZ4cjV1blBjYUNuaWY4dFE5d1VVXzRQbUo2RmY0eFpmQW5sYnJrVUxVYkV2Mlp0SGNmRGdiTW5yYmI0eWhrUTNla3p4UGpBRGZLUE5pZWwtcEdhSkxINlJpQTlrVWtIeUUtREtDMlNJMlk4TkNlZ2lZa0JWWng0dExfRU5adUFSMndHR05qaDd1VEhUNUdpVHJOdXhBa0xSWVB3ai1qb3M?oc=5",
-      "canonical_url": "",
-      "guid": "CBMitwFBVV95cUxQQkFnc1d5UndyOHZqY1k4ZkZ4cjV1blBjYUNuaWY4dFE5d1VVXzRQbUo2RmY0eFpmQW5sYnJrVUxVYkV2Mlp0SGNmRGdiTW5yYmI0eWhrUTNla3p4UGpBRGZLUE5pZWwtcEdhSkxINlJpQTlrVWtIeUUtREtDMlNJMlk4TkNlZ2lZa0JWWng0dExfRU5adUFSMndHR05qaDd1VEhUNUdpVHJOdXhBa0xSWVB3ai1qb3M",
-      "published_ts": 1766822400,
-      "id": "94cb0b92010a122b627c35f1"
     }
   ]
 }
