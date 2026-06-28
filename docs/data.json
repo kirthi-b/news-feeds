@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-06-27T09:48:54.879794+00:00",
+    "generated_at": "2026-06-28T10:06:50.380070+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2645,
+    "items_count": 2649,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -129,6 +129,39 @@
   "items": [
     {
       "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Wayne County BOE authorizes negotiations for sale of former elementary school properties - waynecountynews.com",
+      "source": "waynecountynews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbVhYNFVpeXdtUUVvSDJScDc3Rjl2WDZmc3QyMkVNR1RQc0pSaWZ2blBlUEh2Q3FiUk9CM1hNam9FdHA2RVpMdGpIYlludG9BRTN4aVdGM2ItaGkzYWp1U3ZoRGtXSWx4dlpkZTVpUG9XYXpHVXhOb3h5YWlKQk00d0JaRjlYN2g0Rk1JLUJZTlNTU0FMelRxdzFWMy1yakI2WkNXUmNkVDBad2RIU2M2VHBvYXpNWVhDSVBkNmR4S2xPZ0R0MEtteUVfME9WNWlJaHVreFZzaXlSOUJPZTlZX0VFQS1MNWpxWVBmdjdadHZKOUQ3bWRYRzdkeDJTdHpwZkRnNm53?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihgJBVV95cUxPbVhYNFVpeXdtUUVvSDJScDc3Rjl2WDZmc3QyMkVNR1RQc0pSaWZ2blBlUEh2Q3FiUk9CM1hNam9FdHA2RVpMdGpIYlludG9BRTN4aVdGM2ItaGkzYWp1U3ZoRGtXSWx4dlpkZTVpUG9XYXpHVXhOb3h5YWlKQk00d0JaRjlYN2g0Rk1JLUJZTlNTU0FMelRxdzFWMy1yakI2WkNXUmNkVDBad2RIU2M2VHBvYXpNWVhDSVBkNmR4S2xPZ0R0MEtteUVfME9WNWlJaHVreFZzaXlSOUJPZTlZX0VFQS1MNWpxWVBmdjdadHZKOUQ3bWRYRzdkeDJTdHpwZkRnNm53",
+      "published_ts": 1782619200,
+      "id": "6b79151db489fe990a9912e5"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Couple Converts 1925 Detroit Bank into Home, Earns $40,000 Annually on Airbnb - CPG Click Petróleo e Gás",
+      "source": "CPG Click Petróleo e Gás",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ0NlalQ1S1JhVktYeTZ3MlhzZjVYZDgxQTVHZm1xa0gzOXJ0ekxkZzI3MnkxZXVrTGN0ZU4wTlUwUW1TQXh5cHl1aWg1dFo3X19UXzVWcVpxMjRiQXBBNW42ZEFPNFRtcWxFR3dnN1ZDQVdsaGl6VjlrU1dKeEtBbW5OVXJIU3VSNmlXVTBqMnQwaEVSeUxzWUFJVXBCQmhrZzU4TXVqTXFLSDBVcjhNdS1weHVtMmdsYlE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiugFBVV95cUxNQ0NlalQ1S1JhVktYeTZ3MlhzZjVYZDgxQTVHZm1xa0gzOXJ0ekxkZzI3MnkxZXVrTGN0ZU4wTlUwUW1TQXh5cHl1aWg1dFo3X19UXzVWcVpxMjRiQXBBNW42ZEFPNFRtcWxFR3dnN1ZDQVdsaGl6VjlrU1dKeEtBbW5OVXJIU3VSNmlXVTBqMnQwaEVSeUxzWUFJVXBCQmhrZzU4TXVqTXFLSDBVcjhNdS1weHVtMmdsYlE",
+      "published_ts": 1782607980,
+      "id": "e6b058f399ae59ae6613cd2f"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "Lawrence apartment complex catches fire after driver crashes into building, ruptures gas line - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQS3FKTlNoRkhNN3pvdDM1ZXVDZ0FVZEhvSjlNTUpUNEJtN1FJbW12SlVfWW9vMmpWc0JQcHpVa2FacFBPVm85dXhDRHpoanE3MkVUcHZrY3VBTkJ2UXdZVXYteWxXS0c2S09iWng5UmszUHJRYjhUMi1HZ3lTcC1reUxVRXp2R1FPeWsydTE4UjFFa3ZwRjlUZVl5M3oxdldpdGI1RGEyTHFhbWFKWEZRWk9NQmthSTh2cW83MVFURHF4VmJzT01RZHZnbWhNNlViMjRzTWwtQXJnOVZ4V1hTbW5xZUViTGpkMVc5SnlONjhIUmgtdmdOTWVaQlpjS2tQSTFCVmtrY0JiWE1NTzEwX1kwLUpoYUlh?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimAJBVV95cUxQS3FKTlNoRkhNN3pvdDM1ZXVDZ0FVZEhvSjlNTUpUNEJtN1FJbW12SlVfWW9vMmpWc0JQcHpVa2FacFBPVm85dXhDRHpoanE3MkVUcHZrY3VBTkJ2UXdZVXYteWxXS0c2S09iWng5UmszUHJRYjhUMi1HZ3lTcC1reUxVRXp2R1FPeWsydTE4UjFFa3ZwRjlUZVl5M3oxdldpdGI1RGEyTHFhbWFKWEZRWk9NQmthSTh2cW83MVFURHF4VmJzT01RZHZnbWhNNlViMjRzTWwtQXJnOVZ4V1hTbW5xZUViTGpkMVc5SnlONjhIUmgtdmdOTWVaQlpjS2tQSTFCVmtrY0JiWE1NTzEwX1kwLUpoYUlh",
+      "published_ts": 1782571020,
+      "id": "aafc9b59a225461281903843"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit transit",
       "title": "Public Transit on the Wayne County August Ballot / Detroit Public Library with the LWV of Detroit - League of Women Voters",
       "source": "League of Women Voters",
@@ -170,6 +203,17 @@
       "guid": "CBMiZEFVX3lxTFAySzE1Q3BCLW9VRVlVd25aWUVVSjJybFNUQXB5aXNWS1AwM1hIMlRGOUc1VktLNkgwVjNjV2txV0RsZXhQSi02OUo1WE1wZmJib1hiQlB2R2sxS0dXdlNuajZBZlLSAWpBVV95cUxOZHFpb1BaMEdoTmRNZ0dkWFdTelQ4cDVKX19fWDdLRzRhUmVYalBoeWk5MjNSck83TmNYU0RJUUhyMHB2UFBOeXprMEhVY0xhemcwWHV1bzlIY1A4VnJTVC1IeWZERXNUeWRB",
       "published_ts": 1782492151,
       "id": "6e9a861b795559a2640ad476"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Missing man found dead after canoe capsized in northwest Indianapolis - Fox 59",
+      "source": "Fox 59",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTFltaEtJbDA4ZjEtc1h2d0xIRUQ3anY5UFg1bFlwWHVIRGFhbVk5YmpRRGt0MjlQSU5MRnd6Sjl4SHBjdkZCekRyMFA1OXktXy1VT0VGVDV5NmhUZG1KT1BjZ0sxUkducXlmUE9EaVFuc2VzenUyRUVhdTFWR0Q2XzMtSnk2SXBONmdRdG1xZEFaa2hSdWtuOXJXRnBselZGQl8zZHBrT2RPX0dTZV8yeXYzLTEtVTjSAbwBQVVfeXFMTnJBaV9iS1RkV3pmcVVPOG9vQXNnYUpZa3BTa0huMmhNcnppYTZ1djBHcFVTYlRDWGh2SFN3T1JFYnJCeVg5aEtkQmVjWkZ2VkMwcmtCb0x4ZnRoektYVHlpMm54SmZ5alJ6Slkwd3FhbkJfRjdJZFVxQnhELWhYLVRRaHptZlZEajlzdGVEell5UDNDck5NUjIxc05IRFM3bUZ0eUNrbmM2U01fcjJSZW1ISEF5V1ZCTkxGX3g?oc=5",
+      "canonical_url": "",
+      "guid": "CBMitwFBVV95cUxNTFltaEtJbDA4ZjEtc1h2d0xIRUQ3anY5UFg1bFlwWHVIRGFhbVk5YmpRRGt0MjlQSU5MRnd6Sjl4SHBjdkZCekRyMFA1OXktXy1VT0VGVDV5NmhUZG1KT1BjZ0sxUkducXlmUE9EaVFuc2VzenUyRUVhdTFWR0Q2XzMtSnk2SXBONmdRdG1xZEFaa2hSdWtuOXJXRnBselZGQl8zZHBrT2RPX0dTZV8yeXYzLTEtVTjSAbwBQVVfeXFMTnJBaV9iS1RkV3pmcVVPOG9vQXNnYUpZa3BTa0huMmhNcnppYTZ1djBHcFVTYlRDWGh2SFN3T1JFYnJCeVg5aEtkQmVjWkZ2VkMwcmtCb0x4ZnRoektYVHlpMm54SmZ5alJ6Slkwd3FhbkJfRjdJZFVxQnhELWhYLVRRaHptZlZEajlzdGVEell5UDNDck5NUjIxc05IRFM3bUZ0eUNrbmM2U01fcjJSZW1ISEF5V1ZCTkxGX3g",
+      "published_ts": 1782486234,
+      "id": "ac951921ef8833423c78ea46"
     },
     {
       "bundle": "Wayne County TOD",
@@ -1197,6 +1241,17 @@
     {
       "bundle": "Wayne County TOD",
       "query": "Wayne County housing",
+      "title": "How many people live in subsidized housing in Wayne County, NC? - USAFacts",
+      "source": "USAFacts",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0RrRVVxeWNVVXRYUWpYYzI2RXRpS0l4ZUh6SE9HcG1DWmdycVNFVWlCSEZHOHdaMzRiX0Z5MTdNQzJxR2R0aUliaEZ5b1FZa1ZlRW90SW5yYl9aUW90a1UyWXhRVnR2cVVSeURHME15QzVfc0RIVlJMcnBJdkJudFVsWjZmWUxjSFFPaGstSFAyUlBERmpMZzBuRQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimwFBVV95cUxNa0RrRVVxeWNVVXRYUWpYYzI2RXRpS0l4ZUh6SE9HcG1DWmdycVNFVWlCSEZHOHdaMzRiX0Z5MTdNQzJxR2R0aUliaEZ5b1FZa1ZlRW90SW5yYl9aUW90a1UyWXhRVnR2cVVSeURHME15QzVfc0RIVlJMcnBJdkJudFVsWjZmWUxjSFFPaGstSFAyUlBERmpMZzBuRQ",
+      "published_ts": 1781894221,
+      "id": "6a409c23cbd75e2c4a3b1d1d"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
       "title": "How many people live in subsidized housing in Wayne County, PA? - USAFacts",
       "source": "USAFacts",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR01CSHRpbjZZQmU1bXVaMGJ2Zm1KUnFHRXd0V0s2X2JfbUZzYmFIQ2ZGYVM1UnA0NFo1NmJhMjM5MmNvS01VQUIyQXZPb2Q1cFY3VE9XaG96TVFCMXZ0UXM5a1hjcV91RlkzbzZjdVA5bHRPeG1BOGFIQnBhWXFSSGhER1NqTG81N2xYTDExWVdwUzBua1BzRjZvSQ?oc=5",
@@ -1325,6 +1380,28 @@
       "guid": "CBMifEFVX3lxTE9vbm1ENndGMmh1RFhzWDFacE43QXd3ZXBlODFxc01xWlNKTVoxNmxlUTRjX1JzTHhOSVNLV0xPY2dNOTg5Ny1mNU16WXVjd1k5R0JsakFtb0hValJwb05mLXFraUNuWC1BWjkxSGMweWlTSTdadEFjY3hBbUE",
       "published_ts": 1781841874,
       "id": "59a3e7c1b0a92dad628c3a91"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "How many people live in subsidized housing in Wayne County, WV? - USAFacts",
+      "source": "USAFacts",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNlRuWnB3M2g4aHJZZnFCV2E3QlhrTUs2cm1NOVJId0FjUzNlNVd4VHBVdFdWcEpLWjVsSjVYRjBoUzI0UlUtYXhxV19Zb2dGZzVvTHEzWEZzQ043YUJtZUYtdjhwaDdkQjJGalYzeHJJaExQblpaU0xUVDhMV01TdGpneTVfMVVhZC02c1MyQmFGdkk3eFBIVDNyVQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimwFBVV95cUxPNlRuWnB3M2g4aHJZZnFCV2E3QlhrTUs2cm1NOVJId0FjUzNlNVd4VHBVdFdWcEpLWjVsSjVYRjBoUzI0UlUtYXhxV19Zb2dGZzVvTHEzWEZzQ043YUJtZUYtdjhwaDdkQjJGalYzeHJJaExQblpaU0xUVDhMV01TdGpneTVfMVVhZC02c1MyQmFGdkk3eFBIVDNyVQ",
+      "published_ts": 1781839717,
+      "id": "0f979a77623cee153dc82e68"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "How many people live in subsidized housing in Wayne County, OH? - USAFacts",
+      "source": "USAFacts",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUVFtTzN0aGRiWmhXVWVKNWhkaVFaNm93ei15WmZEaXR5Y3V5TVZNdG5YT2lYXzZkUFR1ZlppS2xrVGd3OVNSRUJaLVFVQVA1bGJ1NWxwQ3lCWm5BbHpRQ2Z3V3lydjVYM3NjaU5MWXJmdTduRnJmem9KZkdNVlZIWjI1MUk3WEdPZ3EyOUc2eUJ3VmNtcFFWYWROaw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimwFBVV95cUxPUVFtTzN0aGRiWmhXVWVKNWhkaVFaNm93ei15WmZEaXR5Y3V5TVZNdG5YT2lYXzZkUFR1ZlppS2xrVGd3OVNSRUJaLVFVQVA1bGJ1NWxwQ3lCWm5BbHpRQ2Z3V3lydjVYM3NjaU5MWXJmdTduRnJmem9KZkdNVlZIWjI1MUk3WEdPZ3EyOUc2eUJ3VmNtcFFWYWROaw",
+      "published_ts": 1781837750,
+      "id": "91e012884349ce992f50acf2"
     },
     {
       "bundle": "Wayne County TOD",
@@ -1556,6 +1633,17 @@
       "guid": "CBMitwFBVV95cUxNb1ZrVFY2VWtocC1JM1lxWHVDZEJvWGVteGJZUmRHdWhxZ0laUkgtbE9QTWpnWmJkd1lVWTY3R0RrUWUtd2ZieThPaDVkOHdlOG1MMHZYTjlfczZkYW04VDhvMGEzOXEySlNBZ1hwdXRtMmJQeG5pQ3M1dTlSVWpMTTdCUEE0eXpoZ3hrMWZOS2Q4bmtDQzUtU0pjczlyaGpxRXdqZ19lb2JuNXdQZmI1WTNveHhvZ00",
       "published_ts": 1781707579,
       "id": "5083aa9e9209cc90727c19df"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Why Detroiters still use risky land contracts to buy homes - BridgeDetroit",
+      "source": "BridgeDetroit",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oVVp0dWNXVms1OFZ5cko2UEljbGotOVdSbjdJLTdZZ2NUMjlCVnpuM0JUWmZZWm1sUEd6ZDluWndhOXlaNFlUeDJvQ0xuMGRsTTJqWE9oZ2l5T00xM09kQWl3bmlSQzVFTXRDT3FYTXhTQk0?oc=5",
+      "canonical_url": "",
+      "guid": "CBMic0FVX3lxTE1oVVp0dWNXVms1OFZ5cko2UEljbGotOVdSbjdJLTdZZ2NUMjlCVnpuM0JUWmZZWm1sUEd6ZDluWndhOXlaNFlUeDJvQ0xuMGRsTTJqWE9oZ2l5T00xM09kQWl3bmlSQzVFTXRDT3FYTXhTQk0",
+      "published_ts": 1781704800,
+      "id": "5eef123acd89aea8f8214aab"
     },
     {
       "bundle": "Wayne County TOD",
@@ -13539,6 +13627,17 @@
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit transit",
+      "title": "Detroit Department of Transportation sees largest ever bus driver graduating class - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUlA0VVdHaVpEcy1fdUJSV3dDUWJSWUhGZGl4THhaaGRwMVdVMk5WVWdXb0hQcVUzTmpZN2ZRVElwSzR6NWFHcjlGalBuMlVuVWJKSFdZdlgtZzRnWDZxWktYLVg5TVpYeWczeGNDeHVvaTgyTnVrSzF1MzZHdjFfZ0pkd2lwYXhqUUtWVGI4aGF3RXFpeERiSDBsakR6SWNYY015RjVzRdIBrAFBVV95cUxNLUY0YW1BRkt6M2NDMWFLalc2QmlDRGhYTGpRb0tNRVU3cGdSQTlvbnV2VjNjTzZwNmkzM2VPODJSV0RwY2ZXYlZEVFA1Um5nS0c4ellFZGtVd3FDd2VhLUotY2pPd1VMOVBhRWdUa3kyUkZaVFdjc0NfMS1ydDVhTWRrdi11NmhtbkExOHZiSlVjMjJzVUhKYTRvSVdXMXBVTk42Wk02V3p0QzJm?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipwFBVV95cUxOUlA0VVdHaVpEcy1fdUJSV3dDUWJSWUhGZGl4THhaaGRwMVdVMk5WVWdXb0hQcVUzTmpZN2ZRVElwSzR6NWFHcjlGalBuMlVuVWJKSFdZdlgtZzRnWDZxWktYLVg5TVpYeWczeGNDeHVvaTgyTnVrSzF1MzZHdjFfZ0pkd2lwYXhqUUtWVGI4aGF3RXFpeERiSDBsakR6SWNYY015RjVzRdIBrAFBVV95cUxNLUY0YW1BRkt6M2NDMWFLalc2QmlDRGhYTGpRb0tNRVU3cGdSQTlvbnV2VjNjTzZwNmkzM2VPODJSV0RwY2ZXYlZEVFA1Um5nS0c4ellFZGtVd3FDd2VhLUotY2pPd1VMOVBhRWdUa3kyUkZaVFdjc0NfMS1ydDVhTWRrdi11NmhtbkExOHZiSlVjMjJzVUhKYTRvSVdXMXBVTk42Wk02V3p0QzJm",
+      "published_ts": 1775113200,
+      "id": "a31c7714e87399be1c333403"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
       "title": "Detroit students can ride city buses for free, thanks to new pilot program - Michigan Public",
       "source": "Michigan Public",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ1NsbTdrR0xOclljX2FFdDBHeDllU3NaS1hxbGN3VmxlTFRXbUhwaUxuWkI5Wjc2NDNicE9ZSXdsd04tWUF1M1g0TUROUWhiblp2TkgxWXVjV2V0VWVtbVlrZGRTUlJnTmE5SzB6YUNpMW8wbG8zUWo3TU9Da1VlczZHZi1XWjZtUlljZjg2Q1hQVE1TSjhUOTVTaHl4cTFhZUZzR0JmUkdoQUNpaFlvQURnYWhHWDZ6a2NYazVhVlZ1eER6SlVqLVR2M21RdjU5NktSeWp6TzdiSlRpQlE?oc=5",
@@ -16967,6 +17066,17 @@
       "guid": "CBMirwFBVV95cUxOR09CcnJYTDExQjFqNDkzWjMxU3BfS21hNk1sUFVlTENJQjlTLVhpLVhvTXh0ajJPOVh0UVk1VzcyeWRfbFRGOFZRaG5haGZxckJlaG93cTR4NzMwcGpjZldFQzlMSkRzWGlzSTUxTmUySXhYZXFtZG9XSXM1WDItN2NWWGl3aW44dXNhSzVUUXFwZlhtWEw5ZE5JMHVvcFBEWEJzVWpRYkR5akdDTUNz",
       "published_ts": 1773817200,
       "id": "225b0e96e0be3ac98870e1f8"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "New Campus Transit 2550 Northwestern Ave. express shuttle now available - Purdue University",
+      "source": "Purdue University",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ3pjZ2NMVi1yNDk5NlVqOVdxYXVRZGFGcEl0N1JraEZWNEJQVEtwUHNteXltOXh4ZF9zNHVwbXYxRWV0MmxzZ1lTLTZILVNLMTFaMl9aUzZqUkR6UGRQYWVmTGlQT2ZERXRmdEFoYU56SFV1ZWZVaEtrR1UwRjB1c2FMUlpnUzJQWUttLWZOb1MyS0lZUFlXT3JoRFB6SzVSQVZ2NHRkbF92YTZ4OWdKVXI2OTRYc0ZMaEFubV9n?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivgFBVV95cUxPQ3pjZ2NMVi1yNDk5NlVqOVdxYXVRZGFGcEl0N1JraEZWNEJQVEtwUHNteXltOXh4ZF9zNHVwbXYxRWV0MmxzZ1lTLTZILVNLMTFaMl9aUzZqUkR6UGRQYWVmTGlQT2ZERXRmdEFoYU56SFV1ZWZVaEtrR1UwRjB1c2FMUlpnUzJQWUttLWZOb1MyS0lZUFlXT3JoRFB6SzVSQVZ2NHRkbF92YTZ4OWdKVXI2OTRYc0ZMaEFubV9n",
+      "published_ts": 1773817200,
+      "id": "9ac7e2b16f81169b9cf6cadd"
     },
     {
       "bundle": "Wayne County TOD",
@@ -21840,6 +21950,17 @@
       "guid": "CBMipwFBVV95cUxNTzh1SE1vTGNDY0RBcGtpY3lZSlJEVlBWNjMzMGR3dkl0U09mU0lZUzNSTXdsZ3pCOWNHQjRDbzhaQ1JTVEdSRVZRRkZnS3RTUHJwZmhFZnQ3QUVKelBuZVlrRzJuSTBjLWNCRUNidDRoUy1GekZieUhqVEpiakd5OHR4dGlXTFEtN0ktUWRiN0hYMnhPQ3luUG5HRktZNmlFd1cyY1RyYw",
       "published_ts": 1771401600,
       "id": "6eb35cbdabb2d0ca76b83937"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis BRT",
+      "title": "IndyGo Lands $81M FTA Grant for Purple Line BRT Project - Metro Magazine",
+      "source": "Metro Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbzBBSkJEMkJhNkNXRWc1aUFhbllMVzhkaWVXNDJxR1RwUWZFQUpJMDY2V2l6c3gwSzNHdUNrd2g2LUE1ancxUHBsZHZzenptb2UxdnI2ZVRaU0xOWE92U0J2UnF4ME14SnZPTjdMSVJZaUI1dmpvUGsyQlNXQVBDX0xMYXoxdWhVdjluMGhVdUZoR0Jn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMilAFBVV95cUxNbzBBSkJEMkJhNkNXRWc1aUFhbllMVzhkaWVXNDJxR1RwUWZFQUpJMDY2V2l6c3gwSzNHdUNrd2g2LUE1ancxUHBsZHZzenptb2UxdnI2ZVRaU0xOWE92U0J2UnF4ME14SnZPTjdMSVJZaUI1dmpvUGsyQlNXQVBDX0xMYXoxdWhVdjluMGhVdUZoR0Jn",
+      "published_ts": 1771395659,
+      "id": "c55efc5e525bea822da16de8"
     },
     {
       "bundle": "Wayne County TOD",
@@ -28992,6 +29113,17 @@
       "id": "8150da10ddc259dc9a9725af"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Mary Sheffield",
+      "title": "Mary Sheffield sworn in as Detroit's new mayor - FOX 2 Detroit",
+      "source": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ra21ZVzMwTWxJTUt5TnhYRVhEbVJiVjlzQk41LVRUUWI1c1YwVHZWYlliajFHY3NqTGF4amYwd1ZZMF9Ed3hBVzAtTVFMOEM1NHk1ZGtHSm8ybDJKX2J4QTdBREhUdTFkcVlYUVdobXl5Y0FKdWx1MmF3Z3bSAYIBQVVfeXFMTU1qaFVVV0JXS283V3N3d05zeTdzNmd5QnRMdzJ1Wkk1UHVJNWp3SHE1T25JNTY0UDdwa0dxTkExNnMxSTNVN05YT3ROMHNtSGZYNHVLOEZJdGVlcEs2d0NMajRnV2pONGFNbzRUb1hWTVNGLXN0eXB2WkRUSkRmMmxSdw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMifEFVX3lxTE5ra21ZVzMwTWxJTUt5TnhYRVhEbVJiVjlzQk41LVRUUWI1c1YwVHZWYlliajFHY3NqTGF4amYwd1ZZMF9Ed3hBVzAtTVFMOEM1NHk1ZGtHSm8ybDJKX2J4QTdBREhUdTFkcVlYUVdobXl5Y0FKdWx1MmF3Z3bSAYIBQVVfeXFMTU1qaFVVV0JXS283V3N3d05zeTdzNmd5QnRMdzJ1Wkk1UHVJNWp3SHE1T25JNTY0UDdwa0dxTkExNnMxSTNVN05YT3ROMHNtSGZYNHVLOEZJdGVlcEs2d0NMajRnV2pONGFNbzRUb1hWTVNGLXN0eXB2WkRUSkRmMmxSdw",
+      "published_ts": 1767254400,
+      "id": "11a7b9721ad0d1604806af86"
+    },
+    {
       "bundle": "Wayne County TOD",
       "query": "Detroit workforce",
       "title": "Detroit Groups Unite for New Job Training Program - burgtelegram.com",
@@ -29133,94 +29265,6 @@
       "guid": "CBMikgFBVV95cUxNODB4Q1M0dlZRVU0wOWlKelBmWjdMTnRBZVlxVTcxQndoV1JLeVhTdTNlWTktU1BpNzkxRVBkMHRKbUhKbmtuak5HczF1OEhmX0wydkpuMS13T2ZucENYWUJ3YUlFQl9CcVd5TExDRWpwSUNfOXBqWW9XUjVRT1ZlaWJCNFlmWVRqVS10YzBNUnFvUQ",
       "published_ts": 1767097025,
       "id": "ee438c9334829af2656202a7"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Gov. Mike Braun reinstates workforce development board previously dissolved by Legislature - ibj.com",
-      "source": "ibj.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRk8tSjR4MHBsQkk3Z1BJQi1QZjBGSUkzRkZwZGpBTWllSUtabkxvOW0yT1pkRFprcndOeGJJOXFQT3VTWjJwZWZYSVA2bkt1cmNyNUlSRWM0NEQ4djRkeC03T01pLXVjaTJ0Rl9Bd1RRLVN3TDBtVC1pVTZnc2NGVm5sMmRHUjBBVnhDaXBSdmFzQm9xS1FZay1mNFVValJsZnY1QlctSDlxaDRqdXJlMTc2TU9pYWVUWkE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiugFBVV95cUxPRk8tSjR4MHBsQkk3Z1BJQi1QZjBGSUkzRkZwZGpBTWllSUtabkxvOW0yT1pkRFprcndOeGJJOXFQT3VTWjJwZWZYSVA2bkt1cmNyNUlSRWM0NEQ4djRkeC03T01pLXVjaTJ0Rl9Bd1RRLVN3TDBtVC1pVTZnc2NGVm5sMmRHUjBBVnhDaXBSdmFzQm9xS1FZay1mNFVValJsZnY1QlctSDlxaDRqdXJlMTc2TU9pYWVUWkE",
-      "published_ts": 1767081600,
-      "id": "6cba46bfacaa21dd375779fb"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "U.S. Labor Dept. OKs establishment of Indiana's Governor's Workforce Cabinet - nwitimes.com",
-      "source": "nwitimes.com",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNajZ2Rk1UM0oyc2tsbTBmcW1oZTRyVEFCMHZXcl9pNlBBQ2hGX041TFJPcEZmMVp6akRjTVZ2QVFlaDE4NnpkblR0eExOZFFVeG5xTFZ4RjBRVHV2V3ZKNXVIemJoTmp0MVg1RmdJUjBFWFQyTzNnamIyVFVLYnI4VktRemxXQWstLW9yUWNaVUM3eEI0cDYxWXZ4ZUE5MDB1ampIajFUbS1jb1dPb3JEX3U4REk1ZEV5dDIyTkwtN0h0N04xTFdUTGdGLU5jdGVHWFV5cnBKMTlBWVQyRmZBdnhvOWk4R1l2aEZwZV9hTFFLZngtYWZXdHZVYjJNLUVoZ3BfNndSazU1Nlg1b0M3Mldn?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikgJBVV95cUxNajZ2Rk1UM0oyc2tsbTBmcW1oZTRyVEFCMHZXcl9pNlBBQ2hGX041TFJPcEZmMVp6akRjTVZ2QVFlaDE4NnpkblR0eExOZFFVeG5xTFZ4RjBRVHV2V3ZKNXVIemJoTmp0MVg1RmdJUjBFWFQyTzNnamIyVFVLYnI4VktRemxXQWstLW9yUWNaVUM3eEI0cDYxWXZ4ZUE5MDB1ampIajFUbS1jb1dPb3JEX3U4REk1ZEV5dDIyTkwtN0h0N04xTFdUTGdGLU5jdGVHWFV5cnBKMTlBWVQyRmZBdnhvOWk4R1l2aEZwZV9hTFFLZngtYWZXdHZVYjJNLUVoZ3BfNndSazU1Nlg1b0M3Mldn",
-      "published_ts": 1767081600,
-      "id": "82818b49cb2310ff79dbbc20"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Braun reestablishes state board to promote workforce development initiatives - nwitimes.com",
-      "source": "nwitimes.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUWFUV2lhdVI2alBvR3BWMFh0aTNBMzRsVlEzZ1BQQU9hbnQxcUxSMVgyVXhrS1JVdF9KS3hUQWxxSGEzekNpSDVfczVsVUhBOE1kSnFPNFc3QVgyUmp1aS05S1VYR3Q4ZFJaazJEYVR1dWhYaEtOWWptWjQ3WTBJMDJ6bDIxLTV1UFJCSkJlMy03SzYxalczZGVOamI1RWpUM2ZsMjhqZFFpOVZFWjJv?oc=5",
-      "canonical_url": "",
-      "guid": "CBMirwFBVV95cUxQUWFUV2lhdVI2alBvR3BWMFh0aTNBMzRsVlEzZ1BQQU9hbnQxcUxSMVgyVXhrS1JVdF9KS3hUQWxxSGEzekNpSDVfczVsVUhBOE1kSnFPNFc3QVgyUmp1aS05S1VYR3Q4ZFJaazJEYVR1dWhYaEtOWWptWjQ3WTBJMDJ6bDIxLTV1UFJCSkJlMy03SzYxalczZGVOamI1RWpUM2ZsMjhqZFFpOVZFWjJv",
-      "published_ts": 1767081600,
-      "id": "b3d9a9fbfa44a926f43ab635"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Oxford authorizes Amtrak rail passenger platform agreement with CSX - Middletown Journal",
-      "source": "Middletown Journal",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX254eU5qd29WWnN0Zk9wME5jOXFsVWFtVGduTFROUlU4RTJrNjJyeklYZ1FTZFZweFN4djgwakczNjVuRU1lS0M4WGxwOE1KZzZ2MmpXYndFdkJlSlVjd1Fza01kUmxzcUNjQ3VKbF9nazEwTTVYVUppaEkxdWd5bmpFdGNBQjhYZ2hlcVdLX0ZoeXZINk5XRDFBUkdqOW5qRFlaMGgwU2ZYQlYxbGluRDRYLV9FNTFIT0VzWDRjMHZVemxmWlpMZg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiyAFBVV95cUxOX254eU5qd29WWnN0Zk9wME5jOXFsVWFtVGduTFROUlU4RTJrNjJyeklYZ1FTZFZweFN4djgwakczNjVuRU1lS0M4WGxwOE1KZzZ2MmpXYndFdkJlSlVjd1Fza01kUmxzcUNjQ3VKbF9nazEwTTVYVUppaEkxdWd5bmpFdGNBQjhYZ2hlcVdLX0ZoeXZINk5XRDFBUkdqOW5qRFlaMGgwU2ZYQlYxbGluRDRYLV9FNTFIT0VzWDRjMHZVemxmWlpMZg",
-      "published_ts": 1767081600,
-      "id": "c4ea8f95b2c0af89cebda8ee"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "5 downtown Indianapolis development projects to watch in 2026 - Indiana Economic Digest",
-      "source": "Indiana Economic Digest",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUU50RXlpaVR3aE50NUg1Y2E4NG5VQ2VSZUVkU2hVTlp3bVk0cmoxZEszdU5mS25qV1I1SlBtZWlDQThLeWh0SVZidjBRekRIeWtfZ0FHMVpzbkhURTNLQjVTdWxfTTNza3plZFBpTlAwODBmcGIwTi1YbVE2RDFTZUlwMWQ2cktMX2ZJSloyU2ZOUkwzZWNtNW1FekExVmtVSnVCeDg3X0ZMRDUxSjN4UkRSd3dBSFVUcFdmTURTVG5tZ2JxeUNGUko4NURzUjRZRGw5dmNoSHNLSVBHQ0VubWJGRzhOeFVo?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi6AFBVV95cUxQUU50RXlpaVR3aE50NUg1Y2E4NG5VQ2VSZUVkU2hVTlp3bVk0cmoxZEszdU5mS25qV1I1SlBtZWlDQThLeWh0SVZidjBRekRIeWtfZ0FHMVpzbkhURTNLQjVTdWxfTTNza3plZFBpTlAwODBmcGIwTi1YbVE2RDFTZUlwMWQ2cktMX2ZJSloyU2ZOUkwzZWNtNW1FekExVmtVSnVCeDg3X0ZMRDUxSjN4UkRSd3dBSFVUcFdmTURTVG5tZ2JxeUNGUko4NURzUjRZRGw5dmNoSHNLSVBHQ0VubWJGRzhOeFVo",
-      "published_ts": 1767081600,
-      "id": "e92e7bb15ef719dea055c881"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "Former Westinghouse property on course to be purchased by Bloomington Transit for new operations center - The B Square Bulletin",
-      "source": "The B Square Bulletin",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeFR3RGRDOWtRSHFvNkc2R0V5Tmh0SW9TSm0weUd3ZHM0RXkwSUNYVHctM0VoaGw2VHVyUmRvc2FkbllGRTR2ekF0T3NmQnVSNm8xUXN2ckF5VHN1YWJlUUFMUER5dnVua2hVMmlwYU1ITndHb2pIcEYtZkxTMG1rZm5TVjV4dm9XQ1Zja2hQYW5XRXVld2dXMGRQT0pjbGFFdlNib2dlT1o1SHhTNnNfeFNkNXExRG5TVmFZRmtJXzRzeE15MlJNejJSbTI?oc=5",
-      "canonical_url": "",
-      "guid": "CBMizAFBVV95cUxOeFR3RGRDOWtRSHFvNkc2R0V5Tmh0SW9TSm0weUd3ZHM0RXkwSUNYVHctM0VoaGw2VHVyUmRvc2FkbllGRTR2ekF0T3NmQnVSNm8xUXN2ckF5VHN1YWJlUUFMUER5dnVua2hVMmlwYU1ITndHb2pIcEYtZkxTMG1rZm5TVjV4dm9XQ1Zja2hQYW5XRXVld2dXMGRQT0pjbGFFdlNib2dlT1o1SHhTNnNfeFNkNXExRG5TVmFZRmtJXzRzeE15MlJNejJSbTI",
-      "published_ts": 1767081600,
-      "id": "7b54503a17af7bb30065bd39"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "5 downtown Indianapolis development projects to watch in 2026 - Indiana Economic Digest",
-      "source": "Indiana Economic Digest",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNX1owa0RaNG9UamVoMkwzQ1lWTE10Q0NIdDQwUVRaQndCbWxFUzJUQlNXWWJ2emxmWTg0cUNKNDluTVFaWWlsLXgtLUtkSW1lN0V5enNqZ0VCUlQwZHU0WU9TUEw3dW1lVzBaVVphTWpsTDR5Vk5MUUdkZTR3T1JaS1FnZVRxd0k0SXZERTdJc2ZhRFhEcWZGZExfUWN6VnVJRWJ0UTU3NlNfMThtMUNuTHJUYnk4eVpDakJNNFJZbVRBbldSMjBtbDhLMXhWT0RlaDFyUlk4MlB6dC1Nb0E?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3gFBVV95cUxNX1owa0RaNG9UamVoMkwzQ1lWTE10Q0NIdDQwUVRaQndCbWxFUzJUQlNXWWJ2emxmWTg0cUNKNDluTVFaWWlsLXgtLUtkSW1lN0V5enNqZ0VCUlQwZHU0WU9TUEw3dW1lVzBaVVphTWpsTDR5Vk5MUUdkZTR3T1JaS1FnZVRxd0k0SXZERTdJc2ZhRFhEcWZGZExfUWN6VnVJRWJ0UTU3NlNfMThtMUNuTHJUYnk4eVpDakJNNFJZbVRBbldSMjBtbDhLMXhWT0RlaDFyUlk4MlB6dC1Nb0E",
-      "published_ts": 1767081600,
-      "id": "d81178dc943c0acbce7819f1"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Holcomb appoints two from Region to serve on new Governor's Workforce Cabinet - nwitimes.com",
-      "source": "nwitimes.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWlhBU1NuSWFaOGxlV3NNUXFYYm02clhrajVXYk1adzlGYXlsRXdHNUs0NGQ5OFQtY0JIZHA5LVhPcDA3RmhzUlMzZ0hISW9rako1bnVmM1BGUUNNTlBZZ19JaTlKX3RXYTlvQkpnODRnOXR1R1Q0aHFZTF83YjY4dTZxVEtCQUxkUGlDOGxqeG1ibVBDUjA3NC01dC1kZzZf?oc=5",
-      "canonical_url": "",
-      "guid": "CBMioAFBVV95cUxOWlhBU1NuSWFaOGxlV3NNUXFYYm02clhrajVXYk1adzlGYXlsRXdHNUs0NGQ5OFQtY0JIZHA5LVhPcDA3RmhzUlMzZ0hISW9rako1bnVmM1BGUUNNTlBZZ19JaTlKX3RXYTlvQkpnODRnOXR1R1Q0aHFZTF83YjY4dTZxVEtCQUxkUGlDOGxqeG1ibVBDUjA3NC01dC1kZzZf",
-      "published_ts": 1767081600,
-      "id": "234bb752d76b9c10d24901d9"
     }
   ]
 }
