@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T10:28:49.470034+00:00",
+    "generated_at": "2026-07-02T10:07:40.138234+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2663,
+    "items_count": 2676,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -129,6 +129,72 @@
   "items": [
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit's affordable housing trust fund gets more money July 1, but new projects won't start right away - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSFJhSXBhak9NVWRDUkdXWFFMTFU0cFJWclNBTThURUpnRDZHVUtKRzZyRF9Tcm5UUmp5ZHRLZV91bjVCR0RVclZrV18wS0hyTVp3OGpDN3EtLXRxazZXTFFQV212b09Kd1FGakVwNXlzeTl6QzlhZzNJYi1uUzQ1RnNESjhXa28?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihwFBVV95cUxQSFJhSXBhak9NVWRDUkdXWFFMTFU0cFJWclNBTThURUpnRDZHVUtKRzZyRF9Tcm5UUmp5ZHRLZV91bjVCR0RVclZrV18wS0hyTVp3OGpDN3EtLXRxazZXTFFQV212b09Kd1FGakVwNXlzeTl6QzlhZzNJYi1uUzQ1RnNESjhXa28",
+      "published_ts": 1782942890,
+      "id": "2fac4d5dafd3208c65c4e8ec"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "More money headed to Detroit's affordable housing trust fund - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVEtCU0h4U1U2WjVOSjVxWG9FSVBOZ01pM2lJVER5c29EMTlYbDBpTndEcEhXMDlHeXdxRi1PSXNFVkd0MHJrYWYxSUVkQWRUSlR4WTRlOXpBS0RtNHd5UVdlMGw0MEpDT1lxUk02RW1sSmgxOG5Gbnk0YnZWSUM4SnhTbDRpcUhnRjN4bGdiRk5tT05yTjJ0enNlTlBnRVE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMinwFBVV95cUxQVEtCU0h4U1U2WjVOSjVxWG9FSVBOZ01pM2lJVER5c29EMTlYbDBpTndEcEhXMDlHeXdxRi1PSXNFVkd0MHJrYWYxSUVkQWRUSlR4WTRlOXpBS0RtNHd5UVdlMGw0MEpDT1lxUk02RW1sSmgxOG5Gbnk0YnZWSUM4SnhTbDRpcUhnRjN4bGdiRk5tT05yTjJ0enNlTlBnRVE",
+      "published_ts": 1782938880,
+      "id": "8a33a60faffe14c32cc0bb93"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit Pistons need 2 more years to start building 662 apartments - Detroit Free Press",
+      "source": "Detroit Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbS1EZUxaakU2WVNMeEp1TVBXNGtYVFRfMklWYlkxWDd5Q2dnejc4WkpHNDlCaFNoSG5xOTBmcndQbl9kZnRVd3VPUUVjWE9CT0ppakNyM2hrVmFBaWlXMmJkM05zMFNKOW5jeUdLVzU1QjZZd1Y1UlZKUXdyVW1Rdy0xbXR1LV91NWU2MzQxeXRqRW1GRE5GZlpoT3I1VktRdFBPLW1qdFE0QQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiqgFBVV95cUxNbS1EZUxaakU2WVNMeEp1TVBXNGtYVFRfMklWYlkxWDd5Q2dnejc4WkpHNDlCaFNoSG5xOTBmcndQbl9kZnRVd3VPUUVjWE9CT0ppakNyM2hrVmFBaWlXMmJkM05zMFNKOW5jeUdLVzU1QjZZd1Y1UlZKUXdyVW1Rdy0xbXR1LV91NWU2MzQxeXRqRW1GRE5GZlpoT3I1VktRdFBPLW1qdFE0QQ",
+      "published_ts": 1782938640,
+      "id": "2ddd5b3da26c632409438274"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana joins federal Workforce Pell Grant program with Ivy Tech, Vincennes - Inside INdiana Business",
+      "source": "Inside INdiana Business",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMVdWZWZwbHVoU0czOFFLYko3N1FraHZTdU82QkJBd2V1c3d4SjdzTHVqMU9LQ1J0Y0tjckthR3JlUXptVG1BVDcxN0xvenRHZmU3ZFJWY1A2eGJ0OFJZNUIyMm0tWHdleERMVHdzdjlJWjNYdU15dE50bWNLUlp0WEU5eHlnSUx4c1dYU1NwREtyeWI0bExhZkN6SWU0Q2ZhekY2MUs4VTlIVVRTZXBMa2VQVTBLTWx4M0ZhelJn?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivgFBVV95cUxPMVdWZWZwbHVoU0czOFFLYko3N1FraHZTdU82QkJBd2V1c3d4SjdzTHVqMU9LQ1J0Y0tjckthR3JlUXptVG1BVDcxN0xvenRHZmU3ZFJWY1A2eGJ0OFJZNUIyMm0tWHdleERMVHdzdjlJWjNYdU15dE50bWNLUlp0WEU5eHlnSUx4c1dYU1NwREtyeWI0bExhZkN6SWU0Q2ZhekY2MUs4VTlIVVRTZXBMa2VQVTBLTWx4M0ZhelJn",
+      "published_ts": 1782924818,
+      "id": "5714447743d23c364c2b42e7"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Gov. Braun launches workforce pell in Indiana, unlocking federal financial aid for short‑term, in-demand job training - Shelby News",
+      "source": "Shelby News",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOdTJwelN5RlRZSVQ1QnF4ZktWUkJ0RWhnSXJJLV9teVVuT1J6Q25xeEdDT05zRDN4Q25YWVdad3FCbXhxejUwcXZXbHh4MnAxUzNkOXdPT1dHaWdDX21JekVTWWhWZ2N2Um1EODZ4VnNCbVhKVEkzQmJNT3pzaDdIbGVkSm4xUWZMb0FMRHZBcjFIVUtsX2JENndtbW44ZG5IbkJLSmJsT1h4SDRKT01LMUhNeUlnMXAzMnl3b1BLRjV2RFliVWhnbWdSMDdIdkp6cGxfLTRuVjdJQ1N4MWNpWHdSVzZhdUlTcVNrUi1nazB6OUNfWjR0SzJLejdvcl93Y3RzSF9aWQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihwJBVV95cUxOdTJwelN5RlRZSVQ1QnF4ZktWUkJ0RWhnSXJJLV9teVVuT1J6Q25xeEdDT05zRDN4Q25YWVdad3FCbXhxejUwcXZXbHh4MnAxUzNkOXdPT1dHaWdDX21JekVTWWhWZ2N2Um1EODZ4VnNCbVhKVEkzQmJNT3pzaDdIbGVkSm4xUWZMb0FMRHZBcjFIVUtsX2JENndtbW44ZG5IbkJLSmJsT1h4SDRKT01LMUhNeUlnMXAzMnl3b1BLRjV2RFliVWhnbWdSMDdIdkp6cGxfLTRuVjdJQ1N4MWNpWHdSVzZhdUlTcVNrUi1nazB6OUNfWjR0SzJLejdvcl93Y3RzSF9aWQ",
+      "published_ts": 1782924480,
+      "id": "3fe2774464e02e5844429db0"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana Workforce Pell Grants - Audacy",
+      "source": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9STXh1cnd1YlNJNGtaNjlUQmJudHd6aHRtRUpJd3NhQU9teTRRZkdVY0tYd1F1NjhSNXVUWUpnWlk4ZG1IQl94d1FKLXFxR0dHdFlqX0hTVzhtWm52Q0JiQ0o0bHJSMmVBS3MzMk5OZVlraHc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMic0FVX3lxTE9STXh1cnd1YlNJNGtaNjlUQmJudHd6aHRtRUpJd3NhQU9teTRRZkdVY0tYd1F1NjhSNXVUWUpnWlk4ZG1IQl94d1FKLXFxR0dHdFlqX0hTVzhtWm52Q0JiQ0o0bHJSMmVBS3MzMk5OZVlraHc",
+      "published_ts": 1782923413,
+      "id": "2753a9efcb8c9f599022615a"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Wayne County transit",
       "title": "Detroit legislators back Wayne County transit millage - BridgeDetroit",
       "source": "BridgeDetroit",
@@ -148,6 +214,17 @@
       "guid": "CBMi5wFBVV95cUxQMFlCeldVaGpmTVJ6cmdaZG5fU0FIUkNCZnVHd1d2WXVJczBBZzc4TzRyclhWODJJY3RfNnVXVk5nY1lFS29KdmJ0dFViVkdURkpzM1ZEY1doVWtDbHI4RmNkMUFzOF9Ga1QzX2N3WmNXejJJWEhFcGJaMjJzbXBKRHE4cWJqSHNIYmlzTnprYlJSdnZ0QjVSUDJsMWJybzhDbVp5alRIeDVqWUZndkJyY3VJdVRpRzZId1Z0N1c4cExBN2VMMVBHZUMzMHl0RVM0ZFZwZkU1YU1tVi1QaGRhSGwySWFYaWM",
       "published_ts": 1782865558,
       "id": "abe67c34b82d674a0a01406a"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Detroit vs New York Y: First 5 Spread - Coinbase",
+      "source": "Coinbase",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJM1V1Y3FLRHpGVDROQ2loTU9JcF9zWlNjblBKNWxfRFJmcGlEM04xanpCZjhDb3ZFb1hlUXJUSkloQURoZV82WmRDUzU3aTNzbU5wLWs2X3dLNDFmc2xPV3hrVkRGWjM2QTB6UEt4NVR6cXFMdFNQcDJqU1lDTjQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMif0FVX3lxTFBJM1V1Y3FLRHpGVDROQ2loTU9JcF9zWlNjblBKNWxfRFJmcGlEM04xanpCZjhDb3ZFb1hlUXJUSkloQURoZV82WmRDUzU3aTNzbU5wLWs2X3dLNDFmc2xPV3hrVkRGWjM2QTB6UEt4NVR6cXFMdFNQcDJqU1lDTjQ",
+      "published_ts": 1782847200,
+      "id": "046cffe1bce256ab07bbd6a7"
     },
     {
       "bundle": "Wayne County TOD",
@@ -214,6 +291,28 @@
       "guid": "CBMif0FVX3lxTFBxZV9lMU42bFRSaFg4ZGxrZHFULXpKS3l4OVFkYVRnUWN5NHRLa2pmaDhqcFp1M1BVNkVtc29Xb212ZDZUUXpJQW44Sl9lOEZYT3FYeEpESDVRNmUySHg5OEtILTNWM3FndURHVjJrRWgyU2haQVBlQkpKaElaYzA",
       "published_ts": 1782830565,
       "id": "76c6d78009cf47042454acf6"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Detroit City Council gets highest dirty dirt cleanup proposal yet: $93K - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM1NqV1RIZkt4V3Z2TUkxZ0hhU0s4Z2ZNT0RTMEFCckxGS0QyMFRnb2tHREEyYVE3SEtUSUl5WHlfNjZlWjRRaXdQSlFKRmdLSU5NUjU0UWRqLXhDbFVrMXpIVTdQUVMwQmRVSERlZjIzMzV1djhrNUQxZnAxN1FRcmxJZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxNM1NqV1RIZkt4V3Z2TUkxZ0hhU0s4Z2ZNT0RTMEFCckxGS0QyMFRnb2tHREEyYVE3SEtUSUl5WHlfNjZlWjRRaXdQSlFKRmdLSU5NUjU0UWRqLXhDbFVrMXpIVTdQUVMwQmRVSERlZjIzMzV1djhrNUQxZnAxN1FRcmxJZw",
+      "published_ts": 1782819917,
+      "id": "e741b6798404457739a860a4"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Housing, groceries, and medical needs: Detroit’s Health Hubs helping to get kids to school - BridgeDetroit",
+      "source": "BridgeDetroit",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbENZcENEY2Fxa0RpZ2xUbzVtX3c2U3czVkVwOEl6Nkw4WlpQamxKNEZlU2tWaUxvczJWcHlaOFhrd2hEcS0xSUZDMGZUdDVhYXpWYTFzeGk2a2ZqLVduUXBvR0NlSVhtb2lfaWl4V2pxRWh2dHV2d1NrenJGRk1QUHdDakhscElSM1BlYnBCV1pWb2loRWYwb3JGRVR3cFFaaUpEcEhxamgyR3Q2bS1aUFFYd3JpX2dr?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiuAFBVV95cUxNbENZcENEY2Fxa0RpZ2xUbzVtX3c2U3czVkVwOEl6Nkw4WlpQamxKNEZlU2tWaUxvczJWcHlaOFhrd2hEcS0xSUZDMGZUdDVhYXpWYTFzeGk2a2ZqLVduUXBvR0NlSVhtb2lfaWl4V2pxRWh2dHV2d1NrenJGRk1QUHdDakhscElSM1BlYnBCV1pWb2loRWYwb3JGRVR3cFFaaUpEcEhxamgyR3Q2bS1aUFFYd3JpX2dr",
+      "published_ts": 1782813600,
+      "id": "42c3eb3b2bbf5bb59b872bc4"
     },
     {
       "bundle": "Indiana TOD",
@@ -313,6 +412,28 @@
       "guid": "CBMijAFBVV95cUxPcDU5dUZEdEk0RTc2N3ZReExtdzNSaTVXQUg3ZVlxWlVlb3dZbU1QQTQyWEdRU1RaNVdYYlJKOXhIR29DdEVWcG9udlpQWWx2UDBHanE3cWhSX3BKZ2hCeEFXRHFSVjJyR1FRM3JXT3lWd2RobU42WW5YLU9xLVBrWDJ4T2E5TlJzT3ZZeA",
       "published_ts": 1782726300,
       "id": "bc4c693742128100e6c8dc78"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Briggs: Detroit Tigers can’t let sad-sack American League fool them into stupid decisions - Toledo Blade",
+      "source": "Toledo Blade",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbHRWYmJXQ3JTVmhod3VwaVBTMEt6d0lrTm03QVBsY1hqVnlXRXd1S2ZJdktRdjkybkZEbGNjNHBpSng2MHNtYjZTbXdvN1pUOWNLSXR0ckl1ZlhyRXowYVZLOUM1RWs4RFVhcUNRT1daNmsyMUI0SkRobUYzNzBKSVAtYmdLUHlnb1Jic0pBQU1RbGV0RS1kX3NsckRzclB0YlQ4bjY1eml4V013R01ieXpQR3dFUTI2QTNqV3ZCQXBVcWZYdmxJUElHcVhLMExmOExpS014My1BcDJGdWYzX05rcXFVVHl5?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi6AFBVV95cUxNbHRWYmJXQ3JTVmhod3VwaVBTMEt6d0lrTm03QVBsY1hqVnlXRXd1S2ZJdktRdjkybkZEbGNjNHBpSng2MHNtYjZTbXdvN1pUOWNLSXR0ckl1ZlhyRXowYVZLOUM1RWs4RFVhcUNRT1daNmsyMUI0SkRobUYzNzBKSVAtYmdLUHlnb1Jic0pBQU1RbGV0RS1kX3NsckRzclB0YlQ4bjY1eml4V013R01ieXpQR3dFUTI2QTNqV3ZCQXBVcWZYdmxJUElHcVhLMExmOExpS014My1BcDJGdWYzX05rcXFVVHl5",
+      "published_ts": 1782723888,
+      "id": "51ee76cda78162522247ec71"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Fraud, paid family leave were hot topics at forum held by Sen. Kupec and Rep. Joy in Detroit Lakes - Detroit Lakes Tribune",
+      "source": "Detroit Lakes Tribune",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZDZMVmtfTndYZFNGd01zd0ZqaXdGclRNTVlWU0xHWDVmRDJyLXkwZV9fZFV1QVpLNDFrLUd1VEc2MHFOMUVRRWN0VDA0LUw1MVdWZTJaeEdvRmY1NlNHWEpJZ1JkMk52VXRfTzI4SUdBWkNLNXhjaDg4MUVlQzFCaU9SVUVGU3U2R1FUa2xETGt4a2RFX0F3QkU3RVpyV0lRaWZpamtXX3hWQ096LTBUa2JDZDVCRnN6M2RSMTllTlg2dmRfX0NZSTdaYjM?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizAFBVV95cUxOZDZMVmtfTndYZFNGd01zd0ZqaXdGclRNTVlWU0xHWDVmRDJyLXkwZV9fZFV1QVpLNDFrLUd1VEc2MHFOMUVRRWN0VDA0LUw1MVdWZTJaeEdvRmY1NlNHWEpJZ1JkMk52VXRfTzI4SUdBWkNLNXhjaDg4MUVlQzFCaU9SVUVGU3U2R1FUa2xETGt4a2RFX0F3QkU3RVpyV0lRaWZpamtXX3hWQ096LTBUa2JDZDVCRnN6M2RSMTllTlg2dmRfX0NZSTdaYjM",
+      "published_ts": 1782716400,
+      "id": "7418ce95666178a1ea569d37"
     },
     {
       "bundle": "Detroit Mayor",
@@ -2260,6 +2381,17 @@
       "guid": "CBMizAFBVV95cUxNTllBeFZVd1RSQUFvdFJxM1F2U3B0V19Fejl0UUhXVV9ET2gxUzhRejgzblFydEM1QjhpYmMtNnNyWmFwak1fOW9ldDVFU1pPTDV6aGpic3pSZzF6YkhOYzBMUDRNWEx1UFJweU9lOEQ2c1N5Und4bzlrNlIzTXdBdHdPaUZITUdsdUV2YjgzNlVHWTVkZTBLTnVVSXZiNXA2d2VNcTRCaDMxT2I1Nk5fZWNSZGVTaE5wYlVxWFBRNnY3WlU0UDU4QXhGTTU",
       "published_ts": 1781612100,
       "id": "1491d9394a870459e0520c69"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Indiana commerce secretary leaving post; will serve as adviser until end of year - Indiana Capital Chronicle",
+      "source": "Indiana Capital Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXZnQ08xdXVjQ25iYVRFZUgyQ2JjVDdjaHp3MWlIeVd5SHBBRDJhc3ZsYURSQ3JaM3VERkx4akQ5N2hiX0M4RV8zSU9EWV9hLXA2UHpzV1NuUHRab0ZpVjRxaHlobHJFQjNITnFsOHNaN1lRY1NFUmthUUxZZGRyMHFpZGY2ZVU4bGFmeXpvNmlTUGhUdnFLX0VwTFVyLWVEbXVjY0p2VFBmSmpUTTBiRXdsT210a1ktM2lqNk5rMFI4VmNa?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixAFBVV95cUxQSXZnQ08xdXVjQ25iYVRFZUgyQ2JjVDdjaHp3MWlIeVd5SHBBRDJhc3ZsYURSQ3JaM3VERkx4akQ5N2hiX0M4RV8zSU9EWV9hLXA2UHpzV1NuUHRab0ZpVjRxaHlobHJFQjNITnFsOHNaN1lRY1NFUmthUUxZZGRyMHFpZGY2ZVU4bGFmeXpvNmlTUGhUdnFLX0VwTFVyLWVEbXVjY0p2VFBmSmpUTTBiRXdsT210a1ktM2lqNk5rMFI4VmNa",
+      "published_ts": 1781607870,
+      "id": "4ced5dd4aa20c09521831b89"
     },
     {
       "bundle": "Indiana TOD",
@@ -5519,6 +5651,17 @@
     },
     {
       "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Michigan needs a new plan for long-term growth | Opinion - The Detroit News",
+      "source": "The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRDhQem1xMjkyR21yU3hKczAzWXExTkVpakFMM1JXZmZ2RnFvSDNBR3NQNXV5eERnYVJkWTFFVlFhLWVCUmVrX3daeW4yTUdwNjlVVnlNWU9uUzZ0YTZCVE51LTU2X0NTbHF0SWZPQXMzZElOd2FoZGFBcnpycS0yNVRKeHIzNE5mV0JzX0JhQlZ1UXZ0LWZPR2dFbG1YN2J5aGdQLUotakI4dE51MjJrOFZ6WjA3NHNkVmpwX2pFNA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMivwFBVV95cUxQRDhQem1xMjkyR21yU3hKczAzWXExTkVpakFMM1JXZmZ2RnFvSDNBR3NQNXV5eERnYVJkWTFFVlFhLWVCUmVrX3daeW4yTUdwNjlVVnlNWU9uUzZ0YTZCVE51LTU2X0NTbHF0SWZPQXMzZElOd2FoZGFBcnpycS0yNVRKeHIzNE5mV0JzX0JhQlZ1UXZ0LWZPR2dFbG1YN2J5aGdQLUotakI4dE51MjJrOFZ6WjA3NHNkVmpwX2pFNA",
+      "published_ts": 1779778800,
+      "id": "a1d08ebc4720016e8d24fead"
+    },
+    {
+      "bundle": "Wayne County TOD",
       "query": "Detroit workforce",
       "title": "A look into UAW's lasting impact on American workforce - CBS News",
       "source": "CBS News",
@@ -8411,6 +8554,17 @@
       "id": "bd01b2f267409133d8db2920"
     },
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Detroit People Mover public transit resumes service downtown - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZG50MXJUekNVbktVOVh1NkpUTkh2bzV6QmwtVDExYzZxcEh0dnZuU0hEaklGcFB0Zy1GRjBBZ2w1Rll6X1h4MjAyN1BfQjc4WjB5NVlqMmltWGtBbmZfWVNMdGV1WVB1bTJqb252M1VWX0tPd01jeEVqZkwzLS0ySG9Edk5sWWhVQTlpMUFyaE9nZUQza0ZfYU03Q3NaRGfSAaQBQVVfeXFMT2QzVzk2SHBxYVluelZLNzlmZ0RVZFo0QVZrMWtGc0NJWHZueHE1SExpS2tWaS03TjJWaDFLaXBEcDdfalROYXlWVl9UZnRHeF9PX2NjTUtlNU8wdlB0Nm1wX0VOY29KaFhaLU1Fc21VXzFvSXZ0aVB6TVRmc1hJZXlYd282dFNvNmJhRmN4TE9rMnBYNHlEMEtXNlU4Mmlnc2NXbUk?oc=5",
+      "canonical_url": "",
+      "guid": "CBMinwFBVV95cUxQZG50MXJUekNVbktVOVh1NkpUTkh2bzV6QmwtVDExYzZxcEh0dnZuU0hEaklGcFB0Zy1GRjBBZ2w1Rll6X1h4MjAyN1BfQjc4WjB5NVlqMmltWGtBbmZfWVNMdGV1WVB1bTJqb252M1VWX0tPd01jeEVqZkwzLS0ySG9Edk5sWWhVQTlpMUFyaE9nZUQza0ZfYU03Q3NaRGfSAaQBQVVfeXFMT2QzVzk2SHBxYVluelZLNzlmZ0RVZFo0QVZrMWtGc0NJWHZueHE1SExpS2tWaS03TjJWaDFLaXBEcDdfalROYXlWVl9UZnRHeF9PX2NjTUtlNU8wdlB0Nm1wX0VOY29KaFhaLU1Fc21VXzFvSXZ0aVB6TVRmc1hJZXlYd282dFNvNmJhRmN4TE9rMnBYNHlEMEtXNlU4Mmlnc2NXbUk",
+      "published_ts": 1778050800,
+      "id": "77411c4880cd6253ff637bed"
+    },
+    {
       "bundle": "Detroit Mayor",
       "query": "Detroit Mayor",
       "title": "Sterling Heights officials approve tax incentive plan for massive city center development - The Detroit News",
@@ -10389,6 +10543,17 @@
       "guid": "CBMilAFBVV95cUxQS0J2TGQ4eV9YcTBEUHlfSGR2WTR2eHJuTks2dUxxODRfWnpvWGZDbWJleTV5YkxaZTRXT3YwMXpVdDAtZ19sYVF6SUp6eWJqTzBnMmxMZkU1Z2E2R1ExblktLXdFZVBvTHR5TmtiNjlmS1FNYkpCOWJMVFdTb1dwaW8xYVh6VHViUFZzVnQtWXlwWGhJ",
       "published_ts": 1776927600,
       "id": "a602642df2979e893b102a2c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "New Jersey Housing Market vs National Headlines - TAPinto",
+      "source": "TAPinto",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbWNHUDB5SlBwYmpFTVpFM0ZYb3hBMEJ1eXByMzdGZnAzOElYZFJiUVpxVnVRa2Eyc3hTeTNXWVJ2OXZBZzR4SUVhblU2eGZOZjZyZGwyY2Z3YlpNQlBYbkJTMFF2aVpKV216aGVPaXRZRUMzVEpJS2VweHZtUUUzNlhIeDNxa3Q5cXc1UzZkOTVnNi1QdldkTnU2SjczQm12b1NLQVNtQWZnYW9nMVRxenl3V2hLc2pLV2hBR2pWNHlvTzR6OEpRcWV3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiygFBVV95cUxQbWNHUDB5SlBwYmpFTVpFM0ZYb3hBMEJ1eXByMzdGZnAzOElYZFJiUVpxVnVRa2Eyc3hTeTNXWVJ2OXZBZzR4SUVhblU2eGZOZjZyZGwyY2Z3YlpNQlBYbkJTMFF2aVpKV216aGVPaXRZRUMzVEpJS2VweHZtUUUzNlhIeDNxa3Q5cXc1UzZkOTVnNi1QdldkTnU2SjczQm12b1NLQVNtQWZnYW9nMVRxenl3V2hLc2pLV2hBR2pWNHlvTzR6OEpRcWV3",
+      "published_ts": 1776927600,
+      "id": "14378ba4e2b60b73c614a954"
     },
     {
       "bundle": "Indiana TOD",
@@ -29397,28 +29562,6 @@
       "guid": "CBMilgFBVV95cUxQa0dTX0UwUFU4S19JazNDM0dmV3BuRnhKc2h4Wkpqd0ZEeERUUkFYd3l0SnJSR29hWldZVFFXamZuZ09ydVdZREdCRmlpclhGTFhSTlJjbU5rMGhleE53cG5CQmR5VHViek5yMFlRSkxla2pQWlNaLWlZWU9NNEVfSmR0enVWbHc2RldwTU9LcURCb3BreFE",
       "published_ts": 1767452141,
       "id": "e8cd111c6b522305431d7a7b"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit transition",
-      "title": "OLSM girls remind teams what they're capable of with gutsy comeback - Detroit Free Press",
-      "source": "Detroit Free Press",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOXhHbDllbnhQRW16Y0dtdlJsNzc5LUpmOGVXaXltLXVTLW95WnBYRDM5TUNUTi1FME45cWllcHF3SjRmNlFfQkR6SF9DcjBLMU5OY25jaVduNHFHTmVFYVhDV3FrWG5oOExaUnJFeUk0UWxzOHZZZURZem5iOGUtUnNQeEVPa1lmdnMxcEVIOXl4SXQ1dFE5ekptT0NCOGFHd2d4SDNWbDdTVFJoVTdQb013?oc=5",
-      "canonical_url": "",
-      "guid": "CBMisgFBVV95cUxOOXhHbDllbnhQRW16Y0dtdlJsNzc5LUpmOGVXaXltLXVTLW95WnBYRDM5TUNUTi1FME45cWllcHF3SjRmNlFfQkR6SF9DcjBLMU5OY25jaVduNHFHTmVFYVhDV3FrWG5oOExaUnJFeUk0UWxzOHZZZURZem5iOGUtUnNQeEVPa1lmdnMxcEVIOXl4SXQ1dFE5ekptT0NCOGFHd2d4SDNWbDdTVFJoVTdQb013",
-      "published_ts": 1767427200,
-      "id": "849b0f311437303ed4f86211"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Thurmond’s $12 Million Depot Revival Reimagines Rail Gateway to New River Gorge - thetraveler.org",
-      "source": "thetraveler.org",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaXFrRDNfbXN6WFFSUDFyLTktc0hzN0Z0OVlYUDlFbHJuOHFQVmplZndFNXJIdHViVHd0QWwtNkM5YVlTakNVM2c0VWk2SHhYbGtoSDd6QXp4WnBva1dGXzJXbXZpMk5wSGRMRG51X0RjclFQcmd0b2dVeURscFYzUkY1ajZXdnUtX0otRlduMFllaV9KSEV4VmFrcGdvV2lsamxUT0l5VHpEdw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqgFBVV95cUxNaXFrRDNfbXN6WFFSUDFyLTktc0hzN0Z0OVlYUDlFbHJuOHFQVmplZndFNXJIdHViVHd0QWwtNkM5YVlTakNVM2c0VWk2SHhYbGtoSDd6QXp4WnBva1dGXzJXbXZpMk5wSGRMRG51X0RjclFQcmd0b2dVeURscFYzUkY1ajZXdnUtX0otRlduMFllaV9KSEV4VmFrcGdvV2lsamxUT0l5VHpEdw",
-      "published_ts": 1767427200,
-      "id": "0b30f093d8846d9bdff3fe33"
     }
   ]
 }
