@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T09:47:22.108774+00:00",
+    "generated_at": "2026-07-05T09:54:27.728236+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2688,
+    "items_count": 2684,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,28 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Wayne County Summer Marketplace and Business Expo set for July 24 in Wooster - Your Ohio News",
+      "source": "Your Ohio News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnByTThZblhfMHZESWpMZC1TMXZMeUZ1d0oyZ2gxZzloU2JJcmlUTVM3YUFHWU5RMDE0WUdQOHd0eGZ3eHhVQ08wNzhjdVl6M1FNQU5TbENrUUxqR2UzMXBxUDUwd3ZoLTFMcTdWWXhfazVtbHh0MDctUXN6dXFwd0ZnR1RFLVBXT1B5cW4zbw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijwFBVV95cUxQdnByTThZblhfMHZESWpMZC1TMXZMeUZ1d0oyZ2gxZzloU2JJcmlUTVM3YUFHWU5RMDE0WUdQOHd0eGZ3eHhVQ08wNzhjdVl6M1FNQU5TbENrUUxqR2UzMXBxUDUwd3ZoLTFMcTdWWXhfazVtbHh0MDctUXN6dXFwd0ZnR1RFLVBXT1B5cW4zbw",
+      "published_ts": 1783182600,
+      "id": "311e5dadd9e5c4d292a2954a"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana joins federal Workforce Pell Grant program with Ivy Tech, Vincennes - dailyjournal.net",
+      "source": "dailyjournal.net",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNVphWFhzUGY5NmNNa3B1UWdITEhieV9fNGw5SGRROTJhSjA2STZ0cWtDUklGZ2RpUzhYWjRiR2xUb2l0aGtMRnFLTXFYY2VhYlNmWmd4eEdZUnl2SzRvc1Qxdlc5cGNzNTh3V0hMTEVVU3ZzQWVpMXNGaDlaRGxacDMxd2EtLTlENWJWb3Vod2lxY2xGOUZFRUszTkpKdHRqZVBocXdmLWJnSEV4RG9VdA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxNNVphWFhzUGY5NmNNa3B1UWdITEhieV9fNGw5SGRROTJhSjA2STZ0cWtDUklGZ2RpUzhYWjRiR2xUb2l0aGtMRnFLTXFYY2VhYlNmWmd4eEdZUnl2SzRvc1Qxdlc5cGNzNTh3V0hMTEVVU3ZzQWVpMXNGaDlaRGxacDMxd2EtLTlENWJWb3Vod2lxY2xGOUZFRUszTkpKdHRqZVBocXdmLWJnSEV4RG9VdA",
+      "published_ts": 1783179670,
+      "id": "dc3790bf27dcb103751fb7a7"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Wayne County economic development",
@@ -533,6 +555,17 @@
       "guid": "CBMiogFBVV95cUxORGxNbWlsb3ExOEVNX2tmSEpYUDU4SzI1cXEzTUdLajY5VVNNTmZtSk9HNmdmN095Wl9HVHlLeDZxdFBuMy1iVjJxQXJCcXA2bFZnVDJ1YTIzREMxV2FDZkFTdU4yWjJILVpUYTN0X2JFdFRjLXNDLTIweGFpX3ZhYmx4Q2R1UlNXeDVZa1dzTTV4LTFnMWdSbGdQaXo2YVhLX3c",
       "published_ts": 1782756566,
       "id": "3f44c79fa9351a62fc957fbd"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "How many subsidized housing units are available in Wayne County, MI? - USAFacts",
+      "source": "USAFacts",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWllHNVRUMWNIZGdlNlNqT01vUHRvZURGU0YwMHE3c3pqWW5CMDhPdXo3dlhzQjctdGkzampsck9rREw1aFExbk9mNklWanFxT2hSaElxSTRnSnZYUVZhN3VlSlpkYTFESElOVzNqSGpTSU0wSlhnMy1hZl9pUUhHWnZZSkxGM3VObExOdThsaWg0VFRmazd1U1dOUlFaZXdzYlE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiogFBVV95cUxOWllHNVRUMWNIZGdlNlNqT01vUHRvZURGU0YwMHE3c3pqWW5CMDhPdXo3dlhzQjctdGkzampsck9rREw1aFExbk9mNklWanFxT2hSaElxSTRnSnZYUVZhN3VlSlpkYTFESElOVzNqSGpTSU0wSlhnMy1hZl9pUUhHWnZZSkxGM3VObExOdThsaWg0VFRmazd1U1dOUlFaZXdzYlE",
+      "published_ts": 1782756566,
+      "id": "6f3cf411f9d31fb22cd81214"
     },
     {
       "bundle": "Wayne County TOD",
@@ -3023,6 +3056,17 @@
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit transit",
+      "title": "Detroit News: Mary Sheffield Missed Detroit People Mover Board Meetings During Alleged Theft, Raising Oversight Issues - Deadline Detroit",
+      "source": "Deadline Detroit",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOS20xVEtoam5HNFdqUmhORWYwWDNTUmlFVGZXLTcxRnl1OXVSMlFLck5YT1Z3SXpuTjlPZzc5VFJocmxKYVNRdy1iSUVxajkwUDktRExyelA2cDZGOUF1NnNoOWRnZ25fMnNBbnNOVHFnZ0tpSms3NkFPbnpTek43N29jUFN4ZFY4MFpEZVZyTmVxeVRlSGdDUEhvQmZpcWUxV3loTHVGX281MU81NU1XVW9ycDk2VlZISGZJREtyV3FpalRUV2lKN2Q4QXJ2OFNIVC0xc0xwVEVEYV9NZzVVSXdNaTBxN2VrdU9Sc3RCTk8?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi8AFBVV95cUxOS20xVEtoam5HNFdqUmhORWYwWDNTUmlFVGZXLTcxRnl1OXVSMlFLck5YT1Z3SXpuTjlPZzc5VFJocmxKYVNRdy1iSUVxajkwUDktRExyelA2cDZGOUF1NnNoOWRnZ25fMnNBbnNOVHFnZ0tpSms3NkFPbnpTek43N29jUFN4ZFY4MFpEZVZyTmVxeVRlSGdDUEhvQmZpcWUxV3loTHVGX281MU81NU1XVW9ycDk2VlZISGZJREtyV3FpalRUV2lKN2Q4QXJ2OFNIVC0xc0xwVEVEYV9NZzVVSXdNaTBxN2VrdU9Sc3RCTk8",
+      "published_ts": 1781247600,
+      "id": "2517fab15cbecb092bfb9c11"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
       "title": "Mayor Sheffield absent from People Mover board during alleged wrongdoing - The Detroit News",
       "source": "The Detroit News",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVkY5WmNWMldFMnpHcExGSHpfOHlyWWVfSFhzY3psWGh3VkI4M0VmWTdoVlM0YVdFZ0ZNNXhfN0VuM1E2QklyZnNManRiTy1Ib1dOanQ3OEgtWU9rRUp5NGtxOVRaVVdsdk9KQ0x5cGQ2TENPNng5MGR0VUF3Zm1uWWhXNmlZbkJhLU54aTZqdlR0dUtZd2NVbXVndzhnUnl5aF9HaU1ObXF1SmdxX3V6b2VIZjc3TTY2UmhhVlBOa2dXUkFtUXh3UloxUWZGUE5YN0JLR081OFE5enRjUGtSeG05VFgzWXM?oc=5",
@@ -3657,6 +3701,17 @@
       "guid": "CBMiowJBVV95cUxOYmNNcmxYX2dmbFkwSjJFUE10WXVfOFhsYllxYThmQU9aRDFQRUNCamhDQTl5V2dqOFp3bWVINzJ6SnRDVTY2bmxvb2pJRGkzdTBLcl94OWhKTlY1Zkc0aFBSbm92V1N6bHk1QXl4Qjh2YmVucDhNYWU4ZTR0OGpXQUlNNGVWZEgtbmdvNnBPWEltZEZ6NnVJVUJSYndqeUlqSjhUanVIcWM0bzZMMHlXVGJiVk5sQzNPU0pjUURDUVdQR3BkNHl6TzQzdUNyeUtqeDJfM1g3N3FZUjg1THhwQ0xCVXFQM3gzaTNfakVQT3pyMlVMZzBNMWNsaUh3OUtHbG5hVkg5LXR2djJ3VFRpd1B2bFJfeFZHODh0OFhCOVBxd1E",
       "published_ts": 1780899519,
       "id": "df243a989217f54cf1f5b268"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "June 8: Amazon celebrates first graduating class of workforce training program at Northern Indiana Data Center Campus - Fort Wayne Business Weekly",
+      "source": "Fort Wayne Business Weekly",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNkRaT2hDVDZWLWFNWGNULV9IMlNaZlJjR3VoUUUzTnVKd3JDSGJ5R1Rub3hjU19weDF2NXoxZ2FSVTFCM01xUmFvR3VKbWpzd01oS1J0bHhIM2VJYllYZWc3WlppbU9BbFNoY08yczdwR1RUdXpCQ296Vm1UWnR2dktWbXlnOHdvZk51WG9VTmNCUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikgFBVV95cUxQNkRaT2hDVDZWLWFNWGNULV9IMlNaZlJjR3VoUUUzTnVKd3JDSGJ5R1Rub3hjU19weDF2NXoxZ2FSVTFCM01xUmFvR3VKbWpzd01oS1J0bHhIM2VJYllYZWc3WlppbU9BbFNoY08yczdwR1RUdXpCQ296Vm1UWnR2dktWbXlnOHdvZk51WG9VTmNCUQ",
+      "published_ts": 1780892667,
+      "id": "16e8a7bcd6fa38dd9e1d93d4"
     },
     {
       "bundle": "Wayne County TOD",
@@ -8046,6 +8101,17 @@
       "guid": "CBMirwFBVV95cUxQUGhpTUdoVVVuSE5ySmZUVTVzSUN2TWZnV005aHF1d2RkZGNHcW1xUFc4SnE0TVZSV3pSU0l3bHVCQk40N29CajAxQ2dtTzNWVjRmbU9GSjB0SE9IaEpCRjJITlpLNFl4MGNnbG5xUm9lQlVLa3pGSmJTV0RHcEtZdkNqY1ZRLTVnVmZ0cXA1RTVGZHJuUGZ2M1VYUjRaekVSQjhBdFlOOEdvVE4tX1Bv0gG0AUFVX3lxTFB0VU5XbDY1V3JFcTM3enVVSk9XUmZKUFpUYzNvWnkydndaUGlvMTh2endQZEpOdGZrSXhSRlowOXl1VmJ0ejNlVm1mcTJvaWtsS2lfd29qQmNSUlE0TzNaVFI5cjJQN0o0S0JLRjZLQjg5RVYxYWRZMmpuOUE1RmF0T2gyXzR4U0xYR0hZamtlVFQ3WVNrR1NDMWNGVzZyV25iZEhjc3pwNXVPcGVHdnB2cDdSSQ",
       "published_ts": 1778655600,
       "id": "d4b8de130504e423c1bb61c9"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Geotab Establishes Engineering Center in Metro Detroit - Michigan Economic Development Corporation",
+      "source": "Michigan Economic Development Corporation",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUhTQlBmZHU0Q3ZSUlRTenpBRzlOdy10VFFFQWhBVVJmTmJaczF5d3Y4TEU4dnk3SnlGWXV2ZE9yWW01cEk1QU1BM0RyUXdOc1Vsa1JQSkVaaFZiaGQybGFMSG9uZEtEMTd2UHQtZFllektuLUc3OTVLTUs5RDZSSTFjRjdtMS03MWFIaFZlaVBUd01DTVlpaExSQU5tMEZEVm8xU1hxNkFUN3A5UkxraA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxPUUhTQlBmZHU0Q3ZSUlRTenpBRzlOdy10VFFFQWhBVVJmTmJaczF5d3Y4TEU4dnk3SnlGWXV2ZE9yWW01cEk1QU1BM0RyUXdOc1Vsa1JQSkVaaFZiaGQybGFMSG9uZEtEMTd2UHQtZFllektuLUc3OTVLTUs5RDZSSTFjRjdtMS03MWFIaFZlaVBUd01DTVlpaExSQU5tMEZEVm8xU1hxNkFUN3A5UkxraA",
+      "published_ts": 1778655600,
+      "id": "d971d7ae52030a88d130551f"
     },
     {
       "bundle": "Wayne County TOD",
@@ -15231,6 +15297,17 @@
       "id": "3a2c6ef745e1e909cd519d5d"
     },
     {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Governance",
+      "title": "Trump administration sues Minnesota over transgender athletes in girls sports - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLVBsTnpaZFFLSGEwNWRBOEQxSktPdU4wZkZPU0wtcFc5OGxGbWVHX0RlN29NaWRBVHZ5OC1vbkhxamZvRGdqMm9mMVFLQTViWVRzOXNVb3NremxkSXBUc0NCazB0UHBOTTN3ZWxyYmZJa3JPY3RaUUh1cjNpaXFSNDZ2QXJGTk5WMkdza3lNc1ZZTEpSTWJTM1ZkR3FEcERrQjV4S2taNDlpUEpTRmRQcDNRY3NKUGhMSHB3OGNjU21RM2tBTnc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixgFBVV95cUxQLVBsTnpaZFFLSGEwNWRBOEQxSktPdU4wZkZPU0wtcFc5OGxGbWVHX0RlN29NaWRBVHZ5OC1vbkhxamZvRGdqMm9mMVFLQTViWVRzOXNVb3NremxkSXBUc0NCazB0UHBOTTN3ZWxyYmZJa3JPY3RaUUh1cjNpaXFSNDZ2QXJGTk5WMkdza3lNc1ZZTEpSTWJTM1ZkR3FEcERrQjV4S2taNDlpUEpTRmRQcDNRY3NKUGhMSHB3OGNjU21RM2tBTnc",
+      "published_ts": 1774854000,
+      "id": "695c2c5a5e63b201b61b2068"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis housing",
       "title": "Indianapolis Luxury Home on Pond Listed for $280,000 - National Today",
@@ -17737,6 +17814,17 @@
       "guid": "CBMiswFBVV95cUxOcEF3RF9fWDNmLXhVZUt4VjRTMTdBLVRSbnh4NVNhUHJDT0sxX3lzVEhYYk5pamdjWHZDVDZSbVRpdnFHT0NlOFVMdk5RRUZhSGYtd25BdnhxVjdBZzBtRWxjUmVKTUU5Z0hmcVpQdzNjQTlWTVJEaU12UDM1dXZVM2swLTBOTHZPcEFQRS05eHgwd0Q5MUlQQXdaZ2ZXTl9LcE13RmhFTHVTNkJMUk1fQ0s1TQ",
       "published_ts": 1773903600,
       "id": "ff3b4c73c06986ba7dcdbef5"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Mayor Sheffield names Elizabeth Orozco-Vasquez as director of the Office of Immigrant Affairs & Economic Inclusion - City of Detroit (.gov)",
+      "source": "City of Detroit (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc1huWDJraEhJZWcydDRyNDlmdjh1UllUYjNWTjVuWVdHZUhWZ0psVEJzZmhncW4zRVBuU2M0NDNtRU9JckpGYy1sempGUGdTTnhBbUFBd3VBSkw2MVJDSVNUSkZweXZvQ19wUFR6emVqMWhkWXZvRXZhQVFOdlFLVnRUOGxKeTlMckgwYXc2dzZ3bktXSllLWVhtaE9BZEc5ZHphMkNNR2JsYkxJV3VjU3UtcjhVM0NiY3RrR1RPOXF5NUEx?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixAFBVV95cUxNc1huWDJraEhJZWcydDRyNDlmdjh1UllUYjNWTjVuWVdHZUhWZ0psVEJzZmhncW4zRVBuU2M0NDNtRU9JckpGYy1sempGUGdTTnhBbUFBd3VBSkw2MVJDSVNUSkZweXZvQ19wUFR6emVqMWhkWXZvRXZhQVFOdlFLVnRUOGxKeTlMckgwYXc2dzZ3bktXSllLWVhtaE9BZEc5ZHphMkNNR2JsYkxJV3VjU3UtcjhVM0NiY3RrR1RPOXF5NUEx",
+      "published_ts": 1773903600,
+      "id": "66954bd5c3ada061cd64b794"
     },
     {
       "bundle": "Indiana TOD",
@@ -23999,6 +24087,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Indianapolis public housing failures focus of congressional hearing - Fox 59",
+      "source": "Fox 59",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYXhjMnIyWFpxbWdqcDM3UFpLRGlPRTl4bGlsVDRjZ1JFVkh6YmFaUUdwMXYzYW1ZV0N6THhrS2Z5aHpQY3ZWU0k4RFl3V3dkcU1SZG1nWURjOTgzUnhRV0JVTm9XWFBNVVZ3U19tczZLV0RDQ2JRM3hjeUR2THdrMWlPRDNkSlNYZjhscjVLeEdIOEpmRjhVOTV2MjhBSUFBTkpQUA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMipAFBVV95cUxQYXhjMnIyWFpxbWdqcDM3UFpLRGlPRTl4bGlsVDRjZ1JFVkh6YmFaUUdwMXYzYW1ZV0N6THhrS2Z5aHpQY3ZWU0k4RFl3V3dkcU1SZG1nWURjOTgzUnhRV0JVTm9XWFBNVVZ3U19tczZLV0RDQ2JRM3hjeUR2THdrMWlPRDNkSlNYZjhscjVLeEdIOEpmRjhVOTV2MjhBSUFBTkpQUA",
+      "published_ts": 1770796800,
+      "id": "a73aa3dfe11d3a994fb65c0e"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Students could soon get Pell Grants for workforce programs. What to know. - Mirror Indy",
       "source": "Mirror Indy",
@@ -29551,149 +29650,6 @@
       "guid": "CBMikgJBVV95cUxNdzVYUzBPVHMzUFpNYzBQYTVvbnZKX3ByLXY1R3I4S1VmdDd4ZFgtc1paZXpTUU9RdWtrZ21sbmt1Q0dObjFZUkt3VDd5RUNhb2o3MU1OSmpPYktYbV9qNUN5V1hDTm5zNzIxYUNGTVlGMld6aTluX1F4ZVl6TVVhcVJfeXFBZkJmaFJmNWJBRDFlTFpKc3ltMzFHZzRtVU1GU19qRmxyM3M3d2hBcDYxVUlNQmxqWkpIVkdLa3VFbTVKck1sOUQzMERDU1JGOGJoQm55S1ZEclFtNjdrRUZhTy02eFlwZ1E0QnI2SG5jWllwbXpCamV6MGhseV90VXpXSVZRVmgta01Jd2ZfTExuMFNB",
       "published_ts": 1767693600,
       "id": "ab69be2ea07c7cfdddf6ca1e"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis housing",
-      "title": "Indy public housing deteriorates with shootings, murders, fires and abandoned units - Fox 59",
-      "source": "Fox 59",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZVN3eVJPTzZfZ2xhTEdjRFJxZHpGWlQxckhGOVhlVkh0b2xNWEdoaHVMUHlmV3oxWnI2NmgwWTdidzBVN1BIRzIyOWUxUV80aTVjbUZ5WC1wMXpMeGhvYmljVldTREFBQ2kwRGVScHd4cjJfRW5qemd0Vnljd2RNZkd1WnJ0Y1ZfeWRvQXU0aW5vaEhiSVZScURsRXQzTFkybGl5clR6RnYxQWhfOXlGMW1JUElDUdIBuwFBVV95cUxOLXhOOHZEUFVnLU1VdExJT3Q0d3phM1dKV0tOQ2tKVEtvVWZPbGZwaHQ1Vlk3RGlVRHBMcFFzX2dfX29GclJOTGwwZXVvLVVqbXRQanVfS1BPcWs5bTBYeWlZd3dNS1dRTklCYWc2ZFl1ZGNtMVJmODhySUh2QjVIQnBYOHkzaFVpc1NDMFdzT0RJUndHbFRULVZGc05hbmNIM3pxMFdMZW9xOFVMbjEwdGt5d1ZfSXB5NVE4?oc=5",
-      "canonical_url": "",
-      "guid": "CBMitgFBVV95cUxQZVN3eVJPTzZfZ2xhTEdjRFJxZHpGWlQxckhGOVhlVkh0b2xNWEdoaHVMUHlmV3oxWnI2NmgwWTdidzBVN1BIRzIyOWUxUV80aTVjbUZ5WC1wMXpMeGhvYmljVldTREFBQ2kwRGVScHd4cjJfRW5qemd0Vnljd2RNZkd1WnJ0Y1ZfeWRvQXU0aW5vaEhiSVZScURsRXQzTFkybGl5clR6RnYxQWhfOXlGMW1JUElDUdIBuwFBVV95cUxOLXhOOHZEUFVnLU1VdExJT3Q0d3phM1dKV0tOQ2tKVEtvVWZPbGZwaHQ1Vlk3RGlVRHBMcFFzX2dfX29GclJOTGwwZXVvLVVqbXRQanVfS1BPcWs5bTBYeWlZd3dNS1dRTklCYWc2ZFl1ZGNtMVJmODhySUh2QjVIQnBYOHkzaFVpc1NDMFdzT0RJUndHbFRULVZGc05hbmNIM3pxMFdMZW9xOFVMbjEwdGt5d1ZfSXB5NVE4",
-      "published_ts": 1767686400,
-      "id": "93f68a6bda70709e05df3d09"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Indiana’s Wayne County Stakes $30K Bet on Casino Development - Casino.org",
-      "source": "Casino.org",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeVFLWG8zbDV1Y0tzaklJR1dOUEF1LXBfU3AxRTVQMHdNN2JPTzFfVXd6bDlEVDV2RlpiUllpWElYUHhWalk0X3diSS1pYjBZNjF2ZU5sTy1KNWxRQUY0LTE4d19JWXhQeXhOdnRfcUY1c3VGLXRKNk96My1GMXZybUZqTmxuTkswaW40bGo1UGs?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikAFBVV95cUxNeVFLWG8zbDV1Y0tzaklJR1dOUEF1LXBfU3AxRTVQMHdNN2JPTzFfVXd6bDlEVDV2RlpiUllpWElYUHhWalk0X3diSS1pYjBZNjF2ZU5sTy1KNWxRQUY0LTE4d19JWXhQeXhOdnRfcUY1c3VGLXRKNk96My1GMXZybUZqTmxuTkswaW40bGo1UGs",
-      "published_ts": 1767686400,
-      "id": "241472e105f695fc009ea0f0"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "State of Michigan support will bring new affordable and supportive housing to Detroit - modeldmedia.com",
-      "source": "modeldmedia.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZXZ0UDlfeEFHTHhieURHNkRGY0k2WnZZcllKa2ZqRlhoVktWRWFZUVlVOGVjZGp1Z2U0Mm44RU9HY2xiZkF3eXpfcEpERWlfRXk3VVZEUkFkQlVhOXNTSUNXajl0Z25ZaWxJdFBQZFVGM3BqSmQ1ZGpVcUxETDhaZ2F4QThVQWVwNTVFeDZtS2YtUlVJbjcxanNJXzkxQ3BaSGk2cW9rYzhwTjVHb0ZZ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMirwFBVV95cUxQZXZ0UDlfeEFHTHhieURHNkRGY0k2WnZZcllKa2ZqRlhoVktWRWFZUVlVOGVjZGp1Z2U0Mm44RU9HY2xiZkF3eXpfcEpERWlfRXk3VVZEUkFkQlVhOXNTSUNXajl0Z25ZaWxJdFBQZFVGM3BqSmQ1ZGpVcUxETDhaZ2F4QThVQWVwNTVFeDZtS2YtUlVJbjcxanNJXzkxQ3BaSGk2cW9rYzhwTjVHb0ZZ",
-      "published_ts": 1767686400,
-      "id": "e1e3b3c7286e83be0ddcea4f"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Homebuyers may get more leverage this year - Axios",
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVXJmeGVIdEpNbVVGSTVFdlM2M0dTRnlNTjFla3JncmV6UV94ZkhXN0pxRUFCMkFvNm4wbDZyd3puRWVSQ1p3ejhHSDBuMzlONXdTQ1loNHpVbmFmTjJ4TUdlUU50TkdSYmh3bkVRbzFrcnZzS1RTNkpCSVNwVzYxcmY2MnpDZzR5SmtQd2lXTnVRTGVvbzBTUGpuenRZMGNVY1p0Qw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipAFBVV95cUxOVXJmeGVIdEpNbVVGSTVFdlM2M0dTRnlNTjFla3JncmV6UV94ZkhXN0pxRUFCMkFvNm4wbDZyd3puRWVSQ1p3ejhHSDBuMzlONXdTQ1loNHpVbmFmTjJ4TUdlUU50TkdSYmh3bkVRbzFrcnZzS1RTNkpCSVNwVzYxcmY2MnpDZzR5SmtQd2lXTnVRTGVvbzBTUGpuenRZMGNVY1p0Qw",
-      "published_ts": 1767686400,
-      "id": "2f7302d4a49b4f83cc93198b"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "How Black female developers are breaking barriers in Metro Detroit - The Detroit News",
-      "source": "The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUlkyZTVaZVVPaVpCRTI4NTZ2QUhMYXJKbXZHU3BncUtXbnAyaG9SUEFxQThvSlpVTDY1bmhtT2U4THNsSlVyTk9CQVFrVDNFaXdRNTIzQ096cGFzVVdyaTkwWWdINEQ1cVBkVTlJZjFXTUU4cHN3TVF5QllUczVZY3IyOHFGU1l3RzBDREpzOWZnbzZ3NnM0RUt4MWQ4QlhFa2xvbXdOTWMyaTRfNExYWjBIbnRJNlZSVFozcHVXTVUxRjdheTdOSTVDblppY21tcDBIMmxGSXRjcEprRjhKeFREb0k?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi5AFBVV95cUxOUlkyZTVaZVVPaVpCRTI4NTZ2QUhMYXJKbXZHU3BncUtXbnAyaG9SUEFxQThvSlpVTDY1bmhtT2U4THNsSlVyTk9CQVFrVDNFaXdRNTIzQ096cGFzVVdyaTkwWWdINEQ1cVBkVTlJZjFXTUU4cHN3TVF5QllUczVZY3IyOHFGU1l3RzBDREpzOWZnbzZ3NnM0RUt4MWQ4QlhFa2xvbXdOTWMyaTRfNExYWjBIbnRJNlZSVFozcHVXTVUxRjdheTdOSTVDblppY21tcDBIMmxGSXRjcEprRjhKeFREb0k",
-      "published_ts": 1767686400,
-      "id": "cd0d8f30f271a39016ba1451"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "DDOT employees caught ‘fondling,’ had inappropriate relationship, abandoned bus, report reveals - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPR283UHFCby1NTS11TDNnSHhPZzZ6a2U0RkJ0blpnUzdjZU1pSFZWQkI4WTMxY1ZtYnVYaURqcHVoYkF1WV9RMjRRYXFfdU1kVjhKZGpCQWx2LThIa0ZGWXpwNnM3MFoxT2hZeTV3aWczUlVKMVJ1eWoxZEc5TFRFLXJMajZpSjFIZ2dxSVU2dC1XdzM0UnYtRGpvenBYNU11a3d5RUpvM3E1THhMZXByTldjSF96VXI1X3l1bjJ5TnRERVI5Q1NDNHVzTXhDVG1pRUVPNjNWQWFYYkxY?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3AFBVV95cUxPR283UHFCby1NTS11TDNnSHhPZzZ6a2U0RkJ0blpnUzdjZU1pSFZWQkI4WTMxY1ZtYnVYaURqcHVoYkF1WV9RMjRRYXFfdU1kVjhKZGpCQWx2LThIa0ZGWXpwNnM3MFoxT2hZeTV3aWczUlVKMVJ1eWoxZEc5TFRFLXJMajZpSjFIZ2dxSVU2dC1XdzM0UnYtRGpvenBYNU11a3d5RUpvM3E1THhMZXByTldjSF96VXI1X3l1bjJ5TnRERVI5Q1NDNHVzTXhDVG1pRUVPNjNWQWFYYkxY",
-      "published_ts": 1767686400,
-      "id": "a13387cda610798fb2e3c179"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Morning 4: DDOT employees caught ‘fondling,’ had inappropriate relationship, abandoned bus -- and more news - clickondetroit.com",
-      "source": "clickondetroit.com",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbXQyNWxZemQzZWc4d1lpa0p1Ty1MSUthTzNFclhzczZGbTZBVms1VEEwa3J6anJ0amFaV05sdU1tWWpSN3FUOEQyNWd2T0hsTWl4REd2UUlQcE84a0lfSGZBZ2dLZm9EdUR0cGswUl9YeHJNUDVkYm9jTmdqcnJVWkdkVXE5SDR6NmVyclk2N0tLM1ZfVEcweDdFeGdickF3T2FIV2lhSUdBajhta04xNlNZSW1YdEliWkZ2Wm04Z2k2SDRrT1VzWno3VVBOdXhPVngwZkVmT1ZVbVZkc2V6bnk0Z3pCWWJY?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi6AFBVV95cUxQbXQyNWxZemQzZWc4d1lpa0p1Ty1MSUthTzNFclhzczZGbTZBVms1VEEwa3J6anJ0amFaV05sdU1tWWpSN3FUOEQyNWd2T0hsTWl4REd2UUlQcE84a0lfSGZBZ2dLZm9EdUR0cGswUl9YeHJNUDVkYm9jTmdqcnJVWkdkVXE5SDR6NmVyclk2N0tLM1ZfVEcweDdFeGdickF3T2FIV2lhSUdBajhta04xNlNZSW1YdEliWkZ2Wm04Z2k2SDRrT1VzWno3VVBOdXhPVngwZkVmT1ZVbVZkc2V6bnk0Z3pCWWJY",
-      "published_ts": 1767686400,
-      "id": "f9a612de6c16d477ff65e558"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "OIG report finds DDOT employees had an inappropriate relationship on duty, abandoned running bus - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUGRmaE8xUG5qdTQ0NlpRNmQ0QTdGc3MxdDBCVzNtTUVFSHRWNUVaankzMGR0LTREWW9hZmtfa3drVGNHdnlkWnVQbmgxTnE4bVg4Mnp4SEFqeXlLN1RXenpibDlBNzd2RDBZOHU1TjRjZy12NTJtWVdWSElXTG9GbWVtYzdzT2ZhZjRvTUdJdS1pc2hfR19vYy1oQnBFdUdndVUyRENhalc5c01ySWNVRmItMUpiMWVXYkM0Vldsc1I3SWxEVERJY01CdGpTaFlRTVZZOWNLdnJLdHZl?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3AFBVV95cUxQUGRmaE8xUG5qdTQ0NlpRNmQ0QTdGc3MxdDBCVzNtTUVFSHRWNUVaankzMGR0LTREWW9hZmtfa3drVGNHdnlkWnVQbmgxTnE4bVg4Mnp4SEFqeXlLN1RXenpibDlBNzd2RDBZOHU1TjRjZy12NTJtWVdWSElXTG9GbWVtYzdzT2ZhZjRvTUdJdS1pc2hfR19vYy1oQnBFdUdndVUyRENhalc5c01ySWNVRmItMUpiMWVXYkM0Vldsc1I3SWxEVERJY01CdGpTaFlRTVZZOWNLdnJLdHZl",
-      "published_ts": 1767686400,
-      "id": "740f95bebb1a76e3387f1798"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "DDOT inspector, driver caught in bus romance in Detroit - WDIV",
-      "source": "WDIV",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDF4TENzR2t6bXJlU2c4d1kwX2F5cGhKSW9rNlcxVHUzeDdpaWFtN1pfZkpfc0lVRG4yeEYtdlRRODJxaEplSTU5WE5tbU42ME5PVlZZN3RYLTAxRWY5c0JaZkJPZmVneFFoVWNaUnhlQnBCVElWNG9XVzU1MFpOTGVCbWRvXzZ6WVdrN0tMS3BtSW9oUkhSV09MMzhjakw5bFdjWHZRZlpGSm9h?oc=5",
-      "canonical_url": "",
-      "guid": "CBMirAFBVV95cUxNUDF4TENzR2t6bXJlU2c4d1kwX2F5cGhKSW9rNlcxVHUzeDdpaWFtN1pfZkpfc0lVRG4yeEYtdlRRODJxaEplSTU5WE5tbU42ME5PVlZZN3RYLTAxRWY5c0JaZkJPZmVneFFoVWNaUnhlQnBCVElWNG9XVzU1MFpOTGVCbWRvXzZ6WVdrN0tMS3BtSW9oUkhSV09MMzhjakw5bFdjWHZRZlpGSm9h",
-      "published_ts": 1767686400,
-      "id": "8fbcd188994459f759a51f57"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "\"Mayor Sheffield\"",
-      "title": "Detroit's New Mayor Mary Sheffield Launches Program To Financially Support New Mothers In One Of Her First Acts - Blavity News",
-      "source": "Blavity News",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05TE5jUTZLRXNVVnVUTm03dkFCRG5NZF9yUTFKVlpBaDNjV2drQVljWXJMX3JZT055S3BLQ3R2ekNfZ2w4U05ZY3IzS2UwVmdnUHVxS05ORm5mRWluVm82elZCMkZ0Qld1NHYzcS02VzNnWUk?oc=5",
-      "canonical_url": "",
-      "guid": "CBMic0FVX3lxTE05TE5jUTZLRXNVVnVUTm03dkFCRG5NZF9yUTFKVlpBaDNjV2drQVljWXJMX3JZT055S3BLQ3R2ekNfZ2w4U05ZY3IzS2UwVmdnUHVxS05ORm5mRWluVm82elZCMkZ0Qld1NHYzcS02VzNnWUk",
-      "published_ts": 1767686400,
-      "id": "168423ee3c0efe58f5de2f35"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "INDOT cancels, postpones projects - Indiana Capital Chronicle",
-      "source": "Indiana Capital Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWV9mZHNZQUVsSG14Wm9lSWI0SkF4ODh2SzEySjJjN1VUQjROZWxlWmtIbUZHOXMwTXl3SG1FZVgxUkVad3JQcXRHNXpjVEQtU1lsZ0kzQzJDSGRZV2h1cnJUbzgzZVY0bjFVY205dUZiR1VUNHFBVDhQNlFNY1V1alVJeHUxX0E?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihwFBVV95cUxQWV9mZHNZQUVsSG14Wm9lSWI0SkF4ODh2SzEySjJjN1VUQjROZWxlWmtIbUZHOXMwTXl3SG1FZVgxUkVad3JQcXRHNXpjVEQtU1lsZ0kzQzJDSGRZV2h1cnJUbzgzZVY0bjFVY205dUZiR1VUNHFBVDhQNlFNY1V1alVJeHUxX0E",
-      "published_ts": 1767686400,
-      "id": "dee06d203783d497c6f4e128"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Mayor",
-      "title": "A post from WEEinthecity in League City. - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNEJhWlhCY1JYZmNzSkJJdC1OLWtSMEZ4RGg1ZXNRc05mYUtqWnRNeEotYzhLQjFCM1p3cUxnMzZUUDROSHR1SUU5UlU3Q1V3SDRVMWsyVGZTVURoZm8wRDlDLUNyMU9FQVhKTU1rQ0RSQ09DNUxqMHQ1UUl2M2w4SUlLSGpRNHJ5OFdEaC0xY1ptTzNTeE1xc0kwRDM2MFNvaTgxdmE5OA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipwFBVV95cUxNNEJhWlhCY1JYZmNzSkJJdC1OLWtSMEZ4RGg1ZXNRc05mYUtqWnRNeEotYzhLQjFCM1p3cUxnMzZUUDROSHR1SUU5UlU3Q1V3SDRVMWsyVGZTVURoZm8wRDlDLUNyMU9FQVhKTU1rQ0RSQ09DNUxqMHQ1UUl2M2w4SUlLSGpRNHJ5OFdEaC0xY1ptTzNTeE1xc0kwRDM2MFNvaTgxdmE5OA",
-      "published_ts": 1767686400,
-      "id": "77b03e661a000112adbde58f"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "Local development group approves $30K for northeast Indiana casino pursuit - CDC Gaming",
-      "source": "CDC Gaming",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTdTb1BZQWN1SDJXN2o2TlVMQjJ3MmRONFZXZVZIT2NmMTJBbDNYcDdIeGpva05RZWVTWEgtblFyc1daTUN0bWxJTnRDYU4ycDJseUtwM2RmV2Z3VjlabDNHTUZwcGZpVHZwOXdNUXdndnBFdDNCS3E5N0F3ajNoM2ZXb0cxT1lKcFVIeDM5ak9pRVJDa285Mks0aWZqTWZIRVRpTg?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipAFBVV95cUxObTdTb1BZQWN1SDJXN2o2TlVMQjJ3MmRONFZXZVZIT2NmMTJBbDNYcDdIeGpva05RZWVTWEgtblFyc1daTUN0bWxJTnRDYU4ycDJseUtwM2RmV2Z3VjlabDNHTUZwcGZpVHZwOXdNUXdndnBFdDNCS3E5N0F3ajNoM2ZXb0cxT1lKcFVIeDM5ak9pRVJDa285Mks0aWZqTWZIRVRpTg",
-      "published_ts": 1767665259,
-      "id": "0cff3f98f6f86cbecfc5c281"
     }
   ]
 }
