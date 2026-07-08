@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T10:16:11.213825+00:00",
+    "generated_at": "2026-07-08T09:53:44.926674+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2693,
+    "items_count": 2679,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -128,6 +128,61 @@
   },
   "items": [
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Keel Team Completes $10.69 Million Refinance on Detroit, Michigan Mobile Home Park - EIN Presswire",
+      "source": "EIN Presswire",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQVFlZlpRWUlrRVpSRGszNG54U2lEdlhIellhLVY1V0dscHVKdnBYa2JBQ0dhaDN0Q01jbXkyRjI4UExMd1l0Zl91N1MzNktXeVljT3dWZ3VmZ1dKSFdqMFZzczlQSVpCLVA0dFMtTExVdDVBVmpCRGhkQ2w4STFOTnVEN0xQb1RLSUc5cHA0anRmd2dJV2E3T3hCaXU2N2xPdE91TWJTT0VwV2xHZWdvdUcybXVDakl5dVBfUG8tOENDZUYzNUE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixgFBVV95cUxPQVFlZlpRWUlrRVpSRGszNG54U2lEdlhIellhLVY1V0dscHVKdnBYa2JBQ0dhaDN0Q01jbXkyRjI4UExMd1l0Zl91N1MzNktXeVljT3dWZ3VmZ1dKSFdqMFZzczlQSVpCLVA0dFMtTExVdDVBVmpCRGhkQ2w4STFOTnVEN0xQb1RLSUc5cHA0anRmd2dJV2E3T3hCaXU2N2xPdE91TWJTT0VwV2xHZWdvdUcybXVDakl5dVBfUG8tOENDZUYzNUE",
+      "published_ts": 1783455060,
+      "id": "159fa6c29cf309206f74129d"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Former Blue Cross office complex in Southfield to undergo $65.1M housing redevelopment - Crain's Detroit",
+      "source": "Crain's Detroit",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLXBmdTlJYU9fMTZHbXNaS1NZU3ZBSjhlQld2aVpjX2tLY01tbGc2cnZFYWlrX3JkUmJ6VmszM0VEazdVdU83TXFEV0lDbW04cEVOeV9QU285Mmd0Nzk0OHBLaDNEbUtMWXZlamVzTTY0QnpWb1ZYRUVEbG9GOVRRdTktOUxHazVNMlBiZmlhMkNnam9KQjNnTXBxekpDWUk5?oc=5",
+      "canonical_url": "",
+      "guid": "CBMioAFBVV95cUxQLXBmdTlJYU9fMTZHbXNaS1NZU3ZBSjhlQld2aVpjX2tLY01tbGc2cnZFYWlrX3JkUmJ6VmszM0VEazdVdU83TXFEV0lDbW04cEVOeV9QU285Mmd0Nzk0OHBLaDNEbUtMWXZlamVzTTY0QnpWb1ZYRUVEbG9GOVRRdTktOUxHazVNMlBiZmlhMkNnam9KQjNnTXBxekpDWUk5",
+      "published_ts": 1783444140,
+      "id": "15a8db33eb96eaba12395424"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Addressing the top three issues affecting those 50 and older with Andrea Hunley - Indianapolis Recorder",
+      "source": "Indianapolis Recorder",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNmkxYlVHRTJ3bTJNZFd0aTRBZEJYTDFKZ1dFblJGNU82UjQtRlFWSHVMdkJweG9CRkl0bTdUVlZnOXYtTlpUTjRoM25FMlNjR21aZHp0dkxBWkN4MEZ3Q21KSDcyUkFtZGZUM0xQSGhyczRwcUVqWmRNdVltYzFuOXBFY1Ezbk1LMWxSR2RQcw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijwFBVV95cUxPNmkxYlVHRTJ3bTJNZFd0aTRBZEJYTDFKZ1dFblJGNU82UjQtRlFWSHVMdkJweG9CRkl0bTdUVlZnOXYtTlpUTjRoM25FMlNjR21aZHp0dkxBWkN4MEZ3Q21KSDcyUkFtZGZUM0xQSGhyczRwcUVqWmRNdVltYzFuOXBFY1Ezbk1LMWxSR2RQcw",
+      "published_ts": 1783434245,
+      "id": "ceabe2d8c0c61c3648ca5678"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Most transit naysayers lack credibility - nuvo.net",
+      "source": "nuvo.net",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOaEdWQjBWUU9NR0lCdENOZUpkUG9NSndRanFrZk5ZTC1adFd5aFJwTjJSTElKN1ZFNTF2SGJFSWUwOHRmX0JVZ3hvZ3NBSnZoVXA2TEdNZldmN2RzZ2syeGtyX1YzWERTRTk0d0ozLThJdFMzcVJ0dG5kd0k4anFLTVFjaVBZcmJ3MFNhTXAzZmoydks3WDdqdmNuWVF3a2lvN3FQUkdablZTVlhodFp1bXZBZWlzekxHU3pBcG5lajI2cjVUVTFZWkZrNjVTVHZ4THkteW9DUkVwenFaT2k4MDBMTTRQU3FMRE54dURXMEhpSmFUTFViU0Q0Smo2ZjNvTXUxMWhLSnBkd1FqMWtkT0dJQ2F4UGZqVm5ZNE5RVmgxYlXSAc4BQVVfeXFMTUliWTlselkwRVgxVVpNVXBSVHJIMXctLThYWTZHSlkwTUg3bS1qdjREdW1rbDh6T0lwemkxcjNDckFVT0E0V05wOHFjSFliNnpScW5MT3FyM2pWZDM4bEFBcTFPa0p3M0F0MjlhYXdkTmIyMjhlakF0WEVtNk9wOXg3aUloaWpGdHR5c0VfdFNvR18tdlJmdGdNN00tZE1CdFFhalEwOC1icXVrenN4aFNFem1PRmswd2E3cjFHTW5RUlRPeWFvT1o0WkFUdlE?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiowJBVV95cUxOaEdWQjBWUU9NR0lCdENOZUpkUG9NSndRanFrZk5ZTC1adFd5aFJwTjJSTElKN1ZFNTF2SGJFSWUwOHRmX0JVZ3hvZ3NBSnZoVXA2TEdNZldmN2RzZ2syeGtyX1YzWERTRTk0d0ozLThJdFMzcVJ0dG5kd0k4anFLTVFjaVBZcmJ3MFNhTXAzZmoydks3WDdqdmNuWVF3a2lvN3FQUkdablZTVlhodFp1bXZBZWlzekxHU3pBcG5lajI2cjVUVTFZWkZrNjVTVHZ4THkteW9DUkVwenFaT2k4MDBMTTRQU3FMRE54dURXMEhpSmFUTFViU0Q0Smo2ZjNvTXUxMWhLSnBkd1FqMWtkT0dJQ2F4UGZqVm5ZNE5RVmgxYlXSAc4BQVVfeXFMTUliWTlselkwRVgxVVpNVXBSVHJIMXctLThYWTZHSlkwTUg3bS1qdjREdW1rbDh6T0lwemkxcjNDckFVT0E0V05wOHFjSFliNnpScW5MT3FyM2pWZDM4bEFBcTFPa0p3M0F0MjlhYXdkTmIyMjhlakF0WEVtNk9wOXg3aUloaWpGdHR5c0VfdFNvR18tdlJmdGdNN00tZE1CdFFhalEwOC1icXVrenN4aFNFem1PRmswd2E3cjFHTW5RUlRPeWFvT1o0WkFUdlE",
+      "published_ts": 1783429300,
+      "id": "2c9df84c3cc4153340a2b901"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "New law aims to grow affordable housing - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVTNaOGFycDNXaWNIWXVsYWYxVFJkWHAxY1ZVTDB5NXhxZTBfX2NKcm9laGNaa2k1LVpORzk4UFVOYmt4cVA5eTJ4dEN6eG1mREZBdXhNUEw3clhTczdzWDUwbENmYjI0Rjdqd0RlLWtkSy1LMTZyb3M4SElUXzdOb2k3b0JVV1RmbnZHMlRoazUwdmN4bWVmTw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimAFBVV95cUxOVTNaOGFycDNXaWNIWXVsYWYxVFJkWHAxY1ZVTDB5NXhxZTBfX2NKcm9laGNaa2k1LVpORzk4UFVOYmt4cVA5eTJ4dEN6eG1mREZBdXhNUEw3clhTczdzWDUwbENmYjI0Rjdqd0RlLWtkSy1LMTZyb3M4SElUXzdOb2k3b0JVV1RmbnZHMlRoazUwdmN4bWVmTw",
+      "published_ts": 1783428840,
+      "id": "c5b59942e57c7aa1c4f1643b"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Ivy Tech, Vincennes will be first schools to offer Workforce Pell Grant programs - Mirror Indy",
@@ -214,6 +269,17 @@
       "guid": "CBMixAFBVV95cUxQbDdqVnRidEZzMGhfMzNrakNIWWMyaTNMNFlFNFJJS0YtMF9kei11VEFTZ1U5ako4TG8td1BTekpFcWx1VDZXUk9LLUNZWGZhRXhpNTRYNlYwcE5ZOEF0YmFfYl90d2hWdGRVTFp1dEJ0MXdXb0tZeTlFV19USTkwekQtWkdUQXJlcV8tWmg1azZIUXAtQVhmV0tFZS04VVNIUzVxVmpHVnRDZmI5ajV6YTJEdWUzenkxWGpoUTR2MjRFRUZn",
       "published_ts": 1783308840,
       "id": "69e2ca1bc25217ae3916838c"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Breaking: Go Woo-suk Traded to Twins, Becomes 30th Korean MLB Player - 조선일보",
+      "source": "조선일보",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTVad3ZJS1Z3NTFoWE01VHZHVlR1V3AwOXBfVU40eURrSG5haVdjNVBjNVZzNnBtemctS1EyMDBEbUYxUE9SakxHQ0ZjS185YTJtZlZtZXVFUjdRckRHZWQzSjRzSXNpaVhxYVlpSm50T0ZjWXJJWkIwQjZEV0RFQzFYWkROUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMihgFBVV95cUxPMTVad3ZJS1Z3NTFoWE01VHZHVlR1V3AwOXBfVU40eURrSG5haVdjNVBjNVZzNnBtemctS1EyMDBEbUYxUE9SakxHQ0ZjS185YTJtZlZtZXVFUjdRckRHZWQzSjRzSXNpaVhxYVlpSm50T0ZjWXJJWkIwQjZEV0RFQzFYWkROUQ",
+      "published_ts": 1783290373,
+      "id": "2e881af4d2b59a7b1ae00852"
     },
     {
       "bundle": "Indiana TOD",
@@ -29529,226 +29595,6 @@
       "guid": "CBMi4AFBVV95cUxQNkYyZjZsYnpNd1lwOVg0THpUQ2MxMk9mbE1SYnQ3T0w2cFZyRWkzdnIxTkdYeExITFR3dVF2REZyeVIxLXExN1VBVkoteW0xUmNEVW5oSXE3b0ZMa2JUcS1jVzZGbHJ3M05hSEV0a01MQkRiT2IxeHRFWXl2VTlGWDRGWXFGZk90X3NmcGl4OGxjWTVCMFlaak5hQ3ptek1uR0JsSkJVVm13UnNrRTF4YzU5c3FoaDNFbGNGeHRXdEhYenFoU0Nwd1dRM3MxX1VyU1JBWm8xYnZsT3dJZG5oaw",
       "published_ts": 1768032000,
       "id": "b624aa9282e47423b6c2acb6"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis housing",
-      "title": "Indiana House Republicans roll out 2026 agenda focused on housing, energy, deregulation - Indiana Capital Chronicle",
-      "source": "Indiana Capital Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcjFXWEdFc21OOXE4amhEZmxsUWFKNjBSVEdWR0stOXpBT1R0MTUtbU9xdVVTYkVSc3IxYTBlVHR1TGRwQWJWSmlsWGw3czRkVlhUem1rU0gzRkttaC1Ta2VvbVVQdjZxQjBFZHBQb3RiaGhwSlZWVUZ1el9OMldKcG1JVm85bXd6QV82RXFwVDR1YzdwaERPYjY5bFMwVm9BZHpZU3l4VXZKSzN2UmNFTUVJRGJIeDdBTHdoU0tLV0RGVXAzNWtTMWxNZUN4QQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMizgFBVV95cUxOcjFXWEdFc21OOXE4amhEZmxsUWFKNjBSVEdWR0stOXpBT1R0MTUtbU9xdVVTYkVSc3IxYTBlVHR1TGRwQWJWSmlsWGw3czRkVlhUem1rU0gzRkttaC1Ta2VvbVVQdjZxQjBFZHBQb3RiaGhwSlZWVUZ1el9OMldKcG1JVm85bXd6QV82RXFwVDR1YzdwaERPYjY5bFMwVm9BZHpZU3l4VXZKSzN2UmNFTUVJRGJIeDdBTHdoU0tLV0RGVXAzNWtTMWxNZUN4QQ",
-      "published_ts": 1767945600,
-      "id": "e8a027670a4e1a6b28099e6a"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Michigan helps employers build housing in Detroit, Kalamazoo as fund runs dry - Bridge Michigan",
-      "source": "Bridge Michigan",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2NNSml1dmhTRm1STHhCdFVrcmdZTnR0SEV3bTBBdVVHMXVhVnAwSU1BdEVhd2Y4Z0VvVHpsYXdSLVFibDE2dXFwcXRQQ1lVUmhrUmtud0NaaUlyMGhWdUs3QllyY3c3YmlpVDJXMS1WZXgzbnBRcjZpQ3RkYUg4aG1pcDlLcmgyUHZDTHdyVTlPNHlOMUtXaUdPdXkxS3RtekNmb2NVUmt2aGhhQlJxVVpmMEFObnU2MHc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiugFBVV95cUxPX2NNSml1dmhTRm1STHhCdFVrcmdZTnR0SEV3bTBBdVVHMXVhVnAwSU1BdEVhd2Y4Z0VvVHpsYXdSLVFibDE2dXFwcXRQQ1lVUmhrUmtud0NaaUlyMGhWdUs3QllyY3c3YmlpVDJXMS1WZXgzbnBRcjZpQ3RkYUg4aG1pcDlLcmgyUHZDTHdyVTlPNHlOMUtXaUdPdXkxS3RtekNmb2NVUmt2aGhhQlJxVVpmMEFObnU2MHc",
-      "published_ts": 1767945600,
-      "id": "100d296d9afd3d9942529bdc"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Oxford Amtrak Cardinal stop plan moves toward 2027 launch - Railway Supply",
-      "source": "Railway Supply",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzZzSDhvSmxmSkREdGtnX3BxUlcyRjVQUGtNZGp0RDhTSWpoQkVyMTFmcW9aTFNZY0dmNUdlLTZZRWRNT3d0emNEODRDdDVqNU5yaTY2ZXRpRnZxY1pLZVc3UHVuYUFsZ2NjclZ6WFI4d1FhSFZzZTNpMmp3SDFfR0VGVTVoUnMyZnFXRGFR?oc=5",
-      "canonical_url": "",
-      "guid": "CBMijgFBVV95cUxPZzZzSDhvSmxmSkREdGtnX3BxUlcyRjVQUGtNZGp0RDhTSWpoQkVyMTFmcW9aTFNZY0dmNUdlLTZZRWRNT3d0emNEODRDdDVqNU5yaTY2ZXRpRnZxY1pLZVc3UHVuYUFsZ2NjclZ6WFI4d1FhSFZzZTNpMmp3SDFfR0VGVTVoUnMyZnFXRGFR",
-      "published_ts": 1767945600,
-      "id": "ee43d4a8125581db9b54a4cb"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County workforce",
-      "title": "Once an inmate, now an owner: Ex-con buys prison, plans workforce training facility - WRAL",
-      "source": "WRAL",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVUlrZlhhbDEtci1zR3Q5ODNVRHV3SmdZM2t4c1JNRFdnRHoyRzBRNkd0bC00Q2FyQkNlX2UwQTlDeG9CYmZKVzJnSThfclVlZE5ZYkVLdDR6dUp4WGpaMDR2UHBzdHJzS21CWTBiREVKNzBWWUNTMGNTVnFsMlZ6eVJacGxMRFhfZnlNRmNyNUhPVWRCdWRobFJqSEhnSDRmQVVlOHdWM21xQ0UxMHVJbWhkUU1BLWZH?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiuAFBVV95cUxOVUlrZlhhbDEtci1zR3Q5ODNVRHV3SmdZM2t4c1JNRFdnRHoyRzBRNkd0bC00Q2FyQkNlX2UwQTlDeG9CYmZKVzJnSThfclVlZE5ZYkVLdDR6dUp4WGpaMDR2UHBzdHJzS21CWTBiREVKNzBWWUNTMGNTVnFsMlZ6eVJacGxMRFhfZnlNRmNyNUhPVWRCdWRobFJqSEhnSDRmQVVlOHdWM21xQ0UxMHVJbWhkUU1BLWZH",
-      "published_ts": 1767945600,
-      "id": "9ab754fff259d3a96d51da2d"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis transit",
-      "title": "An anonymous texting service in Indianapolis works to prevent drug overdoses - nhregister.com",
-      "source": "nhregister.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYktxcGpUamxuRTJMUVRaRFJETmdNdWt4bElFNnFmbDZfUDdDbjJuY2h5OXYtVWFKY0VfWmxxTnBIUnpWQUdWSFFSVjdiSk42ZUhHRndCQmxUandydzVmcnNpTXJUX3h2aVQtQ1oteGdOMTd1ellWOWY2cTlOZlNVODNTUnktQTZKSFg4NDdOM2F3d3FsbE94ekNjSENNUQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMingFBVV95cUxOYktxcGpUamxuRTJMUVRaRFJETmdNdWt4bElFNnFmbDZfUDdDbjJuY2h5OXYtVWFKY0VfWmxxTnBIUnpWQUdWSFFSVjdiSk42ZUhHRndCQmxUandydzVmcnNpTXJUX3h2aVQtQ1oteGdOMTd1ellWOWY2cTlOZlNVODNTUnktQTZKSFg4NDdOM2F3d3FsbE94ekNjSENNUQ",
-      "published_ts": 1767945600,
-      "id": "aedd04e5267748cae0ad3941"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Sheffield Administration",
-      "title": "Detroit Mayor Mary Sheffield's public swearing-in and investiture - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcTA0LTlsWU1tdDVTdXdlTlF5a19VSzJWSUVzUlFMdTBNazdUN1FzT0RBM1czN2xRek1aT1BSbkFYdVRBY2NHWFR4dkItbUNGanRvVHR5RWw4TjRaZ3g2MjlCN0xjS09VUWZMRmp1dWxwMGJxcGdMQjVDTUd6SVl0MkpWOHA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihAFBVV95cUxQcTA0LTlsWU1tdDVTdXdlTlF5a19VSzJWSUVzUlFMdTBNazdUN1FzT0RBM1czN2xRek1aT1BSbkFYdVRBY2NHWFR4dkItbUNGanRvVHR5RWw4TjRaZ3g2MjlCN0xjS09VUWZMRmp1dWxwMGJxcGdMQjVDTUd6SVl0MkpWOHA",
-      "published_ts": 1767945600,
-      "id": "64533b7f2d51af4dbb86466e"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Detroit Mayor Mary Sheffield's public investiture - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaDJja0Q3YmM4Z09DQ013ZUxmbVMtSERHNDhmRk84dGp3bVhNY2k3TU9mU1U5bUw3S1lSMEwyaGNWbktTMW8wVVQ4ZVFlX2xXX0VJQWZjY3daanRyb0Y1NGN2dTJSRTJEOUpZRGZvb2dHbjVzYzEyY2hvdXlkZlVod19HTTdsRGRBRGtybC1XalU?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikAFBVV95cUxNaDJja0Q3YmM4Z09DQ013ZUxmbVMtSERHNDhmRk84dGp3bVhNY2k3TU9mU1U5bUw3S1lSMEwyaGNWbktTMW8wVVQ4ZVFlX2xXX0VJQWZjY3daanRyb0Y1NGN2dTJSRTJEOUpZRGZvb2dHbjVzYzEyY2hvdXlkZlVod19HTTdsRGRBRGtybC1XalU",
-      "published_ts": 1767945600,
-      "id": "8ceddddb87cd21ed9158c72b"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Inkster police investigate fatal shooting; Detroit Mayor Mary Sheffield investiture; other stories - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNmZyX3lYYXlJV1M4d2hxdVZ3bkhmTTNwYllfeUkxS1ZnU0NmNkE2QmJJSEZjTE85VjJlc1puUWR1eklTZUJTSkx0MVpxd0NGRUtjWGQ3RmxBRkEzbEtKMFA0YldabVdzNlBFVHFSeGxFVzgtUlU0YWp6R0xYdk5CaWt0YjVOU0E1VGxLQXNZMF9fUkpXZFljbG10dTZUZkQzUFJJUzRqempWVVd4RXZCMlZxb0U5RFZ1NzZvamZZdnpHbDNKeWNvWmZiM3ZxOV9l?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi0AFBVV95cUxPNmZyX3lYYXlJV1M4d2hxdVZ3bkhmTTNwYllfeUkxS1ZnU0NmNkE2QmJJSEZjTE85VjJlc1puUWR1eklTZUJTSkx0MVpxd0NGRUtjWGQ3RmxBRkEzbEtKMFA0YldabVdzNlBFVHFSeGxFVzgtUlU0YWp6R0xYdk5CaWt0YjVOU0E1VGxLQXNZMF9fUkpXZFljbG10dTZUZkQzUFJJUzRqempWVVd4RXZCMlZxb0U5RFZ1NzZvamZZdnpHbDNKeWNvWmZiM3ZxOV9l",
-      "published_ts": 1767945600,
-      "id": "76db3d597c3e5b9eda6094a9"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Detroit Mayor Mary Sheffield, city officials publicly sworn in - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONVJUTUk3VndIaFdaS25jQzlQa05zdDJhcGMza3RZWVNtREh2MzBiakdwZWU4OE8zQnVna251ME9MNHVSOGJ0d0ZJbGx5TUF5eE5aaGhnOHNWRW1nNG80LWE0S2RWWkI3WmNHRDlkMndSMGRadlVLVmllX0J3VWU4el9rd092ZDdaOTZPNllOd0U5LTRTTjR4MEU0UHN6c0JSRkE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiogFBVV95cUxONVJUTUk3VndIaFdaS25jQzlQa05zdDJhcGMza3RZWVNtREh2MzBiakdwZWU4OE8zQnVna251ME9MNHVSOGJ0d0ZJbGx5TUF5eE5aaGhnOHNWRW1nNG80LWE0S2RWWkI3WmNHRDlkMndSMGRadlVLVmllX0J3VWU4el9rd092ZDdaOTZPNllOd0U5LTRTTjR4MEU0UHN6c0JSRkE",
-      "published_ts": 1767945600,
-      "id": "38d0d0f06322e8bf452bbd70"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Detroit Mayor Mary Sheffield, city officials publicly sworn in: \"I feel so empowered\" - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUTlWQ0YyXzM5MjhfSFlWYjBmWUZvWWlJNHFZVmk5WG9lVkRoQTN2VlpSSTNDalFXZk5DZjRkcDlCcGszVmYtbUt3X3RBX2JNdEZDc3JISjkzWll4N2hLYmh3ZTRRamw0X0JGWEFIemctOW8ySUNMbm5ISmpTTm1jN3NHTDlSMk9oR1pfRDhHWHQ4anhHUTBrRDkwd1licG5v?oc=5",
-      "canonical_url": "",
-      "guid": "CBMioAFBVV95cUxOUTlWQ0YyXzM5MjhfSFlWYjBmWUZvWWlJNHFZVmk5WG9lVkRoQTN2VlpSSTNDalFXZk5DZjRkcDlCcGszVmYtbUt3X3RBX2JNdEZDc3JISjkzWll4N2hLYmh3ZTRRamw0X0JGWEFIemctOW8ySUNMbm5ISmpTTm1jN3NHTDlSMk9oR1pfRDhHWHQ4anhHUTBrRDkwd1licG5v",
-      "published_ts": 1767945600,
-      "id": "06b24b3d96580a5e019a0adc"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Preview of Detroit Mayor Mary Sheffield celebrations - CBS News",
-      "source": "CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVE2OUtKU2RaaTdKdWRJZWo4VjRBUFpoNXctaWJnNWo2LUZLVzNpWlR5c3JkcVFjcnF2eXl2R0Z4em9jTEVnTi1kMWtPdmoxQ1hoUzV4MU9CNjhmc0NYYnc5ck5wemd1T0ZGdndfQXdGd2Z1YnZBWmhEZHVjSmhOa04xQXd0TGNDamdaNENPTDNiY0dSaEE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilgFBVV95cUxQdVE2OUtKU2RaaTdKdWRJZWo4VjRBUFpoNXctaWJnNWo2LUZLVzNpWlR5c3JkcVFjcnF2eXl2R0Z4em9jTEVnTi1kMWtPdmoxQ1hoUzV4MU9CNjhmc0NYYnc5ck5wemd1T0ZGdndfQXdGd2Z1YnZBWmhEZHVjSmhOa04xQXd0TGNDamdaNENPTDNiY0dSaEE",
-      "published_ts": 1767945600,
-      "id": "3f39fc1a01332178aa65ea44"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Detroit Mayor Mary Sheffield's swearing-in and investiture - cbsnews.com",
-      "source": "cbsnews.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmhvWFB2MG90UTd5NjQ3UjRhUE5qWDlsZzhieFJiZ0xJcExyaW4tS3duMzBBOE04d2Fpd25SN3Nlc1lDR0otMDlSLXlQSjBKamdGMGVWQW5rczg0UENSSVp2NnZtYmRJRE1TVW5wYlQ4Y1RBZG5XT0lJaEY1R2JiS1dUNXVPeGFET1Q2VERZaU9ObmVOVDJMenU3OGI?oc=5",
-      "canonical_url": "",
-      "guid": "CBMinAFBVV95cUxOdmhvWFB2MG90UTd5NjQ3UjRhUE5qWDlsZzhieFJiZ0xJcExyaW4tS3duMzBBOE04d2Fpd25SN3Nlc1lDR0otMDlSLXlQSjBKamdGMGVWQW5rczg0UENSSVp2NnZtYmRJRE1TVW5wYlQ4Y1RBZG5XT0lJaEY1R2JiS1dUNXVPeGFET1Q2VERZaU9ObmVOVDJMenU3OGI",
-      "published_ts": 1767945600,
-      "id": "f8fca397e7eb82165c7e5d4c"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "‘A new chapter’: Mary Sheffield sworn in as Detroit’s 76th mayor in historic ceremony - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMHRZT2RmMVBwcFlmdWdmbV9SQUJOb2d0VFNFWG5faVpsUUpvWkFhQ1hIZU9XdXZOYVlEZUJTbHlvUkpxT2VQNHQzX3lwYnFUSnlPdDlER3FvcmZfUFhDN3dxVGRZaHpYN0w2dUhOSXEzN3pDVXQzSU9xNGs4ajdUVmZwLXo1TDRNY2ZnckdsNlJJcmdWYkJjYUlHQmFFbFBlR3JwS0RjMUx3M0JFdzNQa19wTlpXdWFvNTR3b2R4ZnZ4cHQ1NG1KZ2NrMlhkWDRn?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi0AFBVV95cUxNMHRZT2RmMVBwcFlmdWdmbV9SQUJOb2d0VFNFWG5faVpsUUpvWkFhQ1hIZU9XdXZOYVlEZUJTbHlvUkpxT2VQNHQzX3lwYnFUSnlPdDlER3FvcmZfUFhDN3dxVGRZaHpYN0w2dUhOSXEzN3pDVXQzSU9xNGs4ajdUVmZwLXo1TDRNY2ZnckdsNlJJcmdWYkJjYUlHQmFFbFBlR3JwS0RjMUx3M0JFdzNQa19wTlpXdWFvNTR3b2R4ZnZ4cHQ1NG1KZ2NrMlhkWDRn",
-      "published_ts": 1767945600,
-      "id": "16816d49148c7a9ffc1a205f"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Mayor",
-      "title": "Tigers dump FanDuel sports network for broadcasts - FOX 2 Detroit",
-      "source": "FOX 2 Detroit",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbWYxUFM1VW9WVDZwM2NvWVZfb09jTXNqdV8wVVViWXhTV1lWR1lYTy1RSTVyNmZhNXpOamNiOUY2R3g1d2hGSkFaZk10bDdremRwM2xUc1B4NVlEWklxOVNld3Axa2Fua01GdFVLRU13cjdNR2M1d0FOVHN0TlZFUHZzd0fSAYoBQVVfeXFMTUdzNWdPemN3V0NJYktnS1NqU2U0TUhzYl9QWThvaXlRQk5ONmw3R1BRZEgzbDhsYnlTN3JDd09JZXU4MWtlZHJZM2V4M05KLWI2QXVkSnhYalBaVWljbVhkM1h1Umh1NFpMU24zQktTMFlLVEJjNEwxelBoS0d6SmQxeDEtMzExd21R?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihAFBVV95cUxNbWYxUFM1VW9WVDZwM2NvWVZfb09jTXNqdV8wVVViWXhTV1lWR1lYTy1RSTVyNmZhNXpOamNiOUY2R3g1d2hGSkFaZk10bDdremRwM2xUc1B4NVlEWklxOVNld3Axa2Fua01GdFVLRU13cjdNR2M1d0FOVHN0TlZFUHZzd0fSAYoBQVVfeXFMTUdzNWdPemN3V0NJYktnS1NqU2U0TUhzYl9QWThvaXlRQk5ONmw3R1BRZEgzbDhsYnlTN3JDd09JZXU4MWtlZHJZM2V4M05KLWI2QXVkSnhYalBaVWljbVhkM1h1Umh1NFpMU24zQktTMFlLVEJjNEwxelBoS0d6SmQxeDEtMzExd21R",
-      "published_ts": 1767945600,
-      "id": "840e7ddcc8683809aa8557d3"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Government",
-      "title": "Luigi Mangione fights to block death penalty, murder charge and key evidence in court - PBS",
-      "source": "PBS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHEyS0NvRHg0MnBoRS1WT2J2a281cEY1Y3R4alg5VDBRWWVWZkpmRU5fU1Q4ZVNzMTZ0M2p1NDVEUUUySWRzeS1jQWhjc0xBeW9MZEZTcjBqbnA0bjJlSjB1eEx4T19walgzNnBoUklTMWROQ1N0RGkta1J0MEpCaEZJSE9feVVDTWk0VUJJWFNkWkpNSmxETm1WRnY3aVk3OHpOc3A0cmV0WGs4X28xU0NfY0QtYUxTUElJMQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMivAFBVV95cUxQTHEyS0NvRHg0MnBoRS1WT2J2a281cEY1Y3R4alg5VDBRWWVWZkpmRU5fU1Q4ZVNzMTZ0M2p1NDVEUUUySWRzeS1jQWhjc0xBeW9MZEZTcjBqbnA0bjJlSjB1eEx4T19walgzNnBoUklTMWROQ1N0RGkta1J0MEpCaEZJSE9feVVDTWk0VUJJWFNkWkpNSmxETm1WRnY3aVk3OHpOc3A0cmV0WGs4X28xU0NfY0QtYUxTUElJMQ",
-      "published_ts": 1767945600,
-      "id": "9ee665a97e6f9c06dcdad0f5"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Oxford, Ohio, advances plans for new stop for Amtrak’s Cardinal - trains.com",
-      "source": "trains.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObndpZURWQlFiVERTNlgyMnp1d2hGWDQyaTRvOHQ1RWxPTm5GZk5IbUtDbE5aT3BISGNIZ1hGZ2xkYXZ2RDVUcUYyOUFrRkRMUFFzd0FwV3JoY2VuZkJOTFFrNlFoUXRzOEo5cklaaFBLUjhIc3ZucmxxWnRPbDg5YmdRSEFTbjc0WUVSeENQVy03aXFhcDkwNG9PbHpycHlKbGlmOWR6LXpxRDF3?oc=5",
-      "canonical_url": "",
-      "guid": "CBMirAFBVV95cUxObndpZURWQlFiVERTNlgyMnp1d2hGWDQyaTRvOHQ1RWxPTm5GZk5IbUtDbE5aT3BISGNIZ1hGZ2xkYXZ2RDVUcUYyOUFrRkRMUFFzd0FwV3JoY2VuZkJOTFFrNlFoUXRzOEo5cklaaFBLUjhIc3ZucmxxWnRPbDg5YmdRSEFTbjc0WUVSeENQVy03aXFhcDkwNG9PbHpycHlKbGlmOWR6LXpxRDF3",
-      "published_ts": 1767945600,
-      "id": "f20901fc70ca2abea371f5b0"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Tri-State city to build new train platform, enhancing connections to New York and Chicago - local12.com",
-      "source": "local12.com",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNN2c2VVdKcGFlQ3gzQWk4Q09wMUVZWHZOckJ6VTJWeFdwTTNTcTZLY3k4cVN1dENURzhXcmduMzl2cXY2WUlGMU5PQ2V0UlppT2ZOQnlWMXE2RkNScFVsa0NTRGRYWlhqaHJiSklRbmNzMFdtZkZmWUFZSnNCRXVkWDgwZmM1NzZSMDRoSEdZeGJ0WjViZlg5M3NRU182TW4xbGpVcXZkcDJtZkg2UVF2aDJKNEcxTzBFU2xtRUxmRTlzMjU5cjRlS2l2MklHcXJxYmNvZDdEYnl1QTdpWG5YOWt3YldacmZVNGpQSmhISDVHbmg2NDh0VWN0VzhZb01tLUdXc0wzQnpQZ3NwbjQ1blp3cnV5bVpMNmlhUUNCY2RwZExBQ1BBbi03blZCRmRqMmJBbEQ1bVJXM2xOaFpFcnY5TGgtS09NOXZ6cDVOU09OUTlmVzhyVXhDczZybkFmY2dlempmS3IyY1JqLU5Fa3lzY2ZGXzQwYlE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi-gJBVV95cUxNN2c2VVdKcGFlQ3gzQWk4Q09wMUVZWHZOckJ6VTJWeFdwTTNTcTZLY3k4cVN1dENURzhXcmduMzl2cXY2WUlGMU5PQ2V0UlppT2ZOQnlWMXE2RkNScFVsa0NTRGRYWlhqaHJiSklRbmNzMFdtZkZmWUFZSnNCRXVkWDgwZmM1NzZSMDRoSEdZeGJ0WjViZlg5M3NRU182TW4xbGpVcXZkcDJtZkg2UVF2aDJKNEcxTzBFU2xtRUxmRTlzMjU5cjRlS2l2MklHcXJxYmNvZDdEYnl1QTdpWG5YOWt3YldacmZVNGpQSmhISDVHbmg2NDh0VWN0VzhZb01tLUdXc0wzQnpQZ3NwbjQ1blp3cnV5bVpMNmlhUUNCY2RwZExBQ1BBbi03blZCRmRqMmJBbEQ1bVJXM2xOaFpFcnY5TGgtS09NOXZ6cDVOU09OUTlmVzhyVXhDczZybkFmY2dlempmS3IyY1JqLU5Fa3lzY2ZGXzQwYlE",
-      "published_ts": 1767932497,
-      "id": "544b80893d3b73f10cd39872"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "People should be more excited about Waymo coming to Detroit - michigandaily.com",
-      "source": "michigandaily.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZTBwRzFTWXdOYnpiX2llQXBIV2lhT3RlRmZVdzhPRGtVMHdtdE01SnhZN1RKSUNuN003Wms3TlNFNTdtWmRWUmdBVDVYLXF1amJES29OZWZsT1NDUUVjWWs0MUhCa2JVRFdueVRsTjNVVVJLd0cyU3NVQlR6ZklNVnI5Nm1PU180dmo4MFJqZS1QcWR6SE1rTlpIYXo1aFJGM2tsRUhSR2ttZw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiqgFBVV95cUxQZTBwRzFTWXdOYnpiX2llQXBIV2lhT3RlRmZVdzhPRGtVMHdtdE01SnhZN1RKSUNuN003Wms3TlNFNTdtWmRWUmdBVDVYLXF1amJES29OZWZsT1NDUUVjWWs0MUhCa2JVRFdueVRsTjNVVVJLd0cyU3NVQlR6ZklNVnI5Nm1PU180dmo4MFJqZS1QcWR6SE1rTlpIYXo1aFJGM2tsRUhSR2ttZw",
-      "published_ts": 1767925309,
-      "id": "68685248238c2f82a1353ae9"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit transit",
-      "title": "Multimodal Transit Hub Planned for Detroit - nar.realtor",
-      "source": "nar.realtor",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdHdTRk4tWkFhdFI3OWM5SE5UYlBtU2NyODluang3V1FCeWR2R1JYR0pkWUlkUTBhbFhuX2pmbnQ3dlBDQ0pBbjBJUjJyRFdmRGMzbFZtVGYzMDBtZFkwWG5zQjZCVXoxblJNTXM1WjNuT1ZlUGFycHdMT1dab1FiRVh1WER2eWFVY0dVOA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMijAFBVV95cUxOdHdTRk4tWkFhdFI3OWM5SE5UYlBtU2NyODluang3V1FCeWR2R1JYR0pkWUlkUTBhbFhuX2pmbnQ3dlBDQ0pBbjBJUjJyRFdmRGMzbFZtVGYzMDBtZFkwWG5zQjZCVXoxblJNTXM1WjNuT1ZlUGFycHdMT1dab1FiRVh1WER2eWFVY0dVOA",
-      "published_ts": 1767893849,
-      "id": "6d4cb085499df22b1bd4bba5"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "IndyGo’s Food in Transit becomes year-round program - masstransitmag.com",
-      "source": "masstransitmag.com",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUC1mTFpja3Utd1RKYmswR08xWTdNNXUyRlhEdEIyMU9hM3NQS3I4ZVJKTDJXMXF0OGhOcV9rUWp3Yk05ZW1takM3aGplYTlzUThITkMzYkpEcXJmX2pXT1JoUHNxbzJiRnFKSFpqQlVSc3dRYzVDOU05enZ4Z25hZ2JKc091X0VFanplaWpyRUoyN245NmIzM3ZCVzFPVFNwbkZBeHRmak04TkxSc09pbEtXV1RKM1NLclE4Um1BSVUyN0doR0hxRXdYSzg1OHYyUWVnRHltZ3M3N1J0NF91YkFuR1JPRWxCOHZ5Yk9MWm5XQQ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi8gFBVV95cUxQUC1mTFpja3Utd1RKYmswR08xWTdNNXUyRlhEdEIyMU9hM3NQS3I4ZVJKTDJXMXF0OGhOcV9rUWp3Yk05ZW1takM3aGplYTlzUThITkMzYkpEcXJmX2pXT1JoUHNxbzJiRnFKSFpqQlVSc3dRYzVDOU05enZ4Z25hZ2JKc091X0VFanplaWpyRUoyN245NmIzM3ZCVzFPVFNwbkZBeHRmak04TkxSc09pbEtXV1RKM1NLclE4Um1BSVUyN0doR0hxRXdYSzg1OHYyUWVnRHltZ3M3N1J0NF91YkFuR1JPRWxCOHZ5Yk9MWm5XQQ",
-      "published_ts": 1767885065,
-      "id": "f1680e9f14b0543f8fd263bf"
     }
   ]
 }
