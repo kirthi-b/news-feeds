@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T10:14:19.921716+00:00",
+    "generated_at": "2026-08-14T10:09:25.886814+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2718,
+    "items_count": 2725,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,83 @@
     }
   },
   "items": [
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Central Indiana housing market offers buyers more choices as inventory climbs - giant.fm",
+      "source": "giant.fm",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZmVIdnBNNVNxY0poRjhrVl94ejlrZHdRRjVNVmFtTzFhZFZ5LW40TDh6QzNSM19HOW9ZYjNHUmlEay1hdlB0Q082UkpQSG81QWtqQW85YWQtV1NDTU1jb1U2Z29wQUprNm1iT0VCdWwzUFJMZlk5dW9OTEdiYWVsRmxBZDdqVDVza1lKRHhZUmdTM1NZMk5qcnQ1TGdGMzNUZmVvRmVmOE1QNUZ1LTV4YVc3U1lFZjF3UWpEaUJFemNQdlNQeDVjOA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiyAFBVV95cUxOZmVIdnBNNVNxY0poRjhrVl94ejlrZHdRRjVNVmFtTzFhZFZ5LW40TDh6QzNSM19HOW9ZYjNHUmlEay1hdlB0Q082UkpQSG81QWtqQW85YWQtV1NDTU1jb1U2Z29wQUprNm1iT0VCdWwzUFJMZlk5dW9OTEdiYWVsRmxBZDdqVDVza1lKRHhZUmdTM1NZMk5qcnQ1TGdGMzNUZmVvRmVmOE1QNUZ1LTV4YVc3U1lFZjF3UWpEaUJFemNQdlNQeDVjOA",
+      "published_ts": 1786663071,
+      "id": "cbec3d590d14bc6bb589e89a"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County housing",
+      "title": "Millersburg council reviews Holmes County housing study, development options - Your Ohio News",
+      "source": "Your Ohio News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMjVjTW53T3lFQklCczhHTzJ0Qm9qek1QVXJkRWpFd1hid0tNNEpOUzR2ZHpKeUdrN1pjd1VPaEVzLUt3N1pXZU1SeWg5X0FzbTJlWkFfLWFxUnF1cldNbDFiLUJsd0hfeG9mTVZvbEJoRlZWcDZJZ3dzSEtmUk93RC0zMG5PdEEteGg3S2xVRGZvUldtdXl2N2FXcEM0RURkWFdVNzVEZnhTR3d5RkdNNlZYaHA5WkREQlBEeFdEdENCb0gxRWlaZzJWT00?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizAFBVV95cUxNMjVjTW53T3lFQklCczhHTzJ0Qm9qek1QVXJkRWpFd1hid0tNNEpOUzR2ZHpKeUdrN1pjd1VPaEVzLUt3N1pXZU1SeWg5X0FzbTJlWkFfLWFxUnF1cldNbDFiLUJsd0hfeG9mTVZvbEJoRlZWcDZJZ3dzSEtmUk93RC0zMG5PdEEteGg3S2xVRGZvUldtdXl2N2FXcEM0RURkWFdVNzVEZnhTR3d5RkdNNlZYaHA5WkREQlBEeFdEdENCb0gxRWlaZzJWT00",
+      "published_ts": 1786658429,
+      "id": "57e3fc3e0d77388c56291239"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Government",
+      "title": "Trump lawsuit alleging Harvard didn't protect Jewish students dismissed - The Detroit News",
+      "source": "The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejdWN0ZzSWdLVTB1X2VHMzBFWDl5RTN1d1ZZYkNndnFvaVBlNlhUNFAxTzFsWVBRbU93eHJzeXRvUFQ1ajU4Q3dhdldBbnM2bUxTM0lMRGpVTl9zaUtYM0RoVmx2ZTg5WVluUzNlemZaVWp2bU1tTmxaTEVNRmRMZWVOZ1dqeGlkcVhsU0dRemt1czdzVHZYaFYtWDBtRVhDMjJkUVJBazBiU2Zta0xfVXUtUWJlbkVLN2c?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiugFBVV95cUxNejdWN0ZzSWdLVTB1X2VHMzBFWDl5RTN1d1ZZYkNndnFvaVBlNlhUNFAxTzFsWVBRbU93eHJzeXRvUFQ1ajU4Q3dhdldBbnM2bUxTM0lMRGpVTl9zaUtYM0RoVmx2ZTg5WVluUzNlemZaVWp2bU1tTmxaTEVNRmRMZWVOZ1dqeGlkcVhsU0dRemt1czdzVHZYaFYtWDBtRVhDMjJkUVJBazBiU2Zta0xfVXUtUWJlbkVLN2c",
+      "published_ts": 1786649760,
+      "id": "d13e770cc6c89663de11361d"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "Developer makes concessions in Fletcher Place townhome proposal - Mirror Indy",
+      "source": "Mirror Indy",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc2szYUhGSUlMUWRYUm1Va1BFcmVSSW81MjFVb0lrS0RVaWtzRUhtTVVrTFJ1T3luYnEtX05PWFBqLWFNSHFkSURjeW96Z3hVejhIMElOWWJKZi1Ua010WnU1SkFIeEVzTW9MYWVIMFZWcXRHb3BoLVQycGk5eUpJYkdlRzVxRGhteEp0a2lkN0lIeXdOeEtBa3ZwRGRKWUx0M0x4NEt3cV95eTBnT01vYg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisAFBVV95cUxQc2szYUhGSUlMUWRYUm1Va1BFcmVSSW81MjFVb0lrS0RVaWtzRUhtTVVrTFJ1T3luYnEtX05PWFBqLWFNSHFkSURjeW96Z3hVejhIMElOWWJKZi1Ua010WnU1SkFIeEVzTW9MYWVIMFZWcXRHb3BoLVQycGk5eUpJYkdlRzVxRGhteEp0a2lkN0lIeXdOeEtBa3ZwRGRKWUx0M0x4NEt3cV95eTBnT01vYg",
+      "published_ts": 1786638131,
+      "id": "28c4fa8b04ca40f889f45c22"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County economic development",
+      "title": "Courthouse elevator situation reaches low point - Western Wayne News",
+      "source": "Western Wayne News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOamM5TlBZMC1TMmc1SnNJNWhYdV9MMlc5Y1lCUjRoTXFpWkJGWkpaeWpXcTFJTUhBTUh4dWtzUGxmQkJ5SS1FNkJIR1lyMjFBMDZfYWZSZDlpd1NDSlA2N2c2OXk0YzdGOFdOX0xfaHBFNUZuTXB2dk01WXVSWmJIa1JuWQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxOamM5TlBZMC1TMmc1SnNJNWhYdV9MMlc5Y1lCUjRoTXFpWkJGWkpaeWpXcTFJTUhBTUh4dWtzUGxmQkJ5SS1FNkJIR1lyMjFBMDZfYWZSZDlpd1NDSlA2N2c2OXk0YzdGOFdOX0xfaHBFNUZuTXB2dk01WXVSWmJIa1JuWQ",
+      "published_ts": 1786636800,
+      "id": "cbbbd3183fbed4216ec84824"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis economic development",
+      "title": "Building an economy that works for everyone - Indianapolis Recorder",
+      "source": "Indianapolis Recorder",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTm5PNVpmdHJ2dTdDXzR6Z0dfZFFfSDhQbTBlMXktMS1TQUwwNlFtUXpZUHY0V0hMQ2FtZnk3S2JSa2RocVJ4OTJvTURyUHFiVTVGdzlBQlIwYWVuQ0pHdWk0TWs4VC1PeDdGSXNZU0JOQ054eWJ6Zm1LOXhid2c2Z0NVNA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMigwFBVV95cUxQTm5PNVpmdHJ2dTdDXzR6Z0dfZFFfSDhQbTBlMXktMS1TQUwwNlFtUXpZUHY0V0hMQ2FtZnk3S2JSa2RocVJ4OTJvTURyUHFiVTVGdzlBQlIwYWVuQ0pHdWk0TWs4VC1PeDdGSXNZU0JOQ054eWJ6Zm1LOXhid2c2Z0NVNA",
+      "published_ts": 1786635200,
+      "id": "4299a5d5f092286192905c9c"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "MHS Serves Announces Recipients of over $2 Million Investment in Hoosier Employment - Centene Corporation",
+      "source": "Centene Corporation",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM21uWUQ0enhhOF82cEdjc2lfYm5yWnZiOFdYdUI1M3JhdWpWV0IyYTFDVzdfU2xROTRMam5yc2ZPd2d1ZjZLXzNpZEI4V0VCdXNWZzVaLWotcjBGYy1XY1pOVlBnd2FiT0d0N2pjUGU4TTlDcVZVSkFKemdvY3czQjlBZDB5R0JKZVVaU0lCYm9yQ25QMTRvdnFFQ0hHWndlRG40U09FSUNacDgxZWdpclY0Z0lGazFBWkhzVG0yTGw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiwAFBVV95cUxNM21uWUQ0enhhOF82cEdjc2lfYm5yWnZiOFdYdUI1M3JhdWpWV0IyYTFDVzdfU2xROTRMam5yc2ZPd2d1ZjZLXzNpZEI4V0VCdXNWZzVaLWotcjBGYy1XY1pOVlBnd2FiT0d0N2pjUGU4TTlDcVZVSkFKemdvY3czQjlBZDB5R0JKZVVaU0lCYm9yQ25QMTRvdnFFQ0hHWndlRG40U09FSUNacDgxZWdpclY0Z0lGazFBWkhzVG0yTGw",
+      "published_ts": 1786627966,
+      "id": "f55fb5156b14e9764c7ce053"
+    },
     {
       "bundle": "Detroit Mayor",
       "query": "Detroit Governance",
@@ -291,6 +368,17 @@
       "guid": "CBMi-AFBVV95cUxQbWNKWXh4M0JkSDJjZ0tWSVYxVGd5bHpBSFNMTVNkQVBHUnNILUg3VVAwQzE5ZmsyUFdfb2ZIc29hdWpPak03ZEdCS3lZOXdHbWFMbEJqWWRET0lieWtPaE1aM2ppd0ZGUFdWNDBGSFBkSWs0Vnd1dWw0SktyOEZaN2xBU2dVOUZWS2d0R290c0NTNjhsQVpPaWNxMnhrTl95LWNpbENSSXpZY2RsNDNTd2tqb25wNlRiX1ZVd1FPTkdMc0JQNHJjSEMzaGNsb2RnRGY2dS10VHBvWlRNb0dxdVY5dVBRaVJlUHdQQlBCeXJ5Q3VYM3o3Rw",
       "published_ts": 1786482900,
       "id": "e64e8bcd1c61cf3172563b36"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "NFL Player Sauce Gardner Sues Contractor for $1.4 Million Over Failed Renovation of Abandoned Detroit Building - Realtor.com",
+      "source": "Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOEhKX2F1UHJEdUJEQWo3ajNHcUFFTVFXY3hybkp1NG9VXzZWN2hpVXNobnR4RTFzQlREbTc0T1hMMlFIOE84Y3JyRjAxUThMQjlCaEM2RHFaMk9uTTdIOTZBTUdTSzhQRzdYejlMUHJEUUo5WmlTc0Z5MmVPT0lWRnRXYU9zZUNIVlAzaGZBbUFaZmpVYnNTVEFYTDc0Yk5mdEtPRUx3eFlESVFpMTBlTXZJTnlPQnlI?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiuAFBVV95cUxQOEhKX2F1UHJEdUJEQWo3ajNHcUFFTVFXY3hybkp1NG9VXzZWN2hpVXNobnR4RTFzQlREbTc0T1hMMlFIOE84Y3JyRjAxUThMQjlCaEM2RHFaMk9uTTdIOTZBTUdTSzhQRzdYejlMUHJEUUo5WmlTc0Z5MmVPT0lWRnRXYU9zZUNIVlAzaGZBbUFaZmpVYnNTVEFYTDc0Yk5mdEtPRUx3eFlESVFpMTBlTXZJTnlPQnlI",
+      "published_ts": 1786479896,
+      "id": "e947e81a92a7879554e2dc25"
     },
     {
       "bundle": "Wayne County TOD",
@@ -30013,17 +30101,6 @@
       "guid": "CBMiugFBVV95cUxPOXo4WTh0UFpYd3R0QXIwTzdGWlRMeEdfdnM4QkRxWlkyVXJwMFZPcXlRX2RwS296LWlYak1SOE9kVlVFQ0ZZUU5vN0hlMXFSRHhXd0F3bE8wak5SSzN5eWdyY1V4WUpBN2RhSkxWTUtXZ0tKV3kyRV9leUFHVXlZaFN2TFFHdnY5S0p1Nm5Tcy1zaHQzNWlHOVBXOU04cUF4c3A2b2FRbkVWclFYazNQQjE5dEh3cWJTSmc",
       "published_ts": 1771168312,
       "id": "ea10e94759c2be3753de2efd"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Government",
-      "title": "Best photos as Detroit Tigers pitchers, catchers roll on in spring training at TigerTown in Lakeland, Florida, on Saturday, Feb. 14, 2026. See link below ⬇️ - Facebook",
-      "source": "Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeDhUZXpXa0pSTzJfN1JFeGQwOXZNeEFDc2hZWjl3Y3JpbVA2aTdzLU55cmdNcUVjVE4yM0pXRTlPamhKOGRFblplQ2p0Ui1CVzU0d3JmckJXNUZYbjNrT01DVExSeXF5N1pPRV9xSzhzNWwwcWtmWlZWZUJjZjRUZ1R5NFpRYXNTMG52cUs1M2UyUjFnU2duOVVmbWlJd2Z0ZHJzWTF5OFE1b3hDVEd3S09vM0tKT2c4YW5IV1dOb3Y3dmQtRFZ2b0ZTM19VUWhmSU11X25BVjg5MVVzQkI4?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3wFBVV95cUxQeDhUZXpXa0pSTzJfN1JFeGQwOXZNeEFDc2hZWjl3Y3JpbVA2aTdzLU55cmdNcUVjVE4yM0pXRTlPamhKOGRFblplQ2p0Ui1CVzU0d3JmckJXNUZYbjNrT01DVExSeXF5N1pPRV9xSzhzNWwwcWtmWlZWZUJjZjRUZ1R5NFpRYXNTMG52cUs1M2UyUjFnU2duOVVmbWlJd2Z0ZHJzWTF5OFE1b3hDVEd3S09vM0tKT2c4YW5IV1dOb3Y3dmQtRFZ2b0ZTM19VUWhmSU11X25BVjg5MVVzQkI4",
-      "published_ts": 1771142400,
-      "id": "d205ceec2bacfba3da31528d"
     }
   ]
 }
