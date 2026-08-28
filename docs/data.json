@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T19:45:07.979719+00:00",
+    "generated_at": "2026-08-28T20:49:19.126399+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2685,
+    "items_count": 2690,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,39 @@
     }
   },
   "items": [
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Purdue expands degree offerings that target Indianapolis’ workforce needs - Purdue University",
+      "source": "Purdue University",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZi1QTmQwQTdBaWgtZGFTenIxTWd3ckJNSzRDa2dpM1RDMWFqNzU1TUJWeTNvbTJOelpDaTBnRWNRRlFvdzViUFRTWWhUZDRkZmhFMGIyZ0llckEzZGZIMzlCd0tvd2p6ZWw4MVhXZHhEamZ5MnZia2d5TWI1S3NyZXFtb0ZuNVpnei1PQS1GWF9Jdm1vMW5WYmpCZFlNSXY3UklyYlJXQ2tnaU5zQURpa1J3?oc=5",
+      "canonical_url": "",
+      "guid": "CBMisgFBVV95cUxQZi1QTmQwQTdBaWgtZGFTenIxTWd3ckJNSzRDa2dpM1RDMWFqNzU1TUJWeTNvbTJOelpDaTBnRWNRRlFvdzViUFRTWWhUZDRkZmhFMGIyZ0llckEzZGZIMzlCd0tvd2p6ZWw4MVhXZHhEamZ5MnZia2d5TWI1S3NyZXFtb0ZuNVpnei1PQS1GWF9Jdm1vMW5WYmpCZFlNSXY3UklyYlJXQ2tnaU5zQURpa1J3",
+      "published_ts": 1787946668,
+      "id": "1e08ae492627254752dd3bb1"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "MHS puts $2M behind Indiana workforce programs ahead of Medicaid changes - Inside INdiana Business",
+      "source": "Inside INdiana Business",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWE1vcHpQVmN6MFM1NExqdTR5VTJQVEJCZWl3TUo3bjhlV0dEbUlJTjgwMDgtSWlBcmZzQUh1YW14Ump3R3pJYy1wS2VvdzNqSmpNRl9LSk1XaU14cGhtbHRVRVJpZHdmVlNwVUs5bTNGRzRKVjlJOVRDMlladlZNV2h1OWZUM0ZkV0JHUGo3UndMVXlyVXk1bDJRLU9JeGRGVUJOOVBCamxtT2ZXSWxzUEpGXy13RC1pM2c?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiugFBVV95cUxPWE1vcHpQVmN6MFM1NExqdTR5VTJQVEJCZWl3TUo3bjhlV0dEbUlJTjgwMDgtSWlBcmZzQUh1YW14Ump3R3pJYy1wS2VvdzNqSmpNRl9LSk1XaU14cGhtbHRVRVJpZHdmVlNwVUs5bTNGRzRKVjlJOVRDMlladlZNV2h1OWZUM0ZkV0JHUGo3UndMVXlyVXk1bDJRLU9JeGRGVUJOOVBCamxtT2ZXSWxzUEpGXy13RC1pM2c",
+      "published_ts": 1787937341,
+      "id": "b6c050a783ac0d8a576febda"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "A Detroit housing developer is suing himself and his lender as his project faces foreclosure - Crain's Detroit",
+      "source": "Crain's Detroit",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTWhDQlI1aEVER2VmODQzdm8tUmdyUVhWdXloSERVOUxPR1JhTTRBWVdOWmZUOTRNaGozbmR2cnh4ZXJsMlNLamFnRHBSUWtNTzRWcjMxZ2xvMTJjTjFtcFQxZ1dlNGpfRlE2SGRtdUE2NzR1VkZEa3ZnYV8xVXlBM3BrRmw4LXBKNjVWSEVZWGs?oc=5",
+      "canonical_url": "",
+      "guid": "CBMikAFBVV95cUxOTWhDQlI1aEVER2VmODQzdm8tUmdyUVhWdXloSERVOUxPR1JhTTRBWVdOWmZUOTRNaGozbmR2cnh4ZXJsMlNLamFnRHBSUWtNTzRWcjMxZ2xvMTJjTjFtcFQxZ1dlNGpfRlE2SGRtdUE2NzR1VkZEa3ZnYV8xVXlBM3BrRmw4LXBKNjVWSEVZWGs",
+      "published_ts": 1787937060,
+      "id": "e08f83ff65e7511cecdbc3d6"
+    },
     {
       "bundle": "Wayne County TOD",
       "query": "Detroit housing",
@@ -269,6 +302,17 @@
       "guid": "CBMisgFBVV95cUxPZER4U2VEclREVTlfV1dQRzZKSlV6elVFZFBNSXMzaFFuZ2lVYnlZeTVYOTVrYUZYWEtXcy16MmNYQVFrUURRU1ZRaEpNaDA5d3Nmd1E2bTBFbGZqVkllT2dub01BWV9zSG9VX0VXd3phUjFua29PTC1sa3NUZWVUaVJ4Rkl0MS1oaDJBRlFTdmF6VnlnYTVJdktEcGVKQzB4VWhBeWpRYWJIa043S1E5LWRR",
       "published_ts": 1787702007,
       "id": "b86008424c6f37d11b7269a2"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "San Diego Padres minor league coach is released from ICE custody - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT2JEOHhXR2E3NGRtOGU1MWVnUUFjaEtPeVh3OE9ZdFJvY3MxUVI0c0lIWnZvOHZIOHNnV0M0bmV4QUZRQmxiMjdhT0p5eFhpWnFpVHVzM2FnZXVGR0RGc2VxTldqRjVzWGQxaTBLM3otdk5GRzNodWFIaGEybzU4X21wTkhYRzJsYUlkYkw4SGZDdG9WT2ZRNDNqbHg4RjNuTnNxOU56QnNtRHhBZU1DSE04VHhYdEF1QTBlUUVfbXpjQ1BzekUxS1p3YmZhUQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizgFBVV95cUxNT2JEOHhXR2E3NGRtOGU1MWVnUUFjaEtPeVh3OE9ZdFJvY3MxUVI0c0lIWnZvOHZIOHNnV0M0bmV4QUZRQmxiMjdhT0p5eFhpWnFpVHVzM2FnZXVGR0RGc2VxTldqRjVzWGQxaTBLM3otdk5GRzNodWFIaGEybzU4X21wTkhYRzJsYUlkYkw4SGZDdG9WT2ZRNDNqbHg4RjNuTnNxOU56QnNtRHhBZU1DSE04VHhYdEF1QTBlUUVfbXpjQ1BzekUxS1p3YmZhUQ",
+      "published_ts": 1787699363,
+      "id": "de1e296ca47f8e81bb01cd8a"
     },
     {
       "bundle": "Wayne County TOD",
@@ -1380,6 +1424,17 @@
       "guid": "CBMitgFBVV95cUxQa0Mtd1lkWm0wNldLNHVXRmJ2QjN6Rmh3UnBaZ1F6N3dnQU5QZUFYWUw2OHVlX3lkSTdPV1ZTdFA3Ny1pNnZUdmdLWWtyemE3TGxQaWN6Q0xwSVlfb3A2bC15dFhZZWxCTm5rZ0R6ZThTSE8tZFB6ckVvTENlaERSSUdrZUVrX1NoazZVT0hjRUFWVHRRXzBFdktnMXNBOWpsdmVXZmRWRXNOVGNLZmVpNmpBRWZkUQ",
       "published_ts": 1786698000,
       "id": "cb10c40e83723fd397d1fca0"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Massive catalytic converter theft strands metro Detroit seniors; career criminal charged - WXYZ Channel 7",
+      "source": "WXYZ Channel 7",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUHJWc0laUHIzUzlKTzVYZFRsSlVXQXd0bXlIQVUwTjA1ZVRldlozcmllWHFaWWlwMUpxcm9UaEVmMWJUOEs0MkpBY0JJRWpQWEs5SHU1Wlk0MjRCUHBZMlh2WTlQM1ozV1JZN0MzcVMwTXZvOUtEY0NzN3Jma2VqRDJ1NENPX2I1WFRrVDdDLU5qekplOXM0OEx2M1MxeGtpVUJOXzByazVuM1ZlX3hxUjBEUmFoMEVXUE12eFF0UEFBbVk0T2lv?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixwFBVV95cUxOUHJWc0laUHIzUzlKTzVYZFRsSlVXQXd0bXlIQVUwTjA1ZVRldlozcmllWHFaWWlwMUpxcm9UaEVmMWJUOEs0MkpBY0JJRWpQWEs5SHU1Wlk0MjRCUHBZMlh2WTlQM1ozV1JZN0MzcVMwTXZvOUtEY0NzN3Jma2VqRDJ1NENPX2I1WFRrVDdDLU5qekplOXM0OEx2M1MxeGtpVUJOXzByazVuM1ZlX3hxUjBEUmFoMEVXUE12eFF0UEFBbVk0T2lv",
+      "published_ts": 1786690800,
+      "id": "35c421fad29d05f07e4c8eef"
     },
     {
       "bundle": "Wayne County TOD",
@@ -2975,6 +3030,17 @@
       "guid": "CBMiiwFBVV95cUxOckVPTE9kcWVsb0hDN19kWXhkVzduY0M5NU92UlB2WGpudC1vamxZV3VSeWNieGg0Qk1NNjAwMVNpeTNqRmNiUmwxTjctVnVVUWdZTjh5YURiZ1BRUWZVaVMzMUJHUVZWa2JValpQTnU4VUZ5eWVycEhvZm8zVF9UMFlXdzc2VzZrYWpF",
       "published_ts": 1785740400,
       "id": "02b437e54c71bd94c6454790"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "Detroit Tigers receive top pitching prospects Kash Mayfield, Jackson Wolf from Padres in Casey Mize trade - Arc XP",
+      "source": "Arc XP",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY3BTeWZzQnplU09rUHl1M0FhNTNhMFYwcjhoNmU5alMzVkstMUpzenlOMHpVTFNIQ0tFNWxGLTU1WWZxRzVNeW53czRjejA5aE5QRDlNZUd5dzBybTVnY0hLdVREYlhZbHhrTFlEQzRnS0hsY1BmcnFMS3BkWnB3TUpzckU5S011NVZVN0RKWkxEdUl4SUpqeU9FM2RYM2QxeTNuWDlBUFJQajBXRkxXWnVzaDhZOC1qQWVOVFNKb0VJaFJwOUpXajRsNEpZdDhtcmpmS2M3UTdLTlBKZXhDYmtzckRsUkJZaDE2Q1BfUTlwMnE1ZGlPbUNKNA?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi-wFBVV95cUxPY3BTeWZzQnplU09rUHl1M0FhNTNhMFYwcjhoNmU5alMzVkstMUpzenlOMHpVTFNIQ0tFNWxGLTU1WWZxRzVNeW53czRjejA5aE5QRDlNZUd5dzBybTVnY0hLdVREYlhZbHhrTFlEQzRnS0hsY1BmcnFMS3BkWnB3TUpzckU5S011NVZVN0RKWkxEdUl4SUpqeU9FM2RYM2QxeTNuWDlBUFJQajBXRkxXWnVzaDhZOC1qQWVOVFNKb0VJaFJwOUpXajRsNEpZdDhtcmpmS2M3UTdLTlBKZXhDYmtzckRsUkJZaDE2Q1BfUTlwMnE1ZGlPbUNKNA",
+      "published_ts": 1785740400,
+      "id": "d3bc9c0b27ff1f1dc6d4d0a4"
     },
     {
       "bundle": "Detroit Mayor",
@@ -9817,6 +9883,17 @@
       "guid": "CBMi2wFBVV95cUxOY3UxZzA3RGpPXzhmazIzVlUwRGVOdDVLTUpnbjZRZTNqbnFXVkR1SXBrN29FOW5IQjlRVjdrc1g3ZkhVU3FpbWRLRjJ5eHFlN2d6OUROQkpMQ0RISl82akRPVHhYVDYwWHJHbVpVQkRZWFczUmJWWFR6eGpWWnZxU29lYWlXTWxBWFlKQVV1WFI2dGNXMGhvNFlTMzZhYXlyZkl0eUFMRGJ6MUlzNkpadjM4Q3NrSGtyVWV1cGxSR3VTdlpMbC1Dc3FfVzRhWXRySmFMcmxNeFZTWlk",
       "published_ts": 1781852400,
       "id": "469f82eff781a2d605f35a17"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "Morning 4: Detroit Tigers kick off Black in Baseball Weekend with Black Diamond Dinner, HBCU showcase — and more news - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNa3dfOE42OEtxREtSRVNDRmlZVG9CWkoyakZuNzJiTzRxejdET1QxMHJ0QlR6VU5QRmhPemF5d2pTT0RmQWxIRmRQSXhWNVRXVkh2cW1jOW5wSzVGX2p2dEx6YTJESk95Wldfa21lTEF3SW03S3Bpa014aVlYd2FBeHFRYzBrUm5qRU9NMVEwTFZINjlOd2dES0UwTkRta1lyNHlUWlFkU1ZlcXR0Qnp3cVZ6VU00dW5nRVFRaE1zcVBYaHJUREEyaGNCTnhiU3hSbnJWdUdEY09vblZOcktiRnpkOVZwUnha?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi6AFBVV95cUxNa3dfOE42OEtxREtSRVNDRmlZVG9CWkoyakZuNzJiTzRxejdET1QxMHJ0QlR6VU5QRmhPemF5d2pTT0RmQWxIRmRQSXhWNVRXVkh2cW1jOW5wSzVGX2p2dEx6YTJESk95Wldfa21lTEF3SW03S3Bpa014aVlYd2FBeHFRYzBrUm5qRU9NMVEwTFZINjlOd2dES0UwTkRta1lyNHlUWlFkU1ZlcXR0Qnp3cVZ6VU00dW5nRVFRaE1zcVBYaHJUREEyaGNCTnhiU3hSbnJWdUdEY09vblZOcktiRnpkOVZwUnha",
+      "published_ts": 1781852400,
+      "id": "051b82bd88b69a0828f02113"
     },
     {
       "bundle": "Indiana TOD",
@@ -29639,28 +29716,6 @@
       "guid": "CBMilAFBVV95cUxNQ2UtSWVabjRnV3NhbnNFdU0wRTRyZzVIU01NY1ZMQXBrZnNhYnVCb2JNTWNFd1RfX3dFNHJiYlNwZG1UX1d5elFBNWQ3R2xjSFc0OE5NWXhhOEpPMnhGX3VHck1wcTB5STd3SURHUVNQN1MzRks4c05WVnJMQW5RUlltUmw1NE40eE5vUVY2WHZ3dlNp",
       "published_ts": 1772438400,
       "id": "f25127319802978e2d0cf40d"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "UIndy launches school psychology program to address workforce need - dailyjournal.net",
-      "source": "dailyjournal.net",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSjc0bXB0Z2VaejdGX3FBdVc3YnlXbDZIRENpbS1YUFFzdnRvYmJqYXlEZWZ4VUVlaE1lVkhnTTNNa3lXQnhnVDlJRHJhMWE1S0s0VFFOOHJFQVpTU1BGdmNrWWQ0X2luQXJSZzZxR19HbW1zZUlnSVZRbVJaRWtwb0NmM0FjNmhWMFpEYTZVYWsxWEpkVURUcmYxTEYxNWZ0VEZKV2FB?oc=5",
-      "canonical_url": "",
-      "guid": "CBMipgFBVV95cUxQSjc0bXB0Z2VaejdGX3FBdVc3YnlXbDZIRENpbS1YUFFzdnRvYmJqYXlEZWZ4VUVlaE1lVkhnTTNNa3lXQnhnVDlJRHJhMWE1S0s0VFFOOHJFQVpTU1BGdmNrWWQ0X2luQXJSZzZxR19HbW1zZUlnSVZRbVJaRWtwb0NmM0FjNmhWMFpEYTZVYWsxWEpkVURUcmYxTEYxNWZ0VEZKV2FB",
-      "published_ts": 1772352000,
-      "id": "46dd637abb911bf4bbce2a0b"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis economic development",
-      "title": "Where did Hoosier lawmakers land on data center payments, rental caps, IEDC credits in 2026 session? - Indiana Economic Digest",
-      "source": "Indiana Economic Digest",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWTlrcE1YcVNsZXdQa1lKdFM0Y2NRdkFqTUxIQ0R3SUdjU0N0ak1xNTJfT21IcWlVZUxCMFBrY0cwbk55UHhYenpHOXB3RGgyY3E2c3FfS2ZORHhPUS1mcXlGUUNKRk1qYnJBRnlTVFJzUUNpVjZDd3BlN0Q2SmZHNWFud05KamV4TG5rR2xNR0JKeVRSdXh2MWRPZFFubXNVWjlhdjB5ZlZ1eE01WEpOTFgtaV9IZm1mZkItemZvbzllUERzS2hTTm1HdzdKTHdyMVZMaW5jMl9saDItNUUzOGp3RzJSSVJVbVRoeXphd2ZsV0k0emNuOFEwUnpfc2JzdmJQckNrRHdYcy1MbnVDNHpWclc0Z28?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilwJBVV95cUxQWTlrcE1YcVNsZXdQa1lKdFM0Y2NRdkFqTUxIQ0R3SUdjU0N0ak1xNTJfT21IcWlVZUxCMFBrY0cwbk55UHhYenpHOXB3RGgyY3E2c3FfS2ZORHhPUS1mcXlGUUNKRk1qYnJBRnlTVFJzUUNpVjZDd3BlN0Q2SmZHNWFud05KamV4TG5rR2xNR0JKeVRSdXh2MWRPZFFubXNVWjlhdjB5ZlZ1eE01WEpOTFgtaV9IZm1mZkItemZvbzllUERzS2hTTm1HdzdKTHdyMVZMaW5jMl9saDItNUUzOGp3RzJSSVJVbVRoeXphd2ZsV0k0emNuOFEwUnpfc2JzdmJQckNrRHdYcy1MbnVDNHpWclc0Z28",
-      "published_ts": 1772326937,
-      "id": "00441df36608695d77784866"
     }
   ]
 }
