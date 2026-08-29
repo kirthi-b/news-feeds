@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T20:49:19.126399+00:00",
+    "generated_at": "2026-08-29T14:18:16.197599+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2690,
+    "items_count": 2689,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -128,6 +128,39 @@
   },
   "items": [
     {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit housing",
+      "title": "Village of Milford offers historic homes, trails and a lively downtown - Yahoo",
+      "source": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU01lOE83V3p5dl9mTFJmbXNqeTdmS0xmMFZvUHZERnc2dVZfTWt3UV9sVkpxRExlUzh2ZXYzQUw1cUdYdElYeWR5ZkoxWXM2THJBQVlwRzZhb3NIRC1ZR2hQcGkzdUlDcS1YaVh4VDBBb2VrYnJKSkpLUzZPY0dveVVKZldKMGtqbTBYamtBajlrTjEyX2d6Qg?oc=5",
+      "canonical_url": "",
+      "guid": "CBMimAFBVV95cUxOU01lOE83V3p5dl9mTFJmbXNqeTdmS0xmMFZvUHZERnc2dVZfTWt3UV9sVkpxRExlUzh2ZXYzQUw1cUdYdElYeWR5ZkoxWXM2THJBQVlwRzZhb3NIRC1ZR2hQcGkzdUlDcS1YaVh4VDBBb2VrYnJKSkpLUzZPY0dveVVKZldKMGtqbTBYamtBajlrTjEyX2d6Qg",
+      "published_ts": 1788001273,
+      "id": "8604ca11ad2e841cd1c3353f"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "Buses and beats | Broad Ripple comes together to support flood survivors - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQLUpzeGJWaDVKWldNbVpaQ3hjY0o4cjNpYzJhUV9POHYyVFVQQkNCQkVxRWxsaFVyUmJzZkRhY09oUXduWnZMNU5MQ2lYLUM5LXpweWlnQTE2RTZ5QWpld2xXRS1rUzd4djR6SEZrY3luVmtjcURVbVhsZXdpV05ZLVNQTzlaMXJZckp5THFkTHBTeEdLOEd4X2FLZFVlTEU1RDRrclNZdU54Q0trQXpXYklod2ZHeUZVT3lPamJzUG5weFlnMlNpUVkyYkx6bEJGemRRREdvQms0LTBQd1pCc01nQ09lRld2aXc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi6gFBVV95cUxQLUpzeGJWaDVKWldNbVpaQ3hjY0o4cjNpYzJhUV9POHYyVFVQQkNCQkVxRWxsaFVyUmJzZkRhY09oUXduWnZMNU5MQ2lYLUM5LXpweWlnQTE2RTZ5QWpld2xXRS1rUzd4djR6SEZrY3luVmtjcURVbVhsZXdpV05ZLVNQTzlaMXJZckp5THFkTHBTeEdLOEd4X2FLZFVlTEU1RDRrclNZdU54Q0trQXpXYklod2ZHeUZVT3lPamJzUG5weFlnMlNpUVkyYkx6bEJGemRRREdvQms0LTBQd1pCc01nQ09lRld2aXc",
+      "published_ts": 1787973780,
+      "id": "bd6c61a623001a7f33071d9f"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "IndyGo",
+      "title": "Broad Ripple flooding relief events are getting creative - WTHR",
+      "source": "WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWEJkTkFwc0lmelFGQmpfZVJ2c2FvUEdBeWFMN0xfNW5hRjhMcmlkdG1McEVlVFFpM2hqT3RSaFA2eF93NVRjLTFSNGpQWkVNWkdoSi1XSm5mRHpVN0o3bElQWmlDcDB6WUpRaWZWdDI2VzBqbFRkWkFIUHhSZW83SEV6UTJfT2RRQ2NwOW9EVl9aR1IydkEtY2Y4dmpqMmUyaW5nTDhQSlFtWV9YWkVpVDF3c21FQlYzVC1mRmFsVC03X0t4Q1NRLTBHeWstWm5EdWpCeFU0MlNZcVVUZkZRem9WZw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi4wFBVV95cUxOWEJkTkFwc0lmelFGQmpfZVJ2c2FvUEdBeWFMN0xfNW5hRjhMcmlkdG1McEVlVFFpM2hqT3RSaFA2eF93NVRjLTFSNGpQWkVNWkdoSi1XSm5mRHpVN0o3bElQWmlDcDB6WUpRaWZWdDI2VzBqbFRkWkFIUHhSZW83SEV6UTJfT2RRQ2NwOW9EVl9aR1IydkEtY2Y4dmpqMmUyaW5nTDhQSlFtWV9YWkVpVDF3c21FQlYzVC1mRmFsVC03X0t4Q1NRLTBHeWstWm5EdWpCeFU0MlNZcVVUZkZRem9WZw",
+      "published_ts": 1787972940,
+      "id": "1e7de3dd3c263d8efec489d3"
+    },
+    {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Purdue expands degree offerings that target Indianapolis’ workforce needs - Purdue University",
@@ -137,6 +170,17 @@
       "guid": "CBMisgFBVV95cUxQZi1QTmQwQTdBaWgtZGFTenIxTWd3ckJNSzRDa2dpM1RDMWFqNzU1TUJWeTNvbTJOelpDaTBnRWNRRlFvdzViUFRTWWhUZDRkZmhFMGIyZ0llckEzZGZIMzlCd0tvd2p6ZWw4MVhXZHhEamZ5MnZia2d5TWI1S3NyZXFtb0ZuNVpnei1PQS1GWF9Jdm1vMW5WYmpCZFlNSXY3UklyYlJXQ2tnaU5zQURpa1J3",
       "published_ts": 1787946668,
       "id": "1e08ae492627254752dd3bb1"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Mary Sheffield",
+      "title": "Detroit Evening Report: Nessel releases report on Flint water crisis investigation - WDET 101.9 FM",
+      "source": "WDET 101.9 FM",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlU3dUMyb2F0aF9DRHZIUW5uZjVhRDdRcHl6cDNXZHRwMGtiUjNjdG03dUt6UTZsZllNZHBnVzFHWmc1VHRpUWh3c0kzYmxielpCV3BlT0FLV29sc1p0UGtBb2Nfa3B2V1lXMEFZazJzaGtXTFNCU2RJbzVJbUVXMmtlUTBLUWdoZE05ak9CWmdvc21PclhsbVY0ejZ3YVczT19DOHJEbjZaMHJic0Qw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMirwFBVV95cUxNRlU3dUMyb2F0aF9DRHZIUW5uZjVhRDdRcHl6cDNXZHRwMGtiUjNjdG03dUt6UTZsZllNZHBnVzFHWmc1VHRpUWh3c0kzYmxielpCV3BlT0FLV29sc1p0UGtBb2Nfa3B2V1lXMEFZazJzaGtXTFNCU2RJbzVJbUVXMmtlUTBLUWdoZE05ak9CWmdvc21PclhsbVY0ejZ3YVczT19DOHJEbjZaMHJic0Qw",
+      "published_ts": 1787944483,
+      "id": "6f3eed41704bb7d9071804a7"
     },
     {
       "bundle": "Indiana TOD",
@@ -2447,6 +2491,17 @@
       "guid": "CBMilAFBVV95cUxORHVtdVJXcXBEeGliSkxkTWFxZFRxNFpJaVFXQUtvc2hNRVpORC03T0x5OWE4WW5oUzF2bXNmNEoxQ2ZBUDhGOThqWGM3U24xM1BWY0p5VS1RVFdfSXhWa0RZaTF0d0h1NlZ4c0EtWTlNMk5jb0laWjEweV9TZmJCVDlFT1dhZVV2WDJLY3NDckZUaU1R",
       "published_ts": 1785999600,
       "id": "db0315c1ef926e08e7c07867"
+    },
+    {
+      "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "Detroit PAL helps 9-year-old girl live firefighter dream - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR2g2d0wxdDhmc0FIWWVGdTBWZUZKdjU2MldPWUFTOUZCVFljNmR2VHN0NDRmbnhBMXlQVktYdzJuOGFZTU54bmhDb2ZWdDdRbHBndmZGTS1Ha0U3dXFFYTJDYTdYQjNnYkhmUVdEVDJfVURHUW9kTl9EVTdGbE5oWVV2S1I2S0loQmo3ZkdQT3JfcHdOSnRZZW9oMW85ZDE1Z3YwNjFDOWJzSnFoT1M0?oc=5",
+      "canonical_url": "",
+      "guid": "CBMirwFBVV95cUxOR2g2d0wxdDhmc0FIWWVGdTBWZUZKdjU2MldPWUFTOUZCVFljNmR2VHN0NDRmbnhBMXlQVktYdzJuOGFZTU54bmhDb2ZWdDdRbHBndmZGTS1Ha0U3dXFFYTJDYTdYQjNnYkhmUVdEVDJfVURHUW9kTl9EVTdGbE5oWVV2S1I2S0loQmo3ZkdQT3JfcHdOSnRZZW9oMW85ZDE1Z3YwNjFDOWJzSnFoT1M0",
+      "published_ts": 1785999600,
+      "id": "4b53806726f761bbee6d8cd9"
     },
     {
       "bundle": "Indiana TOD",
@@ -8533,6 +8588,17 @@
     },
     {
       "bundle": "Detroit Mayor",
+      "query": "Detroit Mayor",
+      "title": "Paris Diamond League to go ahead with safety measures amid historic heat wave - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQTNJczNTYUt3dWV6YmVweHFMdVFYa2YyVWVGR3lmOHNFWGtlSER6aWdxQ3VqcU5DZzR2OXJCaU5BRW9WU1BZdmM1ZzhXVUZLTjczNVpHa1h3VlJocGoxQ2piNkJnc3JMU2xZclBoeXdrT1dwUXduTWwtX3N6SVBZQWZKZ29EOXh0c1ZEeldndEpsRE8wTGlMSXA4QWM3R1JRVlVCWGtzREthYlRBYzA1SlFqVXNlRUJ3eF9Yd0doblFyRmYtNUduR0E3Q0RrcTQ?oc=5",
+      "canonical_url": "",
+      "guid": "CBMizwFBVV95cUxNQTNJczNTYUt3dWV6YmVweHFMdVFYa2YyVWVGR3lmOHNFWGtlSER6aWdxQ3VqcU5DZzR2OXJCaU5BRW9WU1BZdmM1ZzhXVUZLTjczNVpHa1h3VlJocGoxQ2piNkJnc3JMU2xZclBoeXdrT1dwUXduTWwtX3N6SVBZQWZKZ29EOXh0c1ZEeldndEpsRE8wTGlMSXA4QWM3R1JRVlVCWGtzREthYlRBYzA1SlFqVXNlRUJ3eF9Yd0doblFyRmYtNUduR0E3Q0RrcTQ",
+      "published_ts": 1782457200,
+      "id": "126d1e72aa759f4c5aed437d"
+    },
+    {
+      "bundle": "Detroit Mayor",
       "query": "Detroit Governance",
       "title": "Houston vs Detroit: First Inning Run - Coinbase",
       "source": "Coinbase",
@@ -13458,6 +13524,17 @@
       "guid": "CBMiogFBVV95cUxORmJsX2VucE53Yklqc19EOHM1c19SbVBnb1J6cUJJRmJoWFJuZnF5dFA2bEdRc0JUclVBOFdYZkljd2M0UlNrUjBSQmQxb1F5RFdsOXpDZDM4VjBCc0ZMWlZ2d2xJUzNjZWFjT19qV0FCNmxEZjhZeUZjZm9Ca0kyNHQ0Z0l6ekhlN3NJZ0hYY215NW5ydVhERnM2MkpRdU5MU1E",
       "published_ts": 1780038000,
       "id": "31edb34d169abf150e1a705a"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County workforce",
+      "title": "SEMO Alum Behind Maine’s Best Bed-and-Breakfast Also Investing in Workforce Housing for Employees - waynecojournalbanner.com",
+      "source": "waynecojournalbanner.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYjc2ZldMRzBtSXI1SmxzSElfbnZDNTRjdEpKd1RTNUwtczg1WnhtY3J5RmZ1cmdpYmFKUElhdkd4cHFfellCV2JhWk5hSUl6dF9JQWtrLVljRmVHYVQ3ZGM2WmFacElHamZ3Z3FJRV9LRVZoVU9YQjVWMWxya0xYVFdPSUNaWkk3anBUSmItRVFvVnF0MUh2Vkp6M0dIRy1IaFB0QXFoblg0N1g2dGwyXy15UmtGZXRnMVhRWkNCN3dVdmg5Wllod0VLZ1JPRzZvTDR0SHdCY29TbnVQaHl0ckJqc05nZHJDN0QtSw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi7AFBVV95cUxQYjc2ZldMRzBtSXI1SmxzSElfbnZDNTRjdEpKd1RTNUwtczg1WnhtY3J5RmZ1cmdpYmFKUElhdkd4cHFfellCV2JhWk5hSUl6dF9JQWtrLVljRmVHYVQ3ZGM2WmFacElHamZ3Z3FJRV9LRVZoVU9YQjVWMWxya0xYVFdPSUNaWkk3anBUSmItRVFvVnF0MUh2Vkp6M0dIRy1IaFB0QXFoblg0N1g2dGwyXy15UmtGZXRnMVhRWkNCN3dVdmg5Wllod0VLZ1JPRzZvTDR0SHdCY29TbnVQaHl0ckJqc05nZHJDN0QtSw",
+      "published_ts": 1780038000,
+      "id": "48850148b13e31d8c9b05136"
     },
     {
       "bundle": "Indiana TOD",
@@ -29628,94 +29705,6 @@
       "guid": "CBMi3wFBVV95cUxObUNpMzBHU196d1VrR1lwTldFVE9HdVBjcndaTzU5U3ROUnhidmVPWUtKdnhfVGNyeHE2eW1hNnRTdWM1SkNYbFhkbXVDcWpyQ2c4N3pTbjdGN2t6cGxhQUoyaW5Da21tTGtCNzhpaFR4bEdVZ1I2WWRfZnl0SVlSMHo4WTh2QmRBUEc1UUFULUtubV90c2xaZ0NTZThqV3Z3cnV5Q2FaaWI5U0lfb2FZQ2pDT0lnbjVlcU5XdWFPQ3NubmhJekNyVWt4enA3ZXlkZ0x5QnRCRWhGQmZNa2ZB",
       "published_ts": 1772471220,
       "id": "b6fac5e47517e2087167c9ff"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Detroit redirects nearly half of housing budget to fund new department - BridgeDetroit",
-      "source": "BridgeDetroit",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1dEWUFvNjhrUG5OdTVBVlpBY2F1R2VuTnppM1VBRmVsd1l5TU40ZXYxOVFZYmIzbTBrNG1rbktkMW56R1AxMVZEYm5Pc2tUb2l4dE85UGhQWEFCQlpPNjNuVXNzbGpfOTBBeXRBQ2Z1ZExuNXR0VGJhcXpVNW1BVmNhLVZkTXNrdjdFSWFrTEtQWE1wNWY3eVNBS3VRVnhqUk9z?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiowFBVV95cUxNb1dEWUFvNjhrUG5OdTVBVlpBY2F1R2VuTnppM1VBRmVsd1l5TU40ZXYxOVFZYmIzbTBrNG1rbktkMW56R1AxMVZEYm5Pc2tUb2l4dE85UGhQWEFCQlpPNjNuVXNzbGpfOTBBeXRBQ2Z1ZExuNXR0VGJhcXpVNW1BVmNhLVZkTXNrdjdFSWFrTEtQWE1wNWY3eVNBS3VRVnhqUk9z",
-      "published_ts": 1772448300,
-      "id": "961bd3c9c7380f5771ce61e2"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "SlateUp Partners with Elkhart County Economic Development to Strengthen Manufacturing Workforce Pathways - InkFreeNews.com",
-      "source": "InkFreeNews.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ0hDdHQxaXZGSktISjhlNjhvaE5aNGRlQWhOVVNGWlhIVVRzSndrR1M2TkxqUThTeUY1Z2xaOTJ4QkJUNF9NMkhYeFNfOHdIZ2dNYUQ1WjRwM0FCTVFrSFFwSmdtVXlHWDhpN1d1WllhTU9sRnhaazJFTC03cVlDc2szT0NmbGR6NGtqRG5XZE1VMm8xYnVGNDRkVS1uVm9ndV95NlNDWlA3VWVqRjd0T0x6bkNjMkZOYi1XRFNncVhoQ0dCS0hzS1NFT08xX0ZKWU0xMndCaFBTcVNC?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3AFBVV95cUxNZ0hDdHQxaXZGSktISjhlNjhvaE5aNGRlQWhOVVNGWlhIVVRzSndrR1M2TkxqUThTeUY1Z2xaOTJ4QkJUNF9NMkhYeFNfOHdIZ2dNYUQ1WjRwM0FCTVFrSFFwSmdtVXlHWDhpN1d1WllhTU9sRnhaazJFTC03cVlDc2szT0NmbGR6NGtqRG5XZE1VMm8xYnVGNDRkVS1uVm9ndV95NlNDWlA3VWVqRjd0T0x6bkNjMkZOYi1XRFNncVhoQ0dCS0hzS1NFT08xX0ZKWU0xMndCaFBTcVNC",
-      "published_ts": 1772438400,
-      "id": "cf95777cbcde80b6c3c23388"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "14-year-old girl dies after being struck by IndyGo bus on Indy's east side - WTHR",
-      "source": "WTHR",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNY2p5WnljaGc3bldMWm9tMWRvWkdqNGFjOThMYkllWEhDNjZhNGJPYm9zanpJbDNuMlRndjJHZUo1QmNYcWF4U0NkOFktd09PN25GLWRsTkRkSlN4MHRHRnBpUGxNQkVUUkh3c3gzSW1SZ2QwaUNHT2U3aW9ocDFmVXNMWG1MUE1fZFphc2F6YjMydFdpQXc2UGdNOXFhWXJqZlVXNFpOaWM5N25RT2xFQ2g0NlB0WW5UeUNibkc4YmZzTEpza3BVbXZiTGpjUzQzdFE0Z0VGOGI5TS12NmQ0?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3wFBVV95cUxNY2p5WnljaGc3bldMWm9tMWRvWkdqNGFjOThMYkllWEhDNjZhNGJPYm9zanpJbDNuMlRndjJHZUo1QmNYcWF4U0NkOFktd09PN25GLWRsTkRkSlN4MHRHRnBpUGxNQkVUUkh3c3gzSW1SZ2QwaUNHT2U3aW9ocDFmVXNMWG1MUE1fZFphc2F6YjMydFdpQXc2UGdNOXFhWXJqZlVXNFpOaWM5N25RT2xFQ2g0NlB0WW5UeUNibkc4YmZzTEpza3BVbXZiTGpjUzQzdFE0Z0VGOGI5TS12NmQ0",
-      "published_ts": 1772438400,
-      "id": "6452e874d0c0ffaf4da1cc34"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Landmark gift from Connie and Steve Ferguson with IU Health investment to strengthen Indiana’s nursing workforce - WBIW",
-      "source": "WBIW",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc0JWX2ZXTldlLW1uek5xeEVic2ZDZ2N3MWFuMHh1NUhxYW1oYXNNdF9GLUhFZ3lDYmFlNDdGeGdpVmJ6ZTF3bFFLREtFN05jdkdlNzNCZzhfS2NkdWVWbGdTNW1nQkNRdjlub09HbDZZSkFfelpJYzJ1QVZLcEo1U29QdjRXRU1vVVo5UWtPaEZoS2VSY1NyeDNtWWtUX2RYYmltOEZseG1ZNHhvcXVJRkF5aUxKbmRkeFVWOHR4NjFCb1lTMVpFWHlXZVNqTVd5Z3dWNlp5VElCYk5t?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi3AFBVV95cUxOc0JWX2ZXTldlLW1uek5xeEVic2ZDZ2N3MWFuMHh1NUhxYW1oYXNNdF9GLUhFZ3lDYmFlNDdGeGdpVmJ6ZTF3bFFLREtFN05jdkdlNzNCZzhfS2NkdWVWbGdTNW1nQkNRdjlub09HbDZZSkFfelpJYzJ1QVZLcEo1U29QdjRXRU1vVVo5UWtPaEZoS2VSY1NyeDNtWWtUX2RYYmltOEZseG1ZNHhvcXVJRkF5aUxKbmRkeFVWOHR4NjFCb1lTMVpFWHlXZVNqTVd5Z3dWNlp5VElCYk5t",
-      "published_ts": 1772438400,
-      "id": "ecb771cf07e7a9a12d2b65c1"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "14-year-old girl dies after being struck by IndyGo bus on Indy's east side - WTHR",
-      "source": "WTHR",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQWZjcmNEejRoYmtuUWFqV3NrWWFrM0VBbEJKS19xSlVnTUp1Q01oNk5BRzVVV2luN3JhRGwycHI3SmI0aWhiVlpZa3ZGNXo0VFVpeWdRQUVrUmxqb2hqYUt6Yk5keGxUa2tMNWYxR01qWHVseHhPd1RlOHNOY2FTQXFBbFU3Q0hkVzNjN1drY1NmdWxnRk1uMTlibk1IckRLR0RRdGZ2MUMzNVVPSG12WnE3dmZhMUJIVWdvODBxMjZMMXA4MlJ1RkZFaVhFX3VsZkluMTJTTG5BaU9qdkppcXJ4dUhkMzA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi5wFBVV95cUxPQWZjcmNEejRoYmtuUWFqV3NrWWFrM0VBbEJKS19xSlVnTUp1Q01oNk5BRzVVV2luN3JhRGwycHI3SmI0aWhiVlpZa3ZGNXo0VFVpeWdRQUVrUmxqb2hqYUt6Yk5keGxUa2tMNWYxR01qWHVseHhPd1RlOHNOY2FTQXFBbFU3Q0hkVzNjN1drY1NmdWxnRk1uMTlibk1IckRLR0RRdGZ2MUMzNVVPSG12WnE3dmZhMUJIVWdvODBxMjZMMXA4MlJ1RkZFaVhFX3VsZkluMTJTTG5BaU9qdkppcXJ4dUhkMzA",
-      "published_ts": 1772438400,
-      "id": "c727a56416376b3ebfda6bf2"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Detroit listing prompts debate over AI-enhanced home photos - ClickOnDetroit | WDIV Local 4",
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNTRXVzZwVjh0ZEZZQUFSTXl4dWdiUmdRaGhXR3ZoYmlESTNLRjE1azhrVWxyNWxoVHNaZjNDZEJIRjljSWRJc2doVWZ2Y3dqekF6ZFhrN2NnU0c4MDM1TFl4RmZsX0ZCVW0tdnIxa3hqNlFxdjdSQ0FYMHVCWEtEWlV4SkctUHNUUUVneF9UV2NEWU1VYU1Md21OTHBBYXpsanVVYjEzOHFBZ0QwaWhzRlFjMA?oc=5",
-      "canonical_url": "",
-      "guid": "CBMiswFBVV95cUxNNTRXVzZwVjh0ZEZZQUFSTXl4dWdiUmdRaGhXR3ZoYmlESTNLRjE1azhrVWxyNWxoVHNaZjNDZEJIRjljSWRJc2doVWZ2Y3dqekF6ZFhrN2NnU0c4MDM1TFl4RmZsX0ZCVW0tdnIxa3hqNlFxdjdSQ0FYMHVCWEtEWlV4SkctUHNUUUVneF9UV2NEWU1VYU1Md21OTHBBYXpsanVVYjEzOHFBZ0QwaWhzRlFjMA",
-      "published_ts": 1772438400,
-      "id": "24c82cb6111e007799640f9f"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County economic development",
-      "title": "IU East School of Business and Economics Connects Students with Industry Leaders Through Alumni Speaker Series - News at IU",
-      "source": "News at IU",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVlzdVc4ZzBIQUZTUmpKYzJQS2NQT2RlSjVOWWZJeVBIaU9IUVVLT2V4Y2VrdWkyc0FqNXFxNFMzZDJCQ3dFc1dHMmNxUnVxYXVaSC0zeldUaFhEeDRLRVpJVFEzc2VvaC1hTUtwdEJhOGtIZU9YQXNXTm5XMW5ySlFuZUNlMWtMZ0FwZnFSRzI0SGpJ?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilAFBVV95cUxPbVlzdVc4ZzBIQUZTUmpKYzJQS2NQT2RlSjVOWWZJeVBIaU9IUVVLT2V4Y2VrdWkyc0FqNXFxNFMzZDJCQ3dFc1dHMmNxUnVxYXVaSC0zeldUaFhEeDRLRVpJVFEzc2VvaC1hTUtwdEJhOGtIZU9YQXNXTm5XMW5ySlFuZUNlMWtMZ0FwZnFSRzI0SGpJ",
-      "published_ts": 1772438400,
-      "id": "d44458b83b0922f82c76fb52"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County workforce",
-      "title": "Traverse City advances workforce housing plan​​​​​​​​​​​​​​​​ - Spectrum News",
-      "source": "Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ2UtSWVabjRnV3NhbnNFdU0wRTRyZzVIU01NY1ZMQXBrZnNhYnVCb2JNTWNFd1RfX3dFNHJiYlNwZG1UX1d5elFBNWQ3R2xjSFc0OE5NWXhhOEpPMnhGX3VHck1wcTB5STd3SURHUVNQN1MzRks4c05WVnJMQW5RUlltUmw1NE40eE5vUVY2WHZ3dlNp?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilAFBVV95cUxNQ2UtSWVabjRnV3NhbnNFdU0wRTRyZzVIU01NY1ZMQXBrZnNhYnVCb2JNTWNFd1RfX3dFNHJiYlNwZG1UX1d5elFBNWQ3R2xjSFc0OE5NWXhhOEpPMnhGX3VHck1wcTB5STd3SURHUVNQN1MzRks4c05WVnJMQW5RUlltUmw1NE40eE5vUVY2WHZ3dlNp",
-      "published_ts": 1772438400,
-      "id": "f25127319802978e2d0cf40d"
     }
   ]
 }
