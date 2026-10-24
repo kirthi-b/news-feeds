@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T09:18:03.773272+00:00",
+    "generated_at": "2026-10-24T09:16:22.906701+00:00",
     "retention_days": 180,
     "bundles_count": 3,
     "queries_count": 22,
-    "items_count": 2472,
+    "items_count": 2469,
     "bundles_file": "config/bundles.md",
     "bundle_specs": {
       "Indiana TOD": [
@@ -127,6 +127,39 @@
     }
   },
   "items": [
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit transit",
+      "title": "Detroit's MoGo bikeshare has announced a seasonal closure. Reporting had pointed to a possible transfer of the system this year and financial losses. See link below ⬇️ 📸 Junfu Han, Detroit Free Press - Facebook",
+      "source": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR2VkVVE0ZFA3YVFDUDVMX19rNmJyeDlFUlB5cmRISG5TMjNzNkdON01yaXN0amFicVc1OU5rRFdmWkw0LXJfWTgtbm5rRFVOSHdFWDR6R0t3U2NnVmk3LWlQSzJ0V3duREVSLUloai1xaDcyMkVrWThZY1hCNjRpZVpGV0NMcDZrb1E5cy1fLW5WbDYxNjdHcGJqQ20tQ0RoY19JMnB2R210dWt3cG5mQTlZWTY1ODBjLXFCXzJNbUsyVlFvNDdUcWxjT0FadFNNczRuR2lyYXRLLUdMUTk4?oc=5",
+      "canonical_url": "",
+      "guid": "CBMi3wFBVV95cUxPR2VkVVE0ZFA3YVFDUDVMX19rNmJyeDlFUlB5cmRISG5TMjNzNkdON01yaXN0amFicVc1OU5rRFdmWkw0LXJfWTgtbm5rRFVOSHdFWDR6R0t3U2NnVmk3LWlQSzJ0V3duREVSLUloai1xaDcyMkVrWThZY1hCNjRpZVpGV0NMcDZrb1E5cy1fLW5WbDYxNjdHcGJqQ20tQ0RoY19JMnB2R210dWt3cG5mQTlZWTY1ODBjLXFCXzJNbUsyVlFvNDdUcWxjT0FadFNNczRuR2lyYXRLLUdMUTk4",
+      "published_ts": 1792774395,
+      "id": "396f02d005a11401a19a2a5b"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis housing",
+      "title": "3Rivers FCU, FHLBank Indianapolis donate $75K for Bridge of Grace housing project - WANE 15",
+      "source": "WANE 15",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOanEtWXNncGZhaGFmZ3ZhakhJSTVMbVhFVVF1S2puLWcxS01QN05yR3pLNHJVdmhGWENLYWprRHZZVjlQQ0VFbVA1QnJ5X2tCeUN3UERyZUlja09JSktwX2hDcEt0V2hicmZ4OV93ZmpJejVBcjkwTExKXzNPS3I3MHJFXzNLemVTaVRlV1BTUzIxaWMzNnlpNUFaY2REcjdoakx1YXFWM3JoUWhZX1loV2RVV2MwZ0pG0gG-AUFVX3lxTE9odERJVVZNRTdWdkwtbEx5emhmSzNVWlM5TGllUFAwV1FrV3d5eHJaY2xaV05YN0E4ZnoxRXllVUZLcmxPT3JPQkhpd2h2UHdpVXFzMEdDc0xEaXBkRWVBN1J5N04yLXhCWFZaRXBqdENveC1TeFFBQmhJS1A2bk1sREJrMEhtS04tWXhsUEZtRTNVck5sUFNhYjg4SVBOSUlpaWtlYzZrcXJJYXo0VmxucGV2V3VaN2dybkhETGc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiuAFBVV95cUxOanEtWXNncGZhaGFmZ3ZhakhJSTVMbVhFVVF1S2puLWcxS01QN05yR3pLNHJVdmhGWENLYWprRHZZVjlQQ0VFbVA1QnJ5X2tCeUN3UERyZUlja09JSktwX2hDcEt0V2hicmZ4OV93ZmpJejVBcjkwTExKXzNPS3I3MHJFXzNLemVTaVRlV1BTUzIxaWMzNnlpNUFaY2REcjdoakx1YXFWM3JoUWhZX1loV2RVV2MwZ0pG0gG-AUFVX3lxTE9odERJVVZNRTdWdkwtbEx5emhmSzNVWlM5TGllUFAwV1FrV3d5eHJaY2xaV05YN0E4ZnoxRXllVUZLcmxPT3JPQkhpd2h2UHdpVXFzMEdDc0xEaXBkRWVBN1J5N04yLXhCWFZaRXBqdENveC1TeFFBQmhJS1A2bk1sREJrMEhtS04tWXhsUEZtRTNVck5sUFNhYjg4SVBOSUlpaWtlYzZrcXJJYXo0VmxucGV2V3VaN2dybkhETGc",
+      "published_ts": 1792769099,
+      "id": "32ac24f1a59d6e4245bad081"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit workforce",
+      "title": "American Express profits rise; company plans to cut workforce by 5%, or about 3,500 employees - ClickOnDetroit | WDIV Local 4",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWFyZkZrMDdCSnNYWHd5bURHWl9xbjh3ZGM2U3RFRzdSNEhXVHBpb0I1Qkt4dHVUM0R3dDJ6UlNIbUlIWjRPMldMQjJRTFNZMjgxRENZb1FzMFR2bGxVTkVDdW5mc0lZb2lyR1JnZnFqbXlUQ19Kd0lHRnE5Tm9uZ0FfZkhIUkZBamtnVTE2bXNfeUZPLU8wR1NSVWYtRlZCbWFWZ2pfcUJVdnBpQ0NIVTVXXzRpNXFFUS1zSHhlaTFyVWhqdnc?oc=5",
+      "canonical_url": "",
+      "guid": "CBMixgFBVV95cUxPeWFyZkZrMDdCSnNYWHd5bURHWl9xbjh3ZGM2U3RFRzdSNEhXVHBpb0I1Qkt4dHVUM0R3dDJ6UlNIbUlIWjRPMldMQjJRTFNZMjgxRENZb1FzMFR2bGxVTkVDdW5mc0lZb2lyR1JnZnFqbXlUQ19Kd0lHRnE5Tm9uZ0FfZkhIUkZBamtnVTE2bXNfeUZPLU8wR1NSVWYtRlZCbWFWZ2pfcUJVdnBpQ0NIVTVXXzRpNXFFUS1zSHhlaTFyVWhqdnc",
+      "published_ts": 1792759724,
+      "id": "e24af17f4244e339f316e064"
+    },
     {
       "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
@@ -1050,6 +1083,17 @@
       "guid": "CBMiuwFBVV95cUxQQUZ5V1BxMFBlUkwtTlFEV2Y2VU1zRjJweVBxcU1vRExKb3N6UmhJeHo0NWMzQnk2TUtDd1FucTVQY2VWYjdwb212QlpTRnhlOGplaDE1TWhEdW1YNGNkR1JJeFlodkExeER2bGlDdy1LWXpaMGRGOXkxTFlzOFJjYTFxTlI5WTYydC1YanplNUVkUjJsSlowcW1PbktqOV9kYUlaV2h4Z2QwTzQ2VFh4NTVTUHFSYjVxYXNj",
       "published_ts": 1792047600,
       "id": "1b5fd23bc571d1be636393cd"
+    },
+    {
+      "bundle": "Indiana TOD",
+      "query": "Indianapolis workforce",
+      "title": "Indiana hopes to improve workforce readiness with new program - AOL.com",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVVFVVjdFeFlKQmNlYWFGRkJHbGJ6WGNqUEhkdkZMamktQmVNdy1aWG9Rcm8ycFNuWW1PN0lHdnpFcURfRndDS2VJX1g0NjBKUGVVNmRSQWQyS2gyNWl2UjhRRXFVWURLSDlWQUY0LW5FT25ocFd4aG1JMkFjLXBiM3dyRFNRT0ZKcnFtbmJB?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijgFBVV95cUxNVVFVVjdFeFlKQmNlYWFGRkJHbGJ6WGNqUEhkdkZMamktQmVNdy1aWG9Rcm8ycFNuWW1PN0lHdnpFcURfRndDS2VJX1g0NjBKUGVVNmRSQWQyS2gyNWl2UjhRRXFVWURLSDlWQUY0LW5FT25ocFd4aG1JMkFjLXBiM3dyRFNRT0ZKcnFtbmJB",
+      "published_ts": 1792047600,
+      "id": "4c2c28f24456f8a2f393320e"
     },
     {
       "bundle": "Indiana TOD",
@@ -3726,6 +3770,17 @@
     },
     {
       "bundle": "Indiana TOD",
+      "query": "Indianapolis transit",
+      "title": "Hit the streets for Week Without Driving - 6AM City",
+      "source": "6AM City",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xMTlmZHEtZ1lMZUc2eVlTOFVLYWZPU085UUU4WWhteU1FZnd2NU1zTGRmTVZuYzlYeWZ5VUN5YnFQNjlzdEZWeEYtdG1mMms4STlRU3ZqTHVoUWhiaWdFckNKQ3RuZ09oalNjS09JQjFqZGs?oc=5",
+      "canonical_url": "",
+      "guid": "CBMic0FVX3lxTE0xMTlmZHEtZ1lMZUc2eVlTOFVLYWZPU085UUU4WWhteU1FZnd2NU1zTGRmTVZuYzlYeWZ5VUN5YnFQNjlzdEZWeEYtdG1mMms4STlRU3ZqTHVoUWhiaWdFckNKQ3RuZ09oalNjS09JQjFqZGs",
+      "published_ts": 1790146800,
+      "id": "bc8811e65f2862fcb28257cb"
+    },
+    {
+      "bundle": "Indiana TOD",
       "query": "Indianapolis workforce",
       "title": "Indiana education leaders tout school choice, workforce preparation at national summit - wowo.com",
       "source": "wowo.com",
@@ -4713,6 +4768,17 @@
       "guid": "CBMi1AFBVV95cUxNMkljMUZoYlNOWS00cjZpbnppYzlqNFZDOWkxM1o2RG1TalJpV1NiMGZFQm5sMVZMck9pRllVMUdLMkJYcHRCcW1ObVAwUzV1UUpmanZGTzJyOGZGRjdTZDR3dzNzUnRqc2Frb1QtTDZLVXBpdHQzaXprd1BlcFZzcTZzOHg4V0Nsel9ZajNkc3EwdjRoWk5lSzZqa0NMTXVsYjZndzg2LUNCWW1pU1kyaV9VS2RiZUVyYXRNY0NSQ1lWMWFrSXBlLUYwOGxacDNDM0RmdQ",
       "published_ts": 1789542000,
       "id": "b20c30a13196669eab7eb982"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Detroit economic development",
+      "title": "Bedrock, General Motors propose $2.2B Renaissance Center redevelopment plan - CBS News",
+      "source": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd3hPYWxxMTMxR2U5ODNDMERUUTJEU2puSWc0NHFpUXlFYVJXMTJEdXJFRmxmSERPeTE5aXc4THlqTkFwWHpXWVJSNHlTcjY1ekRvRDhrQnJjZUNjb0NITU9FV1U5SFFwNkI4c0xxRWZnNWdPby1vZTlpckJ4al8yRFlQTU5CRUZwcGU2NzJiYw?oc=5",
+      "canonical_url": "",
+      "guid": "CBMijwFBVV95cUxQd3hPYWxxMTMxR2U5ODNDMERUUTJEU2puSWc0NHFpUXlFYVJXMTJEdXJFRmxmSERPeTE5aXc4THlqTkFwWHpXWVJSNHlTcjY1ekRvRDhrQnJjZUNjb0NITU9FV1U5SFFwNkI4c0xxRWZnNWdPby1vZTlpckJ4al8yRFlQTU5CRUZwcGU2NzJiYw",
+      "published_ts": 1789542000,
+      "id": "01409b2d6c2996ee684f7e70"
     },
     {
       "bundle": "Wayne County TOD",
@@ -9696,6 +9762,17 @@
       "guid": "CBMilwFBVV95cUxOaEFhc2swZDNfODVXNXdaUHdLT3BJUFNvc0gzbE0tZGpiUTlRWWNXdXVvTWRYemJkTFdUYmNJZXhqeXlSSk1idFQ0QlpFcWtBVWR1MHY5bklvMV9hcFBjcjVXcVlJMS1Fb2VCZlJnT1V0RHM0QnBuT19tRmg1OHVwbWtzVWxXYjI5LThqRUVWdzE5M2MtS2hn",
       "published_ts": 1786086000,
       "id": "f90d3373e12a0b5da55a473c"
+    },
+    {
+      "bundle": "Wayne County TOD",
+      "query": "Wayne County transit",
+      "title": "Western Wayne County Transit Strategy Town Hall - YouTube",
+      "source": "YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2aUJIenBVRXR5RlU5dVR6cjIzVTkwUWYxcktmLW05dVdHZTlDNUxVQXQ0SGFLMFF2R1c0NUdmSkVoYm8tSC1mZjhjTFlGblh2N3QybVB0Z0Q2cHNl?oc=5",
+      "canonical_url": "",
+      "guid": "CBMiXEFVX3lxTFA2aUJIenBVRXR5RlU5dVR6cjIzVTkwUWYxcktmLW05dVdHZTlDNUxVQXQ0SGFLMFF2R1c0NUdmSkVoYm8tSC1mZjhjTFlGblh2N3QybVB0Z0Q2cHNl",
+      "published_ts": 1786086000,
+      "id": "b950459e4fd19b23be68eabc"
     },
     {
       "bundle": "Indiana TOD",
@@ -27208,116 +27285,6 @@
       "guid": "CBMigAFBVV95cUxPMVpsWlNSWWZMaWFQUDN3QjE3b3E3Q3Q3TlFUeUE3SlJGMnNyNVA0bGtDQ3VhU2lraDFkUVoya1JqdGZzc0NCbnZsRmN6V294aDQyM0VxYUhQWXVtOFV6OWtPS24tZU5oSVo0UzBHalh4ZW5rT0ppa1ZUTWpVWm1VeA",
       "published_ts": 1777282800,
       "id": "99558889ff7af83bf301770c"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Wayne County housing",
-      "title": "United Neighborhood Centers to build 8th affordable housing development in Honesdale - WVIA Public Media",
-      "source": "WVIA Public Media",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPczNBMXNWV1JRN2lWSnhSUkxlOWZ3XzJ4YkprTjgzSDJWelJfYk9pX29QMGNnVUZoS3VnWTJHcjVlZTBlZG9wNEltYUs1UEdsenNxNFg5bW1Wem9QTEw3QlNQRnJ1SXQtdW9ydks3VUxnS29SSTdRd1RSTHotOS1SS0lvbzNWQ1kxQ3Z3ZzR6UFI4cFgyWjU2TWtOWjdGc1RROGVSSEVjV3RhR2N0Z3l1MG9WaHU1NFdtSE41bUpkcTBEWFZjcXc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMixgFBVV95cUxPczNBMXNWV1JRN2lWSnhSUkxlOWZ3XzJ4YkprTjgzSDJWelJfYk9pX29QMGNnVUZoS3VnWTJHcjVlZTBlZG9wNEltYUs1UEdsenNxNFg5bW1Wem9QTEw3QlNQRnJ1SXQtdW9ydks3VUxnS29SSTdRd1RSTHotOS1SS0lvbzNWQ1kxQ3Z3ZzR6UFI4cFgyWjU2TWtOWjdGc1RROGVSSEVjV3RhR2N0Z3l1MG9WaHU1NFdtSE41bUpkcTBEWFZjcXc",
-      "published_ts": 1777273200,
-      "id": "b343019aa50751fa598d8307"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit workforce",
-      "title": "Great Lakes Maritime Initiative aims to strengthen shipbuilding, jobs and the environment - Crain's Detroit",
-      "source": "Crain's Detroit",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYUNEeGhHUjM3d0dsbGhuZUlLSlB5MVVpSF9xc2NGcktsb0hlZ3hoS3lnX0FzZWNiUjhoLU9YdUNaZUxCeXNUcXBjRThHQU55RTkxQTRxc1oxb0V0T1I0dVdnaTV1TjJPSkttOTNVQl9yWExPaTdQMENPNUF6bFpnbVNMSVBrZjJveHdWRVVjaHFmVURZdmk0eC1ZQVRZY2E3VU9vWnJ0SmhMMkVoZHc3QmZnMW0wc1pCdlVJODRn?oc=5",
-      "canonical_url": "",
-      "guid": "CBMivgFBVV95cUxNYUNEeGhHUjM3d0dsbGhuZUlLSlB5MVVpSF9xc2NGcktsb0hlZ3hoS3lnX0FzZWNiUjhoLU9YdUNaZUxCeXNUcXBjRThHQU55RTkxQTRxc1oxb0V0T1I0dVdnaTV1TjJPSkttOTNVQl9yWExPaTdQMENPNUF6bFpnbVNMSVBrZjJveHdWRVVjaHFmVURZdmk0eC1ZQVRZY2E3VU9vWnJ0SmhMMkVoZHc3QmZnMW0wc1pCdlVJODRn",
-      "published_ts": 1777273200,
-      "id": "5cd7fef645c28cece1af42e7"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Mary Sheffield",
-      "title": "Lebanese Americans speak out on Lebanon war impacting families, homes - Detroit Free Press",
-      "source": "Detroit Free Press",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZmNuRC1WV1VNVTA0SllvMWVoRDVZSk8yTHdlLV83NmdORmZFOEpmNk91TDNqYkE1VnJ0b3czYkRhLWpGemtoNUU4SHZjUnR2WWtfWDRzb3pRcks2RVNKZE91YUk2YXdMOFdLdzFTNjRqaWFrSE5uR29rWmZzb0xfZm5Ra1R5ZjZNeE92THZza3ZkWWFNVTN6cExjUTY4NmlQWk9lOGlQUGgyLVkwSlhpcXc5cWh1R1hVbmZ1VTI4N1Nxa0h3MVgwMVV4Rm0zMjBRblhDLV9TSERQYS0tNkh3dDRmNHA1RnQ4M3lsMFNGLWVva3JPUm40Zw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi-AFBVV95cUxQZmNuRC1WV1VNVTA0SllvMWVoRDVZSk8yTHdlLV83NmdORmZFOEpmNk91TDNqYkE1VnJ0b3czYkRhLWpGemtoNUU4SHZjUnR2WWtfWDRzb3pRcks2RVNKZE91YUk2YXdMOFdLdzFTNjRqaWFrSE5uR29rWmZzb0xfZm5Ra1R5ZjZNeE92THZza3ZkWWFNVTN6cExjUTY4NmlQWk9lOGlQUGgyLVkwSlhpcXc5cWh1R1hVbmZ1VTI4N1Nxa0h3MVgwMVV4Rm0zMjBRblhDLV9TSERQYS0tNkh3dDRmNHA1RnQ4M3lsMFNGLWVva3JPUm40Zw",
-      "published_ts": 1777273200,
-      "id": "de46fc3cae24a426f6fcc92b"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Indianapolis workforce",
-      "title": "Layoffs impact 123 employees at Indiana's Department of Workforce Development - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOZDJRWnNBUms2SVVLS2tIc0tJMXBieWVtaEpDN1ZfeHJFRUNlSTkwYmdNUzFqUE9Zdk94Tk9aMl8yd0xOT2hKQTl2Qk8xMFpHMjRnTTBTM0YySFV3UDV0RjFfendvbXVWT0h6eThnUVJBb09fSUtvT3NCaWRIdnNHZmp3bUlVWkNXQloxZ1cwZXo3ZHR1dkJLZnRnWnZjTGcwTDRYbVJaSVF3eUdCRk54S3dkTFU1U2NvSlp6ZldNdEFTMHBaM3hKZXdNNlF6bldZUkFsVm1TNGl3c0NVVDVPM3NNZzYyZzR2c1VTUElTUkpVSS1tcUJEcmVqTzVRemZlaHk0NW1seEwyd3FMZnB5WmhiXzZnVU4wUjhsbnJZM2hIcm4wcWNLUmhERzkybGF0YVMzU3FTQnR1WDVxYjF0M3JCUUhpRERFdlNDUUVtRjU3SVFVdVluLXlXdzVBcHd3djVHU1RpYl84TENKbEE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi7gJBVV95cUxOZDJRWnNBUms2SVVLS2tIc0tJMXBieWVtaEpDN1ZfeHJFRUNlSTkwYmdNUzFqUE9Zdk94Tk9aMl8yd0xOT2hKQTl2Qk8xMFpHMjRnTTBTM0YySFV3UDV0RjFfendvbXVWT0h6eThnUVJBb09fSUtvT3NCaWRIdnNHZmp3bUlVWkNXQloxZ1cwZXo3ZHR1dkJLZnRnWnZjTGcwTDRYbVJaSVF3eUdCRk54S3dkTFU1U2NvSlp6ZldNdEFTMHBaM3hKZXdNNlF6bldZUkFsVm1TNGl3c0NVVDVPM3NNZzYyZzR2c1VTUElTUkpVSS1tcUJEcmVqTzVRemZlaHk0NW1seEwyd3FMZnB5WmhiXzZnVU4wUjhsbnJZM2hIcm4wcWNLUmhERzkybGF0YVMzU3FTQnR1WDVxYjF0M3JCUUhpRERFdlNDUUVtRjU3SVFVdVluLXlXdzVBcHd3djVHU1RpYl84TENKbEE",
-      "published_ts": 1777265335,
-      "id": "bdcc37f437108dc8a242ff9f"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Government",
-      "title": "Arab American Civil Rights League plans to sue US government over Lebanon airstrikes - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc2xUQmljdk1IV21VTFM3YVBJMHZHdFhCekp4ZG9aaGJ5R3dkYTlwNUlLeTdEX1lkaHZrTFF3NW44aFp1Mm5lVmxsVDJhYTdpZF9SeUF2aW5NSmVpVE1YTU1Fal9YdE9ydDNQWnU3RlpZUkowVlMzbTE0QUoxal9rMy1GMEktNEY0bGVVcEphMGYwOWFvWWo0MzFIYjB1bjZrZFU1YnpzVW9jNVlBcGtzNXFMVW55V0hnTzN6bVZCemxkbGhIZW5uUHd4azgteF9QZEdQZWx5aFJTUWo5b01nXw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi4AFBVV95cUxPc2xUQmljdk1IV21VTFM3YVBJMHZHdFhCekp4ZG9aaGJ5R3dkYTlwNUlLeTdEX1lkaHZrTFF3NW44aFp1Mm5lVmxsVDJhYTdpZF9SeUF2aW5NSmVpVE1YTU1Fal9YdE9ydDNQWnU3RlpZUkowVlMzbTE0QUoxal9rMy1GMEktNEY0bGVVcEphMGYwOWFvWWo0MzFIYjB1bjZrZFU1YnpzVW9jNVlBcGtzNXFMVW55V0hnTzN6bVZCemxkbGhIZW5uUHd4azgteF9QZEdQZWx5aFJTUWo5b01nXw",
-      "published_ts": 1777260542,
-      "id": "7781850f034df8c53465032b"
-    },
-    {
-      "bundle": "Wayne County TOD",
-      "query": "Detroit housing",
-      "title": "Detroit to revamp major housing complex near Belle Isle - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNWkFyMXRQTkZjSGZqYy1OTmRqekx1LWRhYklXLU92eHRoT1ZFUDNpS3puNmlFR2hyRkI5UHI4N0g3TnI5Ym9ITHM4NGV6U0NvLUhocWVacjY2TUw2M0JDdkFxZjZYYy01WlF2blJGdTJLTzZUWVVCaWt1Vzh1TW84RjZQMG9UdGdNZEJQQ3R6TEJ2MHB4elI3d25CRUFUcFBIZUZCLTBmamxQazRscE8wdk9hRnFYQktYOXdiVFVVS1ZTdnJkMVROcjdVdmFKMFNhdUtRNU84emx5dnNRVHNQRUZyYmdHOHhYNjNmYUx2NnFzLWZtdFU2U3ZDX0F6SkxhNmtvUTdHQV9pSVcwOFpIa0k2MGsxd0FJbkg5WlFrdkVUZmZuWDZqUl9YVVpTdjl2Mnk1TWlWXzB3N190aVh0VXgxS1laMXJLMkI0eFBXNWJJaG1GSEJqZ0N3Y0RDazJQOVFRV1FxZ3BmbnFCdFczcmJWdXdCejJPUU9UMTc1aFJ6dFRnOGc?oc=5",
-      "canonical_url": "",
-      "guid": "CBMihgNBVV95cUxNWkFyMXRQTkZjSGZqYy1OTmRqekx1LWRhYklXLU92eHRoT1ZFUDNpS3puNmlFR2hyRkI5UHI4N0g3TnI5Ym9ITHM4NGV6U0NvLUhocWVacjY2TUw2M0JDdkFxZjZYYy01WlF2blJGdTJLTzZUWVVCaWt1Vzh1TW84RjZQMG9UdGdNZEJQQ3R6TEJ2MHB4elI3d25CRUFUcFBIZUZCLTBmamxQazRscE8wdk9hRnFYQktYOXdiVFVVS1ZTdnJkMVROcjdVdmFKMFNhdUtRNU84emx5dnNRVHNQRUZyYmdHOHhYNjNmYUx2NnFzLWZtdFU2U3ZDX0F6SkxhNmtvUTdHQV9pSVcwOFpIa0k2MGsxd0FJbkg5WlFrdkVUZmZuWDZqUl9YVVpTdjl2Mnk1TWlWXzB3N190aVh0VXgxS1laMXJLMkI0eFBXNWJJaG1GSEJqZ0N3Y0RDazJQOVFRV1FxZ3BmbnFCdFczcmJWdXdCejJPUU9UMTc1aFJ6dFRnOGc",
-      "published_ts": 1777253553,
-      "id": "909413625bcec42ed78f5556"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "IndyGo bus fare to increase by $1 on Jan. 1 - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNTXVnbDQ0VnJPelBHb1RDblI0eTQ4Q18yYVF4cVhIcW5TR2NXb2VaRDF0YnVUd3k5a0ExTGc5d2g2VE9yZ1RGV0p3bzNWT0JpSWtaZXpJdkpnTUxaaGxOTWgtWGw2cDVFM3BKMnN3MFNKdktVZ1R1Z2ozcmU0MG8yc2lBSG9td3d4MDVvWFRGWjVFc1MtcFEtbnVPMHpWM3EySUozb0xJUjhkUzlTN3ZiWWR2RFNCbmsyb052dVhKZXNoUFRiQW0zT2Z2WWdkYXlQLXJZdVBuT3hCeFdGeG9ZSVZKWnphbjlYblptdk1lREZOOGJxZXJ4LVhYTEhrR0xMNmVKdk9jQjJTUzRRZ1dLcGpFY0c4RDBUcHpsbVRseEwybm41T0NZcG5lbEE3bm53RHJPSEI2Unh5ZEl3Y0xUUFpETHY?oc=5",
-      "canonical_url": "",
-      "guid": "CBMixAJBVV95cUxNTXVnbDQ0VnJPelBHb1RDblI0eTQ4Q18yYVF4cVhIcW5TR2NXb2VaRDF0YnVUd3k5a0ExTGc5d2g2VE9yZ1RGV0p3bzNWT0JpSWtaZXpJdkpnTUxaaGxOTWgtWGw2cDVFM3BKMnN3MFNKdktVZ1R1Z2ozcmU0MG8yc2lBSG9td3d4MDVvWFRGWjVFc1MtcFEtbnVPMHpWM3EySUozb0xJUjhkUzlTN3ZiWWR2RFNCbmsyb052dVhKZXNoUFRiQW0zT2Z2WWdkYXlQLXJZdVBuT3hCeFdGeG9ZSVZKWnphbjlYblptdk1lREZOOGJxZXJ4LVhYTEhrR0xMNmVKdk9jQjJTUzRRZ1dLcGpFY0c4RDBUcHpsbVRseEwybm41T0NZcG5lbEE3bm53RHJPSEI2Unh5ZEl3Y0xUUFpETHY",
-      "published_ts": 1777245711,
-      "id": "95a0a86d71966610afbe8c5a"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "Amtrak Cardinal",
-      "title": "Amtrak adapts after Cardinal's Indiana crossing accident - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOc25yTHpFSjZUYTBKSU9PSGlYbnFQVGV4OFFKTGNhMWtaYXoyNVViVHRJNGZ4TXRZRE5uZTFadU1sODhhNGJxWG5DRmZqZ0dQTHNGSXlEZmpZWEozVWU1NmFpZjRaRUtlZDhNV1ZDT2FvWXhicUFaSE9OdzN3bFk0WUZ3a1RFXzRPSi1UbjZOdkRNeVF6b1NIanBUcTFVUnlSOHkySC1NOUtVaEZsWHkyVGRXcnpCN0VTTzZDX2NydHpueHE0RS1CZnU1YWUxa1dkTF9UOF9wbktkSTY0YlVSTmh2YUVHbUZHZFlJQ2tGaVVmcU9xNFhDUGhjOVBleGxLQmdjYk9FRGRuc3ZvSFU1R3U0T2U5ZmZ2YXVNX1g3TlFna2ZFUVZPb1A3OHVKTGxBNFFRRG5wM1hKcXRvTXBHVE9lSTN5LXB6RkRDZ1YwLXdWX2VNV09F?oc=5",
-      "canonical_url": "",
-      "guid": "CBMi1wJBVV95cUxOc25yTHpFSjZUYTBKSU9PSGlYbnFQVGV4OFFKTGNhMWtaYXoyNVViVHRJNGZ4TXRZRE5uZTFadU1sODhhNGJxWG5DRmZqZ0dQTHNGSXlEZmpZWEozVWU1NmFpZjRaRUtlZDhNV1ZDT2FvWXhicUFaSE9OdzN3bFk0WUZ3a1RFXzRPSi1UbjZOdkRNeVF6b1NIanBUcTFVUnlSOHkySC1NOUtVaEZsWHkyVGRXcnpCN0VTTzZDX2NydHpueHE0RS1CZnU1YWUxa1dkTF9UOF9wbktkSTY0YlVSTmh2YUVHbUZHZFlJQ2tGaVVmcU9xNFhDUGhjOVBleGxLQmdjYk9FRGRuc3ZvSFU1R3U0T2U5ZmZ2YXVNX1g3TlFna2ZFUVZPb1A3OHVKTGxBNFFRRG5wM1hKcXRvTXBHVE9lSTN5LXB6RkRDZ1YwLXdWX2VNV09F",
-      "published_ts": 1777241125,
-      "id": "a3c21d8d35d99d2f594ddd8a"
-    },
-    {
-      "bundle": "Indiana TOD",
-      "query": "IndyGo",
-      "title": "IndyGo bus fares could rise for the first time since 2009. Here's what to know - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNaXlzNXRVSDJmVE9zRHdQM2lHYmViYzAtSFpucFFXU2dIT2tpRXl0RldjTEhjVk43WHpaVi0yZjR1eC0zSXg0MzZ3SjVuRnZHeW5IT0lYWDNaZXprY1Q5aTdIYnN0M3NRem9hVWhwdnhGdjhhVkRoaFRsbmxxVUgyN0ZiREtwcTIyTmZKSGY4a0hvSXN4VS13bnpuUF9xTnlfVFZmSGw5VkxybnpDakFBaVhBWFF1cE9vNlRJbWFWWDlUaHA1Ty02ek8wRGVNWjN2QlZ6RkJhS255YWVVcTdyU2pLM1E0cUFwMWdtM19qempfXzMyRy1McmVaeHhsbFg5RlhkV25wdVo5d3ZGeG9RM1B3OEtneTAwNEtJVUtUbmVoTHc1eHA0VWxtZlVCNjdHWGZGTkhIWDZDTFlMSWI1My1EeUZMSUpnTm9kVjlWR08yMzlxVlEwc3BlNVc4d1VWa0pwNUtldFhTUlRNMzNVb3F2bzVxYkJxVDR0c29Vc2ZaODhtcFkzdzVjdC1TbC1oYkE?oc=5",
-      "canonical_url": "",
-      "guid": "CBMikgNBVV95cUxNaXlzNXRVSDJmVE9zRHdQM2lHYmViYzAtSFpucFFXU2dIT2tpRXl0RldjTEhjVk43WHpaVi0yZjR1eC0zSXg0MzZ3SjVuRnZHeW5IT0lYWDNaZXprY1Q5aTdIYnN0M3NRem9hVWhwdnhGdjhhVkRoaFRsbmxxVUgyN0ZiREtwcTIyTmZKSGY4a0hvSXN4VS13bnpuUF9xTnlfVFZmSGw5VkxybnpDakFBaVhBWFF1cE9vNlRJbWFWWDlUaHA1Ty02ek8wRGVNWjN2QlZ6RkJhS255YWVVcTdyU2pLM1E0cUFwMWdtM19qempfXzMyRy1McmVaeHhsbFg5RlhkV25wdVo5d3ZGeG9RM1B3OEtneTAwNEtJVUtUbmVoTHc1eHA0VWxtZlVCNjdHWGZGTkhIWDZDTFlMSWI1My1EeUZMSUpnTm9kVjlWR08yMzlxVlEwc3BlNVc4d1VWa0pwNUtldFhTUlRNMzNVb3F2bzVxYkJxVDR0c29Vc2ZaODhtcFkzdzVjdC1TbC1oYkE",
-      "published_ts": 1777227735,
-      "id": "2b9a4e30c6faaf19636fa8d1"
-    },
-    {
-      "bundle": "Detroit Mayor",
-      "query": "Detroit Government",
-      "title": "Arab American Civil Rights League plans to sue US government over Lebanon airstrikes - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxOaVk5VWUydTZCN2dsdnllSHRqS3pXTkpHeEh4SFNGSjlpbXloSnVpTWw1M0xoMnBkcUluZ2l3ZHJkQUhSRHdBcE40S2FXZ1MtZURBU1YtMzU0Yi1XQ2ROS01MSDZkbWJBRHBIa3hKdU9WSGhCR2d6MTM3Rk1Sc0FnT1NxN3ZlN2RmSlh1WU9EVFBmNk1YUFlxUGpOZTV3S2lLamNzZTloQndiUHJkbHRydDk2VENualFBakhfU21IbjVwWWNpd2pxMDhIM0g3Y29ySVE1UzVMSDNxV1hjYTBWcHV4a093MEh4Nkp2Q05kc1Bfam1lMnJJMjF1N0NrNzU2dDdwakJjcUxPMVJrbmN1ZnpsQzJyZXQ4bm82ZTM2eFJRQVJfOWlUUDdnUFF4XzdES0N5OUFicDhfeEw5UjkyOTJSY254RF9EZkF3X19jS0NjUUxIako4TGNlY3FNbWpkblZfcjlnR3lLZEZQY25RUEZSaDQyMk9qdjJTUmdNdXZfdlpya1ZxcldJOVV5TDlhRHRlRw?oc=5",
-      "canonical_url": "",
-      "guid": "CBMilANBVV95cUxOaVk5VWUydTZCN2dsdnllSHRqS3pXTkpHeEh4SFNGSjlpbXloSnVpTWw1M0xoMnBkcUluZ2l3ZHJkQUhSRHdBcE40S2FXZ1MtZURBU1YtMzU0Yi1XQ2ROS01MSDZkbWJBRHBIa3hKdU9WSGhCR2d6MTM3Rk1Sc0FnT1NxN3ZlN2RmSlh1WU9EVFBmNk1YUFlxUGpOZTV3S2lLamNzZTloQndiUHJkbHRydDk2VENualFBakhfU21IbjVwWWNpd2pxMDhIM0g3Y29ySVE1UzVMSDNxV1hjYTBWcHV4a093MEh4Nkp2Q05kc1Bfam1lMnJJMjF1N0NrNzU2dDdwakJjcUxPMVJrbmN1ZnpsQzJyZXQ4bm82ZTM2eFJRQVJfOWlUUDdnUFF4XzdES0N5OUFicDhfeEw5UjkyOTJSY254RF9EZkF3X19jS0NjUUxIako4TGNlY3FNbWpkblZfcjlnR3lLZEZQY25RUEZSaDQyMk9qdjJTUmdNdXZfdlpya1ZxcldJOVV5TDlhRHRlRw",
-      "published_ts": 1777209525,
-      "id": "c2d0b5217a75739ef3d9c2bd"
     }
   ]
 }
